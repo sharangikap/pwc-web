@@ -14,7 +14,7 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-9 col-lg-8">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To</h5><br>
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome </h5><br>
                                 <h1 class="display-3 text-white text-uppercase animated slideInDown">Prince of Wales' College, <br> Moratuwa</h1>
                            </div>
                         </div>
