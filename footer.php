@@ -28,7 +28,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-7 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Prince of Wales' College</a>, &nbsp; All Right Reserved. │ Developed By <a class="border-bottom" href="#">Cambrians' ICT Society</a>
+                        &copy; <a class="border-bottom" href="https://princeofwales.edu.lk/">Prince of Wales' College</a>, &nbsp; All Right Reserved. │ Developed By <a class="border-bottom" href="team.php">Cambrians' ICT Society</a>
                     </div>
                     
                 </div>

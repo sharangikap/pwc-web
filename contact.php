@@ -3,7 +3,10 @@
 
 <head>
 <head>
-    <title>Contact │ Prince of Wales' College, Moratuwa</title>
+    <title>Contact │ Prince of Wales' College, Moratuwa<title>
+    <?php
+    $page = 'contact';
+?>
     <?php include 'header.php'; ?>
 </head>
 
@@ -13,7 +16,7 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Contact</h1>
+                    <h1 class="display-3 text-white animated slideInDown">CONTACT</h1>
                 </div>
             </div>
         </div>

@@ -2,7 +2,11 @@
 <html lang="en">
 
 <head>
+<?php
+    $page = 'home';
+?>
     <?php include 'header.php'; ?>
+
 </head>
 
     <!-- Carousel Start -->
@@ -398,6 +402,7 @@
                 <div class="col-lg-10 text-center">
                     <h1 class="display-3 text-white animated slideInDown">147 Years and Counting</h1>
                     <h5 class=" text-white animated slideInDown">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum architecto fugit recusandae, possimus id eaque modi voluptatum temporibus. Quia nemo deserunt non, blanditiis nam eos dolorum alias voluptates possimus quod.</h5>
+                    <a class=" text-white animated slideInDown" href="history.php"><u>Explore College History</u></a>
                 </div>
             </div>
         </div>

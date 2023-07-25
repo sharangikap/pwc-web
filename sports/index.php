@@ -10,7 +10,7 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Sports</h1>
+                    <h1 class="display-3 text-white animated slideInDown">SPORTS</h1>
                 </div>
             </div>
         </div>
