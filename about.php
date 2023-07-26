@@ -29,9 +29,9 @@
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">KINGS OF</h6>
                 <h1 class="mb-5">MORATUWA</h1>
-                <p class="mb-4">Our mission is to effect quality teaching and learning environment where Cambrians would move forth step by step in the competency based pedagogical process which is founded on national goals and on the theme, “I serve. I value your services, developing their calibre for the well-being of the community.</p>
+                <p class="mb-4">Our mission is to effect quality teaching and learning environment where Cambrians would move forth step by step<br>in the competency based pedagogical process which is founded on national goals and on the theme,<br>“I serve. I value your services, developing their calibre for the well-being of the community.</p>
             </div>
-
+    </div>
 
         <!-- Counter Start -->
 
@@ -75,7 +75,7 @@
                 </div>
             </div>
         </div>
-    </div>
+ 
     <!-- Counter End -->
 
 

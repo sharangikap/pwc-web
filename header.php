@@ -51,8 +51,9 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.php" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h5 class="m-0 text-primary"><img src="logo-pwc.png" width="45px">&nbsp; &nbsp; &nbsp;Prince of Wales' College, Moratuwa</h5>
+        <a href="index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
+            <img src="logo-pwc.png" width="45px">
+            <h6 class="m-0 text-primary">&nbsp; &nbsp; &nbsp;PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; &nbsp;MORATUWA</h6>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -61,10 +62,10 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.php" class="nav-item nav-link <?php if ($page === 'home') echo 'active'; ?>">Home</a>
                 <a href="news/" class="nav-item nav-link">News</a>
-                <a href="events/" class="nav-item nav-link ">events</a>
+                <a href="events/" class="nav-item nav-link">events</a>
                 <a href="gallery.php" class="nav-item nav-link <?php if ($page === 'gallery') echo 'active'; ?>">Gallery</a>
-                <a href="sports/" class="nav-item nav-link">Sports</a>
-                <a href="societies/" class="nav-item nav-link">Societies</a>
+                <a href="sports.php" class="nav-item nav-link <?php if ($page === 'sports') echo 'active'; ?>">Sports</a>
+                <a href="clubs.php" class="nav-item nav-link <?php if ($page === 'clubs') echo 'active'; ?>">CLUBS</a>
                 <a href="history.php" class="nav-item nav-link <?php if ($page === 'history') echo 'active'; ?>">History</a>
                 <a href="about.php" class="nav-item nav-link <?php if ($page === 'about') echo 'active'; ?>">About</a>
                 <a href="contact.php" class="nav-item nav-link <?php if ($page === 'contact') echo 'active'; ?>">Contact</a>

@@ -151,14 +151,16 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <iframe class="position-relative rounded w-100 h-100"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.868647358044!2d79.87935707382847!3d6.785834920061614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2451ba4c11ebf%3A0x741063ad7729880c!2sSwimming%20Pool%2C%20Prince%20of%20Wales%20College%2C%20Moratuwa!5e0!3m2!1sen!2slk!4v1690122735207!5m2!1sen!2slk"
                         frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
                 </div>
+
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                 <img src="">
+                 <img src="img/about-pwc.jpg" width="350px">
                 </div>
             </div>
             

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<?php
+    $page = 'clubs';
+?>
 <?php include 'header.php'; ?>
 </head>
 <body>
