@@ -1,11 +1,6 @@
 <head>
 <meta charset="utf-8">
-    <style>
-    ::selection {
-      background-color: #800000;
-      color: white; 
-    }
-    </style>
+
 
 
     <title>Prince of Wales' College, Moratuwa</title>
@@ -39,6 +34,13 @@
 </head>
 
 <body>
+<style>
+    ::selection {
+      background-color: #800000;
+      color: white; 
+    }
+    </style>
+    
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">

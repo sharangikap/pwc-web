@@ -46,12 +46,13 @@
             <a href="#" class="blog-img">
               <img src="img/header-main-pwc.jpg" width="500" style="border-radius: 10px;">
               <br><br>
-              <p class="meta"><span class="day">22</span>&nbsp;<span class="month">Jul</span></p>
+              
             </a>
             <div class="desc">
-              <h2><a href="#">News Most Recent</a></h2>
+              <h2><a href="#">Recent News 2</a></h2>
+              <p class="meta"><span class="day">22</span>&nbsp;<span class="month">Jul</span></p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nesciunt porro cupiditate iure totam quia quam dolore laboriosam. Praesentium nisi corrupti eius voluptates minus natus nihil cum illo porro vitae?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptatibus impedit, dolorum assumenda error eum consequuntur ab sequi cum? Ad mollitia esse nihil? Consectetur aspernatur voluptas aliquam beatae, est officia.
               </p>
             </div>
           </article>
@@ -79,22 +80,14 @@
             </div>
           </div>
 
-          <div class="f-blog animate-box">
-            <div class="desc">
-              <h2><a href="#">Recent News 3</a></h2>
-              <p class="meta"><span class="day">22</span>&nbsp;<span class="month">Jul</span></p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore unde fugit, consectetur fugiat ratione aliquam ut quod officiis quos, sint hic harum illum at id eveniet temporibus provident, culpa ex.
-              </p>
-            </div>
-          </div>
+
 
         </div>
       </div>
     </div>
   </div>
   <br> 
-         <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="news/" style="border-radius=25px" data-wow-delay="0.7s">Explore More</a></center>
+         <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="news/" style="border-radius=25px" data-wow-delay="0.7s">Read More</a></center>
     
 </div>
 

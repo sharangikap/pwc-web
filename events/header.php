@@ -48,7 +48,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="../index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
-            <img src="../logo-pwc.png" width="40px">
+            <img src="../logo-pwc.png" width="45px">
             <h6 class="m-0 text-primary">&nbsp; &nbsp; &nbsp;PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; &nbsp;MORATUWA</h6>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
