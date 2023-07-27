@@ -1,21 +1,12 @@
-
-                </main>
-                <footer class="py-4 bg-light mt-auto">
-                    <div class="container-fluid px-4">
-                        <div class="d-flex align-items-center justify-content-between small">
-                            <a href="https://frontline-developers.github.io/" target="_blank"><div class="text-muted">Copyright &copy; FrontLine Developers <?php echo date('Y'); ?></div></a>
-                            <a href="https://nelitha13.github.io/" target="_blank"><div class="text-muted">Developed By Nelitha Vindinu Priyawansha&reg; </div></a>
-                            <div>
-                                <a href="#">Privacy Policy</a>
-                                &middot;
-                                <a href="#">Terms &amp; Conditions</a>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </div>
-        </div>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
                 <footer class="pt-3 mt-4 text-muted text-center border-top">
                 <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
@@ -30,7 +21,7 @@
                     </div>
                 </footer>
             </div>
-        </main>
+       
 
 
     	<script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

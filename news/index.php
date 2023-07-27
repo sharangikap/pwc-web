@@ -27,7 +27,7 @@
 					<div class="col-md-4 animate-box">
 						<article class="article-entry">
 							<a href="news.php" class="blog-img" >
-                            <img src="../img/article-img-test.jpg" class="img-fluid rounded" alt="Article Image"><br><br>
+                            <img src="../img/article-img-test.jpg" alt="Article Image"><br><br>
 								<p class="meta"><span class="day">18</span><span class="month">Apr</span></p>
 							</a>
 							<div class="desc">
@@ -39,7 +39,7 @@
 					<div class="col-md-4 animate-box">
                     <article class="article-entry">
 							<a href="news.php" class="blog-img" >
-                            <img src="../img/article-img-test.jpg" class="img-fluid rounded" alt="Article Image"><br><br>
+                            <img src="../img/article-img-test.jpg" alt="Article Image"><br><br>
 								<p class="meta"><span class="day">18</span><span class="month">Apr</span></p>
 							</a>
 							<div class="desc">
@@ -51,7 +51,7 @@
 					<div class="col-md-4 animate-box">
                     <article class="article-entry">
 							<a href="news.php" class="blog-img" >
-                            <img src="../img/article-img-test.jpg" class="img-fluid rounded" alt="Article Image"><br><br>
+                            <img src="../img/article-img-test.jpg" alt="Article Image"><br><br>
 								<p class="meta"><span class="day">18</span><span class="month">Apr</span></p>
 							</a>
 							<div class="desc">
@@ -63,7 +63,7 @@
 					<div class="col-md-4 animate-box">
                     <article class="article-entry">
 							<a href="news.php" class="blog-img" >
-                            <img src="../img/article-img-test.jpg" class="img-fluid rounded" alt="Article Image"><br><br>
+                            <img src="../img/article-img-test.jpg" alt="Article Image"><br><br>
 								<p class="meta"><span class="day">18</span><span class="month">Apr</span></p>
 							</a>
 							<div class="desc">
@@ -75,7 +75,7 @@
 					<div class="col-md-4 animate-box">
                     <article class="article-entry">
 							<a href="news.php" class="blog-img" >
-                            <img src="../img/article-img-test.jpg" class="img-fluid rounded" alt="Article Image"><br><br>
+                            <img src="../img/article-img-test.jpg" alt="Article Image"><br><br>
 								<p class="meta"><span class="day">18</span><span class="month">Apr</span></p>
 							</a>
 							<div class="desc">
@@ -87,7 +87,7 @@
 					<div class="col-md-4 animate-box">
                     <article class="article-entry">
 							<a href="news.php" class="blog-img" >
-                            <img src="../img/article-img-test.jpg" class="img-fluid rounded" alt="Article Image"><br><br>
+                            <img src="../img/article-img-test.jpg" alt="Article Image"><br><br>
 								<p class="meta"><span class="day">18</span><span class="month">Apr</span></p>
 							</a>
 							<div class="desc">
