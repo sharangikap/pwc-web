@@ -19,7 +19,6 @@ function is_admin_login()
 
 
 
-
 function fill_author($connect)
 {
 	$query = "

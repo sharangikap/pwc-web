@@ -21,6 +21,30 @@
     <!-- Header End -->
 
 
+    <div class="container-xxl py-2">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <p class="mb-4">Our mission is to effect quality teaching and learning environment where Cambrians would
+                move forth step by step<br>in the competency based pedagogical process which is founded on national
+                goals and on the theme,<br>“I serve. I value your services, developing their calibre for the well-being
+                of the community.</p>
+        
+
+
+        <center>
+            <div class="col-lg-9 col-md-6">
+            <a class="btn btn-link" href="clubs.php#media-clubs">Team Sports</a>
+                    <a class="btn btn-link" href="sports.php#tech-clubs">Individual Sports</a>
+                    <a class="btn btn-link" href="sports.php#resprentatice-clubs">Water Sports</a>
+                    <a class="btn btn-link" href="sports.php#service-clubs">Combat Sports</a>
+                    <a class="btn btn-link" href="sports.php#cadeting">Racquet Sports</a>
+                    <a class="btn btn-link" href="sports.php#edu-clubs">Mind Sports</a>
+                    <a class="btn btn-link" href="sports.php#lang-clubs">Target Sports</a>
+        </center>
+        </div>
+    </div>
+    </div>
+
+
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">

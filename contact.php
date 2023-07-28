@@ -167,6 +167,59 @@
         </div>
         
     </div>
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Contact</h6>
+                <h1 class="mb-5">Old Boys' Assoctiation</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h5>Get In Touch</h5>
+                    <p class="mb-4">Wish to enquire about admissions or anything else?
+                        You can walk in during office hours, give us a call or simply submit the form here.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="text-primary">Tel</h5>
+                            <p class="mb-0">+94 112 645 336</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                            <i class="fa fa-globe text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="text-primary">Website</h5>
+                            <p class="mb-0">www.pwcoba.lk</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                            <i class="fa fa-envelope-open text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="text-primary">Email</h5>
+                            <p class="mb-0">info@pwcoba.lk</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                 <img src="img/about-pwc.jpg" width="350px">
+                </div>
+
+                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                 <img src="img/about-pwc.jpg" width="350px">
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
     
 
 
