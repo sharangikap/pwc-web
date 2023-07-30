@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>Clubs & Societies │ Prince of Wales' College, Moratuwa</title>
     <?php
     $page = 'clubs';
 ?>

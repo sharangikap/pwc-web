@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>About │ Prince of Wales' College, Moratuwa<title>
+    <title>About │ Prince of Wales' College, Moratuwa</title>
     <?php
     $page = 'about';
 ?>
@@ -160,7 +160,7 @@
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike….</p>
                     <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official website. With the internet being a truly powerful means of reaching out to the community, we believe this would aid us to bridge the gap between the school and the parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
-                    <
+                    <audio controls> <source src="img/img-about/Sinhala-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
@@ -188,6 +188,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike….</p>
                     <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official website. With the internet being a truly powerful means of reaching out to the community, we believe this would aid us to bridge the gap between the school and the parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
+                    <audio controls> <source src="img/img-about/English-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
                 </div>
             </div>
         </div>
@@ -342,6 +343,9 @@
                     </div>
                 </div>
 
+                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-administration.php" style="border-radius=25px"
+                    data-wow-delay="0.7s">View All</a></center>
+
             </div>
 
         </div>
@@ -405,6 +409,9 @@
                         </div>
                     </div>
                 </div>
+
+                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-student-leadership.php" style="border-radius=25px"
+                    data-wow-delay="0.7s">View All</a></center>
 
             </div>
         </div>

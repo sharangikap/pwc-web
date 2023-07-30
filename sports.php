@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<title>Sports │ Prince of Wales' College, Moratuwa</title>
 <?php
     $page = 'sports';
 ?>

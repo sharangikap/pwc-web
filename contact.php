@@ -3,7 +3,7 @@
 
 <head>
 <head>
-    <title>Contact │ Prince of Wales' College, Moratuwa<title>
+    <title>Contact │ Prince of Wales' College, Moratuwa</title>
     <?php
     $page = 'contact';
 ?>
