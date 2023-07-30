@@ -50,7 +50,7 @@
       </div>
       <div class="col-md-4">
       <br><br>
-      <img src="../img/article-img-test.jpg" alt="Event Image" class="img-fluid" style="border-radius: 8px; max-width: 100%; height: auto;">
+      <img src="../img/article-img-test.jpg" alt="Event Image" class="img-fluid" style="object-fit: cover; border-radius: 8px; max-width: 100%; height: auto;">
 
       </div>
     </div>

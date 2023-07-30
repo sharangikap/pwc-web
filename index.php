@@ -46,11 +46,11 @@
                 <article class="article-entry">
                     <a href="news.php" class="blog-img">
                         <img src="img/article-img-test.jpg" alt="Article Image"><br><br>
-                        <p class="meta"><span class="day">18</span><span class="month">Apr</span></p>
+                        <p class="meta"><span class="day">30&nbsp;July&nbsp;2023</span></p>
                     </a>
                     <div class="desc">
                         <h2><a href="news.php">News</a></h2>
-                        <p class="admin"><span>Category:</span> <span>Sprots</span></p>
+                        <p class="admin"><span>Category:</span> <span>Announcements</span></p>
                     </div>
                 </article>
             </div>
@@ -58,11 +58,11 @@
                 <article class="article-entry">
                     <a href="news.php" class="blog-img">
                         <img src="img/article-img-test.jpg" alt="Article Image"><br><br>
-                        <p class="meta"><span class="day">18</span><span class="month">Apr</span></p>
+                        <p class="meta"><span class="day">30&nbsp;July&nbsp;2023</span></p>
                     </a>
                     <div class="desc">
                         <h2><a href="news.php">News</a></h2>
-                        <p class="admin"><span>Category:</span> <span>Sprots</span></p>
+                        <p class="admin"><span>Category:</span> <span>Announcements</span></p>
                     </div>
                 </article>
             </div>
@@ -70,11 +70,11 @@
                 <article class="article-entry">
                     <a href="news.php" class="blog-img">
                         <img src="img/article-img-test.jpg" alt="Article Image"><br><br>
-                        <p class="meta"><span class="day">18</span><span class="month">Apr</span></p>
+                        <p class="meta"><span class="day">30&nbsp;July&nbsp;2023</span></p>
                     </a>
                     <div class="desc">
                         <h2><a href="news.php">News</a></h2>
-                        <p class="admin"><span>Category:</span> <span>Sprots</span></p>
+                        <p class="admin"><span>Category:</span> <span>Announcements</span></p>
                     </div>
                 </article>
             </div>

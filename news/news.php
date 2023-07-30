@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="position-relative ">
-                        <img class="img-fluid w-100 h-100" src="../img/article-img-test.jpg" alt="" style="object-fit: cover;">
+                        <img class="img-fluid w-100 h-100" src="../img/article-img-test.jpg" alt="" style="object-fit: cover; border-radius: 8px;">
                       </div>
                 </div>
             </div>

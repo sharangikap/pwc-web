@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<title>Website Dev Team │ Prince of Wales' College, Moratuwa</title>
 <?php include 'header.php'; ?>
 </head>
 <body>
@@ -22,26 +23,18 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike….</p>
                     <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Developer:<b>Nelitha Priyawansha</b></p>
-                        </div>
-                        
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Photographer: <b>Tharul Bandara</b></p>
-                        </div>
+
 
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Graphics Designer: <b>Nimsara Sankalpa</b></p>
-                        </div>
+                           <i class="fa fa-arrow-right text-primary me-2"></i>Developer: <b>Nelitha Priyawansha</b></p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i>Photographer: <b>Tharul Bandara</b></p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i>Graphics Designer: <b>Nimsara Sankalpa</b></p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i>Creative Writers: <b></b></p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i>Media Partner: <b>Cambrians' Media & Broadcasting Unit</b></p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i>Special Thanks: <b>Mr. Chamara Jeewantha, Mrs. Sharangika Perera</b></p>
 
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Creative Writers: <b></b></p>
                         </div>
-
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Special Thanks: <b>Mr. Chamara Jeewantha, Mrs. Sharangika Perera</b></p>
-                        </div>
-
+             
                     </div>               
                 </div>
                 

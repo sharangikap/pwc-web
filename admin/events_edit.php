@@ -50,9 +50,8 @@ if(!is_admin_login())
 							<input type="text" name="category" id="category" class="form-control" />
 						</div>
 					</div>
-				</div>
 
-				<div class="col-md-6">
+					<div class="col-md-6">
         				<div class="mb-3">
         					<label class="form-label">Status</label>
         					<select name="status" id="status" class="form-control">
@@ -60,6 +59,8 @@ if(!is_admin_login())
 							</select>
         				</div>
         			</div>
+					
+				</div>
 
 				<div class="col-md-6">
 					<div class="mb-3">
