@@ -4,7 +4,7 @@
 
 include '../database_connection.php';
 
-include '../function.php';
+include '../functions.php';
 
 include 'admin-header.php';
 

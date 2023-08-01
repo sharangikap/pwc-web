@@ -213,7 +213,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                 <img src="img/about-pwc.jpg" width="350px">
+                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta tempora ex vitae veritatis perferendis laborum alias at quaerat pariatur ducimus, cum praesentium expedita temporibus officiis odio error deserunt voluptatibus blanditiis?</p>
                 </div>
             </div>
             

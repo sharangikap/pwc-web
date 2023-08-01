@@ -42,7 +42,7 @@
                 <h6 class="section-title bg-white text-center text-primary px-3">Latest</h6>
                 <h1 class="mb-5">News</h1>
             </div>
-            <div class="col-md-4 animate-box">
+            <div class="col-md-4 animate-box, text-center wow fadeInUp" data-wow-delay="0.1s">
                 <article class="article-entry">
                     <a href="news.php" class="blog-img">
                         <img src="img/article-img-test.jpg" alt="Article Image"><br><br>
@@ -54,7 +54,7 @@
                     </div>
                 </article>
             </div>
-            <div class="col-md-4 animate-box">
+            <div class="col-md-4 animate-box, text-center wow fadeInUp" data-wow-delay="0.1s">
                 <article class="article-entry">
                     <a href="news.php" class="blog-img">
                         <img src="img/article-img-test.jpg" alt="Article Image"><br><br>
@@ -66,7 +66,7 @@
                     </div>
                 </article>
             </div>
-            <div class="col-md-4 animate-box">
+            <div class="col-md-4 animate-box, text-center wow fadeInUp" data-wow-delay="0.1s">
                 <article class="article-entry">
                     <a href="news.php" class="blog-img">
                         <img src="img/article-img-test.jpg" alt="Article Image"><br><br>
@@ -349,7 +349,7 @@
                     </a>
                 </div>
                 <br>
-                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="sports/" style="border-radius=25px"
+                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="sports.php" style="border-radius=25px"
                         data-wow-delay="0.7s">Explore More</a></center>
 
             </div>
@@ -409,7 +409,7 @@
                     </a>
                 </div>
                 <br>
-                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="societies/"
+                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="clubs.php"
                         style="border-radius=25px" data-wow-delay="0.7s">Explore More</a></center>
 
             </div>

@@ -132,11 +132,11 @@
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
             <h6 class="section-title bg-white text-start text-primary pe-3">OUR</h6>
                     <h1 class="mb-4">VISION</h1>
-                    <p class="mb-4">To become the best school in Sri Lanka in 2025</p>
+                    <p class="mb-4">To be the best school in Sri Lanka by 2025</p>
                     <br>
                     <h6 class="section-title bg-white text-start text-primary pe-3">OUR</h6>
                     <h1 class="mb-4">MISSION</h1>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsam expedita unde, excepturi explicabo voluptate quas architecto quae quibusdam. Incidunt repellat laboriosam cum sunt consequuntur accusamus aliquam dolorem enim nostrum?</p>
+                    <p class="mb-4">To facilitate students to reach excelle</p>
                </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
@@ -277,7 +277,7 @@
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -295,7 +295,7 @@
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -313,7 +313,7 @@
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -332,7 +332,7 @@
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -354,71 +354,7 @@
     <!-- Administration End -->
 
 
-        
-
-     <!-- prefects Start -->
-     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">student</h6>
-                <h1 class="mb-5">LEADERSHIP</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/" alt="hp">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Thinuka Fernando</h5>
-                            <small>Head-Prefect 2023</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/" alt="hp">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Thinuka Fernando</h5>
-                            <small>Head-Prefect 2023</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Thinuka Fernando</h5>
-                            <small>Head-Prefect 2023</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/" alt="hp">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Thinuka Fernando</h5>
-                            <small>Head-Prefect 2023</small>
-                        </div>
-                    </div>
-                </div>
-
-                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-student-leadership.php" style="border-radius=25px"
-                    data-wow-delay="0.7s">View All</a></center>
-
-            </div>
-        </div>
-    </div>
-    <!-- prefects End -->
-
-
+    
    
         <br>
 

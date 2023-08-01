@@ -76,7 +76,16 @@
                             official website. With the internet being a truly powerful means of reaching out to the
                             community, we believe this would aid us to bridge the gap between the school and the
                             parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this
-                            and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
+                            and there-by keep the evergreen Cambrian spirit high amongst us all!
+    
+                        
+                        <dl>
+                        <dt>Follow @CMBU on Social Media;</dt><br>
+                            <dd><a href="https://www.facebook.com/cambrians.media" target="_blank"><i class="fab fa-facebook-f"></i> &nbsp;Facebook</a></dd>
+                            <dd><a href="https://www.instagram.com/cmbulive/" target="_blank"><i class="fab fa-instagram"></i> &nbsp;Instagram</a></dd>
+                            <dd><a href="https://www.youtube.com/@CMBUlive" target="_blank"><i class="fab fa-youtube"></i> &nbsp;YouTube</a></dd>
+                        </dl>
+                        </p>
                     </div>
                 </div>
             </div>
