@@ -15,9 +15,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -32,6 +30,24 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- seo -->
+
+    <meta name="description" content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
+	<meta name="keywords" content="prince of wales college, prince of wales college moratuwa, prince of wales college moratuwa website, prince of wales college moratuwa contact number, prince of wales college moratuwa logo, prince of wales college moratuwa address, prince of wales college moratuwa big match, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
+	<meta name="author" content="" />
+
+	<meta property="og:title" content="Prince of Wales' College, Moratuwa"/>
+	<meta property="og:image" content="img/header-main-pwc.jpg"/>
+	<meta property="og:url" content="https://princeofwales.edu.lk/"/>
+	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
+	<meta property="og:description" content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…."/>
+	<meta name="twitter:title" content="Prince of Wales' College, Moratuwa" />
+	<meta name="twitter:image" content="img/header-main-pwc.jpg" />
+	<meta name="twitter:url" content="https://princeofwales.edu.lk/" />
+
+
 
 </head>
 
