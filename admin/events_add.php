@@ -15,7 +15,6 @@ if(!is_admin_login())
 
 ?>
 
-
 <div class="container-fluid py-4" style="min-height: 700px;">
 	<h1>Create New Event</h1>
 
@@ -23,14 +22,13 @@ if(!is_admin_login())
 	<ol class="breadcrumb mt-4 mb-4 bg-light p-2 border">
 		<li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
         <li class="breadcrumb-item"><a href="Product.php">Event Management</a></li>
-        <li class="breadcrumb-item active">Create New Event</li>
+        <li class="breadcrumb-item active">Add New Event</li>
     </ol>
-
 
 
     <div class="card mb-4">
     	<div class="card-header">
-    		<i class="fas fa-user-plus"></i> Write New Article
+    		<i class="fas fa-user-plus"></i> Add New Event
         </div>
         <div class="card-body">
 		<form action="" method="POST" enctype="multipart/form-data">
@@ -39,7 +37,7 @@ if(!is_admin_login())
         			<div class="col-md-6">
         				<div class="mb-3">
         					<label class="form-label">Name</label>
-        					<input type="text" name="title" id="Product_name" class="form-control" />
+        					<input type="text" name="title" id="title" class="form-control" />
         				</div>
         			</div>
 					<div class="col-md-6">
@@ -57,7 +55,7 @@ if(!is_admin_login())
         			<div class="col-md-6">
 						<div class="mb-3">
         					<label class="form-label">Location</label>
-        					<input type="text" name="Location" id="Location" class="form-control" />
+        					<input type="text" name="location" id="location" class="form-control" />
         				</div>
         			</div>
 
@@ -94,7 +92,7 @@ if(!is_admin_login())
 					<div class="col-md-6">
         				<div class="mb-3">
         					<label class="form-label">Featured Image</label>
-        					<input type="file" name="image" id="featured_img" class="form-control" accept=".jpg, .jpeg, .png, .webp" multiple />
+        					<input type="file" name="image" id="image" class="form-control" accept=".jpg, .jpeg, .png, .webp" multiple />
         				</div>
         			</div>
 

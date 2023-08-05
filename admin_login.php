@@ -43,7 +43,7 @@ if(isset($_POST["login_button"]))
 	if($message == '')
 	{
 		$data = array(
-			':admin_email'		=>	$formdata['admin_email']
+			':admin_email'	=>	$formdata['admin_email']
 		);
 
 		$query = "

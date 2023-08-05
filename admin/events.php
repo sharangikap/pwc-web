@@ -4,8 +4,8 @@
 
 include '../database_connection.php';
 
+include './admin-functions.php';
 include '../functions.php';
-
 include 'admin-header.php';
 
 if(!is_admin_login())
@@ -16,7 +16,7 @@ if(!is_admin_login())
 ?>
 
 <div class="container-fluid py-4" style="min-height: 700px;">
-	<h1>News</h1>
+	<h1>Events</h1>
 
 	<ol class="breadcrumb mt-4 mb-4 bg-light p-2 border">
 		<li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
@@ -28,46 +28,72 @@ if(!is_admin_login())
 			<div class="row">
 				<div class="col col-md-6">
 					<i class="fas fa-table me-1"></i> Events
-                </div>
-                <div class="col col-md-6" align="right">
-                	<a href="events_add.php" class="btn btn-success btn-sm">Add</a>
-                </div>
-            </div>
-        </div>
-        <div class="card-body">
-        	<table id="datatablesSimple">
-        		<thead> 
-        			<tr>
+				</div>
+				<div class="col col-md-6" align="right">
+					<a href="events_add.php" class="btn btn-success btn-sm">Add</a>
+				</div>
+			</div>
+		</div>
+		<div class="card-body">
+			<table id="datatablesSimple">
+				<thead>
+					<tr>
 						<th>Name</th>
-						<th>Event Date</th>
+						<th>Date</th>
+						<th>Time</th>
+						<th>Location</th>
 						<th>Organizer</th>
-        				<th>Status</th>
-        				<th>Action</th>
-        			</tr>
-        		</thead>
-        		
-        		<tbody>
-        		
-            
-			<tr>
-				<td>faf</td>
-				<td>adada</td>
-				<td>ffqfaf</td>
-				<td>ffqfaf</td>
+						<th>Status</th>
+					</tr>
+				</thead>
 
-				
-				<td>
-								<a href="../events/event.php" class="btn btn-success btn-sm">View</a>
-        						<a onclick="return confirm('Are you Sure To Edit This')" href="events_edit.php" class="btn btn-sm btn-primary">Edit</a>
-        						<a onclick="return confirm('Are Your Sure To Delete This')" class="btn btn-danger btn-sm" href=""  >Delete</a>
-        					</td>
-        				</tr>
-  
+				<tbody>
 
-        		</tbody>
-        	</table>
-        </div>
-    </div>
+					<?php 
+
+		$query = "SELECT * FROM pwc_db_events";
+
+		$statement = $connect->prepare($query);
+
+		$statement->execute();
+
+		if($statement->rowCount() > 0)
+		{
+			foreach($statement->fetchAll() as $row)
+			{ 
+				?>
+					<tr>
+						<td><?php echo($row["title"]) ?></td>
+						<td><?php echo($row["date"]) ?></td>
+						<td><?php echo($row["time"]) ?></td>
+						<td><?php echo($row["location"]) ?></td>
+						<td><?php echo($row["organizer_name"]) ?></td>
+
+						<td>
+							<a href="../events/event.php" class="btn btn-success btn-sm">View</a>
+							<a  href="events_edit.php"
+								class="btn btn-sm btn-primary">Edit</a>
+							<a onclick="deleteById(<?php echo($row['id']) ?>)" class="btn btn-danger btn-sm">Delete</a>
+						</td>
+					</tr>
+
+
+
+					<?php 
+					}
+		}	
+		else
+		{
+			$message = '<li>Wrong Email Address</li>';
+		}
+
+?>
+
+
+				</tbody>
+			</table>
+		</div>
+	</div>
 
 </div>
 

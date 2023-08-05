@@ -377,12 +377,12 @@
     </div>
 
 
-    <div class="container-xxl py-5" id="raquet-sports">
+    <div class="container-xxl py-5" id="racquet-sports">
 
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3"></h6>
-                <h1 class="mb-5">RAQUET SPORTS</h1>
+                <h1 class="mb-5">RACQUET SPORTS</h1>
             </div>
 
             <div class="container">
@@ -394,7 +394,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">RAQUET SPORTS</h6>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">RACQUET SPORTS</h6>
                         <h1 class="mb-4">BADMINTON</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
                             considered as a major school in Moratuwa area and over the years, established its name as a

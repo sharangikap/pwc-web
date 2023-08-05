@@ -38,7 +38,7 @@ if(!is_admin_login())
         	<table id="datatablesSimple">
         		<thead> 
         			<tr>
-						<th>Tittle</th>
+						<th>title</th>
 						<th>Date</th>
         				<th>Status</th>
         				<th>Action</th>

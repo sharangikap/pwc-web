@@ -5,7 +5,10 @@
     <?php
     $page = 'home';
 ?>
-    <?php include 'header.php'; ?>
+    <?php 
+    include 'database_connection.php';
+    include 'header.php';
+    ?>
 
 </head>
 
@@ -35,49 +38,61 @@
 
 
 <div class="colorlib-blog colorlib-light-grey">
-    <div class="container">
+        <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Latest</h6>
+                <h1 class="mb-5">NEWS</h1>
+            </div>
 
         <div class="row">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Latest</h6>
-                <h1 class="mb-5">News</h1>
-            </div>
-            <div class="col-md-4 animate-box, text-center wow fadeInUp" data-wow-delay="0.1s">
-                <article class="article-entry">
-                    <a href="news.php" class="blog-img">
-                        <img src="img/article-img-test.jpg" alt="Article Image"><br><br>
-                        <p class="meta"><span class="day">30&nbsp;July&nbsp;2023</span></p>
-                    </a>
-                    <div class="desc">
-                        <h2><a href="news.php">News</a></h2>
-                        <p class="admin"><span>Category:</span> <span>Announcements</span></p>
+            
+        <?php 
+
+$query = "SELECT * FROM pwc_db_news ORDER BY id DESC";
+
+$statement = $connect->prepare($query);
+
+$statement->execute();
+
+$limit = 3;
+$rowCount = 0;
+
+if($statement->rowCount() > 0)
+{
+    foreach ($statement->fetchAll() as $row) {
+        // Process or display the $row here
+    
+        // Increment the row counter
+        $rowCount++;
+    
+        ?>
+
+        
+                    <div class="col-md-4 animate-box">
+                        <article class="article-entry">
+                            <a href="news/news.php?<?php echo $row["slug"]; ?>" class="blog-img">
+                                <img src="<?php echo $row["photo"]; ?>" alt="Article Image"><br><br>
+                                <p class="meta"><span class="day"><?php echo $row["date"]; ?></span> │ <span></span> <span><?php echo $row["category"]; ?></span></p>
+                            </a>
+                            <div class="desc">
+                                <h3><a href="news/news.php?<?php echo $row["slug"]; ?>"><?php echo $row["title"]; ?></a></h3>
+                                
+                            </div>
+                        </article>
                     </div>
-                </article>
-            </div>
-            <div class="col-md-4 animate-box, text-center wow fadeInUp" data-wow-delay="0.1s">
-                <article class="article-entry">
-                    <a href="news.php" class="blog-img">
-                        <img src="img/article-img-test.jpg" alt="Article Image"><br><br>
-                        <p class="meta"><span class="day">30&nbsp;July&nbsp;2023</span></p>
-                    </a>
-                    <div class="desc">
-                        <h2><a href="news.php">News</a></h2>
-                        <p class="admin"><span>Category:</span> <span>Announcements</span></p>
-                    </div>
-                </article>
-            </div>
-            <div class="col-md-4 animate-box, text-center wow fadeInUp" data-wow-delay="0.1s">
-                <article class="article-entry">
-                    <a href="news.php" class="blog-img">
-                        <img src="img/article-img-test.jpg" alt="Article Image"><br><br>
-                        <p class="meta"><span class="day">30&nbsp;July&nbsp;2023</span></p>
-                    </a>
-                    <div class="desc">
-                        <h2><a href="news.php">News</a></h2>
-                        <p class="admin"><span>Category:</span> <span>Announcements</span></p>
-                    </div>
-                </article>
-            </div>
+             
+           
+                    <?php 
+                if ($rowCount >= $limit) {
+                    // Break the loop if the limit is reached
+                    break;
+                }
+					}
+		}	
+        ?>
+   </div>
+</div>
+
         </div>
         <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="news/" style="border-radius=25px"
                 data-wow-delay="0.7s">Read More</a></center>
@@ -112,76 +127,61 @@
 
             <div class="row g-4 justify-content-center">
 
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/header-main-pwc.jpg" alt="">
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h4 class="mb-4">Media Day 2023</h4>
-                        </div>
-                        <div class="w-100 d-flex justify-content-center bottom-0 start-0 mb-4">
-                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
-                                style="border-radius: 30px 30 30 30px;">Read More</a>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-user-tie text-primary me-2"></i>CMBU</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar text-primary me-2"></i>23 Jun</small>
-                            <small class="flex-fill text-center py-2"><i
-                                    class="fa fa-map-marker text-primary me-2"></i>PWC Main Hall</small>
-                        </div>
-                    </div>
-                </div>
+        <?php 
 
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/header-main-pwc.jpg" alt="">
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h4 class="mb-4">Media Day 2023</h4>
-                        </div>
-                        <div class="w-100 d-flex justify-content-center bottom-0 start-0 mb-4">
-                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
-                                style="border-radius: 30px 30 30 30px;">Read More</a>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-user-tie text-primary me-2"></i>CMBU</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar text-primary me-2"></i>23 Jun</small>
-                            <small class="flex-fill text-center py-2"><i
-                                    class="fa fa-map-marker text-primary me-2"></i>PWC Main Hall</small>
-                        </div>
-                    </div>
-                </div>
+		$query = "SELECT * FROM pwc_db_events ORDER BY id DESC";
 
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+		$statement = $connect->prepare($query);
+
+		$statement->execute();
+
+        $limit = 3;
+        $rowCount = 0;
+
+		if($statement->rowCount() > 0)
+		{
+			foreach ($statement->fetchAll() as $row) {
+                // Process or display the $row here
+            
+                // Increment the row counter
+                $rowCount++;
+            
+				?>
+
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/header-main-pwc.jpg" alt="">
+                            <img class="img-fluid" src="<?php echo($row["img"]) ?>" alt="">
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h4 class="mb-4">Media Day 2023</h4>
+                            <h4 class="mb-4"><?php echo($row["title"]) ?></h4>
                         </div>
                         <div class="w-100 d-flex justify-content-center bottom-0 start-0 mb-4">
-                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
-                                style="border-radius: 30px 30 30 30px;">Read More</a>
-                        </div>
+                                <a href="events/event.php?id=<?php echo $row["id"]; ?>" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30 30 30px;">Read More</a>
+                            </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-user-tie text-primary me-2"></i>CMBU</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar text-primary me-2"></i>23 Jun</small>
-                            <small class="flex-fill text-center py-2"><i
-                                    class="fa fa-map-marker text-primary me-2"></i>PWC Main Hall</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i><?php echo($row["organizer_name"]) ?></small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar text-primary me-2"></i><?php echo($row["date"]) ?></small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-map-marker text-primary me-2"></i><?php echo($row["location"]) ?></small>
                         </div>
                     </div>
-                </div>
+            </div>
+            <?php 
+                if ($rowCount >= $limit) {
+                    // Break the loop if the limit is reached
+                    break;
+                }
+					}
+		}	
+        ?>
+            
 
             </div>
+
+        </div>
+    </div>
+ 
+
             <br>
             <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="events/" style="border-radius=25px"
                     data-wow-delay="0.7s">View More</a></center>

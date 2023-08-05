@@ -2,8 +2,11 @@
 <html lang="en">
 
 <head>
-    <?php include 'header.php'; ?>
-    <?php include '../functions.php';?>
+    <?php
+    include '../database_connection.php';
+    include 'header.php';
+    include '../functions.php';
+    ?>
 </head>
 
 <body>
@@ -27,50 +30,45 @@
 
 
         <div class="colorlib-blog colorlib-light-grey">
-            <div class="container">
+        <div class="container">
+        <div class="row">
+            <?php 
 
-                <div class="row">
-                <div class="col-md-4 animate-box">
-                <article class="article-entry">
-                    <a href="news.php" class="blog-img">
-                        <img src="../img/article-img-test.jpg" alt="Article Image"><br><br>
-                        <p class="meta"><span class="day">30&nbsp;July&nbsp;2023</span></p>
-                    </a>
-                    <div class="desc">
-                        <h2><a href="news.php">News</a></h2>
-                        <p class="admin"><span>Category:</span> <span>Announcements</span></p>
+$query = "SELECT * FROM pwc_db_news ORDER BY id DESC";
+
+$statement = $connect->prepare($query);
+
+$statement->execute();
+
+if($statement->rowCount() > 0)
+{
+    foreach($statement->fetchAll() as $row)
+    { 
+        ?>
+
+           
+
+                
+                    <div class="col-md-4 animate-box">
+                        <article class="article-entry">
+                            <a href="news.php?id=<?php echo $row["id"]; ?>" class="blog-img">
+                                <img src="../<?php echo $row["photo"]; ?>" alt="Article Image"><br><br>
+                                <p class="meta"><span class="day"><?php echo $row["date"]; ?></span> │ <span></span> <span><?php echo $row["category"]; ?></span></p>
+                            </a>
+                            <div class="desc">
+                                <h3><a href="news.php?id=<?php echo $row["id"]; ?>"><?php echo $row["title"]; ?></a></h3>
+                                
+                            </div>
+                        </article>
                     </div>
-                </article>
-            </div>
-
-            <div class="col-md-4 animate-box">
-                <article class="article-entry">
-                    <a href="news.php" class="blog-img">
-                        <img src="../img/article-img-test.jpg" alt="Article Image"><br><br>
-                        <p class="meta"><span class="day">30&nbsp;July&nbsp;2023</span></p>
-                    </a>
-                    <div class="desc">
-                        <h2><a href="news.php">News</a></h2>
-                        <p class="admin"><span>Category:</span> <span>Announcements</span></p>
-                    </div>
-                </article>
-            </div>
-
-            <div class="col-md-4 animate-box">
-                <article class="article-entry">
-                    <a href="news.php" class="blog-img">
-                        <img src="../img/article-img-test.jpg" alt="Article Image"><br><br>
-                        <p class="meta"><span class="day">30&nbsp;July&nbsp;2023</span></p>
-                    </a>
-                    <div class="desc">
-                        <h2><a href="news.php">News</a></h2>
-                        <p class="admin"><span>Category:</span> <span>Announcements</span></p>
-                    </div>
-                </article>
-            </div>
-
-                </div>
-            </div>
+             
+           
+                <?php 
+					}
+		}	
+        ?>
+   </div>
+</div>
         </div>
 
 
