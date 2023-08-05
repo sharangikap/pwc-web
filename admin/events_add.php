@@ -1,5 +1,7 @@
 <?php
 
+$page = 'events';
+
 //news.php
 
 include '../database_connection.php';

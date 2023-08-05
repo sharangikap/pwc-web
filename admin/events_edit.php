@@ -1,6 +1,6 @@
 <?php
 
-//news.php
+$page = 'events';
 
 include '../database_connection.php';
 

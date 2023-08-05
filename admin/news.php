@@ -1,11 +1,11 @@
 <?php
 
-//news.php
+$page = 'news';
 
 include '../database_connection.php';
 
+include './admin-functions.php';
 include '../functions.php';
-
 include 'admin-header.php';
 
 if(!is_admin_login())
@@ -40,31 +40,56 @@ if(!is_admin_login())
         			<tr>
 						<th>title</th>
 						<th>Date</th>
-        				<th>Status</th>
+        				<th>Category</th>
         				<th>Action</th>
         			</tr>
         		</thead>
         		
         		<tbody>
-        		
-            
-			<tr>
-				<td>faf</td>
-				<td>adada</td>
-				<td>ffqfaf</td>
-				
-				<td>
-								<a href="../news/news.php" class="btn btn-success btn-sm">View</a>
-        						<a onclick="return confirm('Are you Sure To Edit This')" href="news_edit.php" class="btn btn-sm btn-primary">Edit</a>
-        						<a onclick="return confirm('Are Your Sure To Delete This')" class="btn btn-danger btn-sm" href=""  >Delete</a>
-        					</td>
-        				</tr>
-  
 
-        		</tbody>
-        	</table>
-        </div>
-    </div>
+					<?php 
+
+		$query = "SELECT * FROM pwc_db_news";
+
+		$statement = $connect->prepare($query);
+
+		$statement->execute();
+
+		if($statement->rowCount() > 0)
+		{
+			foreach($statement->fetchAll() as $row)
+			{ 
+				?>
+					<tr>
+						<td><?php echo($row["title"]) ?></td>
+						<td><?php echo($row["date"]) ?></td>
+						<td><?php echo($row["category"]) ?></td>
+
+						<td>
+							<a href="../news/news.php?id=<?php echo $row["id"]; ?>" target="_blank" class="btn btn-success btn-sm">View</a>
+							<a  href="events_edit.php"
+								class="btn btn-sm btn-primary">Edit</a>
+							<a onclick="deleteById(<?php echo($row['id']) ?>)" class="btn btn-danger btn-sm">Delete</a>
+						</td>
+					</tr>
+
+
+
+					<?php 
+					}
+		}	
+		else
+		{
+			$message = '<li>Wrong Email Address</li>';
+		}
+
+?>
+
+
+				</tbody>
+			</table>
+		</div>
+	</div>
 
 </div>
 

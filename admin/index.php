@@ -1,6 +1,6 @@
 <?php
 
-//index.php
+$page = 'index';
 
 include '../database_connection.php';
 
