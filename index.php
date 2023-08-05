@@ -60,9 +60,7 @@ $rowCount = 0;
 if($statement->rowCount() > 0)
 {
     foreach ($statement->fetchAll() as $row) {
-        // Process or display the $row here
-    
-        // Increment the row counter
+
         $rowCount++;
     
         ?>
@@ -84,7 +82,7 @@ if($statement->rowCount() > 0)
            
                     <?php 
                 if ($rowCount >= $limit) {
-                    // Break the loop if the limit is reached
+         
                     break;
                 }
 					}
@@ -141,9 +139,7 @@ if($statement->rowCount() > 0)
 		if($statement->rowCount() > 0)
 		{
 			foreach ($statement->fetchAll() as $row) {
-                // Process or display the $row here
-            
-                // Increment the row counter
+
                 $rowCount++;
             
 				?>
@@ -168,7 +164,7 @@ if($statement->rowCount() > 0)
             </div>
             <?php 
                 if ($rowCount >= $limit) {
-                    // Break the loop if the limit is reached
+                
                     break;
                 }
 					}
