@@ -45,16 +45,16 @@ foreach($statement->fetchAll() as $row)
     <div class="row">
       <div class="col-md-8">
         <h1><?php echo $row["title"]; ?></h1>
-        <p>Date: <?php echo $row["date"]; ?></p>
-        <p>Time: <?php echo $row["time"]; ?></p>
-        <p>Location: <?php echo $row["location"]; ?></p>
+        <br>
+        <p><i class="fa fa-calendar text-primary me-2"></i>Date: <b><?php echo $row["date"]; ?></b></p>
+        <p><i class="fa fa-clock text-primary me-2"></i>Time: <b><?php echo $row["time"]; ?></b></p>
+        <p><i class="fa fa-map-marker text-primary me-2"></i>Location: <b><?php echo $row["location"]; ?></b></p>
 
         <div class="row mt-4">
           <div class="col-md-12">
-            <h3>Event Organizer</h3>
-            <p><?php echo $row["organizer_name"]; ?></p>
-            <p>Phone: <?php echo $row["organizer_phone"]; ?></p>
-
+          <p><i class="fa fa-user text-primary me-2"></i>Event Organizer: <b><?php echo $row["organizer_name"]; ?></b></p>
+            <p><i class="fa fa-phone text-primary me-2"></i>Contact: <?php echo $row["organizer_phone"]; ?></p>
+<br>
             <h3>About this Event</h3>
             <p><?php echo $row["about"]; ?></p>
 
@@ -67,7 +67,7 @@ foreach($statement->fetchAll() as $row)
       </div>
       <div class="col-md-4">
         <br><br>
-        <img src="../<?php echo $row["img"]; ?>" alt="Event Image" class="img-fluid"
+        <img src="img-events/<?php echo $row["img"]; ?>" alt="Event Image" class="img-fluid"
           style="object-fit: cover; border-radius: 8px; max-width: 100%; height: auto;">
 
       </div>

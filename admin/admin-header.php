@@ -21,6 +21,7 @@
         <style><?php include 'css/simple-datatables-style.css'; ?></style>
         <style><?php include 'css/select2.min.css'; ?></style>
         <style><?php include 'css/vanillaSelectBox.css'; ?></style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
         <!-- icons -->
         <link rel="icon" href="../logo-pwc.png">
@@ -38,6 +39,41 @@
                     font-size: 3.5rem;
                 }
             }
+
+            .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style for the dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-icon {
+            margin-left: 5px;
+        }
+
         </style>
 
     </head>
@@ -46,9 +82,11 @@
     <body class="sb-nav-fixed">
 
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="index.php"><img src="../logo-pwc.png" alt="" width="35px">&nbsp;&nbsp;&nbsp;Admin Dashboard │ Prince of Wales' College, Moratuwa</a>
-            
+        
+        <a class="navbar-brand ps-3" href="index.php">
+            <img src="../logo-pwc.png" alt="" width="35px">&nbsp;&nbsp;&nbsp;Admin - Prince of Wales' College  
+        </a>
+
         </nav>
         
 
@@ -77,7 +115,7 @@
             </div>
             <div id="layoutSidenav_content">
                 <main>
-
+        
 
 
 

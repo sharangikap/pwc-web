@@ -2,6 +2,8 @@
 
 $page = 'news';
 
+
+
 include '../database_connection.php';
 
 include './admin-functions.php';
@@ -12,6 +14,8 @@ if(!is_admin_login())
 {
 	header('location:../admin_login.php');
 }
+
+
 
 ?>
 
@@ -28,24 +32,24 @@ if(!is_admin_login())
 			<div class="row">
 				<div class="col col-md-6">
 					<i class="fas fa-table me-1"></i> News
-                </div>
-                <div class="col col-md-6" align="right">
-                	<a href="news_add.php" class="btn btn-success btn-sm">Add</a>
-                </div>
-            </div>
-        </div>
-        <div class="card-body">
-        	<table id="datatablesSimple">
-        		<thead> 
-        			<tr>
+				</div>
+				<div class="col col-md-6" align="right">
+					<a href="news_add.php" class="btn btn-success btn-sm">Add</a>
+				</div>
+			</div>
+		</div>
+		<div class="card-body">
+			<table id="datatablesSimple">
+				<thead>
+					<tr>
 						<th>title</th>
 						<th>Date</th>
-        				<th>Category</th>
-        				<th>Action</th>
-        			</tr>
-        		</thead>
-        		
-        		<tbody>
+						<th>Category</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+
+				<tbody>
 
 					<?php 
 
@@ -66,10 +70,13 @@ if(!is_admin_login())
 						<td><?php echo($row["category"]) ?></td>
 
 						<td>
-							<a href="../news/news.php?id=<?php echo $row["id"]; ?>" target="_blank" class="btn btn-success btn-sm">View</a>
-							<a  href="events_edit.php"
+							<a href="../news/news.php?id=<?php echo $row["id"]; ?>" target="_blank"
+								class="btn btn-success btn-sm">View</a>
+							<a href="news_edit.php?id=<?php echo $row["id"]; ?>"
 								class="btn btn-sm btn-primary">Edit</a>
-							<a onclick="deleteById(<?php echo($row['id']) ?>)" class="btn btn-danger btn-sm">Delete</a>
+							
+							<input type="submit" class="btn btn-danger btn-sm" name="delete_news" value="Delete">
+
 						</td>
 					</tr>
 
@@ -78,10 +85,6 @@ if(!is_admin_login())
 					<?php 
 					}
 		}	
-		else
-		{
-			$message = '<li>Wrong Email Address</li>';
-		}
 
 ?>
 
@@ -92,6 +95,9 @@ if(!is_admin_login())
 	</div>
 
 </div>
+
+
+
 
 <?php
 include 'admin-footer.php';

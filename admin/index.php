@@ -17,14 +17,24 @@ include 'admin-header.php';
 ?>
 
 <div class="container-fluid py-4">
-	<h1 class="mb-5"> Dashboard</h1>
+<div class="dropdown">
+	<h1 class="mb-5"> Dashboard
+	<i class="dropdown-icon fas fa-caret-down"></i></h1>
+
+	<div class="dropdown-content">
+			<a class="nav-link <?php if ($page === 'index') echo 'active'; ?>" href="index.php"><img src="ion-icon/dashboard.png" width="20px">&nbsp <b>DASHBOARD</b></a>
+            <a class="nav-link <?php if ($page === 'news') echo 'active'; ?>" href="news.php"><img src="ion-icon/news.png" width="20px">&nbsp <b>NEWS</b></a>
+             <a class="nav-link <?php if ($page === 'events') echo 'active'; ?>" href="events.php"><img src="ion-icon/events.png" width="20px">&nbsp <b>EVENTS</b></a>
+
+        </div>
+</div>
 
 	<div class="row">
 		<div class="col-xl-3 col-md-6">
 			<div class="card bg-primary text-white mb-4">
 				<div class="card-body">
 					<h1 class="text-center"><?php echo Count_total_news($connect); ?></h1>
-					<h5 class="text-center">Posts</h5>
+					<h5 class="text-center">News</h5>
 				</div>
 			</div>
 		</div>

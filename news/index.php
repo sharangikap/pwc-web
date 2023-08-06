@@ -52,7 +52,7 @@ if($statement->rowCount() > 0)
                     <div class="col-md-4 animate-box">
                         <article class="article-entry">
                             <a href="news.php?id=<?php echo $row["id"]; ?>" class="blog-img">
-                                <img src="../<?php echo $row["photo"]; ?>" alt="Article Image"><br><br>
+                                <img src="img-news/<?php echo $row["photo"]; ?>" alt="<?php echo $row["photo"]; ?>"><br><br>
                                 <p class="meta"><span class="day"><?php echo $row["date"]; ?></span> │ <span></span> <span><?php echo $row["category"]; ?></span></p>
                             </a>
                             <div class="desc">

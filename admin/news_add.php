@@ -11,7 +11,7 @@ include 'admin-header.php';
 if(!is_admin_login())
 {
 	header('location:../admin_login.php');
-}
+} 
 
 ?>
 
@@ -39,13 +39,13 @@ if(!is_admin_login())
         			<div class="col-md-6">
         				<div class="mb-3">
         					<label class="form-label">Title</label>
-        					<input type="text" name="title" id="Product_name" class="form-control" />
+        					<input type="text" name="title" id="title" class="form-control" />
         				</div>
         			</div>
 					<div class="col-md-6">
         				<div class="mb-3">
         					<label class="form-label">Description</label>
-        					<input type="text" name="Description" id="description" class="form-control" />
+        					<input type="text" name="content" id="content" class="form-control" />
         				</div>
         			</div>
         			<div class="col-md-6">
@@ -59,7 +59,7 @@ if(!is_admin_login())
 					<div class="col-md-6">
         				<div class="mb-3">
         					<label class="form-label">Featured Image</label>
-        					<input type="file" name="image" id="featured_img" class="form-control" accept=".jpg, .jpeg, .png, .webp" multiple />
+        					<input type="file" class="form-control" name="photo" placeholder="Featured Image" id="photo">
         				</div>
         			</div>
 
@@ -70,6 +70,52 @@ if(!is_admin_login())
         	</form>
         </div>
     </div>
+	
+	
+	<?php
+
+if(isset($_POST["add_news"]))
+{
+	$formdata = array();
+
+		$formdata['title'] = trim($_POST["title"]);
+
+		$formdata['content'] = trim($_POST["content"]);
+
+		$formdata['category'] = trim($_POST["category"]); 
+
+
+		$data = array(
+			':title'		=>	$formdata['title'],
+			':content'		=>	$formdata['content'],
+			':category'		=>	$formdata['category'],
+		);
+
+	$file = $_FILES['photo']['name'];
+	$file_loc = $_FILES['photo']['tmp_name'];
+	$folder = "../news/img-news/";
+	$new_file_name = strtolower($file);
+	$final_file = str_replace(' ', '-', $new_file_name);
+	$final_file = rand() . "-" . $final_file; 
+	if(move_uploaded_file($file_loc, $folder . $final_file)) {
+		$image = $final_file;
+		$query = "
+		INSERT INTO pwc_db_news 
+		(title, content, category, photo, date) 
+		VALUES (:title, :content, :category, '".$image."', CURDATE())
+		";
+
+	}
+	
+
+
+
+	$statement = $connect->prepare($query);
+
+	$statement->execute($data);
+}
+
+?>
 
 
 	<?php

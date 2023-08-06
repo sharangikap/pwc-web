@@ -53,15 +53,6 @@ if(!is_admin_login())
 				</div>
 
 				<div class="col-md-6">
-        				<div class="mb-3">
-        					<label class="form-label">Status</label>
-        					<select name="status" id="status" class="form-control">
-								
-							</select>
-        				</div>
-        			</div>
-
-				<div class="col-md-6">
 					<div class="mb-3">
 						<label class="form-label">Featured Image</label>
 						<input type="file" name="image" id="featured_img" class="form-control"
@@ -71,7 +62,7 @@ if(!is_admin_login())
 
 		</div>
 		<div class="mt-4 mb-3 text-center">
-			<input type="submit" name="edit_news" class="btn btn-success" value="Done" />
+			<input type="submit" name="edit_news" class="btn btn-success" value="Edit" />
 		</div>
 		</form>
 	</div>

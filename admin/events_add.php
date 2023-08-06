@@ -2,8 +2,6 @@
 
 $page = 'events';
 
-//news.php
-
 include '../database_connection.php';
 
 include '../functions.php';
@@ -64,21 +62,14 @@ if(!is_admin_login())
 					<div class="col-md-6">
 						<div class="mb-3">
         					<label class="form-label">Organizer's Name</label>
-        					<input type="text" name="organizer-name" id="organizer-name" class="form-control" />
+        					<input type="text" name="organizer_name" id="organizer-name" class="form-control" />
         				</div>
         			</div>
 
 					<div class="col-md-6">
 						<div class="mb-3">
         					<label class="form-label">Organizer's Contact No.</label>
-        					<input type="number" name="organizer-number" id="organizer-number" class="form-control" />
-        				</div>
-        			</div>
-
-					<div class="col-md-6">
-						<div class="mb-3">
-        					<label class="form-label">Organizer's Email</label>
-        					<input type="text" name="organizer-email" id="organizer-email" class="form-control" />
+        					<input type="number" name="organizer_phone" id="organizer_phone" class="form-control" />
         				</div>
         			</div>
 
@@ -89,22 +80,83 @@ if(!is_admin_login())
         				</div>
         			</div>
         
+					<div class="col-md-6">
+						<div class="mb-3">
+        					<label class="form-label">Agenda / Other Details</label>
+        					<input type="text" name="other_details" id="other_details" class="form-control" />
+        				</div>
+        			</div>
 					
         		
 					<div class="col-md-6">
         				<div class="mb-3">
         					<label class="form-label">Featured Image</label>
-        					<input type="file" name="image" id="image" class="form-control" accept=".jpg, .jpeg, .png, .webp" multiple />
+        					<input type="file" class="form-control" name="photo" placeholder="Featured Image" id="photo">
         				</div>
         			</div>
 
         		</div>
         		<div class="mt-4 mb-3 text-center">
-        			<input type="submit" name="add_news" class="btn btn-success" value="Create" />
+        			<input type="submit" name="add_event" class="btn btn-success" value="Create" />
         		</div>
         	</form>
         </div>
     </div>
+
+
+	<?php
+
+if(isset($_POST["add_event"]))
+{
+	$formdata = array();
+
+		$formdata['title'] = trim($_POST["title"]);
+		$formdata['date'] = trim($_POST["date"]);
+		$formdata['time'] = trim($_POST["time"]);
+		$formdata['location'] = trim($_POST["location"]);
+		$formdata['organizer_name'] = trim($_POST["organizer_name"]);
+		$formdata['organizer_phone'] = trim($_POST["organizer_phone"]); 
+		$formdata['about'] = trim($_POST["about"]);
+		$formdata['other_details'] = trim($_POST["other_details"]);
+
+
+		$data = array(
+			':title'		=>	$formdata['title'],
+			':date'		=>	$formdata['date'],
+			':time'		=>	$formdata['time'],
+			':location'		=>	$formdata['location'],
+			':organizer_name'		=>	$formdata['organizer_name'],
+			':organizer_phone'		=>	$formdata['organizer_phone'],
+			':about'		=>	$formdata['about'],
+			':other_details'		=>	$formdata['other_details'],
+
+		);
+
+	$file = $_FILES['photo']['name'];
+	$file_loc = $_FILES['photo']['tmp_name'];
+	$folder = "../events/img-events/";
+	$new_file_name = strtolower($file);
+	$final_file = str_replace(' ', '-', $new_file_name);
+	$final_file = rand() . "-" . $final_file; //add impure
+	if(move_uploaded_file($file_loc, $folder . $final_file)) {
+		$image = $final_file;
+		$query = "
+		INSERT INTO pwc_db_events 
+		(title, date, time, location, organizer_name, organizer_phone, about, other_details, img) 
+		VALUES (:title, :date, :time, :location, :organizer_name, :organizer_phone, :about, :other_details, '".$image."')
+		";
+
+	}
+	
+
+
+
+	$statement = $connect->prepare($query);
+
+	$statement->execute($data);
+}
+
+?>
 
 
 	<?php

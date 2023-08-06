@@ -37,7 +37,7 @@ foreach($statement->fetchAll() as $row)
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="position-relative ">
-            <img class="img-fluid w-100 h-100" src="../<?php echo $row["photo"]; ?>" alt=""
+            <img class="img-fluid w-100 h-100" src="img-news/<?php echo $row["photo"]; ?>" alt=""
               style="object-fit: cover; border-radius: 8px;">
           </div>
         </div>
