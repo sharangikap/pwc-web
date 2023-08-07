@@ -126,7 +126,7 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
 						<div class="mb-3">
 							<label class="form-label">Featured Image</label>
 							<input type="file" class="form-control" name="photo" placeholder="Featured Image"
-								id="photo">
+								id="img">
 						</div>
 					</div>
 
