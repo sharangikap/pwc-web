@@ -71,9 +71,8 @@ if(!is_admin_login())
 
 						<td>
 							<a href="../events/event.php?id=<?php echo $row["id"]; ?>" target="_blank" class="btn btn-success btn-sm">View</a>
-							<a  href="events_edit.php"
-								class="btn btn-sm btn-primary">Edit</a>
-							<a onclick="deleteById(<?php echo($row['id']) ?>)" class="btn btn-danger btn-sm">Delete</a>
+							<a  href="events_edit.php?id=<?php echo $row["id"]; ?>" class="btn btn-sm btn-primary">Edit</a>
+							<a href="event_delete.php?id=<?php echo $row["id"]; ?>" class="btn btn-sm btn-danger">Delete</a>
 						</td>
 					</tr>
 
@@ -82,10 +81,7 @@ if(!is_admin_login())
 					<?php 
 					}
 		}	
-		else
-		{
-			$message = '<li>Wrong Email Address</li>';
-		}
+
 
 ?>
 

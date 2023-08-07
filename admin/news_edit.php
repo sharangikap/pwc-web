@@ -26,10 +26,10 @@ if(!is_admin_login())
 	</ol>
 	<div class="card mb-4">
 		<div class="card-header">
-			<i class="fas fa-user-plus"></i> Edit News
+			Edit News
 		</div>
 		<div class="card-body">
-			<form action="/new/Products-Add" method="POST" enctype="multipart/form-data">
+			<form action="" method="POST" enctype="multipart/form-data">
 
 				<div class="row">
 					<div class="col-md-6">

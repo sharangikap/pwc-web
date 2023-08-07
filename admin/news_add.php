@@ -30,7 +30,7 @@ if(!is_admin_login())
 
     <div class="card mb-4">
     	<div class="card-header">
-    		<i class="fas fa-user-plus"></i> Write New Article
+    		 Write New Article
         </div>
         <div class="card-body">
 		<form action="" method="POST" enctype="multipart/form-data">

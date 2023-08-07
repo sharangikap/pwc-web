@@ -28,7 +28,7 @@ if(!is_admin_login())
 
     <div class="card mb-4">
     	<div class="card-header">
-    		<i class="fas fa-user-plus"></i> Add New Event
+    		 Add New Event
         </div>
         <div class="card-body">
 		<form action="" method="POST" enctype="multipart/form-data">

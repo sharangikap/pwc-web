@@ -75,8 +75,7 @@ if(!is_admin_login())
 							<a href="news_edit.php?id=<?php echo $row["id"]; ?>"
 								class="btn btn-sm btn-primary">Edit</a>
 							
-							<input type="submit" class="btn btn-danger btn-sm" name="delete_news" value="Delete">
-
+							<a href="news_delete.php?id=<?php echo $row["id"]; ?>" class="btn btn-sm btn-danger">Delete</a>
 						</td>
 					</tr>
 
