@@ -67,7 +67,7 @@ foreach($statement->fetchAll() as $row)
       </div>
       <div class="col-md-4">
         <br><br>
-        <img src="img-events/<?php echo $row["img"]; ?>" alt="Event Image" class="img-fluid"
+        <img src="img-events/<?php echo $row["img"]; ?>" alt="<?php echo $row["img"]; ?>" class="img-fluid"
           style="object-fit: cover; border-radius: 8px; max-width: 100%; height: auto;">
 
       </div>

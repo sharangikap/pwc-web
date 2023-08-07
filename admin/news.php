@@ -45,7 +45,8 @@ include 'admin-header.php';
 			<table id="datatablesSimple">
 				<thead>
 					<tr>
-						<th>title</th>
+						<th>ID</th>
+						<th>Title</th>
 						<th>Date</th>
 						<th>Category</th>
 						<th>Action</th>
@@ -68,16 +69,14 @@ include 'admin-header.php';
 			{ 
 				?>
 					<tr>
+						<td><?php echo($row["id"]) ?></td>
 						<td><?php echo($row["title"]) ?></td>
 						<td><?php echo($row["date"]) ?></td>
 						<td><?php echo($row["category"]) ?></td>
 
 						<td>
-							<a href="../news/news.php?id=<?php echo $row["id"]; ?>" target="_blank"
-								class="btn btn-success btn-sm">View</a>
-							<a href="news_edit.php?id=<?php echo $row["id"]; ?>"
-								class="btn btn-sm btn-primary">Edit</a>
-							
+							<a href="../news/news.php?id=<?php echo $row["id"]; ?>" target="_blank" class="btn btn-success btn-sm">View</a>
+							<a href="news_edit.php?id=<?php echo $row["id"]; ?>" class="btn btn-sm btn-primary">Edit</a>
 							<a href="news_delete.php?id=<?php echo $row["id"]; ?>" class="btn btn-sm btn-danger">Delete</a>
 						</td>
 					</tr>

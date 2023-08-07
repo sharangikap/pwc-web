@@ -23,7 +23,7 @@ include 'admin-header.php';
 
 	<ol class="breadcrumb mt-4 mb-4 bg-light p-2 border">
 		<li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-        <li class="breadcrumb-item"><a href="Product.php">Event Management</a></li>
+        <li class="breadcrumb-item"><a href="events.php">Events</a></li>
         <li class="breadcrumb-item active">Add New Event</li>
     </ol>
 

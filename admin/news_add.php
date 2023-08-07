@@ -25,8 +25,8 @@ include 'admin-header.php';
 
 	<ol class="breadcrumb mt-4 mb-4 bg-light p-2 border">
 		<li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-        <li class="breadcrumb-item"><a href="Product.php">News Management</a></li>
-        <li class="breadcrumb-item active">Write New Article</li>
+        <li class="breadcrumb-item"><a href="news.php">News</a></li>
+        <li class="breadcrumb-item active">Write New News</li>
     </ol>
 
 
@@ -48,7 +48,7 @@ include 'admin-header.php';
 					<div class="col-md-6">
         				<div class="mb-3">
         					<label class="form-label">Description</label>
-        					<input type="text" name="content" id="content" class="form-control" />
+        					<input type="text" name="content" id="content" class="form-control"/>
         				</div>
         			</div>
         			<div class="col-md-6">
