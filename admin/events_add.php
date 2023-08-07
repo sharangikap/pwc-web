@@ -6,13 +6,14 @@ include '../database_connection.php';
 
 include '../functions.php';
 
-include 'admin-header.php';
+
 
 if(!is_admin_login())
 {
 	header('location:../admin_login.php');
 	exit();
 }
+include 'admin-header.php';
 
 ?>
 
