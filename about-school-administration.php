@@ -4,7 +4,7 @@
 
 <head>
 <?php
-    $page = 'history';
+    $page = 'about';
 ?>
     <?php include 'header.php'; ?>
 </head>

@@ -90,32 +90,32 @@
             <div class="owl-carousel testimonial-carousel position-relative">
 
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/img-about/about-Kusal-mendis-pwc.jpg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Kusal Mendis</h5>
                     <p>International Cricket Player (2015–present)</p>
 
                 </div>
 
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/img-about/about-Lahiru-Thirimanne-pwc.jpg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Lahiru Thirimanne</h5>
                     <p>International Cricket Player (2010–present)</p>
                 </div>
 
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/img-about/about-Shehan-Jayasooriya-pwc.jpeg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Shehan Jayasooriya</h5>
                     <p> International Cricket Player (2015–present)</p>
                 </div>
 
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/img-about/about-Jagath-Chamila-pwc.jpg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Jagath Chamila</h5>
                     <p>Actor</p>
                 </div>
 
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/img-about/about-Kumara-Thirimadura-pwc.jpg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Kumara Thirimadura</h5>
                     <p>Actor</p>
                 </div>
@@ -282,7 +282,7 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
+                            <h5 class="mb-0">Hasitha Kesara weththimuni</h5>
                             <small>Principal</small>
                         </div>
                     </div>
@@ -290,7 +290,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
+                            <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
@@ -300,15 +300,15 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
+                            <h5 class="mb-0">H. E. Priyanga</h5>
+                            <small>Vice Principal</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
+                            <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
@@ -318,8 +318,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
+                            <h5 class="mb-0">Ven. Mathale Sumangala Thero</h5>
+                            <small>Assistant Principal</small>
                         </div>
                     </div>
                 </div>
@@ -337,8 +337,8 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
+                            <h5 class="mb-0">K. Bhagya Sandamali</h5>
+                            <small>Assistant Principal</small>
                         </div>
                     </div>
                 </div>
