@@ -6,8 +6,8 @@
     <title>Prince of Wales' College, Moratuwa</title>
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="prince of wales college" name="keywords">
+    <meta content="prince of wales college, moratuwa" name="description">
 
     <!-- Favicon -->
     <link href="logo-pwc.png" rel="icon">

@@ -99,7 +99,7 @@
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3" src="img/img-about/about-Lahiru-Thirimanne-pwc.jpg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Lahiru Thirimanne</h5>
-                    <p>International Cricket Player (2010–present)</p>
+                    <p>International Cricket Player (2010–2023)</p>
                 </div>
 
                 <div class="testimonial-item text-center">

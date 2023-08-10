@@ -19,6 +19,16 @@ foreach($statement->fetchAll() as $row)
   <?php include 'header.php'; ?>
 
 
+  <meta property="og:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa"/>
+	<meta property="og:image" content="img-news/<?php echo $row["photo"]; ?>"/>
+	<meta property="og:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>"/>
+	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
+	<meta property="og:description" content="<?php echo $row["title"]; ?>"/>
+	<meta name="twitter:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa" />
+	<meta name="twitter:image" content="img-news/<?php echo $row["photo"]; ?>" />
+	<meta name="twitter:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>" />
+
+
 </head>
 
 <body>
