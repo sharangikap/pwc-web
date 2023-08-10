@@ -282,7 +282,7 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara weththimuni</h5>
+                            <h5 class="mb-0">Hasitha Kesara Weththimuni</h5>
                             <small>Principal</small>
                         </div>
                     </div>
