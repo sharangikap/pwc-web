@@ -64,7 +64,7 @@
                                 style="object-fit: cover;">
                         </div>
                     </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <h6 class="section-title bg-white text-start text-primary pe-3">TEAM SPORT</h6>
                         <h1 class="mb-4">CRICKET</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
@@ -80,8 +80,7 @@
                     </div>
 
 
-
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <h6 class="section-title bg-white text-start text-primary pe-3">TEAM SPORT</h6>
                         <h1 class="mb-4">VOLLEYBALL</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been

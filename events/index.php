@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
 <?php
 include '../database_connection.php';
 include 'header.php';
 
 ?>
+
 </head>
 <body>
 

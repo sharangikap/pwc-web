@@ -50,6 +50,30 @@
 	<meta name="twitter:image" content="../img/header-main-pwc.jpg" />
 	<meta name="twitter:url" content="https://princeofwales.edu.lk/" />
 
+    <style>
+        ::selection {
+            background-color: #800000;
+            color: white;
+        }
+
+        .pulse:hover {
+      animation: pulse-animation 1s;
+    }
+
+    @keyframes pulse-animation {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    </style>
+
 </head>
 
 <body>
@@ -68,21 +92,21 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="../index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
             <img src="../logo-pwc.png" width="45px">
-            <h6 class="m-0 text-primary">&nbsp; &nbsp; &nbsp;PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; &nbsp;MORATUWA
-            </h6>
+<h5 class="m-0 text-primary">&nbsp; &nbsp; PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; MORATUWA
+            </h5>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="../index.php" class="nav-item nav-link">Home</a>
-                <a href="../news/" class="nav-item nav-link">News</a>
-                <a href="index.php" class="nav-item nav-link active">events</a>
-                <a href="../gallery.php" class="nav-item nav-link">Gallery</a>
+                <a href="../index.php" class="nav-item nav-link nav-link pulse">Home</a>
+                <a href="../news/" class="nav-item nav-link nav-link pulse">News</a>
+                <a href="index.php" class="nav-item nav-link active nav-link pulse">events</a>
+                <a href="../gallery.php" class="nav-item nav-link nav-link pulse">Gallery</a>
 
                 <div class="dropdown">
-                    <a class="nav-item nav-link dropdown-toggle" href="../sports.php" role="button" id="sportsDropdown"
+                    <a class="nav-item nav-link dropdown-toggle nav-link pulse" href="../sports.php" role="button" id="sportsDropdown"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Sports
                     </a>
@@ -100,7 +124,7 @@
                 </div>
 
                 <div class="dropdown">
-                    <a class="nav-item nav-link dropdown-toggle" href="../clubs.php" role="button" id="clubsDropdown"
+                    <a class="nav-item nav-link dropdown-toggle nav-link pulse" href="../clubs.php" role="button" id="clubsDropdown"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         clubs
                     </a>
@@ -119,9 +143,9 @@
                     </div>
                 </div>
 
-                <a href="../history.php" class="nav-item nav-link">History</a>
-                <a href="../about.php" class="nav-item nav-link">About</a>
-                <a href="../contact.php" class="nav-item nav-link">Contact</a>
+                <a href="../history.php" class="nav-item nav-link nav-link pulse">History</a>
+                <a href="../about.php" class="nav-item nav-link nav-link pulse">About</a>
+                <a href="../contact.php" class="nav-item nav-link nav-link pulse">Contact</a>
 
     </nav>
     <!-- Navbar End -->

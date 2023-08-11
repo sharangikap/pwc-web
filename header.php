@@ -58,12 +58,22 @@
             color: white;
         }
 
-        /*
-@font-face {
-  font-family: 'OldEnglish'; 
-  src: url('OldEnglish.ttf') format('truetype')
-}
-*/
+        .pulse:hover {
+      animation: pulse-animation 1s;
+    }
+
+    @keyframes pulse-animation {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
     </style>
 
 
@@ -83,24 +93,24 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
+        <a href="index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4" >
             <img src="logo-pwc.png" width="45px">
-            <h6 class="m-0 text-primary">&nbsp; &nbsp; &nbsp;PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; &nbsp;MORATUWA
-            </h6>
+            <h5 class="m-0 text-primary">&nbsp; &nbsp; PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; MORATUWA
+            </h5>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.php" class="nav-item nav-link <?php if ($page === 'home') echo 'active'; ?>">Home</a>
-                <a href="news/" class="nav-item nav-link">News</a>
-                <a href="events/" class="nav-item nav-link">events</a>
+                <a href="index.php" class="nav-item nav-link <?php if ($page === 'home') echo 'active'; ?> nav-link pulse">Home</a>
+                <a href="news/" class="nav-item nav-link nav-link pulse">News</a>
+                <a href="events/" class="nav-item nav-link nav-link pulse">events</a>
                 <a href="gallery.php"
-                    class="nav-item nav-link <?php if ($page === 'gallery') echo 'active'; ?>">Gallery</a>
+                    class="nav-item nav-link <?php if ($page === 'gallery') echo 'active'; ?> nav-link pulse">Gallery</a>
 
                 <div class="dropdown">
-                    <a class="nav-item nav-link <?php if ($page === 'sports') echo 'active'; ?> dropdown-toggle"
+                    <a class="nav-item nav-link <?php if ($page === 'sports') echo 'active'; ?> nav-link pulse dropdown-toggle"
                         href="sports.php" role="button" id="sportsDropdown" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">
                         Sports
@@ -119,7 +129,7 @@
                 </div>
 
                 <div class="dropdown">
-                    <a class="nav-item nav-link <?php if ($page === 'clubs') echo 'active'; ?> dropdown-toggle"
+                    <a class="nav-item nav-link <?php if ($page === 'clubs') echo 'active'; ?> nav-link pulse dropdown-toggle"
                         href="clubs.php" role="button" id="clubsDropdown" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">
                         clubs
@@ -141,10 +151,10 @@
                 </div>
 
                 <a href="history.php"
-                    class="nav-item nav-link <?php if ($page === 'history') echo 'active'; ?>">History</a>
-                <a href="about.php" class="nav-item nav-link <?php if ($page === 'about') echo 'active'; ?>">About</a>
+                    class="nav-item nav-link <?php if ($page === 'history') echo 'active'; ?> nav-link pulse">History</a>
+                <a href="about.php" class="nav-item nav-link <?php if ($page === 'about') echo 'active'; ?> nav-link pulse">About</a>
                 <a href="contact.php"
-                    class="nav-item nav-link <?php if ($page === 'contact') echo 'active'; ?>">Contact</a>
+                    class="nav-item nav-link <?php if ($page === 'contact') echo 'active'; ?> nav-link pulse">Contact</a>
 
     </nav>
     <!-- Navbar End -->
