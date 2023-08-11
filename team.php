@@ -29,7 +29,7 @@
                            <i class="fa fa-arrow-right text-primary me-2"></i>Developer: <b>Nelitha Vindinu Priyawansha</b></p>
                            <i class="fa fa-arrow-right text-primary me-2"></i>Photographers: <b>Tharul Bandara, Dasindu Nirmal, Kavinu Pasandul</b></p>
                            <i class="fa fa-arrow-right text-primary me-2"></i>Editor: <b>Nimsara Sankalpa</b></p>
-                           <i class="fa fa-arrow-right text-primary me-2"></i>Creative Writers: <b></b></p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i>Creative Writers: Nadun Nethsara<b></b></p>
                            <i class="fa fa-arrow-right text-primary me-2"></i>Media Partner: <b>Cambrians' Media & Broadcasting Unit</b></p>
                            <i class="fa fa-arrow-right text-primary me-2"></i>Special Thanks: <b>Mr. Chamara Jeewantha, Mrs. Sharangika Perera</b></p>
 
