@@ -6,7 +6,10 @@
     <?php
     $page = 'clubs';
 ?>
-	<meta property="og:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa"/>
+
+    <?php include 'header.php'; ?>
+    
+    <meta property="og:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa"/>
 	<meta property="og:image" content="../img/header-main-pwc.jpg"/>
 	<meta property="og:url" content="https://princeofwales.edu.lk/clubs.php"/>
 	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
@@ -14,7 +17,6 @@
 	<meta name="twitter:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
 	<meta name="twitter:image" content="../img/header-main-pwc.jpg" />
 	<meta name="twitter:url" content="https://princeofwales.edu.lk/clubs.php" />
-    <?php include 'header.php'; ?>
 </head>
 
 <body>

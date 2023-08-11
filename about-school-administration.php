@@ -6,6 +6,9 @@
 <?php
     $page = 'about';
 ?>
+
+<?php include 'header.php'; ?>
+
     <meta property="og:title" content="School Administration │ Prince of Wales' College, Moratuwa"/>
 	<meta property="og:image" content="../img/header-main-pwc.jpg"/>
 	<meta property="og:url" content="https://princeofwales.edu.lk/about-school-administration.php"/>
@@ -15,7 +18,7 @@
 	<meta name="twitter:image" content="../img/header-main-pwc.jpg" />
 	<meta name="twitter:url" content="https://princeofwales.edu.lk/about-school-administration.php" />
 
-    <?php include 'header.php'; ?>
+    
 </head>
 
 <body>

@@ -6,7 +6,7 @@
 <?php
     $page = 'history';
 ?>
-
+ <?php include 'header.php'; ?>
     <meta property="og:title" content="History │ Prince of Wales' College, Moratuwa"/>
 	<meta property="og:image" content="../img/header-main-pwc.jpg"/>
 	<meta property="og:url" content="https://princeofwales.edu.lk/history.php"/>
@@ -16,7 +16,7 @@
 	<meta name="twitter:image" content="../img/header-main-pwc.jpg" />
 	<meta name="twitter:url" content="https://princeofwales.edu.lk/history.php" />
 
-    <?php include 'header.php'; ?>
+   
 </head>
 
 <body>
