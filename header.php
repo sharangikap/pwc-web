@@ -109,14 +109,11 @@
                 <a href="gallery.php"
                     class="nav-item nav-link <?php if ($page === 'gallery') echo 'active'; ?> nav-link pulse">Gallery</a>
 
-                <div class="dropdown">
-                    <a class="nav-item nav-link <?php if ($page === 'sports') echo 'active'; ?> nav-link pulse dropdown-toggle"
-                        href="sports.php" role="button" id="sportsDropdown" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        Sports
-                    </a>
+                
 
-                    <div class="dropdown-menu" aria-labelledby="sportsDropdown">
+                <div class="nav-item dropdown">
+                    <a href="sports.php" class="nav-link dropdown-toggle <?php if ($page === 'sports') echo 'active'; ?> nav-link pulse" >Sports</a>
+                    <div class="dropdown-menu fade-down m-0">
                         <a class="dropdown-item" href="sports.php#team-sports"><b>TEAM SPORTS</b></a>
                         <a class="dropdown-item" href="sports.php#individual-sports"><b>INDIVIDUAL SPORTS</b></a>
                         <a class="dropdown-item" href="sports.php#water-sports"><b>WATER SPORTS</b></a>
@@ -124,19 +121,13 @@
                         <a class="dropdown-item" href="sports.php#racquet-sports"><b>RACQUET SPORTS</b></a>
                         <a class="dropdown-item" href="sports.php#mind-sports"><b>MIND SPORTS</b></a>
                         <a class="dropdown-item" href="sports.php#target-sports"><b>TARGET SPORTS</b></a>
-
                     </div>
                 </div>
 
-                <div class="dropdown">
-                    <a class="nav-item nav-link <?php if ($page === 'clubs') echo 'active'; ?> nav-link pulse dropdown-toggle"
-                        href="clubs.php" role="button" id="clubsDropdown" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        clubs
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="clubsDropdown">
-                        <a class="dropdown-item" href="clubs.php#media-clubs"><b>MEDIA CLUBS</b></a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle <?php if ($page === 'clubs') echo 'active'; ?> nav-link pulse" >Clubs</a>
+                    <div class="dropdown-menu fade-down m-0">
+                    <a class="dropdown-item" href="clubs.php#media-clubs"><b>MEDIA CLUBS</b></a>
                         <a class="dropdown-item" href="clubs.php#tech-clubs"><b>TECHNOLOGICAL CLUBS</b></a>
                         <a class="dropdown-item" href="clubs.php#resprentative-clubs"><b>REPRESENTATIVE CLUBS</b></a>
                         <a class="dropdown-item" href="clubs.php#service-clubs"><b>COMMUNITY SERVICE CLUBS</b></a>
@@ -146,15 +137,16 @@
                         <a class="dropdown-item" href="clubs.php#aesthetic-clubs"><b>AESTHETIC CLUBS</b></a>
                         <a class="dropdown-item" href="clubs.php#hobby-clubs"><b>HOBBY CLUBS</b></a>
                         <a class="dropdown-item" href="clubs.php#religious-clubs"><b>RELIGIOUS CLUBS</b></a>
-
                     </div>
                 </div>
+
+                
 
                 <a href="history.php"
                     class="nav-item nav-link <?php if ($page === 'history') echo 'active'; ?> nav-link pulse">History</a>
                 <a href="about.php" class="nav-item nav-link <?php if ($page === 'about') echo 'active'; ?> nav-link pulse">About</a>
                 <a href="contact.php"
                     class="nav-item nav-link <?php if ($page === 'contact') echo 'active'; ?> nav-link pulse">Contact</a>
-
+</div>
     </nav>
     <!-- Navbar End -->

@@ -76,7 +76,7 @@ if($statement->rowCount() > 0)
                             </a>
                             <div class="desc">
                                 <h3><a href="news/news.php?id=<?php echo $row["id"]; ?>"><?php echo $row["title"]; ?></a></h3>
-                                
+                                <p><?php echo $row["excerpt"]; ?></p>
                             </div>
                         </article>
                     </div>
