@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+<meta name="google-site-verification" content="jYZeftnqpxLLjE_8cKEhxIWBAB0ZD5EGWEF2z-3maLU" />
+
     <?php
     $page = 'home';
 ?>
