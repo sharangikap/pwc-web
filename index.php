@@ -426,7 +426,8 @@ if($statement->rowCount() > 0)
                     <h5 class=" text-white animated slideInDown">Lorem ipsum dolor, sit amet consectetur adipisicing
                         elit. Cum architecto fugit recusandae, possimus id eaque modi voluptatum temporibus. Quia nemo
                         deserunt non, blanditiis nam eos dolorum alias voluptates possimus quod.</h5>
-                    <a class=" text-white animated slideInDown" href="history.php"><u>Explore College History</u></a>
+                        <center><a class="btn btn-primary py-3 px-4 mt-2 wow zoomIn" href="history.php"
+                        style="border-radius=25px" data-wow-delay="0.7s">Explore College History</a></center>
                 </div>
             </div>
         </div>

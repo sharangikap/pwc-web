@@ -21,12 +21,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <p class="mb-4">This website is the intellectual property of Prince of Wales' College, fully protected under copyright law. Any unauthorized use or reproduction is prohibited. The website's development was carried out by the dedicated team at Cambrians' ICT Society. All rights reserved</p>
+                    <p class="mb-4">This website is the intellectual property of Prince of Wales' College, fully protected under copyright law. Any unauthorized use or reproduction is prohibited. The website's development was carried out by the dedicated team at Cambrians' ICT Society. All rights reserved.</p>
                     <div class="row gy-2 gx-4 mb-4">
 
 
                         <div class="col-sm-12">
-                           <i class="fa fa-arrow-right text-primary me-2"></i>Developer: <b>Nelitha Priyawansha</b></p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i>Developer: <b>Nelitha Vindinu Priyawansha</b></p>
                            <i class="fa fa-arrow-right text-primary me-2"></i>Photographers: <b>Tharul Bandara, Dasindu Nirmal, Kavinu Pasandul</b></p>
                            <i class="fa fa-arrow-right text-primary me-2"></i>Editor: <b>Nimsara Sankalpa</b></p>
                            <i class="fa fa-arrow-right text-primary me-2"></i>Creative Writers: <b></b></p>
