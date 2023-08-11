@@ -125,7 +125,7 @@
                 </div>
 
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle <?php if ($page === 'clubs') echo 'active'; ?> nav-link pulse" >Clubs</a>
+                    <a href="clubs.php" class="nav-link dropdown-toggle <?php if ($page === 'clubs') echo 'active'; ?> nav-link pulse" >Clubs</a>
                     <div class="dropdown-menu fade-down m-0">
                     <a class="dropdown-item" href="clubs.php#media-clubs"><b>MEDIA CLUBS</b></a>
                         <a class="dropdown-item" href="clubs.php#tech-clubs"><b>TECHNOLOGICAL CLUBS</b></a>
