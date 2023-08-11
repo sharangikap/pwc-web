@@ -26,8 +26,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
 	<meta name="keywords" content="prince of wales college, prince of wales college moratuwa, prince of wales college moratuwa website, prince of wales college moratuwa contact number, prince of wales college moratuwa logo, prince of wales college moratuwa address, prince of wales college moratuwa big match, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
 	<meta name="author" content="" />
 
-	<meta property="og:title" content="Prince of Wales' College, Moratuwa"/>
+	<meta property="og:title" content="Events │ Prince of Wales' College, Moratuwa"/>
 	<meta property="og:image" content="../img/header-main-pwc.jpg"/>
 	<meta property="og:url" content="https://princeofwales.edu.lk/"/>
 	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
