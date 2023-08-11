@@ -104,8 +104,8 @@ if(isset($_POST["add_news"]))
 		$image = $final_file;
 		$query = "
 		INSERT INTO pwc_db_news 
-		(title, content, category, photo, date) 
-		VALUES (:title, :content, :category, '".$image."', CURDATE())
+		(title, content, category, photo, date, excerpt) 
+		VALUES (:title, :content, :category, '".$image."', CURDATE(), :content)
 		";
 
 	}
