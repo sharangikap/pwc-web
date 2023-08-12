@@ -147,7 +147,7 @@
                     <br>
                     <h6 class="section-title bg-white text-start text-primary pe-3">OUR</h6>
                     <h1 class="mb-4">MISSION</h1>
-                    <p class="mb-4">To facilitate students to reach excelle</p>
+                    <p class="mb-4">Our mission is to effect quality teaching and learning environment where Cambrians would move forth step by step in the competency based pedagogical process which is founded on national goals and on the theme, “I serve. I value your services, developing their calibre for the well-being of the community.”</p>
                </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
@@ -285,13 +285,6 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="img/principal-pwc.webp" alt="">
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Hasitha Kesara Weththimuni</h5>
                             <small>Principal</small>
@@ -302,13 +295,6 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">H. E. Priyanga</h5>
@@ -321,13 +307,6 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Ven. Mathale Sumangala Thero</h5>
                             <small>Assistant Principal</small>
@@ -339,13 +318,6 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">K. Bhagya Sandamali</h5>

@@ -222,8 +222,10 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta tempora ex vitae veritatis perferendis laborum alias at quaerat pariatur ducimus, cum praesentium expedita temporibus officiis odio error deserunt voluptatibus blanditiis?</p>
-                </div>
+                <p class="mb-4">It is time to strengthen the Old Boys Association, let us all dedicate ourselves to make this a reality. The past is history and remember the words of the Historian Toynbee who puts it very well “the past is not a comfortable bed to sleep on but a spring board for future actions”. <br> <br> Get enrolled now, be a part of the legion, which is the backbone of our Alma Mater </p>
+                <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="http://pwcoba.lk/member-registration/" style="border-radius=25px"
+                    data-wow-delay="0.7s">Enroll Now</a>    
+            </div>
             </div>
             
         </div>
