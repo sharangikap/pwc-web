@@ -96,7 +96,7 @@ if(isset($_POST["add_news"]))
 
 	$file = $_FILES['photo']['name'];
 	$file_loc = $_FILES['photo']['tmp_name'];
-	$folder = "../news/img-news/";
+	$folder = "../content/img/img-news";
 	$new_file_name = strtolower($file);
 	$final_file = str_replace(' ', '-', $new_file_name);
 	$final_file = rand() . "-" . $final_file; 

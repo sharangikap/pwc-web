@@ -8,12 +8,12 @@
 ?>
 <?php include 'header.php'; ?>
     <meta property="og:title" content="Sports │ Prince of Wales' College, Moratuwa"/>
-	<meta property="og:image" content="../img/header-main-pwc.jpg"/>
+	<meta property="og:image" content="content/img/img-sports/"/>
 	<meta property="og:url" content="https://princeofwales.edu.lk/sports.php"/>
 	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
 	<meta property="og:description" content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…."/>
 	<meta name="twitter:title" content="Prince of Wales' College, Moratuwa" />
-	<meta name="twitter:image" content="../img/header-main-pwc.jpg" />
+	<meta name="twitter:image" content="content/img/img-sports/" />
 	<meta name="twitter:url" content="https://princeofwales.edu.lk/sports.php" />
 
     
@@ -70,7 +70,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -106,14 +106,14 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -157,7 +157,7 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -217,7 +217,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -255,7 +255,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -292,7 +292,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -328,7 +328,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -338,7 +338,7 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -373,7 +373,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -398,7 +398,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -434,7 +434,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -470,7 +470,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -495,7 +495,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>

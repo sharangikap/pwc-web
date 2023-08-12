@@ -8,12 +8,12 @@
 ?>
  <?php include 'header.php'; ?>
     <meta property="og:title" content="History │ Prince of Wales' College, Moratuwa"/>
-	<meta property="og:image" content="../img/header-main-pwc.jpg"/>
+	<meta property="og:image" content="content/img/img-history/"/>
 	<meta property="og:url" content="https://princeofwales.edu.lk/history.php"/>
 	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
 	<meta property="og:description" content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…."/>
 	<meta name="twitter:title" content="History │ Prince of Wales' College, Moratuwa" />
-	<meta name="twitter:image" content="../img/header-main-pwc.jpg" />
+	<meta name="twitter:image" content="content/img/img-history/" />
 	<meta name="twitter:url" content="https://princeofwales.edu.lk/history.php" />
 
    
@@ -42,7 +42,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/founder-pwc.webp" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-history/founder-pwc.webp" alt=""
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/img-history/dimuthu-deranagoda-pwc.webp" alt="Dimuthu Deranagoda">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/dimuthu-deranagoda-former-principals-pwc.webp" alt="Dimuthu Deranagoda">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Dimuthu Deranagoda</h5>
@@ -87,7 +87,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/img-history/kusala-fernando-pwc.webp" alt="Kusala Fernando">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/kusala-fernando-former-principals-pwc.webp" alt="Kusala Fernando">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Kusala Fernando</h5>
@@ -99,7 +99,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/img-history/unknown.webp" alt="J. W. S. Siriwardane">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/unknown.webp" alt="J. W. S. Siriwardane">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">J. W. S. Siriwardane</h5>
@@ -111,7 +111,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/img-history/unknown.webp" alt="Sampath Weragoda">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/unknown.webp" alt="Sampath Weragoda">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Sampath Weragoda</h5>
@@ -166,78 +166,47 @@
             <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (11).webp" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (9).webp" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (3).webp" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (4).webp" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (5).webp" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (6).webp" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (1).webp" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (2).webp" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (7).webp" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (8).webp" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (10).webp" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (12).webp" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (13).webp" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/img-history/museum-archives-pwc (14).webp" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>

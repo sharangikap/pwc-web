@@ -18,13 +18,13 @@
 <div class="container-fluid p-0 mb-5">
     <div class="owl-carousel header-carousel position-relative">
         <div class="owl-carousel-item position-relative">
-            <img class="img-fluid" src="img/header-main-pwc.jpg" alt="">
+            <img class="img-fluid" src="content/img/img-home/header-main-pwc.jpg" alt="Front View of Prince of Wales College">
             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                 style="background: rgba(0, 0, 0, 0.356);">
                 <div class="container">
                     <div class="row justify-content-start">
                         <div class="col-sm-9 col-lg-8">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To</h5><br>
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To</h5>
                             <h1 class="display-3 text-white text-uppercase animated slideInDown">Prince of Wales'
                                 College, <br> Moratuwa</h1>
                         </div>
@@ -32,9 +32,9 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
+
 <!-- Carousel End -->
 
 
