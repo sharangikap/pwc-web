@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
        <!-- Favicon -->
-       <link href="logo-pwc.png" rel="icon">
+    <link href="logo-pwc.png" rel="icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
