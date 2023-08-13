@@ -69,7 +69,11 @@
                 <div class="service-item text-center pt-3">
                     <div class="p-4">
                         <i class="fa fa-3x fa-award text-primary mb-4"></i>
-                        <h1 class="mb-3">147</h1>
+                        <h1 class="mb-3">
+                        <?php $currentYear = date("Y");
+                        $result = $currentYear - 1876;
+                        echo $result; ?>
+                        </h1>
                         <h5 class="mb-3">Years of Excellence</h5>
                     </div>
                 </div>
@@ -87,7 +91,7 @@
                 <div class="service-item text-center pt-3">
                     <div class="p-4">
                         <i class="fa fa-3x fa-child text-primary mb-4"></i>
-                        <h1 class="mb-3">80+</h1>
+                        <h1 class="mb-3">50+</h1>
                         <h5 class="mb-3">Clubs & Societies</h5>
                     </div>
                 </div>
@@ -96,7 +100,7 @@
                 <div class="service-item text-center pt-3">
                     <div class="p-4">
                         <i class="fa fa-3x fa-running text-primary mb-4"></i>
-                        <h1 class="mb-3">50+</h1>
+                        <h1 class="mb-3">25+</h1>
                         <h5 class="mb-3">Sports</h5>
                     </div>
                 </div>
