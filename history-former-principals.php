@@ -22,19 +22,27 @@
 
 <body>
 
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 former-principals-page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">FORMER PRINCIPALS</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">former</h6>
-                <h1 class="mb-5">PRINCIPALS</h1>
-            </div>
 
             <div class="row g-4">
 
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/img-history/dimuthu-deranagoda-pwc.webp" alt="Dimuthu Deranagoda">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/dimuthu-deranagoda-former-principals-pwc.webp" alt="Dimuthu Deranagoda">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Dimuthu Deranagoda</h5>
@@ -46,7 +54,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/img-history/kusala-fernando-pwc.webp" alt="Kusala Fernando">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/kusala-fernando-former-principals-pwc.webp" alt="Kusala Fernando">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Kusala Fernando</h5>
@@ -58,7 +66,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/img-history/unknown.webp" alt="J. W. S. Siriwardane">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/jws-sririwardane-former-principal-pwc.webp" alt="J. W. S. Siriwardane">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">J. W. S. Siriwardane</h5>
@@ -70,7 +78,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/img-history/unknown.webp" alt="Sampath Weragoda">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/unknown.webp" alt="Sampath Weragoda">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Sampath Weragoda</h5>

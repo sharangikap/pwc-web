@@ -110,7 +110,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="../index.php" class="nav-item nav-link <?php if ($page === 'home') echo 'active'; ?> nav-link pulse">Home</a>
+                <a href="index.php" class="nav-item nav-link <?php if ($page === 'home') echo 'active'; ?> nav-link pulse">Home</a>
                 <a href="news/" class="nav-item nav-link nav-link pulse <?php if ($page === 'news') echo 'active'; ?>">News</a>
                 <a href="events/" class="nav-item nav-link nav-link pulse <?php if ($page === 'events') echo 'active'; ?>">events</a>
                 <a href="gallery.php"

@@ -99,7 +99,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/unknown.webp" alt="J. W. S. Siriwardane">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/jws-sririwardane-former-principal-pwc.webp" alt="J. W. S. Siriwardane">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">J. W. S. Siriwardane</h5>
