@@ -21,7 +21,7 @@
 
     <style>
         .about-page-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-about/header-img.png);
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-about/header-img.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -170,7 +170,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3">OUR</h6>
                     <h1 class="mb-4">VISION</h1>
-                    <p class="mb-4">To be the best school in Sri Lanka by 2025</p>
+                    <p class="mb-4">To Make the School with the Best Students in Sri Lanka by 2025</p>
                     <br>
                     <h6 class="section-title bg-white text-start text-primary pe-3">OUR</h6>
                     <h1 class="mb-4">MISSION</h1>
@@ -210,12 +210,13 @@
                         believe this would aid us to bridge the gap between the school and the parents, past pupils,
                         past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
                         evergreen Cambrian spirit high amongst us all!</p>
+                    <br><br><br><br>
                     <audio controls>
                         <source src="content/audio/Sinhala-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/sinhala-anthem-pwc.webp" alt="Sinhala Anthem PWC"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -234,7 +235,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/english-anthem-pwc.webp" alt="English Anthem PWC"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -249,6 +250,7 @@
                         believe this would aid us to bridge the gap between the school and the parents, past pupils,
                         past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
                         evergreen Cambrian spirit high amongst us all!</p>
+                        <br><br><br><br>
                     <audio controls>
                         <source src="content/audio/English-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
                 </div>
@@ -268,7 +270,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="" alt=""
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -298,7 +300,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/house-system-pwc.webp" alt=""
                             style="object-fit: cover;">
                     </div>
                 </div>
