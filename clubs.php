@@ -18,11 +18,25 @@
     <meta name="twitter:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
     <meta name="twitter:image" content="../img/header-main-pwc.jpg" />
     <meta name="twitter:url" content="https://princeofwales.edu.lk/clubs.php" />
+
+    <style>
+        .clubs-page-header {
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../img/header-main-pwc.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .clubs-page-header-inner {
+            background: rgba(15, 23, 43, .7);
+        }
+    </style>
+    
 </head>
 
 <body>
     <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 societies-page-header">
+    <div class="container-fluid bg-primary py-5 mb-5 clubs-page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">

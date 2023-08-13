@@ -8,6 +8,19 @@ include 'header.php';
 
 ?>
 
+<style>
+    .event-page-header {
+    background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../img/header-main-pwc.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.event-page-header-inner {
+    background: rgba(15, 23, 43, .7);
+}
+</style>
+
 </head>
 <body>
 

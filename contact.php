@@ -2,26 +2,43 @@
 <html lang="en">
 
 <head>
-<head>
-    <title>Contact │ Prince of Wales' College, Moratuwa</title>
-    <?php
+
+    <head>
+        <title>Contact │ Prince of Wales' College, Moratuwa</title>
+        <?php
     $page = 'contact';
 ?>
-	<meta property="og:title" content="Contact │ Prince of Wales' College, Moratuwa"/>
-	<meta property="og:image" content="../img/header-main-pwc.jpg"/>
-	<meta property="og:url" content="https://princeofwales.edu.lk/"/>
-	<meta property="og:site_name" content="Contact │ Prince of Wales' College, Moratuwa"/>
-	<meta property="og:description" content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…."/>
-	<meta name="twitter:title" content="Prince of Wales' College, Moratuwa" />
-	<meta name="twitter:image" content="../img/header-main-pwc.jpg" />
-	<meta name="twitter:url" content="https://princeofwales.edu.lk/contact.php" />
+        <meta property="og:title" content="Contact │ Prince of Wales' College, Moratuwa" />
+        <meta property="og:image" content="../img/header-main-pwc.jpg" />
+        <meta property="og:url" content="https://princeofwales.edu.lk/" />
+        <meta property="og:site_name" content="Contact │ Prince of Wales' College, Moratuwa" />
+        <meta property="og:description"
+            content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
+        <meta name="twitter:title" content="Prince of Wales' College, Moratuwa" />
+        <meta name="twitter:image" content="../img/header-main-pwc.jpg" />
+        <meta name="twitter:url" content="https://princeofwales.edu.lk/contact.php" />
 
-    <?php include 'header.php'; ?>
-</head>
+        <?php include 'header.php'; ?>
 
 
-         <!-- Header Start -->
-         <div class="container-fluid bg-primary py-5 mb-5 contact-page-header">
+        <style>
+            .contact-page-header {
+                background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../img/header-main-pwc.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .contact-page-header-inner {
+                background: rgba(15, 23, 43, .7);
+            }
+        </style>
+
+    </head>
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 contact-page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
@@ -46,7 +63,8 @@
                     <p class="mb-4">Wish to enquire about admissions or anything else?
                         You can walk in during office hours, give us a call or simply submit the form here.</p>
                     <div class="d-flex align-items-center mb-3">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ms-3">
@@ -55,7 +73,8 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-map-marker-alt text-white"></i>
                         </div>
                         <div class="ms-3">
@@ -64,7 +83,8 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-envelope-open text-white"></i>
                         </div>
                         <div class="ms-3">
@@ -90,7 +110,8 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                        required>
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
@@ -102,20 +123,22 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px" required></textarea>
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 150px" required></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit" value="submit">Send Message</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit" value="submit">Send
+                                    Message</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            
+
         </div>
-        
+
     </div>
     <!-- Contact End -->
 
@@ -132,7 +155,8 @@
                     <p class="mb-4">Wish to enquire about admissions or anything else?
                         You can walk in during office hours, give us a call or simply submit the form here.</p>
                     <div class="d-flex align-items-center mb-3">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ms-3">
@@ -141,17 +165,19 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-clock text-white"></i>
                         </div>
                         <div class="ms-3">
                             <h5 class="text-primary">Hours</h5>
-                            <p class="mb-0">Weekdays:	7:30 AM–1:30 PM<br>
-                                Saturday & Sunday:	7:30 AM–1:30 PM</p>
+                            <p class="mb-0">Weekdays: 7:30 AM–1:30 PM<br>
+                                Saturday & Sunday: 7:30 AM–1:30 PM</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-envelope-open text-white"></i>
                         </div>
                         <div class="ms-3">
@@ -169,12 +195,12 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                 <img src="img/about-pwc.jpg" width="350px">
+                    <img src="img/about-pwc.jpg" width="350px">
                 </div>
             </div>
-            
+
         </div>
-        
+
     </div>
 
     <div class="container-xxl py-5">
@@ -189,7 +215,8 @@
                     <p class="mb-4">Wish to enquire about admissions or anything else?
                         You can walk in during office hours, give us a call or simply submit the form here.</p>
                     <div class="d-flex align-items-center mb-3">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ms-3">
@@ -198,7 +225,8 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-globe text-white"></i>
                         </div>
                         <div class="ms-3">
@@ -207,7 +235,8 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-envelope-open text-white"></i>
                         </div>
                         <div class="ms-3">
@@ -218,24 +247,28 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                 <img src="img/about-pwc.jpg" width="350px">
+                    <img src="img/about-pwc.jpg" width="350px">
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                <p class="mb-4">It is time to strengthen the Old Boys Association, let us all dedicate ourselves to make this a reality. The past is history and remember the words of the Historian Toynbee who puts it very well “the past is not a comfortable bed to sleep on but a spring board for future actions”. <br> <br> Get enrolled now, be a part of the legion, which is the backbone of our Alma Mater </p>
-                <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="http://pwcoba.lk/member-registration/" style="border-radius=25px"
-                    data-wow-delay="0.7s">Enroll Now</a>    
+                    <p class="mb-4">It is time to strengthen the Old Boys Association, let us all dedicate ourselves to
+                        make this a reality. The past is history and remember the words of the Historian Toynbee who
+                        puts it very well “the past is not a comfortable bed to sleep on but a spring board for future
+                        actions”. <br> <br> Get enrolled now, be a part of the legion, which is the backbone of our Alma
+                        Mater </p>
+                    <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="http://pwcoba.lk/member-registration/"
+                        style="border-radius=25px" data-wow-delay="0.7s">Enroll Now</a>
+                </div>
             </div>
-            </div>
-            
+
         </div>
-        
+
     </div>
-    
+
 
 
     <?php include 'footer.php'; ?>
 
-</body>
+    </body>
 
 </html>

@@ -17,6 +17,19 @@
     <meta name="twitter:image" content="content/img/img-sports/" />
     <meta name="twitter:url" content="https://princeofwales.edu.lk/sports.php" />
 
+    <style>
+        .sports-page-header {
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../img/header-main-pwc.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .sports-page-header-inner {
+            background: rgba(15, 23, 43, .7);
+        }
+    </style>
+
 
 </head>
 
@@ -38,11 +51,14 @@
     <div class="container-xxl py-1">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <p class="mb-4">Inheriting An Illustrious and Proud History,<br>Prince of Wales' College Has Earned Name and
-                Immortality at The National and International Level Due to Tireless Service in The Field of Sports.<br>The
+                Immortality at The National and International Level Due to Tireless Service in The Field of
+                Sports.<br>The
                 Zones Produce Many Winners of Color on Their Way to Provincial and National Level Achievements.<br>Mr.
                 Kasun Devapriya, Mrs. W.P.A.T.S. Jayawardane In the Heavy Task of Turning Prince of Wales College
-                into A Sports School.<br>Mr. S.P. Ranasinghe Mrs. P.A.G. Serasinghe and Mrs. P.A.L.M. Perera Also Provides
-                Necessary Support.<br><br>There Are Many Sports in College and They Can Be Divided Into 7 Main Categories as Follows;</p>
+                into A Sports School.<br>Mr. S.P. Ranasinghe Mrs. P.A.G. Serasinghe and Mrs. P.A.L.M. Perera Also
+                Provides
+                Necessary Support.<br><br>There Are Many Sports in College and They Can Be Divided Into 7 Main
+                Categories as Follows;</p>
 
 
 

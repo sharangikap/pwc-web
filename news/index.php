@@ -7,6 +7,19 @@
     include 'header.php';
     include '../functions.php';
     ?>
+
+    <style>
+        .news-page-header {
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../img/header-main-pwc.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .news-page-header-inner {
+            background: rgba(15, 23, 43, .7);
+        }
+    </style>
 </head>
 
 <body>
@@ -30,9 +43,9 @@
 
 
         <div class="colorlib-blog colorlib-light-grey">
-        <div class="container">
-        <div class="row">
-            <?php 
+            <div class="container">
+                <div class="row">
+                    <?php 
 
 $query = "SELECT * FROM pwc_db_news ORDER BY id DESC";
 
@@ -46,29 +59,32 @@ if($statement->rowCount() > 0)
     { 
         ?>
 
-           
 
-                
+
+
                     <div class="col-md-4 animate-box">
                         <article class="article-entry">
                             <a href="news.php?id=<?php echo $row["id"]; ?>" class="blog-img">
-                                <img src="content/img/img-news/<?php echo $row["photo"]; ?>" alt="<?php echo $row["photo"]; ?>"><br><br>
-                                <p class="meta"><span class="day"><?php echo $row["date"]; ?></span> │ <span></span> <span><?php echo $row["category"]; ?></span></p>
+                                <img src="content/img/img-news/<?php echo $row["photo"]; ?>"
+                                    alt="<?php echo $row["photo"]; ?>"><br><br>
+                                <p class="meta"><span class="day"><?php echo $row["date"]; ?></span> │ <span></span>
+                                    <span><?php echo $row["category"]; ?></span></p>
                             </a>
                             <div class="desc">
-                                <h3><a href="news.php?id=<?php echo $row["id"]; ?>"><?php echo $row["title"]; ?></a></h3>
+                                <h3><a href="news.php?id=<?php echo $row["id"]; ?>"><?php echo $row["title"]; ?></a>
+                                </h3>
                                 <p><?php echo $row["excerpt"]; ?></p>
                             </div>
                         </article>
                     </div>
-             
-           
-                <?php 
+
+
+                    <?php 
 					}
 		}	
         ?>
-   </div>
-</div>
+                </div>
+            </div>
         </div>
 
 

@@ -19,6 +19,20 @@
     <meta name="twitter:url" content="https://princeofwales.edu.lk/history-former-principals.php" />
 
 
+    <style>
+        .former-principals-page-header {
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../img/img-history/history-header-pwc.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .former-principals-page-header-inner {
+            background: rgba(15, 23, 43, .7);
+        }
+    </style>
+
+
 </head>
 
 <body>
@@ -99,7 +113,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/" alt="W. D. Jayasena">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/"
+                                alt="W. D. Jayasena">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">W. D. Jayasena</h5>
@@ -112,7 +127,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/" alt="Rohana Karunarathna">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/"
+                                alt="Rohana Karunarathna">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Rohana Karunarathna</h5>
@@ -124,7 +140,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/" alt="Rathnaweera Perera">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/"
+                                alt="Rathnaweera Perera">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Rathnaweera Perera</h5>
@@ -136,7 +153,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/" alt="S. J. P. Wijesinghe">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/"
+                                alt="S. J. P. Wijesinghe">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">S. J. P. Wijesinghe</h5>
@@ -148,7 +166,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/" alt="D. A. Ramanayake">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/"
+                                alt="D. A. Ramanayake">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">D. A. Ramanayake</h5>
@@ -160,7 +179,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/" alt="H. L. B. Gomes">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/"
+                                alt="H. L. B. Gomes">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">H. L. B. Gomes</h5>
@@ -172,7 +192,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/" alt="M. E. C. Fernando">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/"
+                                alt="M. E. C. Fernando">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">M. E. C. Fernando</h5>
@@ -184,7 +205,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/" alt="L. H. Gunapala">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/"
+                                alt="L. H. Gunapala">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">L. H. Gunapala</h5>
@@ -196,7 +218,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/ch-de-silva-former-principals-pwc.webp" alt="S. C. H. De Silva">
+                            <img class="img-fluid"
+                                src="content/img/img-history/former-principals/ch-de-silva-former-principals-pwc.webp"
+                                alt="S. C. H. De Silva">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">S. C. H. De Silva</h5>
@@ -208,7 +232,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/" alt="J. B. C. Rodrigo">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/"
+                                alt="J. B. C. Rodrigo">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">J. B. C. Rodrigo</h5>
@@ -220,7 +245,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/" alt="H. Samaranayake">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/"
+                                alt="H. Samaranayake">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">H. Samaranayake</h5>
@@ -232,7 +258,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/ra-mendis-former-principals-pwc.webp" alt="F. R. A. Mendis">
+                            <img class="img-fluid"
+                                src="content/img/img-history/former-principals/ra-mendis-former-principals-pwc.webp"
+                                alt="F. R. A. Mendis">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">F. R. A. Mendis</h5>
@@ -256,7 +284,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/" alt="Louis Edmund Blaze">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/"
+                                alt="Louis Edmund Blaze">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Louis Edmund Blaze</h5>
@@ -268,7 +297,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/gd-jayasooriya-former-principals-pwc.webp" alt="G. T. Jayasuriya">
+                            <img class="img-fluid"
+                                src="content/img/img-history/former-principals/gd-jayasooriya-former-principals-pwc.webp"
+                                alt="G. T. Jayasuriya">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">G. T. Jayasuriya</h5>
@@ -280,7 +311,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/jpc-mendis-former-principals-pwc.webp" alt="J. P. C. Mendis">
+                            <img class="img-fluid"
+                                src="content/img/img-history/former-principals/jpc-mendis-former-principals-pwc.webp"
+                                alt="J. P. C. Mendis">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">J. P. C. Mendis</h5>
@@ -292,7 +325,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/pilip-lewis-former-principals-pwc.webp" alt="Philip Lewis">
+                            <img class="img-fluid"
+                                src="content/img/img-history/former-principals/pilip-lewis-former-principals-pwc.webp"
+                                alt="Philip Lewis">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Philip Lewis</h5>
@@ -304,7 +339,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/ws-gunawardane-former-principals-pwc.webp" alt="W. S. Gunawardena">
+                            <img class="img-fluid"
+                                src="content/img/img-history/former-principals/ws-gunawardane-former-principals-pwc.webp"
+                                alt="W. S. Gunawardena">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">W. S. Gunawardena</h5>
