@@ -111,7 +111,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/unknown.webp" alt="Sampath Weragoda">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/sampath-weragoda-former-principals-pwc.webp" alt="Sampath Weragoda">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Sampath Weragoda</h5>
