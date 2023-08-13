@@ -20,7 +20,7 @@ foreach($statement->fetchAll() as $row)
 <?php include 'header.php'; ?>
 
 <meta property="og:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa"/>
-	<meta property="og:image" content="events/img-events/<?php echo $row["img"]; ?>"/>
+	<meta property="og:image" content="content/img/img-events/<?php echo $row["img"]; ?>"/>
 	<meta property="og:url" content="https://princeofwales.edu.lk/events/event.php?id=<?php echo $row["id"]; ?>"/>
 	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
 	<meta property="og:description" content="<?php echo $row["about"]; ?>"/>
@@ -76,7 +76,7 @@ foreach($statement->fetchAll() as $row)
       </div>
       <div class="col-md-4">
         <br><br>
-        <img src="img-events/<?php echo $row["img"]; ?>" alt="<?php echo $row["img"]; ?>" class="img-fluid"
+        <img src="content/img/img-events/<?php echo $row["img"]; ?>" alt="<?php echo $row["img"]; ?>" class="img-fluid"
           style="object-fit: cover; border-radius: 8px; max-width: 100%; height: auto;">
 
       </div>

@@ -55,7 +55,7 @@ include 'header.php';
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img-events/<?php echo($row["img"]) ?>" alt="<?php echo($row["img"]) ?>">
+                            <img class="img-fluid" src="content/img/img-events/<?php echo($row["img"]) ?>" alt="<?php echo($row["img"]) ?>">
                         </div>
                         <div class="text-center p-4 pb-0">
                             <h4 class="mb-4"><?php echo($row["title"]) ?></h4>
