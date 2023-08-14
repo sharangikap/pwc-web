@@ -5,8 +5,6 @@ const cacheName = 'pwa-cache-v1';
 
 // List of assets to cache
 const assetsToCache = [
-  '/',
-  '/index.php',
   '/resources/css/style.css',
   '/resources/js/main.js',
   '/content/icons/logo-70x70-pwc.png',
