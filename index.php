@@ -12,10 +12,7 @@
     include 'header.php';
     ?>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Noto+Serif+Vithkuqi&family=Playfair+Display&display=swap" rel="stylesheet">
-
 
 </head>
 
