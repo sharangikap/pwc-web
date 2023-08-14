@@ -132,20 +132,20 @@
 
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3"
-                        src="img/img-about/about-Lahiru-Thirimanne-pwc.jpg" style="width: 80px; height: 80px;">
+                        src="content/img/img-about/alumni/about-Lahiru-Thirimanne-pwc.jpg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Lahiru Thirimanne</h5>
                     <p>International Cricket Player (2010–2023)</p>
                 </div>
 
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3"
-                        src="img/img-about/about-Shehan-Jayasooriya-pwc.jpeg" style="width: 80px; height: 80px;">
+                        src="content/img/img-about/alumni/about-Shehan-Jayasooriya-pwc.jpeg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Shehan Jayasooriya</h5>
                     <p> International Cricket Player (2015–present)</p>
                 </div>
 
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/img-about/about-Jagath-Chamila-pwc.jpg"
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="content/img/img-about/alumni/about-Jagath-Chamila-pwc.jpg"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Jagath Chamila</h5>
                     <p>Actor</p>
@@ -153,7 +153,7 @@
 
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3"
-                        src="img/img-about/about-Kumara-Thirimadura-pwc.jpg" style="width: 80px; height: 80px;">
+                        src="content/img/img-about/alumni/about-Kumara-Thirimadura-pwc.jpg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Kumara Thirimadura</h5>
                     <p>Actor</p>
                 </div>

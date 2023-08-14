@@ -1,0 +1,32 @@
+{
+    "name": "Prince of Wales' College, Moratuwa",
+    "short_name": "PWC, Moratuwa",
+    "description": "The official Website of Prince of Wales' College, Moratuwa",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#800000",
+    "icons": [
+      {
+        "src": "content/icons/logo-70x70-pwc.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "content/icons/logo-apple-touch-icon-pwc.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "content/icons/logo-android-chrome-icon-pwc.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "content/icons/logo-pwc.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

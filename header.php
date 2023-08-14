@@ -36,6 +36,11 @@
     <!-- Template Stylesheet -->
     <link href="https://princeofwales.edu.lk/resources/css/style.css" rel="stylesheet">
 
+    <!-- PWA -->
+
+    <link rel="manifest" href="manifest.json">
+
+
 
     <!-- seo -->
 
