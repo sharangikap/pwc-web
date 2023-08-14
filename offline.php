@@ -37,10 +37,18 @@
     <!-- Template Stylesheet -->
     <link href="https://princeofwales.edu.lk/resources/css/style.css" rel="stylesheet">
 
+
+    <style>
+        ::selection {
+            background-color: #800000;
+            color: white;
+        }
+    </style>
+
 <head>
 
 
-    <!-- 404 Start -->
+    <!-- offline Start -->
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container text-center">
             <div class="row justify-content-center">
@@ -53,7 +61,7 @@
             </div>
         </div>
     </div>
-    <!-- 404 End -->
+    <!-- offline End -->
         
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
