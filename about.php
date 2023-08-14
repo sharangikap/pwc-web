@@ -207,12 +207,14 @@
                         the country alike….</p>
                     <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
                         website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
-                    <br><br><br><br>
+
+                    </p>
                     <audio controls>
                         <source src="content/audio/Sinhala-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
+                    <br><br>
+                    <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="content/audio/Sinhala-Anthem-PWC.mp3" download target="_blank"
+                        style="border-radius=25px" data-wow-delay="0.7s">Download MP3</a>
+                        
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
@@ -250,9 +252,11 @@
                         believe this would aid us to bridge the gap between the school and the parents, past pupils,
                         past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
                         evergreen Cambrian spirit high amongst us all!</p>
-                        <br><br><br><br>
-                    <audio controls>
+                        <audio controls>
                         <source src="content/audio/English-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
+                    <br><br>
+                    <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="content/audio/English-Anthem-PWC.mp3" download target="_blank"
+                        style="border-radius=25px" data-wow-delay="0.7s">Download MP3</a>
                 </div>
             </div>
         </div>
@@ -312,22 +316,22 @@
                         the country alike….</p>
                     <div class="row gy-2 gx-4 mb-4">
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Founders</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Founders (Red & Black)</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Gunawardana</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Gunawardana (Gold & Black)</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Rodrigo</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Rodrigo (Purpule & Gold)</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Mendis</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Mendis (Red & Gold)</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Jayasooriya</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Jayasooriya (Blue & Gold)</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Lewis</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Lewis (Red & Purple)</p>
                         </div>
                     </div>
                 </div>
