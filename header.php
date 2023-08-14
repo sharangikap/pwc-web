@@ -20,7 +20,9 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -44,18 +46,21 @@
 
     <!-- seo -->
 
-    <meta name="description" content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
-	<meta name="keywords" content="prince of wales college, prince of wales college moratuwa, prince of wales college moratuwa website, prince of wales college moratuwa contact number, prince of wales college moratuwa logo, prince of wales college moratuwa address, prince of wales college moratuwa big match, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
-	<meta name="author" content="" />
+    <meta name="description"
+        content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
+    <meta name="keywords"
+        content="prince of wales college, prince of wales college moratuwa, prince of wales college moratuwa website, prince of wales college moratuwa contact number, prince of wales college moratuwa logo, prince of wales college moratuwa address, prince of wales college moratuwa big match, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
+    <meta name="author" content="" />
 
-	<meta property="og:title" content="Prince of Wales' College, Moratuwa"/>
-	<meta property="og:image" content="content/img/img-home/header-main-pwc.jpg"/>
-	<meta property="og:url" content="https://princeofwales.edu.lk/"/>
-	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
-	<meta property="og:description" content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…."/>
-	<meta name="twitter:title" content="Prince of Wales' College, Moratuwa" />
-	<meta name="twitter:image" content="content/img/img-home/header-main-pwc.jpg" />
-	<meta name="twitter:url" content="https://princeofwales.edu.lk/" />
+    <meta property="og:title" content="Prince of Wales' College, Moratuwa" />
+    <meta property="og:image" content="content/img/img-home/header-main-pwc.jpg" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/" />
+    <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
+    <meta property="og:description"
+        content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
+    <meta name="twitter:title" content="Prince of Wales' College, Moratuwa" />
+    <meta name="twitter:image" content="content/img/img-home/header-main-pwc.jpg" />
+    <meta name="twitter:url" content="https://princeofwales.edu.lk/" />
 
 
 
@@ -69,21 +74,45 @@
         }
 
         .pulse:hover {
-      animation: pulse-animation 1s;
-    }
+            animation: pulse-animation 1s;
+        }
 
-    @keyframes pulse-animation {
-      0% {
-        transform: scale(1);
-      }
-      50% {
-        transform: scale(1.1);
-      }
-      100% {
-        transform: scale(1);
-      }
-    }
+        @keyframes pulse-animation {
+            0% {
+                transform: scale(1);
+            }
 
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .responsive-header {
+            font-size: 1rem;
+            /* Default font size for smaller devices */
+        }
+
+        @media (min-width: 576px) {
+
+            /* Apply these styles for devices with a minimum width of 576px (sm - small) */
+            .responsive-header {
+                font-size: 1.25rem;
+                /* Font size for small devices like tablets */
+            }
+        }
+
+        @media (min-width: 992px) {
+
+            /* Apply these styles for devices with a minimum width of 992px (lg - large) */
+            .responsive-header {
+                font-size: 1.25rem;
+                /* Font size for larger devices like desktops */
+            }
+        }
     </style>
 
 
@@ -91,11 +120,11 @@
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-       
+
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
-    
+
         <h3>&nbsp; Loading...</h3>
     </div>
     <!-- Spinner End -->
@@ -103,26 +132,32 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4" >
+        <a href="index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
             <img src="content/img/logo-pwc.png" width="45px">
-            <h5 class="m-0 text-primary" style="font-family: 'Arimo', sans-serif;">&nbsp; &nbsp; PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; MORATUWA
-            </h5>
+            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Arimo', sans-serif;">
+                &nbsp; &nbsp; PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; MORATUWA
+            </h6>
+
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-1" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.php" class="nav-item nav-link <?php if ($page === 'home') echo 'active'; ?> nav-link pulse">Home</a>
-                <a href="news/" class="nav-item nav-link nav-link pulse <?php if ($page === 'news') echo 'active'; ?>">News</a>
-                <a href="events/" class="nav-item nav-link nav-link pulse <?php if ($page === 'events') echo 'active'; ?>">events</a>
+                <a href="index.php"
+                    class="nav-item nav-link <?php if ($page === 'home') echo 'active'; ?> nav-link pulse">Home</a>
+                <a href="news/"
+                    class="nav-item nav-link nav-link pulse <?php if ($page === 'news') echo 'active'; ?>">News</a>
+                <a href="events/"
+                    class="nav-item nav-link nav-link pulse <?php if ($page === 'events') echo 'active'; ?>">events</a>
                 <a href="gallery.php"
                     class="nav-item nav-link <?php if ($page === 'gallery') echo 'active'; ?> nav-link pulse">Gallery</a>
 
-                
+
 
                 <div class="nav-item dropdown">
-                    <a href="sports.php" class="nav-link dropdown-toggle <?php if ($page === 'sports') echo 'active'; ?> nav-link pulse" >Sports</a>
+                    <a href="sports.php"
+                        class="nav-link dropdown-toggle <?php if ($page === 'sports') echo 'active'; ?> nav-link pulse">Sports</a>
                     <div class="dropdown-menu fade-down m-0">
                         <a class="dropdown-item" href="sports.php#team-sports"><b>TEAM SPORTS</b></a>
                         <a class="dropdown-item" href="sports.php#individual-sports"><b>INDIVIDUAL SPORTS</b></a>
@@ -135,9 +170,10 @@
                 </div>
 
                 <div class="nav-item dropdown">
-                    <a href="clubs.php" class="nav-link dropdown-toggle <?php if ($page === 'clubs') echo 'active'; ?> nav-link pulse" >Clubs</a>
+                    <a href="clubs.php"
+                        class="nav-link dropdown-toggle <?php if ($page === 'clubs') echo 'active'; ?> nav-link pulse">Clubs</a>
                     <div class="dropdown-menu fade-down m-0">
-                    <a class="dropdown-item" href="clubs.php#media-clubs"><b>MEDIA CLUBS</b></a>
+                        <a class="dropdown-item" href="clubs.php#media-clubs"><b>MEDIA CLUBS</b></a>
                         <a class="dropdown-item" href="clubs.php#tech-clubs"><b>TECHNOLOGICAL CLUBS</b></a>
                         <a class="dropdown-item" href="clubs.php#resprentative-clubs"><b>REPRESENTATIVE CLUBS</b></a>
                         <a class="dropdown-item" href="clubs.php#service-clubs"><b>COMMUNITY SERVICE CLUBS</b></a>
@@ -150,13 +186,14 @@
                     </div>
                 </div>
 
-                
+
 
                 <a href="history.php"
                     class="nav-item nav-link <?php if ($page === 'history') echo 'active'; ?> nav-link pulse">History</a>
-                <a href="about.php" class="nav-item nav-link <?php if ($page === 'about') echo 'active'; ?> nav-link pulse">About</a>
+                <a href="about.php"
+                    class="nav-item nav-link <?php if ($page === 'about') echo 'active'; ?> nav-link pulse">About</a>
                 <a href="contact.php"
                     class="nav-item nav-link <?php if ($page === 'contact') echo 'active'; ?> nav-link pulse">Contact</a>
-</div>
+            </div>
     </nav>
     <!-- Navbar End -->

@@ -42,18 +42,21 @@
 
     <!-- seo -->
 
-    <meta name="description" content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
-	<meta name="keywords" content="prince of wales college, prince of wales college moratuwa, prince of wales college moratuwa website, prince of wales college moratuwa contact number, prince of wales college moratuwa logo, prince of wales college moratuwa address, prince of wales college moratuwa big match, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
-	<meta name="author" content="" />
+    <meta name="description"
+        content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
+    <meta name="keywords"
+        content="prince of wales college, prince of wales college moratuwa, prince of wales college moratuwa website, prince of wales college moratuwa contact number, prince of wales college moratuwa logo, prince of wales college moratuwa address, prince of wales college moratuwa big match, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
+    <meta name="author" content="" />
 
-	<meta property="og:title" content="Events │ Prince of Wales' College, Moratuwa"/>
-	<meta property="og:image" content="content/img/img-home/header-main-pwc.jpg"/>
-	<meta property="og:url" content="https://princeofwales.edu.lk/"/>
-	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
-	<meta property="og:description" content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…."/>
-	<meta name="twitter:title" content="Prince of Wales' College, Moratuwa" />
-	<meta name="twitter:image" content="content/img/img-home/header-main-pwc.jpg" />
-	<meta name="twitter:url" content="https://princeofwales.edu.lk/" />
+    <meta property="og:title" content="Events │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:image" content="content/img/img-home/header-main-pwc.jpg" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/" />
+    <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
+    <meta property="og:description"
+        content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
+    <meta name="twitter:title" content="Prince of Wales' College, Moratuwa" />
+    <meta name="twitter:image" content="content/img/img-home/header-main-pwc.jpg" />
+    <meta name="twitter:url" content="https://princeofwales.edu.lk/" />
 
     <style>
         ::selection {
@@ -62,21 +65,46 @@
         }
 
         .pulse:hover {
-      animation: pulse-animation 1s;
-    }
+            animation: pulse-animation 1s;
+        }
 
-    @keyframes pulse-animation {
-      0% {
-        transform: scale(1);
-      }
-      50% {
-        transform: scale(1.1);
-      }
-      100% {
-        transform: scale(1);
-      }
-    }
+        @keyframes pulse-animation {
+            0% {
+                transform: scale(1);
+            }
 
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+
+        .responsive-header {
+            font-size: 1rem;
+            /* Default font size for smaller devices */
+        }
+
+        @media (min-width: 576px) {
+
+            /* Apply these styles for devices with a minimum width of 576px (sm - small) */
+            .responsive-header {
+                font-size: 1.25rem;
+                /* Font size for small devices like tablets */
+            }
+        }
+
+        @media (min-width: 992px) {
+
+            /* Apply these styles for devices with a minimum width of 992px (lg - large) */
+            .responsive-header {
+                font-size: 1.25rem;
+                /* Font size for larger devices like desktops */
+            }
+        }
     </style>
 
 </head>
@@ -97,8 +125,9 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="../index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
             <img src="../content/img/logo-pwc.png" width="45px">
-<h5 class="m-0 text-primary" style="font-family: 'Arimo', sans-serif;">&nbsp; &nbsp; PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; MORATUWA
-            </h5>
+            <h6 class="m-0 text-primary" style="font-family: 'Arimo', sans-serif;">&nbsp; &nbsp; PRINCE OF WALES'
+                COLLEGE<br>&nbsp; &nbsp; MORATUWA
+            </h6>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -111,7 +140,8 @@
                 <a href="../gallery.php" class="nav-item nav-link nav-link pulse">Gallery</a>
 
                 <div class="nav-item dropdown">
-                    <a href="../sports.php" class="nav-link dropdown-toggle <?php if ($page === 'sports') echo 'active'; ?> nav-link pulse">Sports</a>
+                    <a href="../sports.php"
+                        class="nav-link dropdown-toggle <?php if ($page === 'sports') echo 'active'; ?> nav-link pulse">Sports</a>
                     <div class="dropdown-menu fade-down m-0">
                         <a class="dropdown-item" href="../sports.php#team-sports"><b>TEAM SPORTS</b></a>
                         <a class="dropdown-item" href="../sports.php#individual-sports"><b>INDIVIDUAL SPORTS</b></a>
@@ -124,9 +154,10 @@
                 </div>
 
                 <div class="nav-item dropdown">
-                    <a href="../clubs.php" class="nav-link dropdown-toggle <?php if ($page === 'clubs') echo 'active'; ?> nav-link pulse" >Clubs</a>
+                    <a href="../clubs.php"
+                        class="nav-link dropdown-toggle <?php if ($page === 'clubs') echo 'active'; ?> nav-link pulse">Clubs</a>
                     <div class="dropdown-menu fade-down m-0">
-                    <a class="dropdown-item" href="../clubs.php#media-clubs"><b>MEDIA CLUBS</b></a>
+                        <a class="dropdown-item" href="../clubs.php#media-clubs"><b>MEDIA CLUBS</b></a>
                         <a class="dropdown-item" href="../clubs.php#tech-clubs"><b>TECHNOLOGICAL CLUBS</b></a>
                         <a class="dropdown-item" href="../clubs.php#resprentative-clubs"><b>REPRESENTATIVE CLUBS</b></a>
                         <a class="dropdown-item" href="../clubs.php#service-clubs"><b>COMMUNITY SERVICE CLUBS</b></a>
