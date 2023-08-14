@@ -10,14 +10,12 @@
     <meta content="prince of wales college, moratuwa" name="description">
 
     <!-- Favicon -->
-    <link href="logo-pwc.png" rel="icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
-    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
-    <link rel="icon" href="favicon.png" type="image/png" sizes="96x96">
-    <link rel="icon" href="favicon.png" type="image/png" sizes="192x192">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link href="content/icons/logo-70x70-pwc.png" rel="icon">
+    <link rel="icon" href="content/icons/logo-70x70-pwc.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="content/icons/logo-apple-touch-icon-pwc.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="content/icons/logo-android-chrome-icon-pwc.png">
+    <meta name="msapplication-TileImage" content="content/icons/logo-70x70-pwc.png">
+    <meta name="msapplication-TileColor" content="#800000">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -101,7 +99,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4" >
-            <img src="logo-pwc.png" width="45px">
+            <img src="content/img/logo-pwc.png" width="45px">
             <h5 class="m-0 text-primary" style="font-family: 'Arimo', sans-serif;">&nbsp; &nbsp; PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; MORATUWA
             </h5>
         </a>
