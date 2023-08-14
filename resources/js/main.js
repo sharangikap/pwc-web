@@ -120,3 +120,18 @@ if ('serviceWorker' in navigator) {
       });
   }
   
+
+  // PWA LOADING BAR
+
+  window.addEventListener('load', () => {
+    const loadingBar = document.getElementById('loading-bar');
+  
+    // Set loading bar to fully visible (100% width)
+    loadingBar.style.transform = 'scaleX(1)';
+  
+    // Remove the loading bar once the content is loaded
+    setTimeout(() => {
+      loadingBar.style.transform = 'scaleX(0)';
+    }, 500); // Adjust the delay as needed
+  });
+  
