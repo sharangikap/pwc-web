@@ -12,6 +12,11 @@
     include 'header.php';
     ?>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Noto+Serif+Vithkuqi&family=Playfair+Display&display=swap" rel="stylesheet">
+
+
 </head>
 
 <!-- Carousel Start -->
@@ -25,8 +30,8 @@
                 <div class="container">
                     <div class="row justify-content-start">
                         <div class="col-sm-9 col-lg-8">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To</h5>
-                            <h1 class="display-3 text-white text-uppercase animated slideInDown">Prince of Wales'
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown" style="font-family: 'Playfair Display', serif;">Welcome To</h5>
+                            <h1 class="display-3 text-white text-uppercase animated slideInDown" style="font-family: 'Playfair Display', serif;">Prince of Wales'
                                 College, <br> Moratuwa</h1>
                         </div>
                     </div>

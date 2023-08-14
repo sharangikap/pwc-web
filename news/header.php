@@ -70,6 +70,10 @@
             animation: pulse-animation 1s;
         }
 
+        .dropdown-item:hover {
+        color: maroon;
+    }
+
         @keyframes pulse-animation {
             0% {
                 transform: scale(1);

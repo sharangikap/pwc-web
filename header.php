@@ -77,6 +77,10 @@
             animation: pulse-animation 1s;
         }
 
+        .dropdown-item:hover {
+        color: maroon;
+        }
+
         @keyframes pulse-animation {
             0% {
                 transform: scale(1);
@@ -134,7 +138,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
             <img src="content/img/logo-pwc.png" width="45px">
-            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Arimo', sans-serif;">
+            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Rubik', sans-serif;">
                 &nbsp; &nbsp; PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; MORATUWA
             </h6>
 
