@@ -48,9 +48,21 @@
                 <a href="#" data-text="SADBHASHANA" id="portfolio-link" >SADBHASHANA</a>
                 <a href="#" data-text="ABOUT" id="about-link" >ABOUT</a>
                 <a href="#" data-text="CONTACT" id="contact-link" >CONTACT</a>
+                <br><br><br><br>
+                <a href="#" data-text="Previous" id="goBackLink">Go Back</a>
+
             </div>
         </div>
         <!--Navigator-Fullscreen END-->
+
+        <script>
+        document.getElementById("goBackLink").addEventListener("click", function(event) {
+            event.preventDefault(); 
+            window.history.back(); 
+        });
+    </script>
+
+
           <!--Home Page-->
         <!--Menubar-->
         <div id="navigation-bar">
