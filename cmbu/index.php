@@ -113,9 +113,9 @@
             <div class="about-first-paragraph wow">
             <!--about description-->
                <span class="about-first-line">
-                    I'm creative 
-                    <span class="color">web developer</span>
-                     based in New York , USA </span>
+                    Media Unit of 
+                    <span class="color">Prince of Wales' College</span>
+                     Moratuwa </span>
                      <br>
                <span class="about-second-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iure sed maiores dolor provident dolorum exercitationem, doloremque fuga nobis voluptatem inventore fugiat cum suscipit aliquam. Placeat modi deleniti aspernatur labore?</span>
             </div>
