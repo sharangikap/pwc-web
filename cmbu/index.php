@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cambrians' Media & Broadcasting Unit" />
-	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+	<meta name="keywords" content="cmbu, best school media, best school media in sri lanka, sadbhashana, prince of wales media, pwc media, cambrians media, wales media" />
 	<meta name="author" content="CMBU" />
     <title>Cambrians' Media & Broadcasting Unit</title>
 
