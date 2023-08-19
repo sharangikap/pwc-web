@@ -49,7 +49,7 @@
                 <a href="#" data-text="ABOUT" id="about-link" >ABOUT</a>
                 <a href="#" data-text="CONTACT" id="contact-link" >CONTACT</a>
                 <br><br><br><br>
-                <a href="#" data-text="Exit" id="goBackLink">Exit</a>
+                <a href="#" data-text="EXIT" id="goBackLink">EXIT</a>
 
             </div>
         </div>
