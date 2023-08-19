@@ -428,10 +428,21 @@ if($statement->rowCount() > 0)
 </div>
 <!-- Clubs Enf -->
 
+<style>
+        .explore-history-page-header {
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-home/explore-history-pwc.webp);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
+        .explore-history-page-header-inner {
+            background: rgba(15, 23, 43, .7);
+        }
+</style>
 
 <!-- history Start -->
-<div class="container-fluid bg-primary py-5 mb-5 history-page-header">
+<div class="container-fluid bg-primary py-5 mb-5 explore-history-page-header">
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">

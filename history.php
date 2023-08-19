@@ -8,19 +8,19 @@
 ?>
     <?php include 'header.php'; ?>
     <meta property="og:title" content="History │ Prince of Wales' College, Moratuwa" />
-    <meta property="og:image" content="content/img/img-history/" />
+    <meta property="og:image" content="content/img/img-history/history-img-header.webp" />
     <meta property="og:url" content="https://princeofwales.edu.lk/history.php" />
     <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
     <meta property="og:description"
         content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
     <meta name="twitter:title" content="History │ Prince of Wales' College, Moratuwa" />
-    <meta name="twitter:image" content="content/img/img-history/" />
+    <meta name="twitter:image" content="content/img/img-history/history-img-header.webp" />
     <meta name="twitter:url" content="https://princeofwales.edu.lk/history.php" />
 
 
     <style>
         .history-page-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../img/img-history/history-header-pwc.jpg);
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-history/history-img-header.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
