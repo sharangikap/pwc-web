@@ -133,7 +133,7 @@
             </div>
             <!--about picture-->
             <div class="about-img">
-                <img src="images/about.jpg" alt="Your Image">
+                <img src="images/about.jpg" alt="about">
             </div>
             </div>
     
@@ -219,14 +219,15 @@
             
         </div>
         <!--about end-->
-        <!--portfolio-->
+
+        <!--sadbhashana-->
         <div id="portfolio">
             <div class="portfolio-header"> <span class="color"> Sadbhashana </span>
             <span class ="header-caption"> Sri Lanka's Biggest <span class="color"> School Media Competition</span></span></div>
              <div id="portfolio-content">
                  <div class="portfolio portfolio-first">
                      <div class="portfolio-image">
-                        <img src="images/portfolio-first.jpg" alt="portfolio-first">
+                        <img src="images/portfolio-first.jpg" alt="Sadbhashana">
                      </div>
                      <div class="portfolio-text">
                          <h2>Sadhbhashana'22 - Competition</h2>
@@ -236,7 +237,7 @@
                  </div>
                  <div class="portfolio portfolio-second">
                     <div class="portfolio-image">
-                        <img src="images/portfolio-second.jpg" alt="portfolio-second">
+                        <img src="images/portfolio-second.jpg" alt="Sadbhashana">
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'21 - Competition (Online)</h2>
@@ -247,7 +248,7 @@
              
                 <div class="portfolio portfolio-third">
                     <div class="portfolio-image">
-                        <img src="images/portfolio-third.jpg" alt="portfolio-third">
+                        <img src="images/portfolio-third.jpg" alt="Sadbhashana">
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'20 - Competition (Online)</h2>
@@ -257,7 +258,7 @@
                 </div>
                 <div class="portfolio portfolio-fourth">
                     <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                        <img src="images/portfolio-fourth.jpg" alt="Sadbhashana">
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'19 - Competition</h2>
@@ -267,7 +268,7 @@
                 </div>
                 <div class="portfolio portfolio-fourth">
                     <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                        <img src="images/portfolio-fourth.jpg" alt="Sadbhashana">
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'18 - Competition</h2>
@@ -277,7 +278,7 @@
                 </div>
                 <div class="portfolio portfolio-fourth">
                     <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                        <img src="images/portfolio-fourth.jpg" alt="Sadbhashana">
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'17 - Media Day</h2>
@@ -287,7 +288,7 @@
                 </div>
                 <div class="portfolio portfolio-fourth">
                     <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                        <img src="images/portfolio-fourth.jpg" alt="Sadbhashana">
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'17 - Competition</h2>
