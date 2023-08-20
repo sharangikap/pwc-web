@@ -18,7 +18,18 @@
 	<meta name="twitter:image" content="../img/header-main-pwc.jpg" />
 	<meta name="twitter:url" content="https://princeofwales.edu.lk/about-school-infrastructure.php" />
 
-  
+    <style>
+        .locations-page-header {
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-about/locations/locations-header-pwc.webp);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .locations-header-inner {
+            background: rgba(15, 23, 43, .7);
+        }
+    </style>
 
 
 </head>
@@ -26,7 +37,7 @@
 <body>
 
     <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 gallery-page-header">
+    <div class="container-fluid bg-primary py-5 mb-5 locations-page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
@@ -49,7 +60,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/mainhall-pwc.webp" alt="Main Hall" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
