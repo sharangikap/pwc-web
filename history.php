@@ -163,7 +163,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.webp" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -196,57 +196,92 @@
 
             <div class="container">
                 <div class="row g-5">
+
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/history-stuff-pwc.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/past-scl-history-pwc.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/past-school2-pwc.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/1900 AD yrs scl 2.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/1900 AD yrs scl.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/1964 senior athelatic group pic.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/Lanthra Fernando's bat.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
-
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-history/museum-archives/old pic.webp" alt="" style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-history/museum-archives/past scl front view.webp" alt="" style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-history/museum-archives/past scl surrounding.webp" alt="" style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-history/museum-archives/past trophy sheilds.webp" alt="" style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-history/museum-archives/past uniform badge 1.webp" alt="" style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-history/museum-archives/scl 1st bell.webp" alt="" style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-history/museum-archives/scl bell 1882.webp" alt="" style="object-fit: cover;">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

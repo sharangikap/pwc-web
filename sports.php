@@ -13,13 +13,13 @@
     <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
     <meta property="og:description"
         content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
-    <meta name="twitter:title" content="Prince of Wales' College, Moratuwa" />
+    <meta name="twitter:title" content="Sports │ Prince of Wales' College, Moratuwa" />
     <meta name="twitter:image" content="content/img/img-sports/" />
     <meta name="twitter:url" content="https://princeofwales.edu.lk/sports.php" />
 
     <style>
         .sports-page-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../img/header-main-pwc.jpg);
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-sports/header-image-sports-pwc.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -89,7 +89,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/cricket-sports-pwc.webp" alt="Cricket"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -138,7 +138,7 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/basketball-sports-pwc.webp" alt="Basketball"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -168,7 +168,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/rugby-sports-pwc.webp" alt="Rugby"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -176,7 +176,7 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/handball-sports-pwc.webp" alt="Handball"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -208,7 +208,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/hockey-sports-pwc.webp" alt="Hockey"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -233,7 +233,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/athletic-sports-pwc.webp" alt="Athletics"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -271,7 +271,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/swimmimg-sports-pwc.webp" alt="SWIMMING"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -305,7 +305,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/judo-sports-pwc.webp" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -348,7 +348,7 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/karate-sports-pwc.webp" alt="Karate"
                                 style="object-fit: cover;">
                         </div>
                     </div>
