@@ -18,7 +18,7 @@
 <div class="container-fluid p-0 mb-5">
     <div class="owl-carousel header-carousel position-relative">
         <div class="owl-carousel-item position-relative">
-            <img class="img-fluid" src="content/img/img-home/header-main-pwc.jpg"
+            <img class="img-fluid" src="content/img/img-home/header-main-pwc.webp"
                 alt="Front View of Prince of Wales College">
             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                 style="background: rgba(0, 0, 0, 0.356);">
