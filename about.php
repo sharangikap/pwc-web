@@ -70,7 +70,7 @@
                     <div class="p-4">
                         <i class="fa fa-3x fa-award text-primary mb-4"></i>
                         <h1 class="mb-3">
-                        <?php $currentYear = date("Y");
+                            <?php $currentYear = date("Y");
                         $result = $currentYear - 1876;
                         echo $result; ?>
                         </h1>
@@ -132,20 +132,23 @@
 
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3"
-                        src="content/img/img-about/alumni/about-Lahiru-Thirimanne-pwc.jpg" style="width: 80px; height: 80px;">
+                        src="content/img/img-about/alumni/about-Lahiru-Thirimanne-pwc.jpg"
+                        style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Lahiru Thirimanne</h5>
                     <p>International Cricket Player (2010–2023)</p>
                 </div>
 
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3"
-                        src="content/img/img-about/alumni/about-Shehan-Jayasooriya-pwc.jpeg" style="width: 80px; height: 80px;">
+                        src="content/img/img-about/alumni/about-Shehan-Jayasooriya-pwc.jpeg"
+                        style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Shehan Jayasooriya</h5>
                     <p> International Cricket Player (2015–present)</p>
                 </div>
 
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="content/img/img-about/alumni/about-Jagath-Chamila-pwc.jpg"
+                    <img class="border rounded-circle p-2 mx-auto mb-3"
+                        src="content/img/img-about/alumni/about-Jagath-Chamila-pwc.jpg"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Jagath Chamila</h5>
                     <p>Actor</p>
@@ -153,7 +156,8 @@
 
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3"
-                        src="content/img/img-about/alumni/about-Kumara-Thirimadura-pwc.jpg" style="width: 80px; height: 80px;">
+                        src="content/img/img-about/alumni/about-Kumara-Thirimadura-pwc.jpg"
+                        style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Kumara Thirimadura</h5>
                     <p>Actor</p>
                 </div>
@@ -212,13 +216,14 @@
                     <audio controls>
                         <source src="content/audio/Sinhala-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
                     <br><br>
-                    <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="content/audio/Sinhala-Anthem-PWC.mp3" download target="_blank"
-                        style="border-radius=25px" data-wow-delay="0.7s">Download MP3</a>
-                        
+                    <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="content/audio/Sinhala-Anthem-PWC.mp3"
+                        download target="_blank" style="border-radius=25px" data-wow-delay="0.7s">Download MP3</a>
+
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/sinhala-anthem-pwc.webp" alt="Sinhala Anthem PWC"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/sinhala-anthem-pwc.webp" alt="Sinhala Anthem PWC"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -237,7 +242,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/english-anthem-pwc.webp" alt="English Anthem PWC"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/english-anthem-pwc.webp" alt="English Anthem PWC"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -252,11 +258,11 @@
                         believe this would aid us to bridge the gap between the school and the parents, past pupils,
                         past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
                         evergreen Cambrian spirit high amongst us all!</p>
-                        <audio controls>
+                    <audio controls>
                         <source src="content/audio/English-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
                     <br><br>
-                    <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="content/audio/English-Anthem-PWC.mp3" download target="_blank"
-                        style="border-radius=25px" data-wow-delay="0.7s">Download MP3</a>
+                    <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="content/audio/English-Anthem-PWC.mp3"
+                        download target="_blank" style="border-radius=25px" data-wow-delay="0.7s">Download MP3</a>
                 </div>
             </div>
         </div>
@@ -274,8 +280,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="" alt=""
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="" alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -304,8 +309,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/house-system-pwc.webp" alt=""
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/house-system-pwc.webp" alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -316,19 +321,23 @@
                         the country alike….</p>
                     <div class="row gy-2 gx-4 mb-4">
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Founders (Red & Black)</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Founders (Red & Black)
+                            </p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Gunawardana (Gold & Black)</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Gunawardana (Gold &
+                                Black)</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Rodrigo (Purpule & Gold)</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Rodrigo (Purpule & Gold)
+                            </p>
                         </div>
                         <div class="col-sm-6">
                             <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Mendis (Red & Gold)</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Jayasooriya (Blue & Gold)</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Jayasooriya (Blue & Gold)
+                            </p>
                         </div>
                         <div class="col-sm-6">
                             <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Lewis (Red & Purple)</p>
@@ -339,6 +348,42 @@
             </div>
         </div>
     </div>
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Big Match</h6>
+                <h1 class="mb-5">BATTLE OF THE GOLDS</h1>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <p class="mb-4">The Prince of Wales'–St. Sebastian's Cricket Encounter (The Battle of the Golds) is
+                        an annual cricket match played between Prince of Wales' College and St. Sebastian's College
+                        since 1933. It is known as The Battle of the Golds due to the colours of the two school's
+                        flags i.e. Purple, Gold and Maroon of Prince of Wales' College and Green, White & Gold of St.
+                        Sebastian's College.</p>
+                    <p class="mb-4">The 2-day match is held on Friday and
+                        Saturday, The 1-day limited over match is held on Sunday. By tradition, the schools are closed
+                        on match days to allow students to attend the Big Match. Souvenirs published by the both
+                        schools. Before the match, the students of each school take a motorcade (well known as "Golden Huters") with bands and decorations and other colorful items showing support for their
+                        team. Overloaded cars with supporters singing and careering along the streets is a familiar
+                        sight during match days.</p>
+
+                    <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="battle-of-the-golds.php"
+                        style="border-radius=25px" data-wow-delay="0.7s">Explore</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Administration Start -->
     <div class="container-xxl py-5">
