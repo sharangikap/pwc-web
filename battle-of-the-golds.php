@@ -1229,7 +1229,7 @@
                     Cambrians clinched victory, etching their names as champions in a thrilling encounter.</p>
                 <div class="row gy-2 gx-4 mb-4">
                     <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Highest Total: 287/9 in 2011
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Highest Total: 336/7 in 2023
                         </p>
                     </div>
                     <div class="col-sm-6">

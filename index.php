@@ -125,7 +125,7 @@ if ($currentDate < $targetDate) {
 ?>
 
 
-            
+
         </div>
     </div>
 </div>
@@ -219,8 +219,8 @@ if ($currentDate < $targetDate) {
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/about-pwc.jpg" alt="Learning Begins With Us"
-                        style="object-fit: cover;">
+                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/about-pwc.jpg"
+                        alt="Learning Begins With Us" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -255,7 +255,7 @@ if ($currentDate < $targetDate) {
                     <div class="p-4">
                         <i class="fa fa-3x fa-award text-primary mb-4"></i>
                         <h1 class="mb-3">
-                        <?php $currentYear = date("Y");
+                            <?php $currentYear = date("Y");
                         $result = $currentYear - 1876;
                         echo $result; ?>
                         </h1>
@@ -302,8 +302,8 @@ if ($currentDate < $targetDate) {
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/principal-pwc.webp" alt=""
-                        style="object-fit: cover;">
+                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/principal-pwc.webp"
+                        alt="" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -330,7 +330,7 @@ if ($currentDate < $targetDate) {
     <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 class="section-title bg-white text-center text-primary px-3"></h6>
-            <h1 class="mb-5">Sports</h1>
+            <h1 class="mb-5">SPORTS</h1>
         </div>
         <div class="row g-3">
             <div class="col-lg-7 col-md-6">
@@ -338,27 +338,27 @@ if ($currentDate < $targetDate) {
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#team-sports">
                             <img class="img-fluid" src="content/img/img-home/team-sports-home-pwc.webp" alt="">
-                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px;">
-                                <h5 class="m-0">Team Sports</h5>
+                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px; background-color: maroon; color: white;">
+                                <h5 class="m-0" style="color: white;">Team Sports</h5>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#individual-sports">
                             <img class="img-fluid" src="content/img/img-home/individual-sports-home-pwc.webp" alt="">
-                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px;">
-                                <h5 class="m-0">Individual Sports</h5>
+                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px; background-color: maroon; color: white;">
+                                <h5 class="m-0" style="color: white;">Individual Sports</h5>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#water-sports">
                             <img class="img-fluid" src="content/img/img-home/water-sports-home-pwc.webp" alt="">
-                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px;">
-                                <h5 class="m-0">Water Sports</h5>
+                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px; background-color: maroon; color: white;">
+                                <h5 class="m-0" style="color: white;">Water Sports</h5>
                             </div>
                         </a>
                     </div>
@@ -366,14 +366,15 @@ if ($currentDate < $targetDate) {
             </div>
             <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
                 <a class="position-relative d-block h-100 overflow-hidden" href="sports.php#combat-sports">
-                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/combat-sports-home-pwc.webp" alt=""
-                        style="object-fit: cover;">
-                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
-                        <h5 class="m-0">Combat Sports</h5>
-                    </div>
+                    <img class="img-fluid position-absolute w-100 h-100"
+                        src="content/img/img-home/combat-sports-home-pwc.webp" alt="" style="object-fit: cover;">
+                        <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px; background-color: maroon; color: white;">
+                                <h5 class="m-0" style="color: white;">Combat Sports</h5>
+                            </div>
                 </a>
             </div>
-            <br>
+            <br><br><br><br>
             <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="sports.php" style="border-radius=25px"
                     data-wow-delay="0.7s">Explore More</a></center>
 
@@ -394,16 +395,17 @@ if ($currentDate < $targetDate) {
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                <h6 class="section-title bg-white text-start text-primary pe-3">big match - annual sport event of college</h6>
-                <h1 class="mb-4">Battle of The Golds</h1>
+                <h6 class="section-title bg-white text-start text-primary pe-3">big match - annual sport event of
+                    college</h6>
+                <h1 class="mb-4">BATTLE OF THE GOLDS</h1>
                 <p class="mb-4">The Prince of Wales'–St. Sebastian's Cricket Encounter (The Battle of the Golds) is
-                        an annual cricket match played between Prince of Wales' College and St. Sebastian's College
-                        since 1933. It is known as The Battle of the Golds due to the colours of the two school's
-                        flags i.e. Purple, Gold and Maroon of Prince of Wales' College and Green, White & Gold of St.
-                        Sebastian's College.</p>
+                    an annual cricket match played between Prince of Wales' College and St. Sebastian's College
+                    since 1933. It is known as The Battle of the Golds due to the colours of the two school's
+                    flags i.e. Purple, Gold and Maroon of Prince of Wales' College and Green, White & Gold of St.
+                    Sebastian's College.</p>
 
-                    <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="battle-of-the-golds.php"
-                        style="border-radius=25px" data-wow-delay="0.7s">Explore</a>
+                <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="battle-of-the-golds.php"
+                    style="border-radius=25px" data-wow-delay="0.7s">Explore</a>
 
             </div>
         </div>
@@ -416,7 +418,7 @@ if ($currentDate < $targetDate) {
     <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 class="section-title bg-white text-center text-primary px-3"></h6>
-            <h1 class="mb-5">Clubs & Societies</h1>
+            <h1 class="mb-5">CLUBS & SOCIETIES</h1>
         </div>
         <div class="row g-3">
             <div class="col-lg-7 col-md-6">
@@ -424,27 +426,27 @@ if ($currentDate < $targetDate) {
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#media-clubs">
                             <img class="img-fluid" src="content/img/img-home/media-clubs-home-pwc.webp" alt="">
-                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px;">
-                                <h5 class="m-0">Media and Broadcasting Unit</h5>
+                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px; background-color: maroon; color: white;">
+                                <h5 class="m-0" style="color: white;">Media Unit</h5>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#edu-clubs">
                             <img class="img-fluid" src="content/img/img-home/educational-clubs-home-pwc.webp" alt="">
-                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px;">
-                                <h5 class="m-0">Educational Clubs</h5>
+                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px; background-color: maroon; color: white;">
+                                <h5 class="m-0" style="color: white;">Educational Clubs</h5>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#tech-clubs">
                             <img class="img-fluid" src="content/img/img-home/tech-clubs-home-pwc.webp" alt="">
-                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px;">
-                                <h5 class="m-0">Technological Clubs</h5>
+                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px; background-color: maroon; color: white;">
+                                <h5 class="m-0" style="color: white;">Technological Clubs</h5>
                             </div>
                         </a>
                     </div>
@@ -452,11 +454,13 @@ if ($currentDate < $targetDate) {
             </div>
             <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
                 <a class="position-relative d-block h-100 overflow-hidden" href="clubs.php#service-clubs">
-                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/community-service-clubs-home-pwc.webp" alt=""
+                    <img class="img-fluid position-absolute w-100 h-100"
+                        src="content/img/img-home/community-service-clubs-home-pwc.webp" alt=""
                         style="object-fit: cover;">
-                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
-                        <h5 class="m-0">Commiunity Service Clubs</h5>
-                    </div>
+                        <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px; background-color: maroon; color: white;">
+                                <h5 class="m-0" style="color: white;">Commiunity Service Clubs</h5>
+                            </div>
                 </a>
             </div>
             <br>
@@ -469,16 +473,16 @@ if ($currentDate < $targetDate) {
 <!-- Clubs Enf -->
 
 <style>
-        .explore-history-page-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-home/explore-history-pwc.webp);
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
+    .explore-history-page-header {
+        background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-home/explore-history-pwc.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-        .explore-history-page-header-inner {
-            background: rgba(15, 23, 43, .7);
-        }
+    .explore-history-page-header-inner {
+        background: rgba(15, 23, 43, .7);
+    }
 </style>
 
 <!-- history Start -->
