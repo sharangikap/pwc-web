@@ -337,27 +337,27 @@ if ($currentDate < $targetDate) {
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#team-sports">
                             <img class="img-fluid" src="content/img/img-home/team-sports-home-pwc.webp" alt="">
-                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px; background-color: maroon; color: white;">
-                                <h5 class="m-0" style="color: white;">Team Sports</h5>
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px;">
+                                <h5 class="m-0">Team Sports</h5>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#individual-sports">
                             <img class="img-fluid" src="content/img/img-home/individual-sports-home-pwc.webp" alt="">
-                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px; background-color: maroon; color: white;">
-                                <h5 class="m-0" style="color: white;">Individual Sports</h5>
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px;">
+                                <h5 class="m-0">Individual Sports</h5>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#water-sports">
                             <img class="img-fluid" src="content/img/img-home/water-sports-home-pwc.webp" alt="">
-                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px; background-color: maroon; color: white;">
-                                <h5 class="m-0" style="color: white;">Water Sports</h5>
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px;">
+                                <h5 class="m-0">Water Sports</h5>
                             </div>
                         </a>
                     </div>
@@ -367,9 +367,9 @@ if ($currentDate < $targetDate) {
                 <a class="position-relative d-block h-100 overflow-hidden" href="sports.php#combat-sports">
                     <img class="img-fluid position-absolute w-100 h-100"
                         src="content/img/img-home/combat-sports-home-pwc.webp" alt="" style="object-fit: cover;">
-                        <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px; background-color: maroon; color: white;">
-                                <h5 class="m-0" style="color: white;">Combat Sports</h5>
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px;">
+                                <h5 class="m-0">Combat Sports</h5>
                             </div>
                 </a>
             </div>
@@ -425,27 +425,27 @@ if ($currentDate < $targetDate) {
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#media-clubs">
                             <img class="img-fluid" src="content/img/img-home/media-clubs-home-pwc.webp" alt="">
-                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px; background-color: maroon; color: white;">
-                                <h5 class="m-0" style="color: white;">Media Unit</h5>
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px;">
+                                <h5 class="m-0">Media Unit</h5>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#edu-clubs">
                             <img class="img-fluid" src="content/img/img-home/educational-clubs-home-pwc.webp" alt="">
-                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px; background-color: maroon; color: white;">
-                                <h5 class="m-0" style="color: white;">Educational Clubs</h5>
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px;">
+                                <h5 class="m-0">Educational Clubs</h5>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#tech-clubs">
                             <img class="img-fluid" src="content/img/img-home/tech-clubs-home-pwc.webp" alt="">
-                            <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px; background-color: maroon; color: white;">
-                                <h5 class="m-0" style="color: white;">Technological Clubs</h5>
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px;">
+                                <h5 class="m-0">Technological Clubs</h5>
                             </div>
                         </a>
                     </div>
@@ -456,9 +456,9 @@ if ($currentDate < $targetDate) {
                     <img class="img-fluid position-absolute w-100 h-100"
                         src="content/img/img-home/community-service-clubs-home-pwc.webp" alt=""
                         style="object-fit: cover;">
-                        <div class="bg-maroon text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px; background-color: maroon; color: white;">
-                                <h5 class="m-0" style="color: white;">Commiunity Service Clubs</h5>
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 1px;">
+                                <h5 class="m-0">Commiunity Service Clubs</h5>
                             </div>
                 </a>
             </div>
