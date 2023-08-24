@@ -31,7 +31,7 @@
             background: rgba(15, 23, 43, .7);
         }
     </style>
-    
+
 </head>
 
 <body>
@@ -49,10 +49,12 @@
 
     <div class="container-xxl py-2">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <p class="mb-4">Our mission is to effect quality teaching and learning environment where Cambrians would
-                move forth step by step<br>in the competency based pedagogical process which is founded on national
-                goals and on the theme,<br>“I serve. I value your services, developing their calibre for the well-being
-                of the community.</p>
+            <p class="mb-4">Prince of Wales College offers diverse clubs and societies fostering student engagement,<br>
+                from arts to sports, creating a vibrant campus community for personal growth and shared interests.
+                <br>Mr. Chathura Mendis doing a great service by being in charge of the societies.<br>
+                <br>There Are Many Clubs and Societies in College and They Can Be Divided Into 10 Main
+                Categories as Follows;</p>
+            </p>
 
 
 
@@ -104,8 +106,8 @@
                             parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this
                             and there-by keep the evergreen Cambrian spirit high amongst us all!
                         </p>
-                        <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="cmbu/"
-                        style="border-radius=25px" data-wow-delay="0.7s">Explore</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="cmbu/" style="border-radius=25px"
+                            data-wow-delay="0.7s">Explore</a>
                     </div>
                 </div>
             </div>
@@ -185,8 +187,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/prefects-club-pwc.webp" alt=""
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/prefects-club-pwc.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -226,7 +228,7 @@
                             and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">RESPRESENTATIVE CLUB</h6>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">RESPRESENTATIVE CLUB</h6>
                         <h1 class="mb-4">TRAFFIC UNIT</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
                             considered as a major school in Moratuwa area and over the years, established its name
@@ -353,8 +355,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/cadet-troop-club-pwc.webp" alt=""
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/cadet-troop-club-pwc.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -392,7 +394,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/western-band-clubs-pwc.webp" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/western-band-clubs-pwc.webp" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -401,7 +404,8 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/eastern-cadet-band-clubs-pwc.webp" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/eastern-cadet-band-clubs-pwc.webp" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -531,7 +535,7 @@
                             and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">EDUCATIONAL CLUB</h6>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">EDUCATIONAL CLUB</h6>
                         <h1 class="mb-4">MATHS OLYMPIAD SOCIETY</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
                             considered as a major school in Moratuwa area and over the years, established its name
@@ -549,7 +553,7 @@
                     </div>
 
 
-                
+
 
                 </div>
             </div>
@@ -570,7 +574,7 @@
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">LANGUAGE CLUB</h6>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">LANGUAGE CLUB</h6>
                         <h1 class="mb-4">ENGLISH LITERARY ASSOCIATION</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
                             considered as a major school in Moratuwa area and over the years, established its name
@@ -624,7 +628,7 @@
                             and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">LANGUAGE CLUB</h6>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">LANGUAGE CLUB</h6>
                         <h1 class="mb-4">TAMIL LITERARY ASSOCIATION</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
                             considered as a major school in Moratuwa area and over the years, established its name
@@ -792,7 +796,7 @@
 
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
                         <h1 class="mb-4">PRIMARY WESTERN BAND</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
                             considered as a major school in Moratuwa area and over the years, established its name as a
@@ -837,7 +841,7 @@
             <div class="container">
                 <div class="row g-5">
 
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h6 class="section-title bg-white text-start text-primary pe-3">HOBBY CLUB</h6>
                         <h1 class="mb-4">KUAMARA KODEWWA READERS’ CLUB</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
@@ -859,8 +863,8 @@
                     </div>
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">HOBBY CLUB</h6>
-                    <h1 class="mb-4">ASTRONOMICAL SOCIETY</h1>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">HOBBY CLUB</h6>
+                        <h1 class="mb-4">ASTRONOMICAL SOCIETY</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
                             considered as a major school in Moratuwa area and over the years, established its name as a
                             leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the
@@ -926,7 +930,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/buddhist-society-clubs-pwc.webp" alt="BUDDHIST ASSOCIATION"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/buddhist-society-clubs-pwc.webp" alt="BUDDHIST ASSOCIATION"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -962,8 +967,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/catholic-clubs-pwc.webp" alt=""
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/catholic-clubs-pwc.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>

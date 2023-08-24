@@ -201,12 +201,11 @@ if ($currentDate < $targetDate) {
         </div>
 
     </div>
+    <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="events/" style="border-radius=25px"
+        data-wow-delay="0.7s">View More</a></center>
 </div>
 
 
-<br>
-<center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="events/" style="border-radius=25px"
-        data-wow-delay="0.7s">View More</a></center>
 
 </div>
 </div>
