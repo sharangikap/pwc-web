@@ -6,7 +6,7 @@
     <head>
         <title>Battle of The Golds │ PWC, Moratuwa</title>
         <?php
-    $page = 'about';
+    $page = 'sports';
 ?>
         <meta property="og:title" content="Battle of The Golds │ PWC, Moratuwa" />
         <meta property="og:image" content="../img/header-main-pwc.jpg" />
