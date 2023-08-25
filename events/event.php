@@ -4,45 +4,49 @@
 <head>
   <?php include '../database_connection.php'; ?>
 
-  <?php
-  $id=$_GET['id'];
-  $query = "SELECT * FROM pwc_db_events WHERE id='$id'";
-  
+<?php
 
+$id=$_GET['id'];
+$query = "SELECT * FROM pwc_db_events WHERE id='$id'";
 $statement = $connect->prepare($query);
-
 $statement->execute();
-foreach($statement->fetchAll() as $row)
+$rows = $statement->fetchAll();
+if (count($rows) === 0) {
+    header("Location: https://princeofwales.edu.lk/404.php");
+}
+foreach ($rows as $row) {
+}
+
 ?>
 
   <title><?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa</title>
 
-<?php include 'header.php'; ?>
+  <?php include 'header.php'; ?>
 
-<meta property="og:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa"/>
-	<meta property="og:image" content="content/img/img-events/<?php echo $row["img"]; ?>"/>
-	<meta property="og:url" content="https://princeofwales.edu.lk/events/event.php?id=<?php echo $row["id"]; ?>"/>
-	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
-	<meta property="og:description" content="<?php echo $row["about"]; ?>"/>
-	<meta name="twitter:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa" />
-	<meta name="twitter:image" content="events/img-events/<?php echo $row["img"]; ?>" />
-	<meta name="twitter:url" content="https://princeofwales.edu.lk/events/events.php?id=<?php echo $row["id"]; ?>" />
+  <meta property="og:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa" />
+  <meta property="og:image" content="content/img/img-events/<?php echo $row["img"]; ?>" />
+  <meta property="og:url" content="https://princeofwales.edu.lk/events/event.php?id=<?php echo $row["id"]; ?>" />
+  <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
+  <meta property="og:description" content="<?php echo $row["about"]; ?>" />
+  <meta name="twitter:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa" />
+  <meta name="twitter:image" content="events/img-events/<?php echo $row["img"]; ?>" />
+  <meta name="twitter:url" content="https://princeofwales.edu.lk/events/events.php?id=<?php echo $row["id"]; ?>" />
 
 </head>
 
-  <style>
-    @media (min-width: 768px) {
-      img {
-        max-width: 50%;
-      }
+<style>
+  @media (min-width: 768px) {
+    img {
+      max-width: 50%;
     }
+  }
 
-    @media (min-width: 992px) {
-      img {
-        max-width: 30%;
-      }
+  @media (min-width: 992px) {
+    img {
+      max-width: 30%;
     }
-  </style>
+  }
+</style>
 
 </head>
 
@@ -61,9 +65,10 @@ foreach($statement->fetchAll() as $row)
 
         <div class="row mt-4">
           <div class="col-md-12">
-          <p><i class="fa fa-user text-primary me-2"></i>Event Organizer: <b><?php echo $row["organizer_name"]; ?></b></p>
+            <p><i class="fa fa-user text-primary me-2"></i>Event Organizer: <b><?php echo $row["organizer_name"]; ?></b>
+            </p>
             <p><i class="fa fa-phone text-primary me-2"></i>Contact: <?php echo $row["organizer_phone"]; ?></p>
-<br>
+            <br>
             <h3>About this Event</h3>
             <p><?php echo $row["about"]; ?></p>
 

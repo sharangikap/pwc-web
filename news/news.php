@@ -4,16 +4,21 @@
 <head>
   <?php include '../database_connection.php'; ?>
 
-  <?php
-    $id=$_GET['id'];
-    $query = "SELECT * FROM pwc_db_news WHERE id='$id'";
-    
-
+<?php
+$id = $_GET['id'];
+$query = "SELECT * FROM pwc_db_news WHERE id='$id'";
 $statement = $connect->prepare($query);
-
 $statement->execute();
-foreach($statement->fetchAll() as $row)
+$rows = $statement->fetchAll();
+
+if (count($rows) === 0) {
+    header("Location: https://princeofwales.edu.lk/404.php");
+}
+
+foreach ($rows as $row) {
+}
 ?>
+
   <title><?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa</title>
 
   <?php include 'header.php'; ?>
