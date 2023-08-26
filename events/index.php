@@ -8,6 +8,16 @@ include 'header.php';
 
 ?>
 
+<meta property="og:title" content="Events │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:image" content="../content/img/img-events/event-header-pwc.webp" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/clubs.php" />
+    <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
+    <meta property="og:description"
+        content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
+    <meta name="twitter:title" content="Events │ Prince of Wales' College, Moratuwa" />
+    <meta name="twitter:image" content="../content/img/img-events/event-header-pwc.webp" />
+    <meta name="twitter:url" content="https://princeofwales.edu.lk/clubs.php" />
+
 <style>
     .event-page-header {
     background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../content/img/img-events/event-header-pwc.webp);

@@ -10,18 +10,18 @@
     <?php include 'header.php'; ?>
 
     <meta property="og:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
-    <meta property="og:image" content="../img/header-main-pwc.jpg" />
+    <meta property="og:image" content="content/img/img-clubs/club-header.webp" />
     <meta property="og:url" content="https://princeofwales.edu.lk/clubs.php" />
     <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
     <meta property="og:description"
         content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
     <meta name="twitter:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
-    <meta name="twitter:image" content="../img/header-main-pwc.jpg" />
+    <meta name="twitter:image" content="content/img/img-clubs/club-header.webp" />
     <meta name="twitter:url" content="https://princeofwales.edu.lk/clubs.php" />
 
     <style>
         .clubs-page-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../img/header-main-pwc.jpg);
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-clubs/club-header.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -88,7 +88,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/media-clubs-pwc.webp" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -287,7 +287,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/scout-clubs-pwc.webp" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>

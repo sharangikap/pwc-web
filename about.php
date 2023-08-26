@@ -10,13 +10,13 @@
     <?php include 'header.php'; ?>
 
     <meta property="og:title" content="About │ Prince of Wales' College, Moratuwa" />
-    <meta property="og:image" content="../img/header-main-pwc.jpg" />
+    <meta property="og:image" content="content/img/img-about/header-img.webp" />
     <meta property="og:url" content="https://princeofwales.edu.lk/about.php" />
     <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
     <meta property="og:description"
         content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
     <meta name="twitter:title" content="About │ Prince of Wales' College, Moratuwa" />
-    <meta name="twitter:image" content="../img/header-main-pwc.jpg" />
+    <meta name="twitter:image" content="content/img/img-about/header-img.webp" />
     <meta name="twitter:url" content="https://princeofwales.edu.lk/about.php" />
 
     <style>
