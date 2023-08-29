@@ -25,10 +25,10 @@ foreach ($rows as $row) {
 
 
   <meta property="og:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa"/>
-	<meta property="og:image" content="content/img/img-news/<?php echo $row["photo"]; ?>"/>
+	<meta property="og:image" content="../content/img/img-news/<?php echo $row["photo"]; ?>"/>
 	<meta property="og:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>"/>
 	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
-	<meta property="og:description" content="<?php echo $row["content"]; ?>"/>
+	<meta property="og:description" content="<?php echo $row["excerpt"]; ?>"/>
 	<meta name="twitter:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa" />
 	<meta name="twitter:image" content="news/img-news/<?php echo $row["photo"]; ?>" />
 	<meta name="twitter:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>" />
@@ -52,7 +52,7 @@ foreach ($rows as $row) {
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="position-relative ">
-            <img class="img-fluid w-100 h-100" src="content/img/img-news/<?php echo $row["photo"]; ?>" alt=""
+            <img class="img-fluid w-100 h-100" src="../content/img/img-news/<?php echo $row["photo"]; ?>" alt="<?php echo $row["photo"]; ?>"
               style="object-fit: cover; border-radius: 8px;">
           </div>
         </div>

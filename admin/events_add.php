@@ -136,10 +136,10 @@ if(isset($_POST["add_event"]))
 
 	$file = $_FILES['photo']['name'];
 	$file_loc = $_FILES['photo']['tmp_name'];
-	$folder = "../content/img/img-events";
+	$folder = "../content/img/img-events/";
 	$new_file_name = strtolower($file);
 	$final_file = str_replace(' ', '-', $new_file_name);
-	$final_file = rand() . "-" . $final_file; //add impure
+	$final_file = rand() . "-" . $final_file;
 	if(move_uploaded_file($file_loc, $folder . $final_file)) {
 		$image = $final_file;
 		$query = "
