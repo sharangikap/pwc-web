@@ -108,7 +108,7 @@ if($statement->rowCount() > 0)
     <div class="row">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 class="section-title bg-white text-center text-primary px-3">Featured</h6>
-            <h1 class="mb-5">Updates</h1>
+            <h1 class="mb-5">UPDATES</h1>
 
             <?php
 $currentDate = date('d');
@@ -140,7 +140,7 @@ if ($currentDate < $targetDate) {
     <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 class="section-title bg-white text-center text-primary px-3">Upcoming</h6>
-            <h1 class="mb-5">Events</h1>
+            <h1 class="mb-5">EVENTS</h1>
         </div>
 
         <div class="row g-4 justify-content-center">
