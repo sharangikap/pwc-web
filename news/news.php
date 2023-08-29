@@ -47,7 +47,7 @@ foreach ($rows as $row) {
       <div class="row g-5">
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
           <h6 class="section-title bg-white text-start text-primary pe-3"><?php echo $row["category"]; ?></h6>
-          <h1 class="mb-4"><?php echo $row["title"]; ?></h1>
+          <h2 class="mb-4"><?php echo $row["title"]; ?></h2>
           <h6 class="bg-white text-start text-primary "><?php echo $row["date"]; ?></h6>
           <p class="mb-4"><?php echo $row["content"]; ?></p>
         </div>
