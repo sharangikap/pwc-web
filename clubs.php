@@ -10,13 +10,16 @@
     <?php include 'header.php'; ?>
 
     <meta property="og:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
-    <meta property="og:image" content="content/img/img-clubs/club-header.webp" />
+    <meta property="og:image" content="content/img/img-clubs/club-header.jpg" />
     <meta property="og:url" content="https://princeofwales.edu.lk/clubs.php" />
     <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
     <meta property="og:description"
-        content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
+        content="Prince of Wales College offers diverse clubs and societies fostering student engagement,
+from arts to sports, creating a vibrant campus community for personal growth and shared interests.
+Mr. Chathura Mendis doing a great service by being in charge of the societies.
+" />
     <meta name="twitter:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
-    <meta name="twitter:image" content="content/img/img-clubs/club-header.webp" />
+    <meta name="twitter:image" content="content/img/img-clubs/club-header.jpg" />
     <meta name="twitter:url" content="https://princeofwales.edu.lk/clubs.php" />
 
     <style>

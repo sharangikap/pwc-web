@@ -82,8 +82,8 @@ if($statement->rowCount() > 0)
                                     <span><?php echo $row["category"]; ?></span></p>
                             </a>
                             <div class="desc">
-                                <h3><a href="news.php?id=<?php echo $row["id"]; ?>"><?php echo $row["title"]; ?></a>
-                                </h3>
+                                <h4><a href="news.php?id=<?php echo $row["id"]; ?>"><?php echo $row["title"]; ?></a>
+                                </h4>
                                 <p><?php echo $row["excerpt"]; ?></p>
                             </div>
                         </article>
