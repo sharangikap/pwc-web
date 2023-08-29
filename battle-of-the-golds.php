@@ -1183,12 +1183,18 @@
         </table>
     </div>
 
-    <br><br><br><br><br>
+    <br><br>
 
     <div class="container">
+
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Cambrians'</h6>
+            <h1 class="mb-5">RECORDS</h1>
+        </div>
+
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-start text-primary pe-3">Records of the cambrians</h6>
+                <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                 <h1 class="mb-4">2-Day Matches</h1>
                 <p class="mb-4">In an exhilarating school cricket match, the Cambrian team etched their names into the
                     records with astounding achievements. Displaying remarkable prowess, they achieved the highest team
@@ -1221,7 +1227,7 @@
             </div>
 
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-start text-primary pe-3">Records of the cambrians</h6>
+                <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                 <h1 class="mb-4">1-Day Matches</h1>
                 <p class="mb-4">In a remarkable display of cricket prowess, the Cambrians of School 1 secured an
                     awe-inspiring victory in a day-long 50-over match. Their stellar performance left an indelible mark
