@@ -72,7 +72,7 @@ if($statement->rowCount() > 0)
             <div class="col-md-4 animate-box">
                 <article class="article-entry">
                     <a href="news/news.php?id=<?php echo $row["id"]; ?>" class="blog-img">
-                        <img src="news/img-news/<?php echo $row["photo"]; ?>"
+                        <img src="content/img/img-news/<?php echo $row["photo"]; ?>"
                             alt="<?php echo $row["photo"]; ?>"><br><br>
                         <p class="meta"><span class="day"><?php echo $row["date"]; ?></span> │ <span></span>
                             <span><?php echo $row["category"]; ?></span></p>
@@ -167,7 +167,7 @@ if ($currentDate < $targetDate) {
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="course-item bg-light">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid" src="events/img-events/<?php echo($row["img"]) ?>"
+                        <img class="img-fluid" src="content/img/img-events/<?php echo($row["img"]) ?>"
                             alt="<?php echo($row["title"]) ?>">
                     </div>
                     <div class="text-center p-4 pb-0">
