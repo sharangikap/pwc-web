@@ -472,6 +472,31 @@ if ($currentDate < $targetDate) {
 </div>
 <!-- Clubs Enf -->
 
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home" alt=""
+                        style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
+                <h1 class="mb-4">THE GOLDEN BOOK</h1>
+                <p class="mb-4">
+                
+            </p>
+
+                <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="the-golden-book.php"
+                    style="border-radius=25px" data-wow-delay="0.7s">Explore</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 <style>
     .explore-history-page-header {
         background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-home/explore-history-pwc.webp);
