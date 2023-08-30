@@ -38,7 +38,6 @@
 
 <body>
 
-
     <!-- Header Start -->
     <div class="container-fluid bg-primary py-5 mb-5 golden-book-header">
         <div class="container py-5">

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Prefects Guild │ Prince of Wales' College, Moratuwa</title>
+<title>Prefects' Guild │ Prince of Wales' College, Moratuwa</title>
 
 <head>
     <?php
@@ -9,13 +9,13 @@
 
     <?php include 'header.php'; ?>
 
-    <meta property="og:title" content="Prefects Guild │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:title" content="Prefects' Guild │ Prince of Wales' College, Moratuwa" />
     <meta property="og:image" content="../img/header-main-pwc.jpg" />
     <meta property="og:url" content="https://princeofwales.edu.lk/about-prefects-guild.php" />
     <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
     <meta property="og:description"
         content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
-    <meta name="twitter:title" content="Prefects Guild │ Prince of Wales' College, Moratuwa" />
+    <meta name="twitter:title" content="Prefects' Guild │ Prince of Wales' College, Moratuwa" />
     <meta name="twitter:image" content="../img/header-main-pwc.jpg" />
     <meta name="twitter:url" content="https://princeofwales.edu.lk/about-prefects-guild.php" />
 
@@ -44,7 +44,7 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">PREFECTS GUILD</h1>
+                    <h1 class="display-3 text-white animated slideInDown">PREFECTS' GUILD</h1>
                 </div>
             </div>
         </div>

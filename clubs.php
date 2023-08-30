@@ -195,7 +195,7 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h6 class="section-title bg-white text-start text-primary pe-3">RESPRESENTATIVE CLUB</h6>
-                        <h1 class="mb-4">PREFECTS GUILD</h1>
+                        <h1 class="mb-4">PREFECTS' GUILD</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
                             considered as a major school in Moratuwa area and over the years, established its name
                             as a
