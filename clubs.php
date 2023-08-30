@@ -13,8 +13,7 @@
     <meta property="og:image" content="content/img/img-clubs/club-header.jpg" />
     <meta property="og:url" content="https://princeofwales.edu.lk/clubs.php" />
     <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
-    <meta property="og:description"
-        content="Prince of Wales College offers diverse clubs and societies fostering student engagement,
+    <meta property="og:description" content="Prince of Wales College offers diverse clubs and societies fostering student engagement,
 from arts to sports, creating a vibrant campus community for personal growth and shared interests.
 Mr. Chathura Mendis doing a great service by being in charge of the societies.
 " />
@@ -91,8 +90,8 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/media-clubs-pwc.webp" alt=""
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/media-clubs-pwc.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -210,8 +209,8 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                             parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of
                             this
                             and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
-                            <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-prefects-guild.php" style="border-radius=25px"
-                            data-wow-delay="0.7s">Explore</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-prefects-guild.php"
+                            style="border-radius=25px" data-wow-delay="0.7s">Explore</a>
                     </div>
 
 
@@ -269,8 +268,8 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/debate-clubs-pwc.webp" alt=""
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/debate-clubs-pwc.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
 
@@ -292,8 +291,8 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/scout-clubs-pwc.webp" alt=""
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/scout-clubs-pwc.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -337,8 +336,8 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/st.jhon's-clubs-pwc.webp" alt=""
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/st.jhon's-clubs-pwc.webp" alt="" style="object-fit: cover;">
                         </div>
                     </div>
 
@@ -497,7 +496,8 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/science-section-academic-pwc.webp" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/science-section-academic-pwc.webp" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -668,100 +668,6 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                 <div class="row g-5">
 
 
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
-                                style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
-                        <h1 class="mb-4">DANCING SOCIETY</h1>
-                        <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                            considered as a major school in Moratuwa area and over the years, established its name as a
-                            leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the
-                            society with countless men of great caliber whom we are happy to say have served both, their
-                            school and the country alike….</p>
-                        <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new,
-                            official website. With the internet being a truly powerful means of reaching out to the
-                            community, we believe this would aid us to bridge the gap between the school and the
-                            parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this
-                            and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
-                    </div>
-
-
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
-                        <h1 class="mb-4">SOCIETY OF FINE ARTS</h1>
-                        <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                            considered as a major school in Moratuwa area and over the years, established its name as a
-                            leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the
-                            society with countless men of great caliber whom we are happy to say have served both, their
-                            school and the country alike….</p>
-                        <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new,
-                            official website. With the internet being a truly powerful means of reaching out to the
-                            community, we believe this would aid us to bridge the gap between the school and the
-                            parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this
-                            and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
-                                style="object-fit: cover;">
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/Drama-clubs- pwc.webp" alt=""
-                                style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
-                        <h1 class="mb-4">DRAMA SOCIETY</h1>
-                        <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                            considered as a major school in Moratuwa area and over the years, established its name as a
-                            leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the
-                            society with countless men of great caliber whom we are happy to say have served both, their
-                            school and the country alike….</p>
-                        <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new,
-                            official website. With the internet being a truly powerful means of reaching out to the
-                            community, we believe this would aid us to bridge the gap between the school and the
-                            parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this
-                            and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
-                    </div>
-
-
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
-                        <h1 class="mb-4">EASTERN MUSIC SOCIETY</h1>
-                        <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                            considered as a major school in Moratuwa area and over the years, established its name as a
-                            leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the
-                            society with countless men of great caliber whom we are happy to say have served both, their
-                            school and the country alike….</p>
-                        <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new,
-                            official website. With the internet being a truly powerful means of reaching out to the
-                            community, we believe this would aid us to bridge the gap between the school and the
-                            parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this
-                            and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
-                                style="object-fit: cover;">
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
-                                style="object-fit: cover;">
-                        </div>
-                    </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
                         <h1 class="mb-4">WESTERN MUSIC SOCIETY</h1>
@@ -776,11 +682,40 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                             parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this
                             and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
                     </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                                style="object-fit: cover;">
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                                style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
+                        <h1 class="mb-4">EASTERN MUSIC SOCIETY</h1>
+                        <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
+                            considered as a major school in Moratuwa area and over the years, established its name as a
+                            leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the
+                            society with countless men of great caliber whom we are happy to say have served both, their
+                            school and the country alike….</p>
+                        <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new,
+                            official website. With the internet being a truly powerful means of reaching out to the
+                            community, we believe this would aid us to bridge the gap between the school and the
+                            parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this
+                            and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
+                    </div>
+
 
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
-                        <h1 class="mb-4">WESTERN CHOIR</h1>
+                        <h1 class="mb-4">DANCING SOCIETY</h1>
                         <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
                             considered as a major school in Moratuwa area and over the years, established its name as a
                             leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the
@@ -798,6 +733,56 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                                 style="object-fit: cover;">
                         </div>
                     </div>
+
+
+
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                                style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
+                        <h1 class="mb-4">SOCIETY OF FINE ARTS</h1>
+                        <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
+                            considered as a major school in Moratuwa area and over the years, established its name as a
+                            leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the
+                            society with countless men of great caliber whom we are happy to say have served both, their
+                            school and the country alike….</p>
+                        <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new,
+                            official website. With the internet being a truly powerful means of reaching out to the
+                            community, we believe this would aid us to bridge the gap between the school and the
+                            parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this
+                            and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
+                    </div>
+                    
+
+
+                    
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
+                        <h1 class="mb-4">DRAMA SOCIETY</h1>
+                        <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
+                            considered as a major school in Moratuwa area and over the years, established its name as a
+                            leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the
+                            society with countless men of great caliber whom we are happy to say have served both, their
+                            school and the country alike….</p>
+                        <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new,
+                            official website. With the internet being a truly powerful means of reaching out to the
+                            community, we believe this would aid us to bridge the gap between the school and the
+                            parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this
+                            and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/Drama-clubs- pwc.webp" alt="" style="object-fit: cover;">
+                        </div>
+                    </div>
+
+
+                    
 
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
