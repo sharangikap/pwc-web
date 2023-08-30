@@ -210,6 +210,8 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                             parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of
                             this
                             and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
+                            <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-prefects-guild.php" style="border-radius=25px"
+                            data-wow-delay="0.7s">Explore</a>
                     </div>
 
 

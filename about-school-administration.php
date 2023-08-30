@@ -35,7 +35,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Hasitha Kesara Weththimuni</h5>
@@ -48,10 +48,9 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
                         </div>
-
                         <div class="text-center p-4">
-                            <h5 class="mb-0">H. E. Priyanga</h5>
-                            <small>Vice Principal</small>
+                            <h5 class="mb-0">P. P. K. Karunarathne</h5>
+                            <small>Deputy Principal</small>
                         </div>
                     </div>
                 </div>
@@ -60,7 +59,17 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
                         </div>
-
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">H. E. Priyanga</h5>
+                            <small>Deputy Principal</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
+                        </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Ven. Mathale Sumangala Thero</h5>
                             <small>Assistant Principal</small>
@@ -71,9 +80,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
+                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
                         </div>
-
                         <div class="text-center p-4">
                             <h5 class="mb-0">K. Bhagya Sandamali</h5>
                             <small>Assistant Principal</small>
@@ -81,16 +89,14 @@
                     </div>
                 </div>
 
-        
-
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="img/principal-pwc.webp" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
+                            <h5 class="mb-0">Chathura Mendis</h5>
+                            <small>Assistant Principal</small>
                         </div>
                     </div>
                 </div>
@@ -101,8 +107,8 @@
                             <img class="img-fluid" src="img/principal-pwc.webp" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
+                            <h5 class="mb-0">Ramya Samarasekara</h5>
+                            <small>Assistant Principal (Primary Section Head)</small>
                         </div>
                     </div>
                 </div>
@@ -113,8 +119,8 @@
                             <img class="img-fluid" src="img/principal-pwc.webp" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
+                            <h5 class="mb-0">Kasun Dewapriya</h5>
+                            <small>Sports Administrator</small>
                         </div>
                     </div>
                 </div>
@@ -125,8 +131,8 @@
                             <img class="img-fluid" src="img/principal-pwc.webp" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
+                            <h5 class="mb-0">Sanath Perera</h5>
+                            <small>Section Head (AL Science)</small>
                         </div>
                     </div>
                 </div>
@@ -137,8 +143,8 @@
                             <img class="img-fluid" src="img/principal-pwc.webp" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
+                            <h5 class="mb-0">Dewika Kulasinghe</h5>
+                            <small>Section Head (AL Commerce)</small>
                         </div>
                     </div>
                 </div>
@@ -149,8 +155,8 @@
                             <img class="img-fluid" src="img/principal-pwc.webp" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
+                            <h5 class="mb-0">Upeksha De Alwis</h5>
+                            <small>Section Head (AL Arts)</small>
                         </div>
                     </div>
                 </div>
@@ -161,143 +167,12 @@
                             <img class="img-fluid" src="img/principal-pwc.webp" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
+                            <h5 class="mb-0">Praboda Rodrigo</h5>
+                            <small>Assistant Sectional Head (Primary Section)</small>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara</h5>
-                            <small>Principal</small>
-                        </div>
-                    </div>
-                </div>
 
 
             </div>

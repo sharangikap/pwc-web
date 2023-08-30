@@ -5,7 +5,7 @@
             <div class="row g-5">
             <div class="col-lg-9 col-md-6">
                     <h4 class="text-white mb-3">Quick Links</h4>
-                    <a class="btn btn-link" href="../gallery.php">Gallery</a>
+                    <a class="btn btn-link" href="../the-golden-book.php">The Golden Book</a>
                     <a class="btn btn-link" href="../history.php">History</a>
                     <a class="btn btn-link" href="../about.php">About Us</a>
                     <a class="btn btn-link" href="../contact.php">Contact Us</a>

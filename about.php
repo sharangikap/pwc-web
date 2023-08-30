@@ -361,7 +361,7 @@
 
             <div class="row g-4">
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="img/principal-pwc.webp" alt="">
@@ -378,8 +378,19 @@
                             <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
                         </div>
                         <div class="text-center p-4">
+                            <h5 class="mb-0">P. P. K. Karunarathne</h5>
+                            <small>Deputy Principal</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
+                        </div>
+                        <div class="text-center p-4">
                             <h5 class="mb-0">H. E. Priyanga</h5>
-                            <small>Vice Principal</small>
+                            <small>Deputy Principal</small>
                         </div>
                     </div>
                 </div>
@@ -395,17 +406,6 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">K. Bhagya Sandamali</h5>
-                            <small>Assistant Principal</small>
-                        </div>
-                    </div>
-                </div>
 
                 <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-administration.php"
                         style="border-radius=25px" data-wow-delay="0.7s">View All</a></center>
@@ -418,6 +418,80 @@
     <!-- Administration End -->
 
 
+
+
+    <br>
+
+
+        <!-- prefects Start -->
+        <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">College</h6>
+                <h1 class="mb-5">PREFECTS GUILD</h1>
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="content/img/img-about/prefects/thinuka-fernando-hp23-pwc.webp" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Thinuka Fernando</h5>
+                            <small>Head Prefect</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="content/img/img-about/prefects/vihanga-dhp23-pwc.webp" alt="">
+                        </div>
+
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Vihanga Kothalawala</h5>
+                            <small>Deputy Head Prefect</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="content/img/img-about/prefects/tharusha-dhp23-pwc.webp" alt="">
+                        </div>
+
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Tharusha Deshapriya</h5>
+                            <small>Deputy Head Prefect</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="content/img/img-about/prefects/nelindu-dhp23-pwc.webp" alt="">
+                        </div>
+
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Nelindu Nithijaya</h5>
+                            <small>Deputy Head Prefect</small>
+                        </div>
+                    </div>
+                </div>
+
+
+                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-prefects-guild.php"
+                        style="border-radius=25px" data-wow-delay="0.7s">View All</a></center>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- prefects End -->
 
 
     <br>

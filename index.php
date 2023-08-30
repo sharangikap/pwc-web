@@ -314,6 +314,7 @@ if ($currentDate < $targetDate) {
                     eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
                 </p>
                 <p class="mb-4">- Hasitha Kesara Weththimuni</p>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="about-school-administration.php" style="border-radius=25px">View School Administration</a>
             </div>
         </div>
     </div>
@@ -353,11 +354,11 @@ if ($currentDate < $targetDate) {
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                        <a class="position-relative d-block overflow-hidden" href="sports.php#water-sports">
+                        <a class="position-relative d-block overflow-hidden" href="sports.php#aquatic-sports">
                             <img class="img-fluid" src="content/img/img-home/water-sports-home-pwc.webp" alt="">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
-                                <h5 class="m-0">Water Sports</h5>
+                                <h5 class="m-0">Aquatic Sports</h5>
                             </div>
                         </a>
                     </div>

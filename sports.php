@@ -66,7 +66,7 @@
                 <div class="col-lg-9 col-md-6">
                     <a class="btn btn-link" href="sports.php#team-sports">Team Sports</a>
                     <a class="btn btn-link" href="sports.php#individual-sports">Individual Sports</a>
-                    <a class="btn btn-link" href="sports.php#water-sports">Water Sports</a>
+                    <a class="btn btn-link" href="sports.php#aquatic-sports">Aquatic Sports</a>
                     <a class="btn btn-link" href="sports.php#combat-sports">Combat Sports</a>
                     <a class="btn btn-link" href="sports.php#racquet-sports">Racquet Sports</a>
                     <a class="btn btn-link" href="sports.php#mind-sports">Mind Sports</a>
@@ -264,12 +264,12 @@
     </div>
 
 
-    <div class="container-xxl py-5" id="water-sports">
+    <div class="container-xxl py-5" id="aquatic-sports">
 
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3"></h6>
-                <h1 class="mb-5">WATER SPORTS</h1>
+                <h1 class="mb-5">AQUATIC SPORTS</h1>
             </div>
 
             <div class="container">
@@ -281,7 +281,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">WATER SPORT</h6>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">AQUATIC SPORT</h6>
                         <h1 class="mb-4">SWIMMING</h1>
                         <p class="mb-4">Swimming, Which Started In 1996, Is Another Sport That Adorns the Prince of
                             Wales School, And Now the School Has a Swimming Pool That Has Become a Sport That the

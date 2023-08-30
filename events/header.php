@@ -141,7 +141,7 @@
                 <a href="../index.php" class="nav-item nav-link nav-link pulse">Home</a>
                 <a href="../news/" class="nav-item nav-link nav-link pulse">News</a>
                 <a href="index.php" class="nav-item nav-link active nav-link pulse">events</a>
-                <a href="../gallery.php" class="nav-item nav-link nav-link pulse">Gallery</a>
+                <a href="../the-golden-book.php" class="nav-item nav-link nav-link pulse">The golden book</a>
 
                 <div class="nav-item dropdown">
                     <a href="../sports.php"
@@ -149,7 +149,7 @@
                     <div class="dropdown-menu fade-down m-0">
                         <a class="dropdown-item" href="../sports.php#team-sports"><b>TEAM SPORTS</b></a>
                         <a class="dropdown-item" href="../sports.php#individual-sports"><b>INDIVIDUAL SPORTS</b></a>
-                        <a class="dropdown-item" href="../sports.php#water-sports"><b>WATER SPORTS</b></a>
+                        <a class="dropdown-item" href="../sports.php#aquatic-sports"><b>AQUATIC SPORTS</b></a>
                         <a class="dropdown-item" href="../sports.php#combat-sports"><b>COMBAT SPORTS</b></a>
                         <a class="dropdown-item" href="../sports.php#racquet-sports"><b>RACQUET SPORTS</b></a>
                         <a class="dropdown-item" href="../sports.php#mind-sports"><b>MIND SPORTS</b></a>

@@ -29,14 +29,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="https://princeofwales.edu.lk/resources/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="https://princeofwales.edu.lk/resources/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="resources/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="resources/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://princeofwales.edu.lk/resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="https://princeofwales.edu.lk/resources/css/style.css" rel="stylesheet">
+    <link href="resources/css/style.css" rel="stylesheet">
 
     <!-- PWA -->
 
@@ -154,8 +154,8 @@
                     class="nav-item nav-link nav-link pulse <?php if ($page === 'news') echo 'active'; ?>">News</a>
                 <a href="events/"
                     class="nav-item nav-link nav-link pulse <?php if ($page === 'events') echo 'active'; ?>">events</a>
-                <a href="gallery.php"
-                    class="nav-item nav-link <?php if ($page === 'gallery') echo 'active'; ?> nav-link pulse">Gallery</a>
+                <a href="the-golden-book.php"
+                    class="nav-item nav-link <?php if ($page === 'golden-book') echo 'active'; ?> nav-link pulse">The golden book</a>
 
 
 
@@ -165,7 +165,7 @@
                     <div class="dropdown-menu fade-down m-0">
                         <a class="dropdown-item" href="sports.php#team-sports"><b>TEAM SPORTS</b></a>
                         <a class="dropdown-item" href="sports.php#individual-sports"><b>INDIVIDUAL SPORTS</b></a>
-                        <a class="dropdown-item" href="sports.php#water-sports"><b>WATER SPORTS</b></a>
+                        <a class="dropdown-item" href="sports.php#aquatic-sports"><b>AQUATIC SPORTS</b></a>
                         <a class="dropdown-item" href="sports.php#combat-sports"><b>COMBAT SPORTS</b></a>
                         <a class="dropdown-item" href="sports.php#racquet-sports"><b>RACQUET SPORTS</b></a>
                         <a class="dropdown-item" href="sports.php#mind-sports"><b>MIND SPORTS</b></a>

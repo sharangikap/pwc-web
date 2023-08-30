@@ -5,7 +5,7 @@
             <div class="row g-5">
                 <div class="col-lg-9 col-md-6">
                     <h4 class="text-white mb-3">Quick Links</h4>
-                    <a class="btn btn-link" href="gallery.php">Gallery</a>
+                    <a class="btn btn-link" href="the-golden-book.php">The Golden Book</a>
                     <a class="btn btn-link" href="history.php">History</a>
                     <a class="btn btn-link" href="about.php">About Us</a>
                     <a class="btn btn-link" href="contact.php">Contact Us</a>
@@ -45,10 +45,10 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://princeofwales.edu.lk/resources/lib/wow/wow.min.js"></script>
-    <script src="https://princeofwales.edu.lk/resources/lib/easing/easing.min.js"></script>
-    <script src="https://princeofwales.edu.lk/resources/lib/waypoints/waypoints.min.js"></script>
-    <script src="https://princeofwales.edu.lk/resources/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="resources/lib/wow/wow.min.js"></script>
+    <script src="resources/lib/easing/easing.min.js"></script>
+    <script src="resources/lib/waypoints/waypoints.min.js"></script>
+    <script src="resources/lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="https://princeofwales.edu.lk/resources/js/main.js"></script>
+    <!-- Javascript -->
+    <script src="resources/js/main.js"></script>
