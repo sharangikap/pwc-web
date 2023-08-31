@@ -162,6 +162,14 @@
                     <p>Actor</p>
                 </div>
 
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3"
+                        src="content/img/img-about/alumni/"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Kishu Gomes</h5>
+                    <p>Businessmen</p>
+                </div>
+
             </div>
         </div>
     </div>

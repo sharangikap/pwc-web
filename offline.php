@@ -8,15 +8,13 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
-       <!-- Favicon -->
-    <link href="logo-pwc.png" rel="icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
-    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
-    <link rel="icon" href="favicon.png" type="image/png" sizes="96x96">
-    <link rel="icon" href="favicon.png" type="image/png" sizes="192x192">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Favicon -->
+    <link href="content/icons/logo-70x70-pwc.png" rel="icon">
+    <link rel="icon" href="content/icons/logo-70x70-pwc.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="content/icons/logo-apple-touch-icon-pwc.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="content/icons/logo-android-chrome-icon-pwc.png">
+    <meta name="msapplication-TileImage" content="content/icons/logo-70x70-pwc.png">
+    <meta name="msapplication-TileColor" content="#800000">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

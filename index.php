@@ -12,6 +12,16 @@
     include 'header.php';
     ?>
 
+    <meta property="og:title" content="Prince of Wales' College, Moratuwa" />
+    <meta property="og:image" content="content/img/img-home/header-main-pwc.webp" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/" />
+    <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
+    <meta property="og:description"
+        content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
+    <meta name="twitter:title" content="Prince of Wales' College, Moratuwa" />
+    <meta name="twitter:image" content="content/img/img-home/header-main-pwc.webp" />
+    <meta name="twitter:url" content="https://princeofwales.edu.lk/" />
+
 </head>
 
 <!-- Carousel Start -->
@@ -202,7 +212,7 @@ if ($currentDate < $targetDate) {
 
     </div>
     <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="events/" style="border-radius=25px"
-        data-wow-delay="0.7s">View More</a></center>
+            data-wow-delay="0.7s">View More</a></center>
 </div>
 
 
@@ -314,7 +324,8 @@ if ($currentDate < $targetDate) {
                     eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
                 </p>
                 <p class="mb-4">- Hasitha Kesara Weththimuni</p>
-                <a class="btn btn-primary py-3 px-5 mt-2" href="about-school-administration.php" style="border-radius=25px">View School Administration</a>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="about-school-administration.php"
+                    style="border-radius=25px">View School Administration</a>
             </div>
         </div>
     </div>
@@ -368,10 +379,9 @@ if ($currentDate < $targetDate) {
                 <a class="position-relative d-block h-100 overflow-hidden" href="sports.php#combat-sports">
                     <img class="img-fluid position-absolute w-100 h-100"
                         src="content/img/img-home/combat-sports-home-pwc.webp" alt="" style="object-fit: cover;">
-                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px;">
-                                <h5 class="m-0">Combat Sports</h5>
-                            </div>
+                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                        <h5 class="m-0">Combat Sports</h5>
+                    </div>
                 </a>
             </div>
             <br><br><br><br>
@@ -457,10 +467,9 @@ if ($currentDate < $targetDate) {
                     <img class="img-fluid position-absolute w-100 h-100"
                         src="content/img/img-home/community-service-clubs-home-pwc.webp" alt=""
                         style="object-fit: cover;">
-                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                style="margin: 1px;">
-                                <h5 class="m-0">Commiunity Service Clubs</h5>
-                            </div>
+                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                        <h5 class="m-0">Commiunity Service Clubs</h5>
+                    </div>
                 </a>
             </div>
             <br>
@@ -486,8 +495,8 @@ if ($currentDate < $targetDate) {
                 <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                 <h1 class="mb-4">THE GOLDEN BOOK</h1>
                 <p class="mb-4">
-                
-            </p>
+
+                </p>
 
                 <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="the-golden-book.php"
                     style="border-radius=25px" data-wow-delay="0.7s">Explore</a>
