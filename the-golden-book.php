@@ -22,7 +22,7 @@
 
     <style>
         .golden-book-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../content/img/img-events/event-header-pwc.webp);
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-events/event-header-pwc.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -51,14 +51,14 @@
     <!-- Header End -->
 
 
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="education-sector">
 
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100"
-                            src="content/img/golden-book-edu-pwc.png" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/golden-book-edu-pwc.png"
+                            alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -69,17 +69,26 @@
                         contributions to education. It stands proudly in the Golden Book of Excellent Cambrians in the
                         education sector. The college, with its rich history and dedication to learning, has played a
                         vital role in shaping bright minds. Its commitment to fostering knowledge and skills has made it
-                        a beacon of education. <br><br>Through the years, Prince of Wales College has been a place where
+                        a beacon of education. Through the years, Prince of Wales College has been a place where
                         students have blossomed into knowledgeable individuals, ready to contribute positively to
                         society. Its inclusion in the Golden Book is a testament to its enduring impact and the
                         countless Cambrians it has equipped for a brighter future.
                     </p>
                     <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="the-golden-book/education-sector/"
                         style="border-radius=25px" data-wow-delay="0.7s">View Book</a>
-                        
+
                 </div>
 
 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-xxl py-5" id="sports-sector">
+
+        <div class="container">
+            <div class="row g-5">
 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3">GOLDEN BOOK</h6>
@@ -95,14 +104,14 @@
                         Golden Book proudly features these outstanding Cambrians, highlighting their contributions and
                         reminding us of the enduring spirit of sportsmanship fostered at Prince of Wales College.
                     </p>
-                    <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="the-golden-book/education-sector/"
+                    <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="the-golden-book/sports-sector/"
                         style="border-radius=25px" data-wow-delay="0.7s">View Book</a>
                 </div>
 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/golden-book-sports-pwc.png" alt=""
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/golden-book-sports-pwc.png" alt="" style="object-fit: cover;">
                     </div>
                 </div>
 
@@ -110,8 +119,6 @@
             </div>
         </div>
     </div>
-
-
 
     <?php include 'footer.php'; ?>
 

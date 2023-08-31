@@ -346,35 +346,42 @@ body{
 	border-radius:10px;
 }
 
-.zoom-icon{
+/* custom */
+
+
+.exit-icon{
 	position:absolute;
 	z-index:1000;
 	width:22px;
 	height:22px;
 	top:10px;
 	right:10px;
-	background-image:url(../pics/zoom-icons.png);
+	background-image:url(../pics/close.png);
 	background-size:88px 22px;
 }
 
-.zoom-icon-in{
+/* .exit-icon-in{
 	background-position:0 0;
 	cursor: pointer;
 }
 
-.zoom-icon-in.zoom-icon-in-hover{
+.exit-icon-in.exit-icon-in-hover{
 	background-position:-22px 0;
 	cursor: pointer;
 }
 
-.zoom-icon-out{
+.exit-icon-out{
 	background-position:-44px 0;
 }
 
-.zoom-icon-out.zoom-icon-out-hover{
+.exit-icon-out.exit-icon-out-hover{
 	background-position:-66px 0;
 	cursor: pointer;
-}
+} */
+
+
+
+/* custom */
 
 .bottom{
 	position:absolute;
