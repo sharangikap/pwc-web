@@ -31,7 +31,7 @@ foreach ($rows as $row) {
 	<meta property="og:description" content="<?php echo $row["excerpt"]; ?>"/>
 	<meta name="twitter:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa" />
   <meta property="twitter:description" content="<?php echo $row["excerpt"]; ?>" />
-	<meta name="twitter:image" content="news/img-news/<?php echo $row["photo"]; ?>" />
+	<meta name="twitter:image" content="../content/img/img-news/<?php echo $row["photo"]; ?>" />
 	<meta name="twitter:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>" />
 
 
