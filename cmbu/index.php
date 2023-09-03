@@ -79,9 +79,9 @@
             <div id="particles"></div>
               <!--Social Media Links-->
             <div class="social-media-links">
-               <a href="https://www.instagram.com/cmbulive/"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a>
-                <a href="https://www.facebook.com/cambrians.media"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a>
-                <a href="https://www.youtube.com/cmbulive"><img src="images/youtube logo.png" class="social-media" alt="linkedin-logo"></a>
+               <a href="https://www.instagram.com/cmbulive/" target="_blank"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a>
+                <a href="https://www.facebook.com/cambrians.media" target="_blank"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a>
+                <a href="https://www.youtube.com/cmbulive" target="_blank"><img src="images/youtube logo.png" class="social-media" alt="linkedin-logo"></a>
             
             </div>
             <!--Social Media Links end-->
@@ -94,8 +94,8 @@
             <span class="slash">|</span>
         </div>
                     <div class="contact">
-                <a href="Mailto:pwcmbu@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a>
-                <a href="Tel:+94112645628"><img src="images/call.png" alt="phone-pic" class="contactpic"></a>
+                <a href="Mailto:pwcmbu@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic" target="_blank"></a>
+                <a href="Tel:+94112645628"><img src="images/call.png" alt="phone-pic" class="contactpic" target="_blank"></a>
                     </div>    
             </div>
             </div>
