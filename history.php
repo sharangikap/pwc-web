@@ -63,16 +63,108 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="mb-4">Sir Charles Hendry De Soyza</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">Sir Charles Hendry De Soyza was the founder of Prince of Wales College. He was a
+                        very important person who started the school a long time ago. He wanted to give young people a
+                        good education, so he made the school.
+                        <br><br>
+                        Sir Charles De Soyza did a lot of good things for the school. He helped build it and gave money
+                        to make it better. He cared about education and wanted to help young people learn and grow.
+                        Because of him, Prince of Wales College has been a place for students to study and become
+                        successful for many years.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">in</h6>
+                <h1 class="mb-5">MEMORIAM</h1>
+            </div>
+
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">01st Nov 1875</h6>
+                        <h5 class="mb-4">a significant event occurred in Sri Lanka with the visit of King Edward, Duke
+                            of
+                            Wales, from England. This visit marked a memorable moment in the island's history and had a
+                            lasting impact on its cultural and historical heritage.</h5>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">27th Dec 1875</h6>
+                        <h4 class="mb-4">In order to commemorate the visit of King Edward, Duke of Wales, England, to
+                            Sri Lanka, philanthropist Sir Charles Hendry de Soyza took steps to build this educational
+                            institution with the permission of the Sri Lankan government.</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">14th Sep 1876</h6>
+                        <h4 class="mb-4">On this day, the foundation stone for the construction of the school was laid
+                            and the basic plan was drawn by Mr. Muhandiram Mendis Jayawardane.</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1882</h6>
+                        <h4 class="mb-4">Construction of the first hostel building and introduction of cricket as 1st
+                            Sport of the school</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1883</h6>
+                        <h4 class="mb-4">Sir John Douglas presided over the first prize giving ceremony of the college.
+                            Prizes were given to all students of the 4 colleges.</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1890</h6>
+                        <h4 class="mb-4">The death of the founder. After that, Mrs. Soyza took over the school.</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1896</h6>
+                        <h4 class="mb-4">During this time, the school cricket club was started, the cricket ground was
+                            improved, and <b>The Cambrian Magazine</b> started</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1903</h6>
+                        <h4 class="mb-4">During this time, the school started its debating team, cadet platoon, and
+                            added important buildings such as the library, laboratory, and Commerce Section. Tennis and
+                            football were also introduced.</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1904</h6>
+                        <h4 class="mb-4">The Old Boys Association of the school was founded in 1903, and March 3, the
+                            Founder's birthday, was named Founder's Day.</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1904</h6>
+                        <h4 class="mb-4">During this time, the school constructed new classrooms, introduced a house
+                            system, and hosted its first inter-house sports meet.</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1926</h6>
+                        <h4 class="mb-4">Received permission to use the national anthem of Wales, England, as the school
+                            English anthem</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1933</h6>
+                        <h4 class="mb-4">Held Inaugural Big Match Between Prince of Wales' College vs St. Sebastian's
+                            College</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1938</h6>
+                        <h4 class="mb-4">Introduced Hockey for the school</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1951</h6>
+                        <h4 class="mb-4">Introduced higher Education for the school</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">15th Dec 1961</h6>
+                        <h4 class="mb-4">The college was taken over by the government</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1964</h6>
+                        <h4 class="mb-4">Held Carol Service for the first time</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1967</h6>
+                        <h4 class="mb-4">Written Sinhala anthem for the college by Mr. B. Godahewa. <br> Laying the
+                            foundation stone for the Buddha Temple in the college</h4>
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1972</h6>
+                        <h4 class="mb-4">Opening of Buddha Temple by Mr. William Gopallava</h4>
+
+
+                        <h6 class="section-title bg-white text-start text-primary pe-3">1973</h6>
+                        <h4 class="mb-4">Starting of Hewisi Team and Western Bands. <br>
+                            Addition of Rodrigo House to Houses</h4>
+
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -155,41 +247,6 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">in</h6>
-                <h1 class="mb-5">MEMORIAM</h1>
-            </div>
-
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.webp" alt=""
-                                style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">14th Sep 1876</h6>
-                        <h1 class="mb-4">start</h1>
-                        <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                            considered as a major school in Moratuwa area and over the years, established its name as a
-                            leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the
-                            society with countless men of great caliber whom we are happy to say have served both, their
-                            school and the country alike….</p>
-                        <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new,
-                            official website. With the internet being a truly powerful means of reaching out to the
-                            community, we believe this would aid us to bridge the gap between the school and the
-                            parents, past pupils, past teachers etc. We warmly welcome all of you to be a part of this
-                            and there-by keep the evergreen Cambrian spirit high amongst us all!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">College Museum</h6>
                 <h1 class="mb-5">ARCHIVES</h1>
             </div>
@@ -200,86 +257,100 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/history-stuff-pwc.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/history-stuff-pwc.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/past-scl-history-pwc.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/past-scl-history-pwc.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/past-school2-pwc.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/past-school2-pwc.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/1900 AD yrs scl 2.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/1900 AD yrs scl 2.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/1900 AD yrs scl.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/1900 AD yrs scl.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/1964 senior athelatic group pic.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/1964 senior athelatic group pic.webp"
+                                alt="" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/Lanthra Fernando's bat.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/Lanthra Fernando's bat.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/old pic.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/old pic.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/past scl front view.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/past scl front view.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/past scl surrounding.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/past scl surrounding.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/past trophy sheilds.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/past trophy sheilds.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/past uniform badge 1.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/past uniform badge 1.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/scl 1st bell.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/scl 1st bell.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-history/museum-archives/scl bell 1882.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-history/museum-archives/scl bell 1882.webp" alt=""
+                                style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
