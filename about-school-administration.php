@@ -49,6 +49,17 @@
                             <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
                         </div>
                         <div class="text-center p-4">
+                            <h5 class="mb-0">Ranjith Illapperuma</h5>
+                            <small>Deputy Principal</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
+                        </div>
+                        <div class="text-center p-4">
                             <h5 class="mb-0">Upul Silva</h5>
                             <small>Deputy Principal</small>
                         </div>
@@ -157,18 +168,6 @@
                         <div class="text-center p-4">
                             <h5 class="mb-0">Upeksha De Alwis</h5>
                             <small>Section Head (AL Arts)</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/principal-pwc.webp" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Praboda Rodrigo</h5>
-                            <small>Assistant Sectional Head (Primary Section)</small>
                         </div>
                     </div>
                 </div>

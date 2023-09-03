@@ -163,8 +163,7 @@
                 </div>
 
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3"
-                        src="content/img/img-about/alumni/"
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="content/img/img-about/alumni/kishu-gomes-alumini-pwc.webp"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Kishu Gomes</h5>
                     <p>Businessmen</p>
@@ -202,7 +201,7 @@
     </div>
 
 
-    
+
 
     <!-- Identity Start -->
     <div class="container-xxl py-5">
@@ -215,14 +214,13 @@
 
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-
+                    <p class="mb-4">The Sinhala Anthem of Prince of Wales College Moratuwa is a special song that
+                        represents the school in Sri Lanka. It's sung in the Sinhala language and holds a lot of pride
+                        and significance for the students and teachers. <br><br> This anthem talks about the school's
+                        history,
+                        values, and the strong sense of belonging that the school community shares. When sung, it
+                        creates unity and a feeling of loyalty among the students, serving as a symbol of their love for
+                        Prince of Wales College Moratuwa.
                     </p>
                     <audio controls>
                         <source src="content/audio/Sinhala-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
@@ -259,16 +257,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The English anthem of Prince of Wales College Moratuwa is a special song that
+                        represents our school's identity and values. It's a symbol of our pride and unity, sung during
+                        important school events. <br><br> The anthem's lyrics emphasize our commitment to education,
+                        character
+                        development, and excellence, instilling a sense of school spirit and loyalty among students.
+                        Whether at sports events or graduation ceremonies, the English anthem is a cherished part of our
+                        school experience, bringing us together and reminding us of our school's history and traditions.
+                    </p>
                     <audio controls>
                         <source src="content/audio/English-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
                     <br><br>
@@ -295,16 +291,19 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The flag of Prince of Wales College in Moratuwa is a simple yet elegant design that
+                        proudly represents the school. It features three vibrant colors: purple, gold, and maroon. The
+                        flag is divided into three horizontal stripes, with the top and bottom stripes being purple and
+                        the middle one being maroon. <br><br> In the center of the maroon stripe, there is a bold gold
+                        emblem
+                        that showcases the school's emblem or logo. This flag symbolizes the school's pride, identity,
+                        and values, making it a source of unity and recognition among the students and alumni of Prince
+                        of Wales College in Moratuwa.
+                        <br><br>
+                        The colors purple, gold, and maroon on the flag make it look special and remind us of the
+                        school's long history. The flag is like a treasure that tells the story of our school. When we
+                        see this flag flying, it shows that the school is very serious about teaching and doing well.
+                    </p>
                 </div>
             </div>
         </div>
@@ -325,11 +324,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
+                    <p class="mb-4">The House System at Prince of Wales College was introduced in 1904. This system
+                        divided the students into different groups called houses, each with its own name and identity.
+                        It was a way to create a sense of belonging and competition among the students. Each house had
+                        its own colors, emblem, and motto, and students would compete in various activities and sports
+                        to earn points for their house. This system not only encouraged friendly competition but also
+                        fostered teamwork and camaraderie among the students. Over the years, the House System has
+                        become an integral part of the college's tradition, bringing students together and instilling a
+                        strong sense of pride in their respective houses.</p>
                     <div class="row gy-2 gx-4 mb-4">
                         <div class="col-sm-6">
                             <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Founders (Red & Black)
@@ -372,7 +374,7 @@
 
             <div class="row g-4">
 
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="">
@@ -400,7 +402,7 @@
                             <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">H. E. Priyanga</h5>
+                            <h5 class="mb-0">Ranjith Illapperuma</h5>
                             <small>Deputy Principal</small>
                         </div>
                     </div>
@@ -408,14 +410,14 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/sumangala-thero-assit-principal-pwc.webp" alt="">
+                            <img class="img-fluid" src="img/img-about/administration/unknown.webp" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Ven. Mathale Sumangala Thero</h5>
-                            <small>Assistant Principal</small>
+                            <h5 class="mb-0">H. E. Priyanga</h5>
+                            <small>Deputy Principal</small>
                         </div>
                     </div>
-                </div>
+    </div>
 
 
                 <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-administration.php"
@@ -434,8 +436,8 @@
     <br>
 
 
-        <!-- prefects Start -->
-        <div class="container-xxl py-5">
+    <!-- prefects Start -->
+    <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">College</h6>
@@ -448,7 +450,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/thinuka-fernando-hp23-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/prefects/thinuka-fernando-hp23-pwc.webp"
+                                alt="">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Thinuka Fernando</h5>
@@ -471,11 +474,11 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/tharusha-dhp23-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/prefects/thimira-damsara-dhp23-pwc.webp"
+                                alt="">
                         </div>
-
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Tharusha Deshapriya</h5>
+                            <h5 class="mb-0">Thimira Damsara</h5>
                             <small>Deputy Head Prefect</small>
                         </div>
                     </div>
@@ -526,15 +529,13 @@
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                 <h1 class="mb-4"></h1>
-                <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been considered
-                    as a major school in Moratuwa area and over the years, established its name as a leading school in
-                    Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of
-                    great caliber whom we are happy to say have served both, their school and the country alike….</p>
-                <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                    website. With the internet being a truly powerful means of reaching out to the community, we believe
-                    this would aid us to bridge the gap between the school and the parents, past pupils, past teachers
-                    etc. We warmly welcome all of you to be a part of this and there-by keep the evergreen Cambrian
-                    spirit high amongst us all!</p>
+                <p class="mb-4">The Prince of Wales College started building its school a long time ago, on September
+                    14, 1876. They put down the first stone to begin the construction. A smart person named Mr.
+                    Muhandiram Mendis Jayawardane made the basic plan for the school. <br><br> This plan helped make the
+                    school's
+                    infrastructure, which means all the buildings and things the school needed to work properly. So, the
+                    Prince of Wales College has a history that goes back a very long time, and its infrastructure was
+                    carefully designed to support the education of its students.</p>
                 <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-infrastructure.php"
                     style="border-radius=25px" data-wow-delay="0.7s">View All</a>
             </div>

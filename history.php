@@ -183,20 +183,6 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid"
-                                src="content/img/img-history/former-principals/dimuthu-deranagoda-former-principals-pwc.webp"
-                                alt="Dimuthu Deranagoda">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Dimuthu Deranagoda</h5>
-                            <small>(2021–2022)</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
                                 src="content/img/img-history/former-principals/kusala-fernando-former-principals-pwc.webp"
                                 alt="Kusala Fernando">
                         </div>
@@ -231,6 +217,19 @@
                         <div class="text-center p-4">
                             <h5 class="mb-0">Sampath Weragoda</h5>
                             <small>(2012–2013)</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/wd-jayasena-former-principals-pwc.webp"
+                                alt="W. D. Jayasena">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">W. D. Jayasena</h5>
+                            <small>2011–2012</small>
                         </div>
                     </div>
                 </div>
