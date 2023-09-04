@@ -9,6 +9,28 @@ include 'header.php';
 
 ?>
 
+    <!-- seo -->
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Events │ Prince of Wales' College, Moratuwa" />
+<meta name="description" content="Explore Prince of Wales College's vibrant event calendar, packed with exciting educational and cultural experiences for students and the community." />
+<meta name="keywords" content="prince of wales college events, prince of wales college event calender" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk/events/" />
+<meta property="og:title" content="Events │ Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="Explore Prince of Wales College's vibrant event calendar, packed with exciting educational and cultural experiences for students and the community." />
+<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-events/event-header-pwc.webp" />
+
+<!-- Twitter / WA / TG -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/events/" />
+<meta property="twitter:title" content="Events │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="Explore Prince of Wales College's vibrant event calendar, packed with exciting educational and cultural experiences for students and the community." />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-events/event-header-pwc.webp" />
+
+
 
     <style>
         .event-page-header {

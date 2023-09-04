@@ -8,6 +8,26 @@
     include '../functions.php';
     ?>
 
+    <!-- seo -->
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="News │ Prince of Wales' College, Moratuwa" />
+<meta name="description" content="Stay informed with the latest updates and insights from Prince of Wales College on our news blog. Your source for educational excellence and campus happenings." />
+<meta name="keywords" content="prince of wales college news, prince of wales college achievements, prince of wales college blog" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk/news/" />
+<meta property="og:title" content="News │ Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="Stay informed with the latest updates and insights from Prince of Wales College on our news blog. Your source for educational excellence and campus happenings." />
+<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-news/news-header-pwc.webp" />
+
+<!-- Twitter / WA / TG -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/news/" />
+<meta property="twitter:title" content="News │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="Stay informed with the latest updates and insights from Prince of Wales College on our news blog. Your source for educational excellence and campus happenings." />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-news/news-header-pwc.webp" />
 
     <style>
         .news-page-header {
