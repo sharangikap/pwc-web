@@ -10,20 +10,20 @@
 
 <!-- Primary Meta Tags -->
 <meta name="title" content="Sports │ Prince of Wales' College, Moratuwa" />
-<meta name="description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports. The Zones Produce Many Winners of Color on Their Way to Provincial and National Level Achievements." />
+<meta name="description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://princeofwales.edu.lk/sports.php" />
 <meta property="og:title" content="Sports │ Prince of Wales' College, Moratuwa" />
-<meta property="og:description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports. The Zones Produce Many Winners of Color on Their Way to Provincial and National Level Achievements." />
+<meta property="og:description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-sports/header-image-sports-pwc.webp" />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://princeofwales.edu.lk/sports.php" />
 <meta property="twitter:title" content="Sports │ Prince of Wales' College, Moratuwa" />
-<meta property="twitter:description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports. The Zones Produce Many Winners of Color on Their Way to Provincial and National Level Achievements." />
+<meta property="twitter:description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-sports/header-image-sports-pwc.webp" />
 
     <style>
