@@ -793,7 +793,7 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/readers-club-pwc.webp" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -844,7 +844,7 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/Environmental-club-pwc.webp" alt=""
                                 style="object-fit: cover;">
                         </div>
                     </div>

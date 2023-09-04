@@ -22,7 +22,7 @@
 
     <style>
         .golden-book-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-events/event-header-pwc.webp);
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/the-golden-book-cover-pwc.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;

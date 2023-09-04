@@ -73,6 +73,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-history/former-principals/jws-sririwardane-former-principal-pwc.webp"
+                                style="width: 1000px;"
                                 alt="J. W. S. Siriwardane">
                         </div>
                         <div class="text-center p-4">
@@ -178,7 +179,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/unknown.webp"
+                            <img class="img-fluid" src="content/img/img-history/former-principals/mec-fernando-former-principal-pwc.webp"
                                 alt="M. E. C. Fernando">
                         </div>
                         <div class="text-center p-4">
@@ -218,7 +219,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/unknown.webp"
+                            <img class="img-fluid" style="width: 1000px;" src="content/img/img-history/former-principals/jbc-rodrigo-former-principals-pwc.webp"
                                 alt="J. B. C. Rodrigo">
                         </div>
                         <div class="text-center p-4">
@@ -231,7 +232,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/unknown.webp"
+                            <img class="img-fluid" src="content/img/img-history/former-principals/h-samaranayake-former-principals-pwc.webp"
                                 alt="H. Samaranayake">
                         </div>
                         <div class="text-center p-4">
@@ -246,10 +247,10 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-history/former-principals/ra-mendis-former-principals-pwc.webp"
-                                alt="F. R. A. Mendis">
+                                alt="F. R. E. Mendis">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">F. R. A. Mendis</h5>
+                            <h5 class="mb-0">Rev. F. R. E. Mendis</h5>
                             <small>1931–1932</small>
                         </div>
                     </div>
@@ -258,10 +259,10 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/unknown.webp" alt="L. G. Crease">
+                            <img class="img-fluid" src="content/img/img-history/former-principals/lp-crease-former-principal-pwc.webp" alt="L. P. Crease">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">L. G. Crease</h5>
+                            <h5 class="mb-0">L. P. Crease</h5>
                             <small>1927–1931</small>
                         </div>
                     </div>
@@ -285,10 +286,10 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-history/former-principals/gd-jayasooriya-former-principals-pwc.webp"
-                                alt="G. T. Jayasuriya">
+                                alt="G. D. Jayasuriya">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">G. T. Jayasuriya</h5>
+                            <h5 class="mb-0">G. D. Jayasuriya</h5>
                             <small>1917–1925</small>
                         </div>
                     </div>
