@@ -82,7 +82,7 @@ if ($statement->rowCount() > 0) {
     }
 }
 
-echo '            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+echo '<div class="text-center wow fadeInUp" data-wow-delay="0.1s">
 <h6 class="section-title bg-white text-center text-primary px-3">Upcoming events</h6>
 <br><br>
 </div>';

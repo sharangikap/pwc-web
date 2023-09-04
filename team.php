@@ -38,10 +38,13 @@
 
 
                         <div class="col-sm-12">
-                           <i class="fa fa-arrow-right text-primary me-2"></i>Developer: <b>Nelitha Vindinu Priyawansha</b></p>
-                           <i class="fa fa-arrow-right text-primary me-2"></i>Photographers: <b>Tharul Bandara, Dasindu Nirmal, Kavinu Pasandul</b></p>
-                           <i class="fa fa-arrow-right text-primary me-2"></i>Graphics Designer: <b>Nimsara Sankalpa</b></p>
-                           <i class="fa fa-arrow-right text-primary me-2"></i>Creative Writer: <b>Naviru Mendis</b></p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i><b>Nelitha Vindinu Priyawansha: </b>Developer, Creative Writer</p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i><b>Tharul Bandara: </b>Photographer, Graphics Designer</p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i><b>Nimsara Sankalpa: </b>Graphics Designer:</p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i><b>Kavinu Pasandul: </b>Photographer</p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i><b>Dasindu Nimnal: </b>Photographer</p>
+                           <i class="fa fa-arrow-right text-primary me-2"></i><b>Naviru Mendis: </b>Creative Writer</p>
+                           <br>
                            <i class="fa fa-arrow-right text-primary me-2"></i>Media Partner: <b>Cambrians' Media & Broadcasting Unit</b></p>
                            <i class="fa fa-arrow-right text-primary me-2"></i>Special Thanks: <b>Mr. Chamara Jeewantha, Mrs. Sharangika Perera</b></p>
 
