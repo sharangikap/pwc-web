@@ -4,10 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cambrians' Media & Broadcasting Unit" />
-	<meta name="keywords" content="cmbu, best school media, best school media in sri lanka, sadbhashana, prince of wales media, pwc media, cambrians media, wales media" />
-	<meta name="author" content="CMBU" />
-    <title>Cambrians' Media & Broadcasting Unit</title>
+
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Cambrians' Media & Broadcasting Unit" />
+<meta name="description" content="Discover excellence in media education at CMBU, Prince of Wales College. Renowned for diverse expertise in announcing, graphics, news reporting, and more. Proud organizers of Sri Lanka's premier Sadhbhashana Media Competitions." />
+<meta name="keywords" content="cmbu, best school media, best school media in sri lanka, sadbhashana, prince of wales media, pwc media, cambrians media, wales media" />
+<meta name="author" content="CMBU" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk/cmbu/" />
+<meta property="og:title" content="Cambrians' Media & Broadcasting Unit" />
+<meta property="og:description" content="Discover excellence in media education at CMBU, Prince of Wales College. Renowned for diverse expertise in announcing, graphics, news reporting, and more. Proud organizers of Sri Lanka's premier Sadhbhashana Media Competitions." />
+<meta property="og:image" content="https://princeofwales.edu.lk/cmbu/images/cmbu-header.jpg" />
+
+<!-- Twitter / WA / TG -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/cmbu/" />
+<meta property="twitter:title" content="Cambrians' Media & Broadcasting Unit" />
+<meta property="twitter:description" content="Discover excellence in media education at CMBU, Prince of Wales College. Renowned for diverse expertise in announcing, graphics, news reporting, and more. Proud organizers of Sri Lanka's premier Sadhbhashana Media Competitions." />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/cmbu/images/cmbu-header.jpg" />
+   
+<title>Cambrians' Media & Broadcasting Unit</title>
 
    <link rel="icon" type="image/png" href="images/logo red.png">
 

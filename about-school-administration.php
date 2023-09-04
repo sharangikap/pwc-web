@@ -9,14 +9,24 @@
 
 <?php include 'header.php'; ?>
 
-    <meta property="og:title" content="School Administration │ Prince of Wales' College, Moratuwa"/>
-	<meta property="og:image" content="../img/header-main-pwc.jpg"/>
-	<meta property="og:url" content="https://princeofwales.edu.lk/about-school-administration.php"/>
-	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
-	<meta property="og:description" content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…."/>
-	<meta name="twitter:title" content="School Administration │ Prince of Wales' College, Moratuwa" />
-	<meta name="twitter:image" content="../img/header-main-pwc.jpg" />
-	<meta name="twitter:url" content="https://princeofwales.edu.lk/about-school-administration.php" />
+<!-- Primary Meta Tags -->
+<meta name="title" content="School Administration │ Prince of Wales' College, Moratuwa" />
+<meta name="description" content="Discover the efficient and dedicated administration team at Prince of Wales College. Your partner in academic excellence and student support." />
+<meta name="keywords" content="prince of wales college staff, prince of wales college principal" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk/about-school-administration.php" />
+<meta property="og:title" content="School Administration │ Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="Discover the efficient and dedicated administration team at Prince of Wales College. Your partner in academic excellence and student support." />
+<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />
+
+<!-- Twitter / WA / TG -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/about-school-administration.php" />
+<meta property="twitter:title" content="School Administration │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="Discover the efficient and dedicated administration team at Prince of Wales College. Your partner in academic excellence and student support." />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />
 
     
 </head>

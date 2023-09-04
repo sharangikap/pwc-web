@@ -1,14 +1,6 @@
 <head>
     <meta charset="utf-8">
 
-
-
-    <title>Prince of Wales' College, Moratuwa</title>
-
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="prince of wales college" name="keywords">
-    <meta content="prince of wales college, moratuwa" name="description">
-
     <!-- Favicon -->
     <link href="content/icons/logo-70x70-pwc.png" rel="icon">
     <link rel="icon" href="content/icons/logo-70x70-pwc.ico" type="image/x-icon">
@@ -44,13 +36,6 @@
 
 
 
-    <!-- seo -->
-
-    <meta name="description"
-        content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
-    <meta name="keywords"
-        content="prince of wales college, prince of wales college moratuwa, prince of wales college moratuwa website, prince of wales college moratuwa contact number, prince of wales college moratuwa logo, prince of wales college moratuwa address, prince of wales college moratuwa big match, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
-    <meta name="author" content="" />
 
 
 

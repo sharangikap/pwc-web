@@ -34,7 +34,7 @@ foreach ($rows as $row) {
 <meta property="og:description" content="<?php echo $row["excerpt"]; ?>" />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-news/<?php echo htmlspecialchars($row["photo"], ENT_QUOTES, 'UTF-8'); ?>" />
 
-<!-- Twitter -->
+<!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>" />
 <meta property="twitter:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa" />

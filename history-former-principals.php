@@ -7,16 +7,26 @@
     $page = 'history';
 ?>
 
-    <?php include 'header.php'; ?>
-    <meta property="og:title" content="Former Principals │ Prince of Wales' College, Moratuwa" />
-    <meta property="og:image" content="content/img/img-history/former-principals/former-principals-header.webp" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/history-former-principals.php/">
-	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
-    <meta property="og:description"
-        content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
-    <meta name="twitter:title" content="Former Principals │ Prince of Wales' College, Moratuwa" />
-    <meta name="twitter:image" content="content/img/img-history/former-principals/former-principals-header.webp" />
-    <meta name="twitter:url" content="https://princeofwales.edu.lk/history-former-principals.php" />
+<?php include 'header.php'; ?>
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Former Principals │ Prince of Wales' College, Moratuwa" />
+<meta name="description" content="Explore the legacy of Prince of Wales College through its past principals. Discover the leaders who shaped its history and contributed to its educational excellence." />
+<meta name="keywords" content="prince of wales college past principals, prince of wales college moratuwa former principals, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk/history-former-principals.php" />
+<meta property="og:title" content="Former Principals │ Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="Explore the legacy of Prince of Wales College through its past principals. Discover the leaders who shaped its history and contributed to its educational excellence." />
+<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-history/former-principals/former-principals-header.webp" />
+
+<!-- Twitter / WA / TG -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/history-former-principals.php" />
+<meta property="twitter:title" content="Former Principals │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="Explore the legacy of Prince of Wales College through its past principals. Discover the leaders who shaped its history and contributed to its educational excellence." />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-history/former-principals/former-principals-header.webp" />
 
 
     <style>

@@ -5,14 +5,26 @@
 <?php
     $page = 'about';
 ?>
-    <meta property="og:title" content="Website Dev Team │ Prince of Wales' College, Moratuwa"/>
-	<meta property="og:image" content="content/img/img-about/"/>
-	<meta property="og:url" content="https://princeofwales.edu.lk/team.php"/>
-	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
-	<meta property="og:description" content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…."/>
-	<meta name="twitter:title" content="Website Dev Team │ Prince of Wales' College, Moratuwa" />
-	<meta name="twitter:image" content="content/img/img-about/" />
-	<meta name="twitter:url" content="https://princeofwales.edu.lk/team.php" />
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Website Dev Team │ Prince of Wales' College, Moratuwa" />
+<meta name="description" content="Discover the talented Website Development Team at Prince of Wales College. Elevate your online presence with our expert web solutions. Your digital success starts here!" />
+<meta name="keywords" content="prince of wales college website developers, prince of wales college website team" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk/team.php" />
+<meta property="og:title" content="Website Dev Team │ Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="Discover the talented Website Development Team at Prince of Wales College. Elevate your online presence with our expert web solutions. Your digital success starts here!" />
+<meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
+
+<!-- Twitter / WA / TG -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/team.php" />
+<meta property="twitter:title" content="Website Dev Team │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="Discover the talented Website Development Team at Prince of Wales College. Elevate your online presence with our expert web solutions. Your digital success starts here!" />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
+
 
 <?php include 'header.php'; ?>
 </head>

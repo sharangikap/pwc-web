@@ -9,17 +9,26 @@
 
     <?php include 'header.php'; ?>
 
-    <meta property="og:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
-    <meta property="og:image" content="content/img/img-clubs/club-header.jpg" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/clubs.php" />
-    <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
-    <meta property="og:description" content="Prince of Wales College offers diverse clubs and societies fostering student engagement,
-from arts to sports, creating a vibrant campus community for personal growth and shared interests.
-Mr. Chathura Mendis doing a great service by being in charge of the societies.
-" />
-    <meta name="twitter:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
-    <meta name="twitter:image" content="content/img/img-clubs/club-header.jpg" />
-    <meta name="twitter:url" content="https://princeofwales.edu.lk/clubs.php" />
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
+<meta name="description" content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
+<meta name="keywords" content="prince of wales college clubs, prince of wales college societies" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk/clubs.php" />
+<meta property="og:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
+<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-clubs/club-header.webp" />
+
+<!-- Twitter / WA / TG -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/clubs.php" />
+<meta property="twitter:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-clubs/club-header.webp" />
+
 
     <style>
         .clubs-page-header {
@@ -52,7 +61,7 @@ Mr. Chathura Mendis doing a great service by being in charge of the societies.
     <div class="container-xxl py-2">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <p class="mb-4">Prince of Wales College offers diverse clubs and societies fostering student engagement,<br>
-                from arts to sports, creating a vibrant campus community for personal growth and shared interests.
+                from arts to sports, creating a vibrant school community for personal growth and shared interests.
                 <br>Mr. Chathura Mendis doing a great service by being in charge of the societies.<br>
                 <br>There Are Many Clubs and Societies in College and They Can Be Divided Into 10 Main
                 Categories as Follows;</p>

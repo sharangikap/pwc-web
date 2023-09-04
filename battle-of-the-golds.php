@@ -8,15 +8,26 @@
         <?php
     $page = 'sports';
 ?>
-        <meta property="og:title" content="Battle of The Golds │ Prince of Wales' College, Moratuwa" />
-        <meta property="og:image" content="content/img/img-sports/battle-of-the-golds-header-pwc.webp" />
-        <meta property="og:url" content="https://princeofwales.edu.lk/battle-of-the-golds.php" />
-        <meta property="og:site_name" content="=Prince of Wales' College, Moratuwa" />
-        <meta property="og:description"
-            content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
-        <meta name="twitter:title" content="Battle of The Golds │ Prince of Wales' College, Moratuwa" />
-        <meta name="twitter:image" content="content/img/img-sports/battle-of-the-golds-header-pwc.webp" />
-        <meta name="twitter:url" content="https://princeofwales.edu.lk/battle-of-the-golds.php" />
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Battle of The Golds │ Prince of Wales' College, Moratuwa" />
+<meta name="description" content="Experience the excitement of the Prince of Wales College Big Match (Battle of the Golds) – a legendary sporting showdown that defines tradition and rivalry. Join us for thrilling cricket action and unforgettable moments!" />
+<meta name="keywords" content="prince of wales college big match, prince of wales college vs st. Sebastian college, battle of the golds" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk/battle-of-the-golds.php" />
+<meta property="og:title" content="Battle of The Golds │ Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="Experience the excitement of the Prince of Wales College Big Match (Battle of the Golds) – a legendary sporting showdown that defines tradition and rivalry. Join us for thrilling cricket action and unforgettable moments!" />
+<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-sports/battle-of-the-golds-header-pwc.webp" />
+
+<!-- Twitter / WA / TG -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/battle-of-the-golds.php" />
+<meta property="twitter:title" content="Battle of The Golds │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="Experience the excitement of the Prince of Wales College Big Match (Battle of the Golds) – a legendary sporting showdown that defines tradition and rivalry. Join us for thrilling cricket action and unforgettable moments!" />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-sports/battle-of-the-golds-header-pwc.webp" />
+
 
         <?php include 'header.php'; ?>
 

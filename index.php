@@ -11,16 +11,28 @@
     include 'database_connection.php';
     include 'header.php';
     ?>
+    
+<title>Prince of Wales' College, Moratuwa</title>
 
-    <meta property="og:title" content="Prince of Wales' College, Moratuwa" />
-    <meta property="og:image" content="content/img/img-home/header-main-pwc.webp" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/" />
-    <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
-    <meta property="og:description"
-        content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
-    <meta name="twitter:title" content="Prince of Wales' College, Moratuwa" />
-    <meta name="twitter:image" content="content/img/img-home/header-main-pwc.webp" />
-    <meta name="twitter:url" content="https://princeofwales.edu.lk/" />
+<!-- Primary Meta Tags -->
+<meta name="title" content="Prince of Wales' College, Moratuwa" />
+<meta name="description" content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
+<meta name="keywords" content="prince of wales college, prince of wales college moratuwa, prince of wales college moratuwa website, prince of wales college moratuwa contact number, prince of wales college moratuwa logo, prince of wales college moratuwa address, prince of wales college moratuwa big match, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
+<meta name="author" content="Cambrians' ICT Society" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk" />
+<meta property="og:title" content="Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
+<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
+
+<!-- Twitter / WA / TG -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk" />
+<meta property="twitter:title" content="Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
 
 </head>
 

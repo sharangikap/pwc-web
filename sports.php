@@ -11,6 +11,7 @@
 <!-- Primary Meta Tags -->
 <meta name="title" content="Sports │ Prince of Wales' College, Moratuwa" />
 <meta name="description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
+<meta name="keywords" content="prince of wales college sports, prince of wales college sport achievements" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
@@ -19,7 +20,7 @@
 <meta property="og:description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-sports/header-image-sports-pwc.webp" />
 
-<!-- Twitter -->
+<!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://princeofwales.edu.lk/sports.php" />
 <meta property="twitter:title" content="Sports │ Prince of Wales' College, Moratuwa" />
