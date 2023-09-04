@@ -90,7 +90,7 @@
                 <div class="secondline">Welcome to</div>
                 <div class="firstline"><span class="color">Cambrians' Media </span>and Broadcasting Unit</div>
                 <div class="secondline">
-            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Announcing", " Technical", " Motion Graphics", " Dubbing"," News"," Photography"," Documentry" ]'></span>
+            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Announcing", " Technical", " Motion Graphics", " Dubbing"," News"," Photography"," Videography" ]'></span>
             <span class="slash">|</span>
         </div>
                     <div class="contact">
@@ -129,7 +129,7 @@
                     <span class="color">Prince of Wales' College</span>
                      Moratuwa </span>
                      <br>
-               <span class="about-second-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iure sed maiores dolor provident dolorum exercitationem, doloremque fuga nobis voluptatem inventore fugiat cum suscipit aliquam. Placeat modi deleniti aspernatur labore?</span>
+               <span class="about-second-line">The Cambrians' Media & Broadcasting Unit (CMBU) at Prince of Wales College, rebranded in 2012, is an exemplary institution renowned for its diverse expertise in the fields of Announcing, Technical Operations, Graphics Designing, Dubbing, News Reporting, Photography, and Documentary Production. CMBU's commitment to excellence in media and broadcasting education is highlighted by its role as the organizer of the prestigious Sadhbhashana Media Competitions, the largest and most influential media competition in Sri Lanka.</span>
             </div>
             <!--about picture-->
             <div class="about-img">
@@ -153,7 +153,7 @@
                                </div>
                                <div class="service-description">
                                 <h2>Announcing</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                                <p>CMBU's announcers are the charismatic voices that bring information to life, shaping confident and engaging communicators for the dynamic world of media and broadcasting.</p>
                                </div>
                            </div>
                            <div class="service-one service wow">
@@ -162,7 +162,7 @@
                                </div>
                                <div class="service-description">
                                 <h2>Technical</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                                <p>CMBU's technicians are the backbone of seamless media operations, equipped with the technical expertise to ensure flawless broadcasts and productions in the world of media and broadcasting.</p>
                                </div>
                            </div>
                            <div class="service-one service wow">
@@ -170,8 +170,8 @@
                                <img src="images/graphics.png" alt="graphics">
                                </div>
                                <div class="service-description">
-                                <h2>Motion Graphics</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                                <h2>Graphics Designing</h2>
+                                <p>At CMBU, aspiring graphics designers are nurtured to unleash their creativity, crafting visually captivating content for the dynamic realm of media and broadcasting.</p>
                                </div>
                            </div>
                            <div class="service-one service wow">
@@ -180,7 +180,7 @@
                                </div>
                                <div class="service-description">
                                 <h2>Dubbing</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                                <p>CMBU's dubbing crew training program hones the art of voice synchronization and performance, preparing students for a career in delivering seamless audiovisual experiences in media and broadcasting.</p>
                                </div>
                            </div>
                            <div class="service-one service wow">
@@ -189,7 +189,7 @@
                                </div>
                                <div class="service-description">
                                 <h2>News</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                                <p>In CMBU, news editors are honed to be meticulous storytellers, shaping the narratives that inform and captivate audiences in the fast-paced world of journalism and media.</p>
                                </div>
                            </div>
                            <div class="service-two service wow">
@@ -198,16 +198,16 @@
                                </div>
                                <div class="service-description">
                                 <h2>Photography</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                                <p>CMBU's photography program empowers students to capture moments and convey stories through the lens, shaping skilled visual storytellers for the world of media and broadcasting.</p>
                                </div>
                            </div>
                            <div class="service-three service wow">
                             <div class="service-img">
-                               <img src="images/documentry.png" alt="documentry">
+                               <img src="images/videography.png" alt="videography">
                             </div>
                             <div class="service-description">
-                                <h2>Documentry</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                                <h2>Videography</h2>
+                                <p>At CMBU, videographers are trained to master the art of capturing and crafting compelling visual narratives, preparing them for success in the dynamic field of media and broadcasting.</p>
                             </div>
                         </div>
                     </div>
@@ -231,8 +231,7 @@
                      </div>
                      <div class="portfolio-text">
                          <h2>Sadhbhashana'22 - Competition</h2>
-                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate 
-                             expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                         <p>Sadhbhashana'22 marked a significant milestone as the first physical competition organized by CMBU after the pandemic, bringing together media and broadcasting enthusiasts in person to celebrate their talents and achievements once again.</p>
                      </div>
                  </div>
                  <div class="portfolio portfolio-second">
@@ -241,8 +240,7 @@
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'21 - Competition (Online)</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cumque placeat minima ad laudantium suscipit
-                             voluptatem ducimus. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                        <p>Sadhbhashana'21, conducted online like its predecessor in 2020 due to the ongoing COVID-19 situation, maintained its commitment to promoting and recognizing excellence in media and broadcasting despite the challenging circumstances.</p>
                     </div>
                 </div>
              
@@ -252,8 +250,7 @@
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'20 - Competition (Online)</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate expedita eius dignissimos
-                            .. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                        <p>Sadhbhashana'20, held as an online competition due to COVID-19, continued to be a platform for showcasing media and broadcasting talents, adapting to the changing circumstances and fostering excellence despite the challenges posed by the pandemic.</p>
                    </div>
                 </div>
                 <div class="portfolio portfolio-fourth">
@@ -262,8 +259,7 @@
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'19 - Competition</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                             expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                        <p>Sadhbhashana'19 was a dynamic school media competition organized by CMBU in 2019, where students from various schools displayed their media and broadcasting talents, fostering excellence in multiple creative disciplines.</p>
                     </div>
                 </div>
                 <div class="portfolio portfolio-fourth">
@@ -272,8 +268,7 @@
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'18 - Competition</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                             expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                        <p>Sadhbhashana'18 was an exciting school media competition organized by CMBU in 2018, providing a platform for aspiring young journalists and media enthusiasts to showcase their talents and compete in various categories.</p>
                     </div>
                 </div>
                 <div class="portfolio portfolio-fourth">
@@ -282,8 +277,7 @@
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'17 - Media Day</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                             expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                        <p>Sadhbhashana'17 was a vibrant school media day organized by CMBU in 2017, showcasing media talents and fostering excellence in Sri Lanka's budding journalists and broadcasters.</p>
                    </div>
                 </div>
                 <div class="portfolio portfolio-fourth">
@@ -292,8 +286,7 @@
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'17 - Competition</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                             expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                        <p>Sadhbhashana'17 was a notable school media competition organized by CMBU, showcasing the creative talents and innovation of young media enthusiasts in Sri Lanka.</p>
             
                     </div>
                 </div>
