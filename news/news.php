@@ -23,16 +23,23 @@ foreach ($rows as $row) {
 
   <?php include 'header.php'; ?>
 
+  <!-- Primary Meta Tags -->
+<meta name="title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa" />
+<meta name="description" content="<?php echo $row["excerpt"]; ?>" />
 
-  <meta property="og:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa"/>
-  <meta property="og:image" content="../content/img/img-news/<?php echo htmlspecialchars($row["photo"], ENT_QUOTES, 'UTF-8'); ?>"/>
-	<meta property="og:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>"/>
-	<meta property="og:site_name" content="Prince of Wales' College, Moratuwa"/>
-	<meta property="og:description" content="<?php echo $row["excerpt"]; ?>"/>
-	<meta name="twitter:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa" />
-  <meta property="twitter:description" content="<?php echo $row["excerpt"]; ?>" />
-  <meta name="twitter:image" content="../content/img/img-news/<?php echo htmlspecialchars($row["photo"], ENT_QUOTES, 'UTF-8'); ?>" />
-	<meta name="twitter:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>" />
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>" />
+<meta property="og:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="<?php echo $row["excerpt"]; ?>" />
+<meta property="og:image" content="../content/img/img-news/<?php echo htmlspecialchars($row["photo"], ENT_QUOTES, 'UTF-8'); ?>" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>" />
+<meta property="twitter:title" content="<?php echo $row["title"]; ?> │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="<?php echo $row["excerpt"]; ?>" />
+<meta property="twitter:image" content="../content/img/img-news/<?php echo htmlspecialchars($row["photo"], ENT_QUOTES, 'UTF-8'); ?>" />
 
 
 </head>
