@@ -7,15 +7,24 @@
     $page = 'sports';
 ?>
     <?php include 'header.php'; ?>
-    <meta property="og:title" content="Sports │ Prince of Wales' College, Moratuwa" />
-    <meta property="og:image" content="content/img/img-sports/header-image-sports-pwc.webp" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/sports.php" />
-    <meta property="og:site_name" content="Prince of Wales' College, Moratuwa" />
-    <meta property="og:description"
-        content="Since the inception of the school in 1876, Prince of Wales’ College has been considered as a major school in Moratuwa area and over the years, established its name as a leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society with countless men of great caliber whom we are happy to say have served both, their school and the country alike…." />
-    <meta name="twitter:title" content="Sports │ Prince of Wales' College, Moratuwa" />
-    <meta name="twitter:image" content="content/img/img-sports/header-image-sports-pwc.webp" />
-    <meta name="twitter:url" content="https://princeofwales.edu.lk/sports.php" />
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Sports │ Prince of Wales' College, Moratuwa" />
+<meta name="description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports. The Zones Produce Many Winners of Color on Their Way to Provincial and National Level Achievements." />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk/sports.php" />
+<meta property="og:title" content="Sports │ Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports. The Zones Produce Many Winners of Color on Their Way to Provincial and National Level Achievements." />
+<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-sports/header-image-sports-pwc.webp" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/sports.php" />
+<meta property="twitter:title" content="Sports │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports. The Zones Produce Many Winners of Color on Their Way to Provincial and National Level Achievements." />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-sports/header-image-sports-pwc.webp" />
 
     <style>
         .sports-page-header {
