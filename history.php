@@ -197,6 +197,7 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid"
+                                style="width: 1000px;"
                                 src="content/img/img-history/former-principals/jws-sririwardane-former-principal-pwc.webp"
                                 alt="J. W. S. Siriwardane">
                         </div>

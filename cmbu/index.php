@@ -90,7 +90,7 @@
                 <div class="secondline">Welcome to</div>
                 <div class="firstline"><span class="color">Cambrians' Media </span>and Broadcasting Unit</div>
                 <div class="secondline">
-            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Announcing", " Technical", " Motion Graphics", " Dubbing"," News"," Photography"," Videography" ]'></span>
+            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Announcing", " Technical", " Graphics Designing", " Dubbing"," News"," Photography"," Videography" ]'></span>
             <span class="slash">|</span>
         </div>
                     <div class="contact">
