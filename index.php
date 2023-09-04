@@ -143,7 +143,7 @@ if ($currentDate < $targetDate) {
 
 
 
-<br> <br> <br>
+<br> <br>
 
 <!-- Events Start -->
 <div class="container-xxl py-5">
@@ -156,23 +156,17 @@ if ($currentDate < $targetDate) {
         <div class="row g-4 justify-content-center">
 
             <?php 
+$query = "SELECT * FROM pwc_db_events WHERE date >= CURDATE() ORDER BY id DESC";
+$statement = $connect->prepare($query);
+$statement->execute();
+$limit = 3;
+$rowCount = 0;
 
-		$query = "SELECT * FROM pwc_db_events ORDER BY id DESC";
-
-		$statement = $connect->prepare($query);
-
-		$statement->execute();
-
-        $limit = 3;
-        $rowCount = 0;
-
-		if($statement->rowCount() > 0)
-		{
-			foreach ($statement->fetchAll() as $row) {
-
-                $rowCount++;
-            
-				?>
+if($statement->rowCount() > 0)
+{
+    foreach ($statement->fetchAll() as $row) {
+        $rowCount++;
+?>
 
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="course-item bg-light">
@@ -199,18 +193,22 @@ if ($currentDate < $targetDate) {
                 </div>
             </div>
             <?php 
-                if ($rowCount >= $limit) {
-                
-                    break;
-                }
-					}
-		}	
-        ?>
-
-
+    if ($rowCount >= $limit) {
+        break;
+    }
+}
+} else {
+    echo '
+    <div class="text-center">
+    <i class="fas fa-exclamation-circle text-primary mb-4"></i>
+    No Upcoming Events to Show
+    </div>';
+}
+?>
         </div>
 
     </div>
+    <br><br>
     <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="events/" style="border-radius=25px"
             data-wow-delay="0.7s">View More</a></center>
 </div>
@@ -400,8 +398,8 @@ if ($currentDate < $targetDate) {
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/big-match-pwc.webp" alt=""
-                        style="object-fit: cover;">
+                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/big-match-pwc.webp"
+                        alt="" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -495,7 +493,11 @@ if ($currentDate < $targetDate) {
                 <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                 <h1 class="mb-4">THE GOLDEN BOOK</h1>
                 <p class="mb-4">
-
+                    Prince of Wales College is particularly favored by Cambrians due to its outstanding achievements in
+                    the fields of education and sports, which are proudly recognized in the Golden Book of Excellent
+                    Cambrians. This school has had a lasting effect by preparing many Cambrians for a better future and
+                    motivating future generations to follow in their footsteps in education and sports. The college has
+                    a great tradition of developing bright minds and growing talent in sports.
                 </p>
 
                 <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="the-golden-book.php"
@@ -525,9 +527,7 @@ if ($currentDate < $targetDate) {
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
                 <h1 class="display-3 text-white animated slideInDown">147 Years and Counting</h1>
-                <h5 class=" text-white animated slideInDown">Lorem ipsum dolor, sit amet consectetur adipisicing
-                    elit. Cum architecto fugit recusandae, possimus id eaque modi voluptatum temporibus. Quia nemo
-                    deserunt non, blanditiis nam eos dolorum alias voluptates possimus quod.</h5>
+                <h5 class=" text-white animated slideInDown"><br> Explore college history and discover 147 years of rich heritage and academic excellence. <br><br> </h5>
                 <center><a class="btn btn-primary py-3 px-4 mt-2 wow zoomIn" href="history.php"
                         style="border-radius=25px" data-wow-delay="0.7s">Explore College History</a></center>
             </div>
