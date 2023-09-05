@@ -8,6 +8,34 @@
     include 'header.php';
     ?>
 
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="Admission Registration for Advanced Level 2025 │ Prince of Wales' College, Moratuwa" />
+    <meta name="description"
+        content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
+    <meta name="keywords"
+        content="prince of wales college, prince of wales college moratuwa, prince of wales college moratuwa website, prince of wales college moratuwa contact number, prince of wales college moratuwa logo, prince of wales college moratuwa address, prince of wales college moratuwa big match, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
+    <meta name="author" content="Cambrians' ICT Society" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/apply-al" />
+    <meta property="og:title"
+        content="Admission Registration for Advanced Level 2025 │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:description"
+        content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
+    <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
+
+    <!-- Twitter / WA / TG -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al" />
+    <meta property="twitter:title"
+        content="Admission Registration for Advanced Level 2025 │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:description"
+        content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
+    <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
+
+</head>
+
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
