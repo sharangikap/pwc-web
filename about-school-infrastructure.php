@@ -86,7 +86,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="Main Building"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -112,7 +112,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="Mian Office"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -139,7 +139,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="Sports Section"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -168,7 +168,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="OBA office"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -198,7 +198,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/"
-                            alt="" style="object-fit: cover;">
+                            alt="Primary office" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -224,7 +224,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="Budu Madura"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -252,7 +252,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100"
-                            src="content/img/img-about/locations/mainhall-pwc.webp" alt="" style="object-fit: cover;">
+                            src="content/img/img-about/locations/mainhall-pwc.webp" alt="main hall" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -279,7 +279,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="auditorium 1"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -307,7 +307,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="auditorium 2"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -333,7 +333,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="hostel"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -361,7 +361,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="main grounds"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -388,7 +388,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="pavillion"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -415,7 +415,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="volleyball court"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -442,7 +442,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="basketball court"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -469,7 +469,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="swiming pool"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -496,7 +496,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="CHILDRENS' PARK"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -524,7 +524,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100"
-                            src="content/img/img-about/locations/primary-section-locations-pwc.webp" alt=""
+                            src="content/img/img-about/locations/primary-section-locations-pwc.webp" alt="PRIMARY SECTION"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -551,7 +551,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="GRADE 6-11 CLASSROOMS"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -578,7 +578,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="AL SCIENCE SECTION"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -605,7 +605,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="AL ARTS & COMMERCE SECTION"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -633,7 +633,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100"
-                            src="content/img/img-about/locations/Text-Book-Store-pwc.jpg" alt=""
+                            src="content/img/img-about/locations/Text-Book-Store-pwc.jpg" alt="TEXT BOOK STORE"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -660,7 +660,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="MEDIA UNIT"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -687,7 +687,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="FIRST AID ROOM"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -714,7 +714,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="HELPING ROOM"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -741,7 +741,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="COMPUTER LABS"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -769,7 +769,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100"
-                            src="content/img/img-about/locations/library-locations-pwc.webp" alt=""
+                            src="content/img/img-about/locations/library-locations-pwc.webp" alt="LIBRARY"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -796,7 +796,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="PREFECTS' ROOM"
                             style="object-fit: cover;">
                     </div>
                 </div>

@@ -84,7 +84,7 @@
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         
         <a class="navbar-brand ps-3" href="index.php">
-            <img src="../logo-pwc.png" alt="" width="35px">&nbsp;&nbsp;&nbsp;Admin - Prince of Wales' College  
+            <img src="../logo-pwc.png" alt="pwc logo" width="35px">&nbsp;&nbsp;&nbsp;Admin - Prince of Wales' College  
         </a>
 
         </nav>

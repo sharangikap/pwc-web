@@ -322,7 +322,7 @@ if($statement->rowCount() > 0)
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
                     <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/principal-pwc.webp"
-                        alt="" style="object-fit: cover;">
+                        alt="pwc principal" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -358,7 +358,7 @@ if($statement->rowCount() > 0)
                 <div class="row g-3">
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#team-sports">
-                            <img class="img-fluid" src="content/img/img-home/team-sports-home-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-home/team-sports-home-pwc.webp" alt="team sports">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Team Sports</h5>
@@ -367,7 +367,7 @@ if($statement->rowCount() > 0)
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#individual-sports">
-                            <img class="img-fluid" src="content/img/img-home/individual-sports-home-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-home/individual-sports-home-pwc.webp" alt="Individual Sports">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Individual Sports</h5>
@@ -376,7 +376,7 @@ if($statement->rowCount() > 0)
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#aquatic-sports">
-                            <img class="img-fluid" src="content/img/img-home/water-sports-home-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-home/water-sports-home-pwc.webp" alt="Aquatic sports">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Aquatic Sports</h5>
@@ -388,7 +388,7 @@ if($statement->rowCount() > 0)
             <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
                 <a class="position-relative d-block h-100 overflow-hidden" href="sports.php#combat-sports">
                     <img class="img-fluid position-absolute w-100 h-100"
-                        src="content/img/img-home/combat-sports-home-pwc.webp" alt="" style="object-fit: cover;">
+                        src="content/img/img-home/combat-sports-home-pwc.webp" alt="combat sports" style="object-fit: cover;">
                     <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                         <h5 class="m-0">Combat Sports</h5>
                     </div>
@@ -411,7 +411,7 @@ if($statement->rowCount() > 0)
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
                     <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/big-match-pwc.webp"
-                        alt="" style="object-fit: cover;">
+                        alt="big match" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -445,7 +445,7 @@ if($statement->rowCount() > 0)
                 <div class="row g-3">
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#media-clubs">
-                            <img class="img-fluid" src="content/img/img-home/media-clubs-home-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-home/media-clubs-home-pwc.webp" alt="media clubs">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Media Unit</h5>
@@ -454,7 +454,7 @@ if($statement->rowCount() > 0)
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#edu-clubs">
-                            <img class="img-fluid" src="content/img/img-home/educational-clubs-home-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-home/educational-clubs-home-pwc.webp" alt="edu clubs">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Educational Clubs</h5>
@@ -463,7 +463,7 @@ if($statement->rowCount() > 0)
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#tech-clubs">
-                            <img class="img-fluid" src="content/img/img-home/tech-clubs-home-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-home/tech-clubs-home-pwc.webp" alt="tech clubs">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Technological Clubs</h5>
@@ -475,7 +475,7 @@ if($statement->rowCount() > 0)
             <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
                 <a class="position-relative d-block h-100 overflow-hidden" href="clubs.php#service-clubs">
                     <img class="img-fluid position-absolute w-100 h-100"
-                        src="content/img/img-home/community-service-clubs-home-pwc.webp" alt=""
+                        src="content/img/img-home/community-service-clubs-home-pwc.webp" alt="commiunity service clubs"
                         style="object-fit: cover;">
                     <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                         <h5 class="m-0">Commiunity Service Clubs</h5>
@@ -497,7 +497,7 @@ if($statement->rowCount() > 0)
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/golden-book-pwc.webp" alt=""
+                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/golden-book-pwc.webp" alt="golden book"
                         style="object-fit: cover;">
                 </div>
             </div>

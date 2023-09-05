@@ -45,7 +45,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Hasitha Kesara Weththimuni</h5>
@@ -56,7 +56,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Ranjith Illapperuma</h5>
@@ -67,7 +67,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/Upul-sir-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/Upul-sir-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Upul Silva</h5>
@@ -78,7 +78,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">H. E. Priyanga</h5>
@@ -89,7 +89,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/sumangala-thero-assit-principal-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/sumangala-thero-assit-principal-pwc.webp" alt="Assistant Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Ven. Mathale Sumangala Thero</h5>
@@ -101,7 +101,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/Bhagya-madam-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/Bhagya-madam-administration-pwc.webp" alt="Assistant Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">K. Bhagya Sandamali</h5>
@@ -113,7 +113,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/chathura-sir-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/chathura-sir-administration-pwc.webp" alt="Assistant Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Chathura Mendis</h5>
@@ -125,7 +125,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/Primary-madam-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/Primary-madam-administration-pwc.webp" alt="Primary Section Head">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Ramya Samarasekara</h5>
@@ -137,7 +137,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/kasun-sir-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/kasun-sir-administration-pwc.webp" alt="Sports Administrator">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Kasun Dewapriya</h5>
@@ -149,7 +149,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/Pinipa-madam-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/Pinipa-madam-administration-pwc.webp" alt="Section Head">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Pinipa Gunawardana</h5>
@@ -161,7 +161,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/Dewika-madam-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/Dewika-madam-administration-pwc.webp" alt="Section Head">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Dewika Kulasinghe</h5>
@@ -173,7 +173,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/Upeksha-madam-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/Upeksha-madam-administration-pwc.webp" alt="Section Head">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Upeksha De Alwis</h5>

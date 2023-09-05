@@ -202,7 +202,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="vision and mission"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -297,7 +297,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="" alt="flag-pwc" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -330,7 +330,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100"
-                            src="content/img/img-about/house-system-pwc.webp" alt="" style="object-fit: cover;">
+                            src="content/img/img-about/house-system-pwc.webp" alt="house flags" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -387,7 +387,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Hasitha Kesara Weththimuni</h5>
@@ -398,7 +398,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/Upul-sir-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/Upul-sir-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Upul Silva</h5>
@@ -409,7 +409,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Ranjith Illapperuma</h5>
@@ -420,7 +420,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">H. E. Priyanga</h5>
@@ -461,7 +461,7 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-about/prefects/thinuka-fernando-hp23-pwc.webp"
-                                alt="">
+                                alt="Head Prefect">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Thinuka Fernando</h5>
@@ -472,7 +472,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/vihanga-dhp23-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/prefects/vihanga-dhp23-pwc.webp" alt="Deputy Head Prefect">
                         </div>
 
                         <div class="text-center p-4">
@@ -485,7 +485,7 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-about/prefects/thimira-damsara-dhp23-pwc.webp"
-                                alt="">
+                                alt="Deputy Head Prefect">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Thimira Damsara</h5>
@@ -496,7 +496,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/nelindu-dhp23-pwc.webp" alt="">
+                            <img class="img-fluid" src="content/img/img-about/prefects/nelindu-dhp23-pwc.webp" alt="Deputy Head Prefect">
                         </div>
 
                         <div class="text-center p-4">
@@ -532,7 +532,7 @@
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                    <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="Locations"
                         style="object-fit: cover;">
                 </div>
             </div>

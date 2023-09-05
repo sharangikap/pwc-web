@@ -144,7 +144,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt="volleyball"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -320,7 +320,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/judo-sports-pwc.webp" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/judo-sports-pwc.webp" alt="judo"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -353,7 +353,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt="wushu"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -393,7 +393,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt="wrestling"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -419,7 +419,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/badminton-sports-pwc.webp" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/badminton-sports-pwc.webp" alt="badminton"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -451,7 +451,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt="chess"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -483,7 +483,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/carrom-sports-pwc.webp" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/carrom-sports-pwc.webp" alt="carrom"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -508,7 +508,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/shooting-sport-pwc.webp" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/shooting-sport-pwc.webp" alt="Shooting"
                                 style="object-fit: cover;">
                         </div>
                     </div>

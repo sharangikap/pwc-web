@@ -100,7 +100,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/media-clubs-pwc.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-clubs/media-clubs-pwc.webp" alt="cmbu" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -139,7 +139,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="ict society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="innovators' club"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -202,7 +202,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/prefects-club-pwc.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-clubs/prefects-club-pwc.webp" alt="prefects guild" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -266,7 +266,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/debate-clubs-pwc.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-clubs/debate-clubs-pwc.webp" alt="debate clubs" style="object-fit: cover;">
                         </div>
                     </div>
 
@@ -289,7 +289,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/scout-clubs-pwc.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-clubs/scout-clubs-pwc.webp" alt="scout clubs" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -333,7 +333,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/st.jhon's-clubs-pwc.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-clubs/st.jhon's-clubs-pwc.webp" alt="first aid unit" style="object-fit: cover;">
                         </div>
                     </div>
 
@@ -356,7 +356,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/cadet-troop-club-pwc.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-clubs/cadet-troop-club-pwc.webp" alt="cadet troop" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -394,7 +394,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/western-band-clubs-pwc.webp" alt=""
+                                src="content/img/img-clubs/western-band-clubs-pwc.webp" alt="western band"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -404,7 +404,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/eastern-cadet-band-clubs-pwc.webp" alt=""
+                                src="content/img/img-clubs/eastern-cadet-band-clubs-pwc.webp" alt="eastern band"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -440,7 +440,7 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="commerce society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -476,7 +476,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="art society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -486,7 +486,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/science-section-academic-pwc.webp" alt=""
+                                src="content/img/img-clubs/science-section-academic-pwc.webp" alt="science society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -655,7 +655,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="western music society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -663,7 +663,7 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="eastern music society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -701,7 +701,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="dancing society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -710,7 +710,7 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="fine art society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -744,7 +744,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/Drama-clubs- pwc.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-clubs/Drama-clubs- pwc.webp" alt="drama society" style="object-fit: cover;">
                         </div>
                     </div>
 
@@ -802,7 +802,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/readers-club-pwc.webp" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/readers-club-pwc.webp" alt="readers' club"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -853,7 +853,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/Environmental-club-pwc.webp" alt=""
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/Environmental-club-pwc.webp" alt="environment club"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -915,7 +915,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/catholic-clubs-pwc.webp" alt="" style="object-fit: cover;">
+                                src="content/img/img-clubs/catholic-clubs-pwc.webp" alt="catholic club" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>

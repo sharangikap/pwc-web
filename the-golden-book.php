@@ -68,7 +68,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100" src="content/img/golden-book-edu-pwc.png"
-                            alt="" style="object-fit: cover;">
+                            alt="golden book education-sector" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -121,7 +121,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100"
-                            src="content/img/golden-book-sports-pwc.png" alt="" style="object-fit: cover;">
+                            src="content/img/golden-book-sports-pwc.png" alt="golden book sports-sector" style="object-fit: cover;">
                     </div>
                 </div>
 
