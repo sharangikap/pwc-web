@@ -86,7 +86,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="Main Building"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations" alt="Main Building"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -112,7 +112,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="Mian Office"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/College-Office-pwc.webp" alt="Mian Office"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -168,7 +168,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="OBA office"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/oba-office.jpg" alt="OBA office"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -578,7 +578,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="AL SCIENCE SECTION"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/science-section-academic-pwc.webp" alt="AL SCIENCE SECTION"
                             style="object-fit: cover;">
                     </div>
                 </div>
