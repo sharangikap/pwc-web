@@ -14,6 +14,25 @@ and open the template in the editor.
     <meta name="description" content="">
     <meta name="author" content="">
 
+<!-- Primary Meta Tags -->
+<meta name="title" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+<meta name="description" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
+<meta property="og:title" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+<meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
+
+<!-- Twitter / WA / TG -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
+<meta property="twitter:title" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
+
+
 
     <title>Science Stream - Application for Advanced Level Admission Registration</title>
 
@@ -52,7 +71,7 @@ and open the template in the editor.
     <div class="container">
         <form class="form-horizontal" method="POST" action="science_insert.php">
             <br>
-            <h4 class="text-center"> Application for 2023 Advanced Level Admission Registration </h4>
+            <h4 class="text-center"> Application for 2025 Advanced Level Admission Registration </h4>
             <h4 class="text-center"> Science Stream </h4>
             <div class="form-group"></div>
             <div class="form-group"></div>
