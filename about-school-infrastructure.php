@@ -86,20 +86,20 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations" alt="Main Building"
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations"
+                            alt="Main Building" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">MAIN BULIDING</h1>
-                    <p class="mb-4">The main building of Prince of Wales College Moratuwa is a prominent and historic
-                        structure that houses several important offices. The principal's office is located on the ground
-                        floor, where the principal oversees the academic and administrative affairs of the school. The
-                        main office is also on the ground floor, where the staff handles the enrollment, attendance,
-                        examination, and other records of the students. The school development society office is on the
-                        first floor, where the members of the society plan and execute various projects and activities
-                        to improve the quality and facilities of the school.</p>
+                    <p class="mb-4">The main building of Prince of Wales College is a single-story structure that houses
+                        important offices. Inside, you can find the principal's office, where the school's leader works
+                        to guide the institution. There's also the main office, which handles various administrative
+                        tasks and supports students and staff. Additionally, the school development society office is
+                        located here, where efforts to improve and enhance the college are coordinated. Despite being
+                        just one floor, this building plays a significant role in the daily operations and growth of
+                        Prince of Wales College.</p>
                 </div>
             </div>
         </div>
@@ -112,23 +112,19 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/College-Office-pwc.webp" alt="Mian Office"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/College-Office-pwc.webp" alt="Mian Office"
                             style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">MAIN OFFICE</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The main office at Prince of Wales College is like the heart of the school. It's
+                        where you go when you need help with important things like enrolling in classes, getting your
+                        student ID, or asking questions about your studies. The friendly people at the main office are
+                        always ready to assist you with a warm smile. It's a busy place, filled with students and staff
+                        working together to make sure everyone has a great college experience.</p>
                 </div>
             </div>
         </div>
@@ -139,23 +135,19 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="Sports Section"
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg"
+                            alt="Sports Section" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">SPORTS SECTION</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The sports administration section at Prince of Wales College is where all the
+                        exciting sports stuff happens! This is the place where you can sign up for your favorite sports
+                        teams, find out about upcoming games, and even get help with sports equipment. The people here
+                        love sports and are here to support you in enjoying your athletic journey. Whether you're into
+                        soccer, basketball, or any other sport, this is the spot to be for all things sports-related!
+                    </p>
                 </div>
             </div>
         </div>
@@ -168,23 +160,19 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/oba-office.jpg" alt="OBA office"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/oba-office.jpg" alt="OBA office"
                             style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">OBA OFFICE</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The OBA office at Prince of Wales College is a special place for alumni, which means
+                        people who used to go to the college and now have lots of memories. Here, you can connect with
+                        old friends, learn about alumni events, and share your college stories. It's like a home away
+                        from home for those who once studied at Prince of Wales College, where everyone is part of a
+                        big, friendly family of former students.</p>
                 </div>
             </div>
         </div>
@@ -204,16 +192,12 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">PRIMARY OFFICE</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The primary office at Prince of Wales College is where young learners and their
+                        parents can find all the important information they need for primary education. It's a welcoming
+                        place where parents can register their children for school, ask questions about classes, and get
+                        help with any school-related matters. The teachers and staff here are dedicated to making sure
+                        that every child has a great start to their education journey. It's a place filled with
+                        excitement and curiosity as young minds begin their learning adventure.</p>
                 </div>
             </div>
         </div>
@@ -231,16 +215,12 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">BUDU MADURA</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The Buddha temple at Prince of Wales College is a place of peace and reflection.
+                        It's a serene spot on the campus where students and staff can go to find tranquility and
+                        practice mindfulness. The temple is adorned with beautiful statues and calming decorations,
+                        creating a serene atmosphere that encourages meditation and inner harmony. It's a place where
+                        people from all backgrounds can come together to appreciate the teachings of Buddha and find a
+                        moment of serenity in their busy college lives.</p>
                 </div>
             </div>
         </div>
@@ -252,22 +232,19 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100"
-                            src="content/img/img-about/locations/mainhall-pwc.webp" alt="main hall" style="object-fit: cover;">
+                            src="content/img/img-about/locations/mainhall-pwc.webp" alt="main hall"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">MAIN HALL</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The main hall at Prince of Wales College is like the heart of the campus. It's a
+                        big, open space where important events and gatherings happen. Whether it's graduation
+                        ceremonies, special lectures, or fun celebrations, the main hall is where everyone comes
+                        together. The grand architecture and high ceilings make it a majestic place, and the echoes of
+                        laughter and applause fill the air during memorable moments. It's a place where memories are
+                        made and shared by students, staff, and guests alike.</p>
                 </div>
             </div>
         </div>
@@ -286,16 +263,12 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">AUDITORIUM 1</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The old auditorium at Prince of Wales College is a place filled with history and
+                        charm. It's a classic space where students and teachers have gathered for decades to enjoy
+                        plays, music, and other performances. The vintage decor and comfortable seats give it a unique
+                        atmosphere that makes every event special. Even though it may have seen many years, the old
+                        auditorium still resonates with the echoes of applause and the magic of the performances that
+                        have taken place there, making it a cherished part of the college's heritage.</p>
                 </div>
             </div>
         </div>
@@ -314,16 +287,13 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">AUDITORIUM 2</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The new auditorium at Prince of Wales College is a cutting-edge space designed for
+                        modern learning and presentations. Equipped with a smart board, it's a high-tech marvel where
+                        students can engage in interactive learning and where presenters can deliver dynamic lectures
+                        using digital tools. The smart board allows for creative and engaging teaching methods, making
+                        lessons more exciting and interactive. This state-of-the-art facility is a testament to the
+                        college's commitment to providing students with the latest technology to enhance their education
+                        and presentations.</p>
                 </div>
             </div>
         </div>
@@ -333,23 +303,20 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/hostel-location-pwc.webp" alt="hostel"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/hostel-location-pwc.webp" alt="hostel"
                             style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">HOSTEL</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The hostel at Prince of Wales College is a home away from home for students who come
+                        from different places to study. It's a place where they live and stay while attending classes.
+                        In the hostel, students build lasting friendships, share experiences, and learn to be
+                        independent. It's a cozy place with dormitories and common areas where students can relax,
+                        study, and have fun together. The caring staff ensures that everyone feels safe and comfortable,
+                        making it a warm and welcoming place for students during their college journey.</p>
                 </div>
             </div>
         </div>
@@ -368,16 +335,13 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">MAIN GROUNDS</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The main cricket ground at Prince of Wales College is where the excitement of
+                        cricket comes alive. It's a large and well-maintained field where students and cricket
+                        enthusiasts gather to play and watch matches. The sound of the bat hitting the ball and the
+                        cheers of the crowd fill the air on game days. The green grass and well-marked boundaries create
+                        the perfect setting for thrilling matches and friendly competitions. It's not just a field; it's
+                        where cricket dreams take flight and where the love for the sport grows stronger with every
+                        match played.</p>
                 </div>
             </div>
         </div>
@@ -395,16 +359,13 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">PAVILLION</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The pavilion at Prince of Wales College is like a cozy hub for cricket players and
+                        fans. It's a special building located near the cricket ground, providing shelter and a place to
+                        relax during matches. Inside the pavilion, there are comfortable seating areas, changing rooms
+                        for the players, and often, a small canteen for snacks and refreshments. It's where players
+                        prepare for their matches and where fans gather to cheer on their favorite teams. The pavilion
+                        is a crucial part of the cricket experience at the college, offering both comfort and excitement
+                        to all who visit it.</p>
                 </div>
             </div>
         </div>
@@ -415,23 +376,20 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="volleyball court"
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg"
+                            alt="volleyball court" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">VOLLEYBALL COURT</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The volleyball court at Prince of Wales College is where the game of volleyball
+                        comes alive. It's a rectangular area marked with boundary lines where players gather to enjoy
+                        spirited matches. With its fine sand and well-maintained net, the court offers the perfect
+                        setting for thrilling volleys and exciting spikes. Whether it's a friendly match among friends
+                        or a competitive game between college teams, the volleyball court is a place where teamwork and
+                        sportsmanship shine. It's where players bump, set, and spike their way to victory, creating
+                        memorable moments of fun and camaraderie.</p>
                 </div>
             </div>
         </div>
@@ -442,23 +400,21 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="basketball court"
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg"
+                            alt="basketball court" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">BASKETBALL COURT</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The basketball court at Prince of Wales College is where the action of basketball
+                        takes center stage. It's a rectangular court with tall hoops at each end, where players dribble,
+                        pass, and shoot their way to victory. The court's smooth surface allows for fast-paced games and
+                        impressive slam dunks. It's a gathering spot for students and athletes who share a love for the
+                        sport, whether they're playing a pickup game or competing in an official match. The sound of
+                        sneakers squeaking on the court and the swish of the ball through the hoop create an exciting
+                        atmosphere that energizes players and spectators alike. It's a place where the spirit of
+                        competition and the thrill of the game come alive.</p>
                 </div>
             </div>
         </div>
@@ -476,16 +432,12 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">SWIMING POOL</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The swimming pool at Prince of Wales College is a refreshing oasis on campus. It's a
+                        large, inviting pool filled with clear water where students and visitors can cool off and enjoy
+                        a swim. Surrounded by lounging chairs and shaded areas, it's the perfect place to relax on a
+                        sunny day. Swimming lessons are often held here, allowing learners to improve their swimming
+                        skills. The pool area is a hub of activity and fun, providing a welcome escape from the daily
+                        routine and a place to make a splash and create lasting memories.</p>
                 </div>
             </div>
         </div>
@@ -496,23 +448,20 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="CHILDRENS' PARK"
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg"
+                            alt="CHILDRENS' PARK" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">CHILDRENS' PARK</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The children's park at Prince of Wales College is a delightful play area designed
+                        just for kids. It's a colorful and cheerful space filled with swings, slides, and other fun
+                        equipment where children can run, jump, and play to their hearts' content. Surrounded by safety
+                        measures and soft ground covering, it's a secure place where kids can explore, make new friends,
+                        and enjoy outdoor adventures. The laughter and joy of children fill the air as they create happy
+                        memories in this special park, making it a favorite spot for families and little ones in the
+                        college community</p>
                 </div>
             </div>
         </div>
@@ -524,23 +473,20 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100"
-                            src="content/img/img-about/locations/primary-section-locations-pwc.webp" alt="PRIMARY SECTION"
-                            style="object-fit: cover;">
+                            src="content/img/img-about/locations/primary-section-locations-pwc.webp"
+                            alt="PRIMARY SECTION" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">PRIMARY SECTION</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The primary section at Prince of Wales College is where young learners begin their
+                        educational journey. It's a dedicated area within the college where children in their early
+                        school years attend classes. In this friendly and supportive environment, skilled teachers
+                        introduce kids to the exciting world of learning, helping them develop essential skills and a
+                        love for knowledge. The primary section is filled with colorful classrooms, educational games,
+                        and engaging activities, making it a place where children eagerly explore and build the
+                        foundation for their future education.</p>
                 </div>
             </div>
         </div>
@@ -551,23 +497,20 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="GRADE 6-11 CLASSROOMS"
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg"
+                            alt="GRADE 6-11 CLASSROOMS" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">GRADE 6-11 CLASSROOMS</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The Grade 6-11 classrooms at Prince of Wales College are where older students
+                        continue their academic studies. These classrooms are where students in their middle and high
+                        school years attend classes to learn and grow. With desks, chairs, and a chalkboard or
+                        smartboard, these rooms are equipped for effective teaching and learning. It's here that
+                        students delve into subjects, prepare for exams, and explore their interests, guided by their
+                        dedicated teachers. These classrooms serve as the backdrop for many educational adventures,
+                        where students build knowledge and skills to prepare for their future.</p>
                 </div>
             </div>
         </div>
@@ -578,23 +521,22 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/science-section-academic-pwc.webp" alt="AL SCIENCE SECTION"
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/science-section-academic-pwc.webp"
+                            alt="AL SCIENCE SECTION" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">AL SCIENCE SECTION</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The Al Science section at Prince of Wales College is a specialized area for students
+                        pursuing their Advanced Level (A-Level) studies in science subjects. It's a focused and
+                        intensive environment where students prepare for challenging exams and explore advanced
+                        scientific concepts. Equipped with well-equipped labs, classrooms, and study resources, this
+                        section offers students the tools they need to excel in subjects like physics, chemistry, and
+                        biology. It's a place where aspiring scientists and future leaders in the field of science come
+                        together to expand their knowledge and make important discoveries on their educational journey.
+                    </p>
                 </div>
             </div>
         </div>
@@ -605,23 +547,21 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="AL ARTS & COMMERCE SECTION"
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg"
+                            alt="AL ARTS & COMMERCE SECTION" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">AL ARTS & COMMERCE SECTION</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The A-Level Arts & Commerce section at Prince of Wales College is a dedicated space
+                        for students who are passionate about subjects like literature, arts, and commerce. In these
+                        specialized classrooms, students explore the world of humanities, social sciences, and
+                        business-related topics. With engaging teachers and a variety of resources, this section
+                        provides students with a strong academic foundation in areas such as literature, economics, and
+                        business studies. It's where future artists, writers, economists, and entrepreneurs come
+                        together to nurture their talents and gain the knowledge and skills they need for their chosen
+                        career paths.</p>
                 </div>
             </div>
         </div>
@@ -640,16 +580,9 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">TEXT BOOK STORE</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The textbook store at Prince of Wales College is a convenient place for students to
+                        find the books they need for their studies. It's like a one-stop shop for textbooks and learning
+                        materials.</p>
                 </div>
             </div>
         </div>
@@ -667,16 +600,13 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">MEDIA UNIT</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The media unit at Prince of Wales College is where creativity and communication come
+                        to life. It's a dynamic space where students and faculty can explore various forms of media,
+                        from photography and videography to journalism and graphic design. Equipped with modern
+                        technology and editing tools, this unit supports the production of multimedia content for
+                        college events, newsletters, and other communications. It's a hub of creativity where students
+                        develop their media skills and contribute to the college's vibrant community by capturing and
+                        sharing its stories and achievements through various media channels.</p>
                 </div>
             </div>
         </div>
@@ -687,23 +617,20 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="FIRST AID ROOM"
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg"
+                            alt="FIRST AID ROOM" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">FIRST AID ROOM</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The first aid room at Prince of Wales College is a safe and caring space where
+                        students and staff can receive immediate medical assistance in case of injuries or emergencies.
+                        It's staffed by trained professionals who are ready to provide essential first aid and medical
+                        care. Equipped with necessary supplies and equipment, the first aid room ensures the well-being
+                        of the college community by offering quick and effective support during times of health-related
+                        incidents. It's a comforting place where prompt care is available, promoting a safe and secure
+                        environment for everyone on campus.</p>
                 </div>
             </div>
         </div>
@@ -714,23 +641,21 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/Helping-room-pwc.webp" alt="HELPING ROOM"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/Helping-room-pwc.webp" alt="HELPING ROOM"
                             style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">HELPING ROOM</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The helping room at Prince of Wales College is a compassionate initiative that
+                        provides support to students facing economic challenges. In this room, students can access
+                        essential resources like food and study materials free of charge. It's a place of kindness and
+                        generosity, where the college community comes together to ensure that no student goes hungry and
+                        every student has the tools they need to succeed academically. The helping room embodies the
+                        spirit of solidarity, making sure that all students have an equal opportunity to thrive in their
+                        education, regardless of economic circumstances.</p>
                 </div>
             </div>
         </div>
@@ -741,23 +666,21 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/computer-labs-location-pwc.webp" alt="COMPUTER LABS"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/computer-labs-location-pwc.webp" alt="COMPUTER LABS"
                             style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">COMPUTER LABS</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The computer labs at Prince of Wales College are like high-tech classrooms where
+                        students can explore the world of technology and digital learning. These labs are equipped with
+                        rows of computers and up-to-date software, providing students with the tools they need for
+                        computer-based assignments and research. Whether it's programming, graphic design, or data
+                        analysis, these labs are where students gain hands-on experience and enhance their computer
+                        skills. It's a space where innovation and learning go hand in hand, preparing students for the
+                        digital challenges of today's world.</p>
                 </div>
             </div>
         </div>
@@ -776,16 +699,13 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">LIBRARY</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The library at Prince of Wales College is a treasure trove of knowledge and a quiet
+                        haven for study. It's a place filled with rows of books, magazines, and digital resources,
+                        offering a world of information to students and scholars. Here, you can explore the pages of
+                        history, travel to distant lands, or dive into academic research. The library is not just a
+                        collection of books; it's a space where ideas flourish, and students can concentrate on their
+                        studies. Librarians are there to assist, making it a valuable resource for anyone seeking to
+                        expand their horizons through reading and research.</p>
                 </div>
             </div>
         </div>
@@ -796,23 +716,21 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/Prefect-Room-pwc.webp" alt="PREFECTS' ROOM"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/Prefect-Room-pwc.webp" alt="PREFECTS' ROOM"
                             style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                     <h1 class="mb-4">PREFECTS' ROOM</h1>
-                    <p class="mb-4">Since the inception of the school in 1876, Prince of Wales’ College has been
-                        considered as a major school in Moratuwa area and over the years, established its name as a
-                        leading school in Sri Lanka. Over the years, Prince of Wales’ College has provided the society
-                        with countless men of great caliber whom we are happy to say have served both, their school and
-                        the country alike….</p>
-                    <p class="mb-4">And now, keeping up with the fast paced world, we have launched our new, official
-                        website. With the internet being a truly powerful means of reaching out to the community, we
-                        believe this would aid us to bridge the gap between the school and the parents, past pupils,
-                        past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
-                        evergreen Cambrian spirit high amongst us all!</p>
+                    <p class="mb-4">The Prefects' Room at Prince of Wales College is a special place where student
+                        leaders gather to plan and oversee various school activities. It's a room where the elected
+                        prefects meet to discuss important matters, organize events, and contribute to the positive
+                        atmosphere of the college. The room often displays a sense of responsibility and leadership, as
+                        it is where student representatives come together to make a difference in the college community.
+                        It serves as a hub for teamwork and decision-making, ensuring that the college runs smoothly and
+                        that students' voices are heard and acted upon.</p>
                 </div>
             </div>
         </div>
