@@ -8,24 +8,29 @@
 ?>
     <?php include 'header.php'; ?>
 
-<!-- Primary Meta Tags -->
-<meta name="title" content="Sports │ Prince of Wales' College, Moratuwa" />
-<meta name="description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
-<meta name="keywords" content="prince of wales college sports, prince of wales college sport achievements" />
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Sports │ Prince of Wales' College, Moratuwa" />
+    <meta name="description"
+        content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
+    <meta name="keywords" content="prince of wales college sports, prince of wales college sport achievements" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk/sports.php" />
-<meta property="og:title" content="Sports │ Prince of Wales' College, Moratuwa" />
-<meta property="og:description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
-<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-sports/header-image-sports-pwc.webp" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/sports.php" />
+    <meta property="og:title" content="Sports │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:description"
+        content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
+    <meta property="og:image"
+        content="https://princeofwales.edu.lk/content/img/img-sports/header-image-sports-pwc.webp" />
 
-<!-- Twitter / WA / TG -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk/sports.php" />
-<meta property="twitter:title" content="Sports │ Prince of Wales' College, Moratuwa" />
-<meta property="twitter:description" content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
-<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-sports/header-image-sports-pwc.webp" />
+    <!-- Twitter / WA / TG -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/sports.php" />
+    <meta property="twitter:title" content="Sports │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:description"
+        content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
+    <meta property="twitter:image"
+        content="https://princeofwales.edu.lk/content/img/img-sports/header-image-sports-pwc.webp" />
 
     <style>
         .sports-page-header {
@@ -99,7 +104,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/cricket-sports-pwc.webp" alt="Cricket"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/cricket-sports-pwc.webp" alt="Cricket"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -119,11 +125,11 @@
                             For All These Achievements in Charge of Cricket Mr. Udaya Giganage, Mr. Kasun Devapriya,
                             Worked Tirelessly and Dedicatedly.</p>
 
-                            <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="battle-of-the-golds.php"
-                        style="border-radius=25px" data-wow-delay="0.7s">Know More About College Big Match</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="battle-of-the-golds.php"
+                            style="border-radius=25px" data-wow-delay="0.7s">Know More About College Big Match</a>
 
                     </div>
-        
+
 
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -144,8 +150,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt="volleyball"
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/"
+                                alt="volleyball" style="object-fit: cover;">
                         </div>
                     </div>
 
@@ -153,7 +159,8 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/basketball-sports-pwc.webp" alt="Basketball"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/basketball-sports-pwc.webp" alt="Basketball"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -183,7 +190,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/rugby-sports-pwc.webp" alt="Rugby"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/rugby-sports-pwc.webp" alt="Rugby"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -191,7 +199,8 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/handball-sports-pwc.webp" alt="Handball"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/handball-sports-pwc.webp" alt="Handball"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -223,7 +232,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/hockey-sports-pwc.webp" alt="Hockey"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/hockey-sports-pwc.webp" alt="Hockey"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -248,7 +258,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/athletic-sports-pwc.webp" alt="Athletics"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/athletic-sports-pwc.webp" alt="Athletics"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -286,7 +297,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/swimmimg-sports-pwc.webp" alt="SWIMMING"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/swimmimg-sports-pwc.webp" alt="SWIMMING"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -320,8 +332,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/judo-sports-pwc.webp" alt="judo"
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/judo-sports-pwc.webp" alt="judo" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -353,8 +365,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt="wushu"
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/"
+                                alt="wushu" style="object-fit: cover;">
                         </div>
                     </div>
 
@@ -363,14 +375,20 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/karate-sports-pwc.webp" alt="Karate"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/karate-sports-pwc.webp" alt="Karate"
                                 style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h6 class="section-title bg-white text-start text-primary pe-3">COMBAT SPORT</h6>
                         <h1 class="mb-4">KARATE</h1>
-                        <p class="mb-4"></p>
+                        <p class="mb-4">Karate is a popular martial art at Prince of Wales College in Moratuwa. Many
+                            students at the college enjoy practicing karate. They learn different karate moves and
+                            techniques to defend themselves and build self-confidence. The college has experienced
+                            karate instructors who teach the students the art of discipline, respect, and focus. Karate
+                            classes at Prince of Wales College provide a great opportunity for students to stay fit and
+                            develop important life skills while having fun.</p>
                     </div>
 
 
@@ -393,7 +411,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt="wrestling"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/wrestling-sports-pwc.webp" alt="wrestling"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -419,7 +438,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/badminton-sports-pwc.webp" alt="badminton"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/badminton-sports-pwc.webp" alt="badminton"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -451,8 +471,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/" alt="chess"
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/"
+                                alt="chess" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -483,7 +503,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/carrom-sports-pwc.webp" alt="carrom"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/carrom-sports-pwc.webp" alt="carrom"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -508,7 +529,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-sports/shooting-sport-pwc.webp" alt="Shooting"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-sports/shooting-sport-pwc.webp" alt="Shooting"
                                 style="object-fit: cover;">
                         </div>
                     </div>

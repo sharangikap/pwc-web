@@ -333,7 +333,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="hostel"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/hostel-location-pwc.webp" alt="hostel"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -714,7 +714,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="HELPING ROOM"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/Helping-room-pwc.webp" alt="HELPING ROOM"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -741,7 +741,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="COMPUTER LABS"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/computer-labs-location-pwc.webp" alt="COMPUTER LABS"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -796,7 +796,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="PREFECTS' ROOM"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/Prefect-Room-pwc.webp" alt="PREFECTS' ROOM"
                             style="object-fit: cover;">
                     </div>
                 </div>

@@ -139,7 +139,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="ict society"
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/ICT-club-pwc.webp" alt="ict society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -440,7 +440,7 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="commerce society"
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/Al-commerce-pwc.webp" alt="commerce society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -476,7 +476,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="art society"
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/AL-Art-pwc.webp" alt="art society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
