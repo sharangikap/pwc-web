@@ -84,7 +84,6 @@ and open the template in the editor.
                     <select id="subject" name="sscience" style="min-height:30px;">
 
                         <option value="Bio/Chem/Phy"> Biology / Chemistry / Physics </option>
-                        <option value="Bio/Chem/Agri"> Biology / Chemistry / Agriculture</option>
                         <option value="Maths/Chem/Phy"> Combined Mathematics / Chemistry / Physics </option>
                         <option value="Maths/ICT/Phy"> Combined Mathematics / ICT / Physics </option>
                     </select>
