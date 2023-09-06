@@ -4215,15 +4215,15 @@ a.thumbnail.active {
   color: #2b542c;
 }
 .alert-info {
-  color: #31708f;
-  background-color: #d9edf7;
-  border-color: #bce8f1;
+  color: #8f3131;
+  background-color: #f7d9d9;
+  border-color: #f1bcbc;
 }
 .alert-info hr {
-  border-top-color: #a6e1ec;
+  border-top-color: #eca6a6;
 }
 .alert-info .alert-link {
-  color: #245269;
+  color: #692424;
 }
 .alert-warning {
   color: #8a6d3b;

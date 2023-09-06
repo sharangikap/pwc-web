@@ -58,13 +58,11 @@
 
         <center>
             <a class="btn btn-primary py-3 px-5 mt-2 " href="science.php" style="border-radius=25px"
-            data-wow-delay="0.7s">Science</a>
+            data-wow-delay="0.7s">SCIENCE</a>
             <a class="btn btn-primary py-3 px-5 mt-2 " href="commerce.php" style="border-radius=25px"
-            data-wow-delay="0.7s">Commerce</a>
+            data-wow-delay="0.7s">COMMERCE</a>
             <a class="btn btn-primary py-3 px-5 mt-2 " href="art.php" style="border-radius=25px"
-            data-wow-delay="0.7s">Arts</a>
-            <a class="btn btn-primary py-3 px-5 mt-2 " href="technology.php" style="border-radius=25px"
-            data-wow-delay="0.7s">Technology</a>
+            data-wow-delay="0.7s">ARTS</a>
         </center>
 
 </div>

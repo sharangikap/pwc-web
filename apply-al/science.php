@@ -16,20 +16,20 @@ and open the template in the editor.
 
 <!-- Primary Meta Tags -->
 <meta name="title" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
-<meta name="description" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+<meta name="description" content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
 <meta property="og:title" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
-<meta property="og:description" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+<meta property="og:description" content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
 <meta property="twitter:title" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
-<meta property="twitter:description" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:description" content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
 
 
@@ -70,7 +70,7 @@ and open the template in the editor.
 
     <div class="container">
         <form class="form-horizontal" method="POST" action="science_insert.php">
-            <br>
+        <h5 class="text-center"></h5>
             <h4 class="text-center"> Application for 2025 Advanced Level Admission Registration </h4>
             <h4 class="text-center"> Science Stream </h4>
             <div class="form-group"></div>
@@ -152,18 +152,7 @@ and open the template in the editor.
                         style='text-transform:uppercase' required>
                 </div>
             </div>
-            <!--Gender-->
-            <div class="form-group">
-                <label for="gender" class="col-sm-2">Gender</label>
-                <div class="col-sm-9">
-                    <label class="radio-inline control-label">
-                        <input checked="checked" name="gender" type="radio" value="Male"> Male
-                    </label>
-                    <label class="radio-inline control-label">
-                        <input name="gender" type="radio" value="Female"> Female
-                    </label>
-                </div>
-            </div>
+            
             <!--Date of birth-->
             <div class="form-group">
                 <label for="birthday" class="col-sm-2">Birthday</label>
@@ -261,7 +250,7 @@ and open the template in the editor.
             <div class="form-group col-12">
 
 
-                <h4 class="text-center"> GCE Ordinary Level 2020(2021)</h4>
+                <h4 class="text-center"> GCE Ordinary Level </h4>
             </div>
             <!--Index Number-->
             <div class="form-group">
@@ -542,14 +531,12 @@ and open the template in the editor.
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow5.js"></script>
-        <noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for
-            more info.</noscript>
 
 
-        <?php 
+
+<?php 
     include 'footer.php';
-    ?>
+?>
 
 </body>
 
