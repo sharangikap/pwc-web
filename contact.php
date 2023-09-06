@@ -257,7 +257,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <img src="content/img/oba-office.jpg" width="350px">
+                    <img src="content/img/img-contact/oba-office.webp" width="350px">
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
