@@ -267,6 +267,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <br>
                     <p class="mb-4">The English anthem of Prince of Wales College Moratuwa is a special song that
                         represents our school's identity and values. It's a symbol of our pride and unity, sung during
                         important school events. <br><br> The anthem's lyrics emphasize our commitment to education,
@@ -275,6 +276,7 @@
                         Whether at sports events or graduation ceremonies, the English anthem is a cherished part of our
                         school experience, bringing us together and reminding us of our school's history and traditions.
                     </p>
+                    <br>
                     <audio controls>
                         <source src="content/audio/English-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
                     <br><br>
