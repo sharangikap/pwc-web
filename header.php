@@ -1,5 +1,14 @@
 <head>
     <meta charset="utf-8">
+    <style>
+        ::selection {
+            background-color: #800000;
+            color: white;
+        }
+    </style>
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
 
     <!-- Favicon -->
     <link href="content/icons/logo-70x70-pwc.png" rel="icon">
@@ -30,28 +39,10 @@
     <!-- Template Stylesheet -->
     <link href="resources/css/style.css" rel="stylesheet">
 
-    <!-- PWA -->
-
-    <link rel="manifest" href="manifest.json">
-
-
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-K1KCZVJTWP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-K1KCZVJTWP');
-</script>
 
 
 
 
-</head>
-
-<body>
     <style>
         ::selection {
             background-color: #800000;
@@ -64,7 +55,7 @@
 
         .dropdown-item:hover {
         color: maroon;
-        }
+    }
 
         @keyframes pulse-animation {
             0% {
@@ -79,6 +70,7 @@
                 transform: scale(1);
             }
         }
+
 
         .responsive-header {
             font-size: 1rem;
@@ -104,16 +96,25 @@
         }
     </style>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K1KCZVJTWP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-K1KCZVJTWP');
+</script>
 
-    <!-- Spinner Start -->
+</head>
+
+<body>
+
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only"></span>
         </div>
-
         <h3>&nbsp; Loading...</h3>
     </div>
     <!-- Spinner End -->
@@ -123,26 +124,19 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
             <img src="content/img/logo-pwc.png" width="45px" alt="pwc logo">
-            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Rubik', sans-serif;">
-                &nbsp; &nbsp; PRINCE OF WALES' COLLEGE<br>&nbsp; &nbsp; MORATUWA
+            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Arimo', sans-serif;">&nbsp; &nbsp; PRINCE OF WALES'
+                COLLEGE<br>&nbsp; &nbsp; MORATUWA
             </h6>
-
         </a>
-        <button type="button" class="navbar-toggler me-1" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.php"
-                    class="nav-item nav-link <?php if ($page === 'home') echo 'active'; ?> nav-link pulse">Home</a>
-                <a href="news/"
-                    class="nav-item nav-link nav-link pulse <?php if ($page === 'news') echo 'active'; ?>">News</a>
-                <a href="events/"
-                    class="nav-item nav-link nav-link pulse <?php if ($page === 'events') echo 'active'; ?>">events</a>
-                <a href="the-golden-book.php"
-                    class="nav-item nav-link <?php if ($page === 'golden-book') echo 'active'; ?> nav-link pulse">The golden book</a>
-
-
+                <a href="index.php" class="nav-item nav-link <?php if ($page === 'home') echo 'active'; ?> nav-link pulse">Home</a>
+                <a href="news/" class="nav-item nav-link nav-link pulse">News</a>
+                <a href="events/" class="nav-item nav-link nav-link pulse">events</a>
+                <a href="the-golden-book.php" class="nav-item nav-link <?php if ($page === 'golden-book') echo 'active'; ?> nav-link pulse">The golden book</a>
 
                 <div class="nav-item dropdown">
                     <a href="sports.php"
@@ -175,14 +169,9 @@
                     </div>
                 </div>
 
+                <a href="history.php" class="nav-item nav-link <?php if ($page === 'history') echo 'active'; ?> nav-link pulse">History</a>
+                <a href="about.php" class="nav-item nav-link <?php if ($page === 'about') echo 'active'; ?> nav-link pulse">About</a>
+                <a href="contact.php" class="nav-item nav-link <?php if ($page === 'contact') echo 'active'; ?> nav-link pulse">Contact</a>
 
-
-                <a href="history.php"
-                    class="nav-item nav-link <?php if ($page === 'history') echo 'active'; ?> nav-link pulse">History</a>
-                <a href="about.php"
-                    class="nav-item nav-link <?php if ($page === 'about') echo 'active'; ?> nav-link pulse">About</a>
-                <a href="contact.php"
-                    class="nav-item nav-link <?php if ($page === 'contact') echo 'active'; ?> nav-link pulse">Contact</a>
-            </div>
     </nav>
     <!-- Navbar End -->
