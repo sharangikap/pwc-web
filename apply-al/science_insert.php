@@ -2,17 +2,15 @@
 
 if(isset($_POST['submit'])){
  
- $db = mysqli_connect('localhost','','','')
- or die('Error connecting to MySQL server.');
+    include 'db_con.php';
 
 $sscience = $_POST['sscience'];
 $school = $_POST['school'];
 $school_private = $_POST['school_private'];
-$schoolname = $_POST['schoolname'];
-$schooldistrict = $_POST['$schooldistrict'];
+$schoolname = isset($_POST['schoolname']) ? $_POST['schoolname'] : "NULL";
+$schooldistrict = isset($_POST['schooldistrict']) ? $_POST['schooldistrict'] : "NULL";
 $fname = strtoupper($_POST['fname']); 
 $iname = strtoupper($_POST['iname']);
-$gender = $_POST['gender'];
 $birthday = $_POST['birthday'];
 $nic = $_POST['nic'];
 $address1 =strtoupper($_POST['address1']);
@@ -41,8 +39,10 @@ $op3 = $_POST['op3'];
 $optional3 = $_POST['optional3'];
 $referenceno= rand();
 
-$sql = "INSERT INTO S_Detail(Reference_no,Stream,Subject,Lumbini_Other,School_Private_Candidate,School,S_District,Name,Name_with_Initials,Gender,Birthday,NIC,Address1,Address2,City,Guardian_Name,ResidentialNo,Mobile1,Mobile2,E_mail,Distance,Transport,IndexNo,Medium,Religion,Sinhala,English,Science,Mathematics,History,Optional1,Result1,Optional2,Result2,Optional3,Result3) 
-VALUES ('$referenceno','Science','$sscience','$school','$school_private','$schoolname','$schooldistrict','$fname','$iname','$gender','$birthday','$nic','$address1','$address2','$city','$gname','$residential','$mobile1','$mobile2','$email','$distance','$transport','$indexno','$medium','$religion','$sinhala','$english','$science','$maths','$history','$op1','$optional1','$op2','$optional2','$op3','$optional3')";
+$sql = "INSERT INTO pwc_db_al25
+(Reference_no,Stream,Subject,pwc_Other,School_Private_Candidate,School,S_District,Name,Name_with_Initials,Gender,Birthday,NIC,Address1,Address2,City,Guardian_Name,ResidentialNo,Mobile1,Mobile2,E_mail,Distance,Transport,IndexNo,Medium,Religion,Sinhala,English,Science,Mathematics,History,Optional1,Result1,Optional2,Result2,Optional3,Result3) 
+VALUES
+('$referenceno','Science','$sscience','$school','$school_private','$schoolname','$schooldistrict','$fname','$iname','$birthday','$nic','$address1','$address2','$city','$gname','$residential','$mobile1','$mobile2','$email','$distance','$transport','$indexno','$medium','$religion','$sinhala','$english','$science','$maths','$history','$op1','$optional1','$op2','$optional2','$op3','$optional3')";
 
 
 if(mysqli_query($db, $sql)){

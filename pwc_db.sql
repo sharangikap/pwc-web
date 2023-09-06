@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Aug 05, 2023 at 01:11 PM
--- Server version: 10.4.27-MariaDB
--- PHP Version: 8.2.0
+-- Host: localhost:3306
+-- Generation Time: Sep 06, 2023 at 11:16 PM
+-- Server version: 5.5.68-MariaDB
+-- PHP Version: 8.2.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -31,7 +31,7 @@ CREATE TABLE `pwc_db_admin` (
   `admin_id` int(11) NOT NULL,
   `admin_email` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `admin_password` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `pwc_db_admin`
@@ -56,19 +56,16 @@ CREATE TABLE `pwc_db_events` (
   `organizer_email` varchar(190) NOT NULL,
   `organizer_phone` varchar(190) NOT NULL,
   `about` longtext NOT NULL,
-  `img` varchar(50) NOT NULL,
+  `img` varchar(1000) NOT NULL,
   `other_details` longtext NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `pwc_db_events`
 --
 
 INSERT INTO `pwc_db_events` (`id`, `title`, `date`, `time`, `location`, `organizer_name`, `organizer_email`, `organizer_phone`, `about`, `img`, `other_details`) VALUES
-(1, 'Media Day 2023', '2023-08-16', '11:39:51', 'Main Hall', 'CMBU', 'ff', 'ff', '<p>As an AI language model, I\'m limited to generating responses within a specific character limit to ensure readability and coherence. Therefore, I\'ll provide you with a lengthy paragraph close to 1000 characters. If you need more content, feel free to ask for additional paragraphs!</p>\n\n<p>---</p>\n\n<p>In the vast expanse of the digital realm, artificial intelligence strides forth, embodying the culmination of human ingenuity and technological prowess. Its foundation rests upon the intricacies of neural networks, mimicking the complex web of human cognition. With each passing day, AI grows more sophisticated, offering unprecedented possibilities and advancements across diverse fields.</p>\n\n<p>In the realm of healthcare, AI has become a powerful ally, transforming diagnostics and treatment. AI-driven algorithms meticulously analyze medical images, assisting doctors in detecting subtle abnormalities that might otherwise elude the human eye. Moreover, AI-powered chatbots and virtual assistants alleviate the burden on healthcare professionals, offering personalized support and timely responses to patients\' queries.</p>\n\n<p>Beyond the boundaries of medicine, AI revolutionizes industries such as finance and commerce. In financial markets, AI-driven algorithms comb through massive datasets in real-time, predicting trends and optimizing investments. E-commerce platforms leverage AI to offer personalized product recommendations, enhancing the shopping experience and boosting sales.</p>\n\n<p>In education, AI-driven tutoring systems cater to individual learning needs, empowering students to grasp complex concepts at their own pace. Moreover, AI-enhanced grading systems streamline the evaluation process for educators, enabling them to focus on fostering student growth and development.</p>\n', 'img/header-main-pwc.jpg', 'aaaaaaaaaaaaaaaaaaaaaaaa'),
-(3, 'Media Day 2023', '2023-08-16', '11:39:51', 'Main Hall', 'CMBU', 'ff', 'ff', 'ff', 'img/header-main-pwc.jpg', ''),
-(4, 'Media Day 2023', '2023-08-16', '11:39:51', 'Main Hall', 'CMBU', 'ff', 'ff', 'ff', 'img/header-main-pwc.jpg', ''),
-(5, 'Media Day 2023', '2023-08-16', '11:39:51', 'Main Hall', 'CMBU', 'ff', 'ff', 'ff', 'img/header-main-pwc.jpg', '');
+(1, '4th Battle of the Prides (Annual Hockey Encounter)', '2023-09-01', '15:00:00', 'Colombo Malay Grounds', 'Prince of Wales\' College, Moratuwa', '', '94', 'Join us on September 1st at Malay Grounds, Colombo, as the ice heats up for the 4th Hockey encounter between Prince of Wales College, Moratuwa, and Presidents College, Maharagama!  <br><br> Witness an epic clash of skills, determination, and school pride!', '815890952-hockey-big-match.jpg', 'No Information');
 
 -- --------------------------------------------------------
 
@@ -80,25 +77,21 @@ CREATE TABLE `pwc_db_news` (
   `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(190) NOT NULL,
   `tags` varchar(40) NOT NULL,
-  `content` text NOT NULL,
-  `photo` varchar(50) NOT NULL,
+  `content` longtext NOT NULL,
+  `photo` varchar(1000) NOT NULL,
   `posted` varchar(40) NOT NULL,
   `date` date DEFAULT NULL,
   `category` varchar(40) DEFAULT NULL,
-  `slug` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+  `excerpt` varchar(150) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `pwc_db_news`
 --
 
-INSERT INTO `pwc_db_news` (`id`, `title`, `tags`, `content`, `photo`, `posted`, `date`, `category`, `slug`) VALUES
-(1, 'PWC Celebrates 147th anniversary ', 'blog,php,bootstrap', '<div><b>Lorem ipsum dolor</b> sit amet, consectetur adipisicing elit, sed do eiusmod</div><div>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div><div>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</div><div>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</div><div>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</div><div>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>', 'img/article-img-test.jpg', 'draft', '2023-08-05', 'news', 'pwc-147-anniversary'),
-(2, 'Benefits of livig in this world', 'life,life tips', '<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</div><div>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div><div>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</div><div>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</div><div>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</div><div>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>', 'img/article-img-test.jpg', 'publish', '2018-04-27', 'admin', ''),
-(3, 'The future of web developement on earth', 'web,development,earth', '<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<span style=\"font-size: 0.857em;\">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</span><span style=\"font-size: 0.857em;\">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</span><span style=\"font-size: 0.857em;\">consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</span><span style=\"font-size: 0.857em;\">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</span><span style=\"font-size: 0.857em;\">proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>', 'img/article-img-test.jpg', 'publish', '2018-04-27', 'admin', ''),
-(4, 'The subtle art of not giving a fuck-Mark Manson', 'books,reading,novels', '<span style=\"font-size: 12.855px;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span><span style=\"font-size: 0.857em;\">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</span><span style=\"font-size: 0.857em;\">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</span><span style=\"font-size: 0.857em;\">consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</span><span style=\"font-size: 0.857em;\">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</span><span style=\"font-size: 0.857em;\">proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span style=\"font-size: 12.855px;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span><span style=\"font-size: 0.857em;\">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</span><span style=\"font-size: 0.857em;\">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</span><span style=\"font-size: 0.857em;\">consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</span><span style=\"font-size: 0.857em;\">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</span><span style=\"font-size: 0.857em;\">proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><br>', 'img/article-img-test.jpg', 'publish', '2018-04-27', 'admin', ''),
-(5, 'The challanges of being a writter', 'witting,blogging', '<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<span style=\"font-size: 0.857em;\">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</span><span style=\"font-size: 0.857em;\">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</span><span style=\"font-size: 0.857em;\">consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</span><span style=\"font-size: 0.857em;\">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</span><span style=\"font-size: 0.857em;\">proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>', 'img/article-img-test.jpg', 'publish', '2018-04-27', 'etemesi', ''),
-(6, 'Why i ventured into writting as a proffesion', 'witting,blogging', '<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<span style=\"font-size: 0.857em;\">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</span><span style=\"font-size: 0.857em;\">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</span><span style=\"font-size: 0.857em;\">consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</span><span style=\"font-size: 0.857em;\">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</span><span style=\"font-size: 0.857em;\">proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span style=\"font-size: 11.0167px;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span><span style=\"font-size: 11.0167px;\">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</span><span style=\"font-size: 11.0167px;\">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</span><span style=\"font-size: 11.0167px;\">consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</span><span style=\"font-size: 11.0167px;\">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</span><span style=\"font-size: 11.0167px;\">proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>', 'img/article-img-test.jpg', 'draft', '2018-04-27', 'etemesi', '');
+INSERT INTO `pwc_db_news` (`id`, `title`, `tags`, `content`, `photo`, `posted`, `date`, `category`, `excerpt`) VALUES
+(1, 'Cambrians Achieved Three 1st Places in Provincial Level Western Music Competitions 2023', '', 'In the recent provincial-level Western Music competition, Prince of Wales College achieved a remarkable feat by securing three 1st places. The college\'s talents shined brightly as they clinched the top spot in various categories.  <br><br>  The Senior Choir from Prince of Wales College claimed the 1st place ðŸ¥‡, showcasing their exceptional musical prowess. The Junior Choir also brought home the 1st place ðŸ¥‡, displaying their impressive skills at a young age. Adding to their victories, Rometh Thenuka from 9B amazed the judges with a stellar recorder solo, securing the 1st place ðŸ¥‡ in that category.  <br><br>  Such outstanding performances have not only brought pride to Prince of Wales College but have also earned them a well-deserved ticket to the National level competition. Their hard work and dedication have paid off, as they now get ready to represent their college on a larger stage.  <br><br>  A heartfelt congratulations to all the talented participants from Western Music Society of Prince of Wales College! ðŸŽ‰ðŸŽ‰ Your musical achievements are an inspiration to the entire community.', 'wm-competitions-2023-pwc.webp', '', '2023-08-29', 'Achievements - Aesthetics', 'In the recent provincial-level Western Music competition, Prince of Wales College achieved a remarkable feat by securing three 1st places. The college'),
+(3, 'Junior Prefects Applications', '', 'Junior Prefects Applications', '423831531-news-psd.png', '', '2023-08-30', 'Special Announcements', 'Junior Prefects Applications');
 
 --
 -- Indexes for dumped tables
@@ -130,19 +123,19 @@ ALTER TABLE `pwc_db_news`
 -- AUTO_INCREMENT for table `pwc_db_admin`
 --
 ALTER TABLE `pwc_db_admin`
-  MODIFY `admin_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `admin_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `pwc_db_events`
 --
 ALTER TABLE `pwc_db_events`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `pwc_db_news`
 --
 ALTER TABLE `pwc_db_news`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
