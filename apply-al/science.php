@@ -14,37 +14,46 @@ and open the template in the editor.
     <meta name="description" content="">
     <meta name="author" content="">
 
-<!-- Primary Meta Tags -->
-<meta name="title" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
-<meta name="description" content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
+    <!-- Primary Meta Tags -->
+    <meta name="title"
+        content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+    <meta name="description"
+        content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
-<meta property="og:title" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
-<meta property="og:description" content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
-<meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
+    <meta property="og:title"
+        content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:description"
+        content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
+    <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
 
-<!-- Twitter / WA / TG -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
-<meta property="twitter:title" content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
-<meta property="twitter:description" content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
-<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
+    <!-- Twitter / WA / TG -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
+    <meta property="twitter:title"
+        content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:description"
+        content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
+
+
 
 
 
     <title>Science Stream - Application for Advanced Level Admission Registration</title>
 
     <!-- Bootstrap core CSS -->
-    
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.js"></script> 
 
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <?php 
+    include '../database_connection.php';
     include 'header.php';
     ?>
+
 
     <script type="text/javascript">
         $(function () {
@@ -57,6 +66,7 @@ and open the template in the editor.
                 } else {
                     $("#schoolname").attr("disabled", "disabled");
                     $("#schooldistrict").attr("disabled", "disabled");
+
                 }
             });
         });
@@ -69,7 +79,7 @@ and open the template in the editor.
 
     <div class="container">
         <form class="form-horizontal" method="POST" action="science_insert.php">
-        <h5 class="text-center"></h5>
+            <h5 class="text-center"></h5>
             <h4 class="text-center"> Application for 2025 Advanced Level Admission Registration </h4>
             <h4 class="text-center"> Science Stream </h4>
             <div class="form-group"></div>
@@ -87,8 +97,15 @@ and open the template in the editor.
                         <option value="Maths/ICT/Phy"> Combined Mathematics / ICT / Physics </option>
                     </select>
                 </div>
+
                 <div class="col-sm-5">
-                    <p>( All subjects are in Sinhala Medium.)</p>
+                    <label for="almedium" class="col-sm-2 col-form-label"> Medium </label>
+                    <div class="col-sm-5">
+                        <select id="almedium" name="almedium" style="min-height:30px;">
+                            <option value="Sinhala"> Sinhala </option>
+                            <option value="English"> English </option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <hr>
@@ -107,6 +124,27 @@ and open the template in the editor.
                         <input name="school" id="chkNo" type="radio" value="No"> No
                     </label>
                 </div>
+
+                <label for="olclass" class="col-sm-3 col-form-label">O/L Class</label>
+                <div class="col-sm-2">
+                    <select id="olclass" name="olclass" style="min-height:30px;" disabled='disabled'>
+                        <option value="+">+</option>
+                        <option value="11-A"> 11-A </option>
+                        <option value="11-B"> 11-B </option>
+                        <option value="11-C"> 11-C </option>
+                        <option value="11-D"> 11-D </option>
+                        <option value="11-E"> 11-E </option>
+                        <option value="11-F"> 11-F </option>
+                        <option value="11-G"> 11-G </option>
+                        <option value="11-H"> 11-H </option>
+
+
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="form-group">
                 <label for="school" class="col-sm-3 col-form-label">School or Private Candiate at GCE OL</label>
                 <div class="col-sm-2">
                     <select id="sp" name="school_private" style="min-height:30px;">
@@ -117,10 +155,9 @@ and open the template in the editor.
                     </select>
                 </div>
             </div>
-
-            <div class="form-group"></div>
             <div class="form-group">
-                <label for="princeofwales" class="col-sm-3 col-form-label">If you are not a student of Prince of Wales' College</label>
+                <label for="princeofwales" class="col-sm-3 col-form-label">If you are not a student of Prince of Wales'
+                    College</label>
                 <div class="col-sm-4">
                     <input type="text" class="form-control" id="schoolname"
                         placeholder="Name of the School studied GCE OL" name="schoolname" disabled='disabled'>
@@ -150,7 +187,7 @@ and open the template in the editor.
                         style='text-transform:uppercase' required>
                 </div>
             </div>
-            
+
             <!--Date of birth-->
             <div class="form-group">
                 <label for="birthday" class="col-sm-2">Birthday</label>
@@ -264,15 +301,15 @@ and open the template in the editor.
 
             </div>
 
-            <!--Medium-->
+            <!--olMedium-->
             <div class="form-group">
-                <label for="gender" class="col-sm-2">Medium</label>
+                <label for="olmedium" class="col-sm-2">Medium</label>
                 <div class="col-sm-9">
                     <label class="radio-inline control-label">
-                        <input checked="checked" name="medium" type="radio" value="Sinhala"> Sinhala
+                        <input checked="checked" name="olmedium" type="radio" value="Sinhala"> Sinhala
                     </label>
                     <label class="radio-inline control-label">
-                        <input name="medium" type="radio" value="English"> English
+                        <input name="olmedium" type="radio" value="English"> English
                     </label>
 
                 </div>
@@ -492,7 +529,7 @@ and open the template in the editor.
             <div class="form-group">
 
                 <div class="form-check col-sm-12">
-                   
+
                     <input class="form-check-input" type="checkbox" id="gridCheck" checked>
 
                     <label class="form-check-label " for="gridCheck">
@@ -514,10 +551,11 @@ and open the template in the editor.
                     </p>
                 </div>
             </div>
-    
+
             <div class="form-group">
                 <div class="col-sm-12">
-                    <button type="reset" name="reset" value="Clear" class="btn btn-primary btn-sm py-3 px-4">Reset</button>
+                    <button type="reset" name="reset" value="Clear"
+                        class="btn btn-primary btn-sm py-3 px-4">Reset</button>
                     <button type="submit" name="submit" class="btn btn-success btn-sm py-3 px-4">Submit</button>
                     <button type="cancel" name="cancel" onclick="window.location.replace('../OL.html')" value="Cancel"
                         class="btn btn-primary btn-sm py-3 px-4" /> Cancel </button>
@@ -528,11 +566,25 @@ and open the template in the editor.
     </div>
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+    <script>
+        // Get references to the radio buttons and the select element
+        const chkYes = document.getElementById("chkYes");
+        const chkNo = document.getElementById("chkNo");
+        const olclass = document.getElementById("olclass");
 
+        // Add an event listener to the radio buttons to enable/disable the select element
+        chkYes.addEventListener("change", function () {
+            olclass.disabled = false; // Enable the select element when "Yes" is selected
+        });
 
-<?php 
+        chkNo.addEventListener("change", function () {
+            olclass.disabled = true; // Disable the select element when "No" is selected
+        });
+    </script>
+
+    <?php 
     include 'footer.php';
 ?>
 
