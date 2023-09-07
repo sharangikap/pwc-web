@@ -26,7 +26,7 @@
 <meta property="twitter:url" content="https://princeofwales.edu.lk/the-golden-book.php" />
 <meta property="twitter:title" content="The Golden Book │ Prince of Wales' College, Moratuwa" />
 <meta property="twitter:description" content="The Golden Book of Prince of Wales College: Honoring the remarkable legacy of Cambrian excellence in education and sports, inspiring generations to pursue greatness." />
-<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-goldenbook/the-golden-book-cover-pwc.webpp" />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-goldenbook/the-golden-book-cover-pwc.webp" />
 
 
 
