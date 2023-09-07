@@ -205,7 +205,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <img src="img/about-pwc.jpg" width="350px">
+                    <img src="content/img/img-contact/swimming-pool-pwc.webp" alt="PWC Swimming Pool" width="350px">
                 </div>
             </div>
 
