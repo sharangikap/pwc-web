@@ -127,7 +127,7 @@ and open the template in the editor.
 
                 <label for="olclass" class="col-sm-3 col-form-label">O/L Class</label>
                 <div class="col-sm-2">
-                    <select id="olclass" name="olclass" style="min-height:30px;" disabled='disabled'>
+                    <select id="olclass" name="olclass" style="min-height:30px;">
                         <option value="+">+</option>
                         <option value="11-A"> 11-A </option>
                         <option value="11-B"> 11-B </option>
@@ -557,8 +557,6 @@ and open the template in the editor.
                     <button type="reset" name="reset" value="Clear"
                         class="btn btn-primary btn-sm py-3 px-4">Reset</button>
                     <button type="submit" name="submit" class="btn btn-success btn-sm py-3 px-4">Submit</button>
-                    <button type="cancel" name="cancel" onclick="window.location.replace('../OL.html')" value="Cancel"
-                        class="btn btn-primary btn-sm py-3 px-4" /> Cancel </button>
                 </div>
 
             </div>
