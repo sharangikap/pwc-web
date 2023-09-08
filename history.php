@@ -97,80 +97,24 @@
                 <div class="row g-3">
                     <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
 
-                        <h6 class="section-title bg-white text-start text-primary pe-3">01st Nov 1875</h6>
-                        <h5 class="mb-4">a significant event occurred in Sri Lanka with the visit of King Edward, Duke
-                            of
-                            Wales, from England. This visit marked a memorable moment in the island's history and had a
-                            lasting impact on its cultural and historical heritage.</h5>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">A Historical Gem on Colombo's Border</h6>
+                        <p class="mb-4"><b>Bordered by Galle Road in the east and Lunawa Lagoon in the west, this beautiful piece of land of about 15 acres is known throughout the island as the <b>Prince of Wales College,</b> which is located on the border of Colombo, with a heritage of ancient history.</b></p>
 
-                        <h6 class="section-title bg-white text-start text-primary pe-3">27th Dec 1875</h6>
-                        <h4 class="mb-4">In order to commemorate the visit of King Edward, Duke of Wales, England, to
-                            Sri Lanka, philanthropist Sir Charles Hendry de Soyza took steps to build this educational
-                            institution with the permission of the Sri Lankan government.</h4>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">A Tribute to King Edward VII's Legacy</h6>
+                        <p class="mb-4"><b>On December 1, 1875,</b> in memory of King Edward VII, the Duke of Wales, who succeeded to the city of Sri Lanka on December 1, 1875, His Highness <b>Charles Henry de Soyza, the Grand Commander of Moratuwa,</b> received a written permission from the Sri Lankan government on <b>November 27, 1875</b> to build this educational institution under the name <b>Prince of Wales.</b></p>
 
-                        <h6 class="section-title bg-white text-start text-primary pe-3">14th Sep 1876</h6>
-                        <h4 class="mb-4">On this day, the foundation stone for the construction of the school was laid
-                            and the basic plan was drawn by Mr. Muhandiram Mendis Jayawardane.</h4>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">A Historic Foundation and Architectural Beauty</h6>
+                        <p class="mb-4"><b>Accordingly, on September 14, 1876,</b> the foundation stone of this land was laid at the behest of Sir William Gregory, the Governor of Sri Lanka. The school plan was completed under the guidance of <b>Mr. Mohandiram Mandis Jayawardena,</b> who was a great citizen of Moratuwa. This building stands out as one of the most beautiful school buildings in Sri Lanka at that time.</p>
 
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1882</h6>
-                        <h4 class="mb-4">Construction of the first hostel building and introduction of cricket as 1st
-                            Sport of the school</h4>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">A Philanthropic Legacy for Prince of Wales College</h6>
+                        <p class="mb-4"><b>In the beginning, Mr. Sir Charles Henry De Soysa arranged to hand over five buildings with all the goods such as tables and chairs for the use of the students</b>, and it is said that the control and management activities of the school were conducted by him throughout his life with great care and attention. Let us remember with pride that in his last will, he has noted that <b>Rs. 3000 should be recovered from his assets annually for the cost of the school after him.</b></p>
 
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1883</h6>
-                        <h4 class="mb-4">Sir John Douglas presided over the first prize giving ceremony of the college.
-                            Prizes were given to all students of the 4 colleges.</h4>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">Evolution, Growth, and Milestones</h6>
+                        <p class="mb-4"><b>In the beginning, the teaching staff consisted of 40 teachers in the school. It ran four institutions as the <i>Prince of Wales’ College</i>, the <i>Princess of Wales’ College</i>, the <i>Prince of Wales’ vernacular College</i>, and the <i>Princess of Wales’ vernacular College</i>. The vernacular Colleges lasted for 7 years and the <i>Prince of Wales’ College</i> became a high school. Apart from this, two classes were organized for undergraduate students. The first prize giving ceremony of this school was held in 1883 under the chairmanship of Mr. Sir John Douglas. The first dormitory of the college opened in 1882.</b></p>
 
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1890</h6>
-                        <h4 class="mb-4">The death of the founder. After that, Mrs. Soyza took over the school.</h4>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">A Journey of Art, Anthem, and National Recognition</h6>
+                        <p class="mb-4"><b>The Buddha temple was built in 1967, demonstrating the creative skills of Mr. Tissa Gunawardena, an expert artist. The statue of Mr. Sir Charles Henry De Soysa at the front of the school ground is also one of his designs. It is a special event that Mr. B. Godaheva, who was the deputy principal of the college in 1967, created the Sinhala school anthem. L.E. Blaise served as the fifth principal of this school. During Mr. Blaise's time, we were allowed to accept the national anthem of Wales in England as the English anthem of our school. On July 4, 1991, our school was declared as a national school, and in 1992, the primary section was started again.</b></p>
 
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1896</h6>
-                        <h4 class="mb-4">During this time, the school cricket club was started, the cricket ground was
-                            improved, and <b>The Cambrian Magazine</b> started</h4>
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1903</h6>
-                        <h4 class="mb-4">During this time, the school started its debating team, cadet platoon, and
-                            added important buildings such as the library, laboratory, and Commerce Section. Tennis and
-                            football were also introduced.</h4>
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1904</h6>
-                        <h4 class="mb-4">The Old Boys Association of the school was founded in 1903, and March 3, the
-                            Founder's birthday, was named Founder's Day.</h4>
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1904</h6>
-                        <h4 class="mb-4">During this time, the school constructed new classrooms, introduced a house
-                            system, and hosted its first inter-house sports meet.</h4>
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1926</h6>
-                        <h4 class="mb-4">Received permission to use the national anthem of Wales, England, as the school
-                            English anthem</h4>
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1933</h6>
-                        <h4 class="mb-4">Held Inaugural Big Match Between Prince of Wales' College vs St. Sebastian's
-                            College</h4>
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1938</h6>
-                        <h4 class="mb-4">Introduced Hockey for the school</h4>
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1951</h6>
-                        <h4 class="mb-4">Introduced higher Education for the school</h4>
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">15th Dec 1961</h6>
-                        <h4 class="mb-4">The college was taken over by the government</h4>
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1964</h6>
-                        <h4 class="mb-4">Held Carol Service for the first time</h4>
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1967</h6>
-                        <h4 class="mb-4">Written Sinhala anthem for the college by Mr. B. Godahewa. <br> Laying the
-                            foundation stone for the Buddha Temple in the college</h4>
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1972</h6>
-                        <h4 class="mb-4">Opening of Buddha Temple by Mr. William Gopallava</h4>
-
-
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1973</h6>
-                        <h4 class="mb-4">Starting of Hewisi Team and Western Bands. <br>
-                            Addition of Rodrigo House to Houses</h4>
 
                     </div>
 

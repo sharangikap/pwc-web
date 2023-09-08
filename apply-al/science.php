@@ -125,7 +125,7 @@ and open the template in the editor.
                     </label>
                 </div>
 
-                <label for="olclass" class="col-sm-3 col-form-label">O/L Class</label>
+                <label for="olclass" class="col-sm-2 col-form-label">O/L Class</label>
                 <div class="col-sm-2">
                     <select id="olclass" name="olclass" style="min-height:30px;">
                         <option value="+">+</option>
@@ -177,6 +177,15 @@ and open the template in the editor.
                     <input type="text" class="form-control"
                         placeholder="Disanayake Mudiyanselage Dushan Akalanka Disanayake" name="fname"
                         style='text-transform:uppercase' required>
+                </div>
+            </div>
+            <!--Fullnamesinhala-->
+            <div class="form-group">
+                <label for="fullnamesinhala" class="col-sm-2 col-form-label">Full Name in Sinhala</label>
+                <div class="col-sm-9">
+
+                    <input type="text" class="form-control"
+                        placeholder="දිසානායක මුදියන්සේලාගේ දුශාන් අකලංක දිසානායක" name="fnamesinhala" required>
                 </div>
             </div>
             <!--Name with Initials-->

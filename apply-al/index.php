@@ -61,6 +61,8 @@
             data-wow-delay="0.7s">SCIENCE</a>
             <a class="btn btn-primary py-3 px-5 mt-2 " href="commerce.php" style="border-radius=25px"
             data-wow-delay="0.7s">COMMERCE</a>
+            <a class="btn btn-primary py-3 px-5 mt-2 " href="tech.php" style="border-radius=25px"
+            data-wow-delay="0.7s">TECHNOLOGY</a>
             <a class="btn btn-primary py-3 px-5 mt-2 " href="art.php" style="border-radius=25px"
             data-wow-delay="0.7s">ARTS</a>
         </center>
