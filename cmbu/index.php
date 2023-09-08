@@ -244,18 +244,9 @@
             <div class="portfolio-header"> <span class="color"> Sadbhashana </span>
             <span class ="header-caption"> Sri Lanka's Biggest <span class="color"> School Media Competition</span></span></div>
              <div id="portfolio-content">
-                 <div class="portfolio portfolio-first">
-                     <div class="portfolio-image">
-                        <img src="images/portfolio-first.jpg" alt="Sadbhashana">
-                     </div>
-                     <div class="portfolio-text">
-                         <h2>Sadhbhashana'22 - Competition</h2>
-                         <p>Sadhbhashana'22 marked a significant milestone as the first physical competition organized by CMBU after the pandemic, bringing together media and broadcasting enthusiasts in person to celebrate their talents and achievements once again.</p>
-                     </div>
-                 </div>
                  <div class="portfolio portfolio-second">
                     <div class="portfolio-image">
-                        <img src="images/portfolio-second.jpg" alt="Sadbhashana">
+                        <img src="images/21comp.jpg" alt="Sadbhashana">
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'21 - Competition (Online)</h2>
@@ -265,7 +256,7 @@
              
                 <div class="portfolio portfolio-third">
                     <div class="portfolio-image">
-                        <img src="images/portfolio-third.jpg" alt="Sadbhashana">
+                        <img src="images/20comp.jpg" alt="Sadbhashana">
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'20 - Competition (Online)</h2>
@@ -274,16 +265,16 @@
                 </div>
                 <div class="portfolio portfolio-fourth">
                     <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="Sadbhashana">
+                        <img src="images/19day-cmbu.jpg" alt="Sadbhashana">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Sadhbhashana'19 - Competition</h2>
+                        <h2>Sadhbhashana'19 - Day</h2>
                         <p>Sadhbhashana'19 was a dynamic school media competition organized by CMBU in 2019, where students from various schools displayed their media and broadcasting talents, fostering excellence in multiple creative disciplines.</p>
                     </div>
                 </div>
                 <div class="portfolio portfolio-fourth">
                     <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="Sadbhashana">
+                        <img src="images/comp-18-cmbu.jpg" alt="Sadbhashana">
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'18 - Competition</h2>
@@ -292,7 +283,7 @@
                 </div>
                 <div class="portfolio portfolio-fourth">
                     <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="Sadbhashana">
+                        <img src="images/day17-cmbu.jpg" alt="Sadbhashana">
                     </div>
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'17 - Media Day</h2>
@@ -306,6 +297,26 @@
                     <div class="portfolio-text">
                         <h2>Sadhbhashana'17 - Competition</h2>
                         <p>Sadhbhashana'17 was a notable school media competition organized by CMBU, showcasing the creative talents and innovation of young media enthusiasts in Sri Lanka.</p>
+            
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/16comp.jpg" alt="Sadbhashana">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Sadhbhashana'16 - Competition</h2>
+                        <p>Sadhbhashana'16 was a notable school media competition organized by CMBU, showcasing the creative talents and innovation of young media enthusiasts in Sri Lanka.</p>
+            
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/15day.jpg" alt="Sadbhashana">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Sadhbhashana'15 - Day</h2>
+                        <p>Sadhbhashana'15 was a notable school media competition organized by CMBU, showcasing the creative talents and innovation of young media enthusiasts in Sri Lanka.</p>
             
                     </div>
                 </div>
