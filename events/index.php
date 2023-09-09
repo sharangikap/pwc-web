@@ -76,7 +76,7 @@ include 'header.php';
                 <?php
 $currentDate = date("Y-m-d"); 
 
-$query = "SELECT * FROM pwc_db_events ORDER BY date ASC"; 
+$query = "SELECT * FROM pwc_db_events ORDER BY date DESC"; 
 $statement = $connect->prepare($query);
 $statement->execute();
 
