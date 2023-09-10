@@ -170,7 +170,7 @@
                 </div>
 
                 <a href="../history.php" class="nav-item nav-link nav-link pulse">History</a>
-                <a href="../about.php" class="nav-item nav-link nav-link pulse">About</a>
+                <a href="../about.php" class="nav-item nav-link nav-link pulse">About Us</a>
                 <a href="../contact.php" class="nav-item nav-link nav-link pulse">Contact</a>
 
     </nav>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>About │ Prince of Wales' College, Moratuwa</title>
+    <title>About Us │ Prince of Wales' College, Moratuwa</title>
     <?php
     $page = 'about';
 ?>
@@ -10,21 +10,21 @@
     <?php include 'header.php'; ?>
 
 <!-- Primary Meta Tags -->
-<meta name="title" content="About │ Prince of Wales' College, Moratuwa" />
+<meta name="title" content="About Us │ Prince of Wales' College, Moratuwa" />
 <meta name="description" content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
 <meta name="keywords" content="about prince of wales college, prince of wales college flag, prince of wales college anthem, prince of wales college principal" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://princeofwales.edu.lk/about.php" />
-<meta property="og:title" content="About │ Prince of Wales' College, Moratuwa" />
+<meta property="og:title" content="About Us │ Prince of Wales' College, Moratuwa" />
 <meta property="og:description" content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://princeofwales.edu.lk/about.php" />
-<meta property="twitter:title" content="About │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:title" content="About Us │ Prince of Wales' College, Moratuwa" />
 <meta property="twitter:description" content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />
     
@@ -53,7 +53,7 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">ABOUT</h1>
+                    <h1 class="display-3 text-white animated slideInDown">ABOUT Us</h1>
                 </div>
             </div>
         </div>
