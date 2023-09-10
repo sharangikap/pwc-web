@@ -392,7 +392,7 @@
                             <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara Weththimuni</h5>
+                            <h5 class="mb-0">Mr. Hasitha Kesara Weththimuni</h5>
                             <small>Principal</small>
                         </div>
                     </div>
@@ -403,7 +403,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Ranjith Illapperuma</h5>
+                            <h5 class="mb-0">Mr. Ranjith Illapperuma</h5>
                             <small>Deputy Principal</small>
                         </div>
                     </div>
@@ -414,7 +414,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">H. E. Priyanga</h5>
+                            <h5 class="mb-0">Mrs. H. E. Priyanga</h5>
                             <small>Deputy Principal</small>
                         </div>
                     </div>
@@ -425,7 +425,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/Upul-sir-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Upul Silva</h5>
+                            <h5 class="mb-0">Mr. Upul Silva</h5>
                             <small>Deputy Principal</small>
                         </div>
                     </div>

@@ -48,7 +48,7 @@
                             <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hasitha Kesara Weththimuni</h5>
+                            <h5 class="mb-0">Mr. Hasitha Kesara Weththimuni</h5>
                             <small>Principal</small>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Ranjith Illapperuma</h5>
+                            <h5 class="mb-0">Mr. Ranjith Illapperuma</h5>
                             <small>Deputy Principal</small>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">H. E. Priyanga</h5>
+                            <h5 class="mb-0">Mrs. H. E. Priyanga</h5>
                             <small>Deputy Principal</small>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/Upul-sir-administration-pwc.webp" alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Upul Silva</h5>
+                            <h5 class="mb-0">Mr. Upul Silva</h5>
                             <small>Deputy Principal</small>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/Bhagya-madam-administration-pwc.webp" alt="Assistant Principal">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">K. Bhagya Sandamali</h5>
+                            <h5 class="mb-0">Mrs. K. Bhagya Sandamali</h5>
                             <small>Assistant Principal</small>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/Primary-madam-administration-pwc.webp" alt="Primary Section Head">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Ramya Samarasekara</h5>
+                            <h5 class="mb-0">Mrs. Ramya Samarasekara</h5>
                             <small>Assistant Principal (Primary Section Head)</small>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/chathura-sir-administration-pwc.webp" alt="Assistant Principal">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Chathura Mendis</h5>
+                            <h5 class="mb-0">Mr. Chathura Mendis</h5>
                             <small>Assistant Principal</small>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/" alt="Assistant Principal">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Duminda Samarajeewa</h5>
+                            <h5 class="mb-0">Mrs. Duminda Samarajeewa</h5>
                             <small>Assistant Principal</small>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/kasun-sir-administration-pwc.webp" alt="Sports Administrator">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Kasun Dewapriya</h5>
+                            <h5 class="mb-0">Mr. Kasun Dewapriya</h5>
                             <small>Sports Administrator</small>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/Pinipa-madam-administration-pwc.webp" alt="Section Head">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Pinipa Gunawardana</h5>
+                            <h5 class="mb-0">Mrs. Pinipa Gunawardana</h5>
                             <small>Section Head (AL Science)</small>
                         </div>
                     </div>
@@ -175,7 +175,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/Dewika-madam-administration-pwc.webp" alt="Section Head">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Dewika Kulasinghe</h5>
+                            <h5 class="mb-0">Mrs. Dewika Kulasinghe</h5>
                             <small>Section Head (AL Commerce)</small>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
                             <img class="img-fluid" src="content/img/img-about/administration/Upeksha-madam-administration-pwc.webp" alt="Section Head">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Upeksha De Alwis</h5>
+                            <h5 class="mb-0">Mrs. Upeksha De Alwis</h5>
                             <small>Section Head (AL Arts)</small>
                         </div>
                     </div>
