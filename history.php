@@ -140,7 +140,7 @@
                                 alt="Kusala Fernando">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Kusala Fernando</h5>
+                            <h5 class="mb-0">Mr. Kusala Fernando</h5>
                             <small>(2017–2021)</small>
                         </div>
                     </div>
@@ -155,7 +155,7 @@
                                 alt="J. W. S. Siriwardane">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">J. W. S. Siriwardane</h5>
+                            <h5 class="mb-0">Mr. J. W. S. Siriwardane</h5>
                             <small>(2013–2016)</small>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                                 alt="Sampath Weragoda">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Sampath Weragoda</h5>
+                            <h5 class="mb-0">Mr. Sampath Weragoda</h5>
                             <small>(2012–2013)</small>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
                                 alt="W. D. Jayasena">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">W. D. Jayasena</h5>
+                            <h5 class="mb-0">Mr. W. D. Jayasena</h5>
                             <small>2011–2012</small>
                         </div>
                     </div>

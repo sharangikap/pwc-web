@@ -72,7 +72,7 @@
                                 alt="Kusala Fernando">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Kusala Fernando</h5>
+                            <h5 class="mb-0">Mr. Kusala Fernando</h5>
                             <small>(2017–2021)</small>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                                 alt="J. W. S. Siriwardane">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">J. W. S. Siriwardane</h5>
+                            <h5 class="mb-0">Mr. J. W. S. Siriwardane</h5>
                             <small>(2013–2016)</small>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                                 alt="Sampath Weragoda">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Sampath Weragoda</h5>
+                            <h5 class="mb-0">Mr. Sampath Weragoda</h5>
                             <small>(2012–2013)</small>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                                 alt="W. D. Jayasena">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">W. D. Jayasena</h5>
+                            <h5 class="mb-0">Mr. W. D. Jayasena</h5>
                             <small>2011–2012</small>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                                 alt="Rohana Karunarathna">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Rohana Karunarathna</h5>
+                            <h5 class="mb-0">Mr. Rohana Karunarathna</h5>
                             <small>2007–2011</small>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                                 alt="Rathnaweera Perera">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Rathnaweera Perera</h5>
+                            <h5 class="mb-0">Mr. Rathnaweera Perera</h5>
                             <small>2005–2007</small>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                                 alt="S. J. P. Wijesinghe">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">S. J. P. Wijesinghe</h5>
+                            <h5 class="mb-0">Mr. S. J. P. Wijesinghe</h5>
                             <small>2001–2005</small>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                                 alt="D. A. Ramanayake">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">D. A. Ramanayake</h5>
+                            <h5 class="mb-0">Mr. D. A. Ramanayake</h5>
                             <small>1998–2001</small>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                                 alt="H. L. B. Gomes">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">H. L. B. Gomes</h5>
+                            <h5 class="mb-0">Mr. H. L. B. Gomes</h5>
                             <small>1989–1998</small>
                         </div>
                     </div>
@@ -193,7 +193,7 @@
                                 alt="M. E. C. Fernando">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">M. E. C. Fernando</h5>
+                            <h5 class="mb-0">Mr. M. E. C. Fernando</h5>
                             <small>1977–1988</small>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
                                 alt="L. H. Gunapala">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">L. H. Gunapala</h5>
+                            <h5 class="mb-0">Mr. L. H. Gunapala</h5>
                             <small>1973–1977</small>
                         </div>
                     </div>
@@ -220,7 +220,7 @@
                                 alt="S. C. H. De Silva">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">S. C. H. De Silva</h5>
+                            <h5 class="mb-0">Mr. S. C. H. De Silva</h5>
                             <small>1959–1973</small>
                         </div>
                     </div>
@@ -233,7 +233,7 @@
                                 alt="J. B. C. Rodrigo">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">J. B. C. Rodrigo</h5>
+                            <h5 class="mb-0">Mr. J. B. C. Rodrigo</h5>
                             <small>1933–1959</small>
                         </div>
                     </div>
@@ -246,7 +246,7 @@
                                 alt="H. Samaranayake">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">H. Samaranayake</h5>
+                            <h5 class="mb-0">Mr. H. Samaranayake</h5>
                             <small>1932–1933</small>
                         </div>
                     </div>
@@ -260,7 +260,7 @@
                                 alt="F. R. E. Mendis">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Rev. F. R. E. Mendis</h5>
+                            <h5 class="mb-0">Mr. Rev. F. R. E. Mendis</h5>
                             <small>1931–1932</small>
                         </div>
                     </div>
@@ -272,7 +272,7 @@
                             <img class="img-fluid" src="content/img/img-history/former-principals/lp-crease-former-principal-pwc.webp" alt="L. P. Crease">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">L. P. Crease</h5>
+                            <h5 class="mb-0">Mr. L. P. Crease</h5>
                             <small>1927–1931</small>
                         </div>
                     </div>
@@ -285,7 +285,7 @@
                                 alt="Louis Edmund Blaze">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Louis Edmund Blaze</h5>
+                            <h5 class="mb-0">Mr. Louis Edmund Blaze</h5>
                             <small>1926</small>
                         </div>
                     </div>
@@ -299,7 +299,7 @@
                                 alt="G. D. Jayasuriya">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">G. D. Jayasuriya</h5>
+                            <h5 class="mb-0">Mr. G. D. Jayasuriya</h5>
                             <small>1917–1925</small>
                         </div>
                     </div>
@@ -313,7 +313,7 @@
                                 alt="J. P. C. Mendis">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">J. P. C. Mendis</h5>
+                            <h5 class="mb-0">Mr. J. P. C. Mendis</h5>
                             <small>1896–1917</small>
                         </div>
                     </div>
@@ -327,7 +327,7 @@
                                 alt="Philip Lewis">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Philip Lewis</h5>
+                            <h5 class="mb-0">Mr. Philip Lewis</h5>
                             <small>1892–1896</small>
                         </div>
                     </div>
@@ -341,7 +341,7 @@
                                 alt="W. S. Gunawardena">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">W. S. Gunawardena</h5>
+                            <h5 class="mb-0">Mr. W. S. Gunawardena</h5>
                             <small>1876–1891</small>
                         </div>
                     </div>
