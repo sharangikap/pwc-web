@@ -28,7 +28,7 @@
     <meta property="og:title" content="Prince of Wales' College, Moratuwa" />
     <meta property="og:description"
         content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
-    <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
+    <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.webp" />
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -36,7 +36,7 @@
     <meta property="twitter:title" content="Prince of Wales' College, Moratuwa" />
     <meta property="twitter:description"
         content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
-    <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
+    <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.webp" />
 
 </head>
 
