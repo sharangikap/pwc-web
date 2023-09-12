@@ -19,21 +19,21 @@
 <meta property="og:url" content="https://princeofwales.edu.lk/contact.php" />
 <meta property="og:title" content="Contact │ Prince of Wales' College, Moratuwa" />
 <meta property="og:description" content="Contact Prince of Wales College for information, admissions, and inquiries. Reach out to us today for a brighter educational future." />
-<meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
+<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-contact/contact-header-pwc.webp" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://princeofwales.edu.lk/contact.php" />
 <meta property="twitter:title" content="Contact │ Prince of Wales' College, Moratuwa" />
 <meta property="twitter:description" content="Contact Prince of Wales College for information, admissions, and inquiries. Reach out to us today for a brighter educational future." />
-<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
+<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-contact/contact-header-pwc.webp" />
 
         <?php include 'header.php'; ?>
 
 
         <style>
             .contact-page-header {
-                background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(../img/header-main-pwc.jpg);
+                background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-contact/contact-header-pwc.webp);
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-size: cover;
