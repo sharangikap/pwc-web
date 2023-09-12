@@ -10,24 +10,27 @@
     <?php include 'header.php'; ?>
 
 
-<!-- Primary Meta Tags -->
-<meta name="title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
-<meta name="description" content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
-<meta name="keywords" content="prince of wales college clubs, prince of wales college societies" />
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
+    <meta name="description"
+        content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
+    <meta name="keywords" content="prince of wales college clubs, prince of wales college societies" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk/clubs.php" />
-<meta property="og:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
-<meta property="og:description" content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
-<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-clubs/club-header.webp" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/clubs.php" />
+    <meta property="og:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:description"
+        content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
+    <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-clubs/club-header.webp" />
 
-<!-- Twitter / WA / TG -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk/clubs.php" />
-<meta property="twitter:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
-<meta property="twitter:description" content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
-<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-clubs/club-header.webp" />
+    <!-- Twitter / WA / TG -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/clubs.php" />
+    <meta property="twitter:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:description"
+        content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
+    <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-clubs/club-header.webp" />
 
 
     <style>
@@ -139,7 +142,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/ICT-club-pwc.webp" alt="ict society"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/ICT-club-pwc.webp" alt="ict society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -166,7 +170,7 @@
                         <h1 class="mb-4">CAMBRIANS' INNOVATORS CLUB</h1>
                         <p class="mb-4">The Cambrians' Innovators Club is an exciting and creative platform at Prince of
                             Wales College, nurtured and guided by its dedicated teachers in charge, including Ms.
-                            Anushka Sureni, Mrs. Dinuka Sellahewa, Mrs. Kalum Senanayake, and Mrs. Mithila Malalagama.
+                            Anushka Sureni, Mrs. Dinuka Sellahewa and Mrs. Mithila Malalagama.
                             This club serves as a catalyst for young minds to explore their passion for innovation and
                             entrepreneurship. It encourages students to think outside the box, fostering a culture of
                             innovation, problem-solving, and creativity. <br><br>Through various workshops, projects,
@@ -178,7 +182,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/innovation-club-pwc.webp" alt="innovators' club"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/innovation-club-pwc.webp" alt="innovators' club"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -202,7 +207,8 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/prefects-club-pwc.webp" alt="prefects guild" style="object-fit: cover;">
+                                src="content/img/img-clubs/prefects-club-pwc.webp" alt="prefects guild"
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -212,7 +218,7 @@
                             discipline, promoting leadership, and fostering a sense of responsibility among the student
                             body. Under the guidance of its dedicated teachers in charge, which includes Deputy
                             Principal Mr. Ranjith Illapepperuma, Ven Mathale Sumangala Thero, Mr. Chathura Mendis, Mr.
-                            Chamara Jeewantha, Mr. Nuwan Jayashantha, and Mrs. Himali Sewwandi, the Prefects Guild
+                            Chamara Jeewantha, Mr. Nuwan Jayashantha, Mrs. Gimhani De Silva and Mrs. Himali Sewwandi, the Prefects Guild
                             upholds the school's values and standards.<br><br> Prefects are chosen to exemplify
                             outstanding
                             character and leadership qualities, and they serve as role models for their peers. They are
@@ -254,7 +260,7 @@
                         <h1 class="mb-4">DEBATERS' COUNCIL</h1>
                         <p class="mb-4">The Debaters' Council at Prince of Wales College is a group where students learn
                             how to discuss, think critically, and speak effectively. With the guidance of teachers Mr.
-                            Shehan Shanuka and Mrs. Yomali Prarthana, this group has become a place for students to
+                            Shehan Shanuka and Mrs. Yomali Prarthana, Mrs. Tharanga Sagari this group has become a place for students to
                             become better at talking and thinking.
                             <br><br>
                             In the Debaters' Council, students have lively debates and discussions about different
@@ -266,7 +272,8 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/debate-clubs-pwc.webp" alt="debate clubs" style="object-fit: cover;">
+                                src="content/img/img-clubs/debate-clubs-pwc.webp" alt="debate clubs"
+                                style="object-fit: cover;">
                         </div>
                     </div>
 
@@ -289,7 +296,8 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/scout-clubs-pwc.webp" alt="scout clubs" style="object-fit: cover;">
+                                src="content/img/img-clubs/scout-clubs-pwc.webp" alt="scout clubs"
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -333,9 +341,30 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/st.jhon's-clubs-pwc.webp" alt="first aid unit" style="object-fit: cover;">
+                                src="content/img/img-clubs/st.jhon's-clubs-pwc.webp" alt="first aid unit"
+                                style="object-fit: cover;">
                         </div>
                     </div>
+
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/amadyapa-clubs-pwc.webp" alt="Temperance Association"
+                                style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h6 class="section-title bg-white text-start text-primary pe-3">COMMUNITY SERVICE CLUB</h6>
+                        <h1 class="mb-4">TEMPERANCE ASSOCIATION</h1>
+                        <p class="mb-4">The Temperance Association at Prince of Wales College in Moratuwa is guided by a
+                            dedicated team of teachers, including Ven Sujatha Thero, Mr. Namal Kumara, Mrs. Sanjeewani
+                            Neelawala, Mrs. Charini Achinthya, Mrs. Dinushi Lakmali, Ms. Tharanga Jayasinghe, and Ms.
+                            Yashoda Hansini. This club focuses on promoting a healthy and alcohol-free lifestyle among
+                            students. Through various activities and awareness programs, they encourage responsible
+                            choices and emphasize the importance of abstaining from harmful substances, contributing to
+                            a positive and wholesome school environment.</p>
+                    </div>
+                    
 
                 </div>
             </div>
@@ -356,7 +385,8 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/cadet-troop-club-pwc.webp" alt="cadet troop" style="object-fit: cover;">
+                                src="content/img/img-clubs/cadet-troop-club-pwc.webp" alt="cadet troop"
+                                style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -440,7 +470,8 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/Al-commerce-pwc.webp" alt="commerce society"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/Al-commerce-pwc.webp" alt="commerce society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -465,7 +496,7 @@
                         <h1 class="mb-4">ART SOCIETY</h1>
                         <p class="mb-4">The Art Society at Prince of Wales College, Moratuwa, is a vibrant and creative
                             hub, fostering artistic expression and talent among its students. Led by dedicated teachers
-                            in charge like Mrs. Upeksha Alwis and supported by other passionate educators, the society
+                            in charge like Ven. Ibbawela Panyarama Thero, Mrs. Upeksha Alwis, Mrs. Indra Malani, Mrs. Sarath Thilakarathne, Mrs. Shriya Weerasinghe and Mrs. Padma Chandrasekara the society
                             encourages students to explore various forms of art, including painting, sculpture, and
                             visual design. <br><br> Through regular workshops, exhibitions, and collaborative projects,
                             members
@@ -476,7 +507,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/AL-Art-pwc.webp" alt="art society"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/AL-Art-pwc.webp" alt="art society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -494,7 +526,7 @@
                         <h6 class="section-title bg-white text-start text-primary pe-3">EDUCATIONAL CLUB</h6>
                         <h1 class="mb-4">SCIENCE SOCIETY</h1>
                         <p class="mb-4">The Junior and Senior Science Societies at Prince of Wales College are important
-                            for making students love science. With teachers like Ms. JTB Jayasinghe and Mrs. Sandya
+                            for making students love science. With teachers like Pinipa Gunarathne, Mrs. Sachintha Alagiyawanna, Mrs. Tharanga Jayasinghe, Mrs. Thilini Rajapakshe, Mrs. Fathima Rafna and Mrs. Sandya
                             Karunarathne guiding them, these societies let young students explore science in exciting
                             ways. They do science experiments and activities outside the classroom, which helps them
                             understand science better and become curious and innovative.
@@ -514,7 +546,7 @@
                         <h6 class="section-title bg-white text-start text-primary pe-3">EDUCATIONAL CLUBS</h6>
                         <h1 class="mb-4">SOCIAL SCIENCES SOCIETY</h1>
                         <p class="mb-4">The Social Sciences Society at Prince of Wales College helps students understand
-                            human society better. Teachers like Mrs. Lathika Rathnayake and Mrs. Shriya Weerasinghe
+                            human society better. Teachers like Mrs. Lathika Rathnayake, Mr. M. A. Jayasinghe and Mrs. Shriya Weerasinghe
                             guide students in subjects like history, sociology, economics, and politics. Students
                             discuss important topics, do research, and have debates to learn about society, culture, and
                             how governments work.
@@ -567,7 +599,8 @@
                         <p class="mb-4">The English Literary Association at Prince of Wales College helps students love
                             English language and literature. Teachers guide this group, and they set up English Day
                             competitions where students can show their language skills through debates, poetry, and
-                            storytelling. <br><br> These activities make students better at English and make them like
+                            storytelling. <br><br> The service rendered by Ms. Sanduni Wijayani, Mrs. Nilanka Madushani, Mr. Kapila Ruberu, Mrs. Indrani Katugampola who are the teachers in charge of English
+                            Activity Club. These activities make students better at English and make them like
                             literature
                             more. Prince of Wales College believes in making students good at language and
                             communication, which helps in school and work.</p>
@@ -582,7 +615,7 @@
                                 <li>english camp for grade 5</li>
                                 <li>english day</li>
                             </ul>
-                            The service rendered by Mrs. M. W. D. N. Chandani who is the teacher in charge of English
+                            The service rendered by Mrs. M. W. D. N. Chandani, Mrs. P. Nimali Gomes, Mrs. Dinushi Dunuwila, Mrs. Shamali Rathnayake who are the teachers in charge of English
                             Activity Club.
                         </p>
                     </div>
@@ -594,7 +627,7 @@
                         <h1 class="mb-4">SINHALA LITERARY ASSOCIATION</h1>
                         <p class="mb-4">The Sinhala Literary Association at Prince of Wales College is a lively group
                             that celebrates the beauty of the Sinhala language and culture. Teachers like W M Nirosha
-                            Gunarathne and all Sinhala language teachers help students learn and appreciate Sinhala
+                            Gunarathne, Mr. Sarath Thilakarathne, Mr. Bhagya sandamali, Mr. Indra Malani, Ms. Yomali Prarthana, Mrs. Chathurika Dilhani, Mr. Shehan Shanuka help students learn and appreciate Sinhala
                             literature and art.
                             <br><br>
                             In this association, students take part in activities like writing contests, poetry
@@ -655,7 +688,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/western-music-pwc.webp" alt="western music society"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/western-music-pwc.webp" alt="western music society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -663,7 +697,8 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/eastern-music-pwc.webp" alt="eastern music society"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/eastern-music-pwc.webp" alt="eastern music society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -701,7 +736,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/dancing-pwc.webp" alt="dancing society"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/dancing-pwc.webp" alt="dancing society"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -710,16 +746,16 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="fine art society"
-                                style="object-fit: cover;">
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg"
+                                alt="fine art society" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
                         <h1 class="mb-4">SOCIETY OF FINE ARTS</h1>
                         <p class="mb-4">The Society of Fine Arts at Prince of Wales College is a place for students who
-                            love art to explore and show their creativity. Their teachers, like Mr. Sanjeewa, Mr. Akhila
-                            Madushanka, Mrs. Sanjeewani Neelawala, and Ms. Kithmini Hettiarachchi,
+                            love art to explore and show their creativity. Their teachers, like Mr. Sanjeewa Perera, Mr. Akhila
+                            Madushanka, Mrs. Sanjeewani Neelawala, Mrs. Thushari Jayasinghe and Mrs. Kithmini Hettiarachchi,
                             help them learn about different forms of art like drawing and painting. Students in this
                             society also get to display their artwork in exhibitions and take part in art competitions.
                             This society makes the school's art scene better and helps students express themselves
@@ -744,7 +780,8 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/Drama-clubs- pwc.webp" alt="drama society" style="object-fit: cover;">
+                                src="content/img/img-clubs/Drama-clubs- pwc.webp" alt="drama society"
+                                style="object-fit: cover;">
                         </div>
                     </div>
 
@@ -760,7 +797,7 @@
                             Teachers help them with their music lessons. The band practices regularly and performs at
                             school events. Being part of the band helps students enjoy music, learn teamwork, and show
                             their musical talents to the school community. It's a fun way for younger students to get
-                            involved in music at Prince of Wales College.</p>
+                            involved in music at Prince of Wales College. Teachers In Charge - Mrs. Anoma, Mrs. Chethana Sadaruwani</p>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h6 class="section-title bg-white text-start text-primary pe-3">AESTHETIC CLUB</h6>
@@ -770,7 +807,7 @@
                             teachers who help them learn about these instruments and how to make music with them. This
                             band allows the students to explore the rich world of Eastern music and helps them develop
                             their musical skills. It's a fun way for the younger students to be a part of the school's
-                            musical traditions and discover their love for Eastern music.</p>
+                            musical traditions and discover their love for Eastern music.< Teachers In Charge - Mrs. Chandima Nilmini, Mrs. Nirosha Sandamali</p>
                     </div>
 
                 </div>
@@ -798,11 +835,13 @@
                             stories. Teachers at the school help students with this club. They have discussions about
                             books and even have reading events. This club helps students enjoy reading and discover new
                             stories. It's a fun way to share the love of reading with others at Prince of Wales College.
+                            Teachers in charge - Mrs. Chathurika Dilahani, Mrs, Sachini Balasooriya, Ms. Yomali Prarthana
                         </p>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/readers-club-pwc.webp" alt="readers' club"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/readers-club-pwc.webp" alt="readers' club"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -812,7 +851,7 @@
                         <h1 class="mb-4">ASTRONOMICAL SOCIETY</h1>
                         <p class="mb-4">The Astronomical Society at Prince of Wales College is a group for students who
                             are curious about stars, planets, and the universe. In this society, students learn about
-                            astronomy, the study of space. They have teachers who help them explore the night sky and
+                            astronomy, the study of space. Mr. Mohan Rajapakshe, Mrs, Gimhani De Silva who help them explore the night sky and
                             understand celestial objects like stars and planets.
                             <br><br>
                             Members of the Astronomical Society often use telescopes to observe the night sky and learn
@@ -826,7 +865,7 @@
                         <h6 class="section-title bg-white text-start text-primary pe-3">HOBBY CLUB</h6>
                         <h1 class="mb-4">AERONAUTICAL ASSOCIATION</h1>
                         <p class="mb-4">The Aeronautical Association at Prince of Wales College is a group where
-                            students explore and learn about airplanes and flying. Teachers and experts help students
+                            students explore and learn about airplanes and flying. Mr. Mohan Rajapakshe, Mrs, Randini Nadiweera and experts help students
                             understand how planes work and the science behind them.
                             <br><br>
                             Students in the Aeronautical Association can participate in activities like building model
@@ -841,8 +880,7 @@
                         <h6 class="section-title bg-white text-start text-primary pe-3">HOBBY CLUB</h6>
                         <h1 class="mb-4">ENVIRONMENT CLUB</h1>
                         <p class="mb-4">The Environment Club at Prince of Wales College is a group of students who care
-                            about nature and the environment. With the guidance of their teachers, Mrs. Shriyani
-                            Ramanayake, P.H.N. Hemanthi, Tharanga Sagari, and Chathura Mendis, they learn how to protect
+                            about nature and the environment. With the guidance of their teachers, Mrs. Dushody Mihirani, Mrs. Nadeesha hemanthi, Mrs. Tharanga Sagari, Mrs. R. A. I. Dilrukshi, Mrs. Shriyani Ramanayake they learn how to protect
                             and take care of our planet.
                             <br><br>
                             Members of the Environment Club do activities like planting trees, cleaning up the school
@@ -853,7 +891,8 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-clubs/Environmental-club-pwc.webp" alt="environment club"
+                            <img class="img-fluid position-absolute w-100 h-100"
+                                src="content/img/img-clubs/Environmental-club-pwc.webp" alt="environment club"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -903,8 +942,8 @@
                         <h6 class="section-title bg-white text-start text-primary pe-3">RELIGIOUS CLUB</h6>
                         <h1 class="mb-4">CHRISTIAN AND CATHOLIC UNITY</h1>
                         <p class="mb-4">Christian and Catholic Unity at Prince of Wales College is about students from
-                            different Christian backgrounds coming together. Teachers like Tharanga Sagari, Mahesh
-                            Nanayakkara, Madusha Fernando, and Praboda Rodrigo help guide them. They learn about their
+                            different Christian backgrounds coming together. Teachers like mrs. Tharanga Sagari, Mr. Mahesh
+                            Nanayakkara, Mrs. Madusha Fernando, and Mrs. Praboda Rodrigo help guide them. They learn about their
                             faith and how to respect and understand each other's beliefs.
                             <br><br>
                             Through activities and discussions, students build unity and respect among different
@@ -915,7 +954,8 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="img-fluid position-absolute w-100 h-100"
-                                src="content/img/img-clubs/catholic-clubs-pwc.webp" alt="catholic club" style="object-fit: cover;">
+                                src="content/img/img-clubs/catholic-clubs-pwc.webp" alt="catholic club"
+                                style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
