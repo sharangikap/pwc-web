@@ -68,7 +68,7 @@
                 <div class="row">
                     <?php 
 
-$query = "SELECT * FROM pwc_db_news ORDER BY id DESC";
+$query = "SELECT * FROM pwc_db_news ORDER BY date DESC";
 
 $statement = $connect->prepare($query);
 

@@ -86,8 +86,9 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/main-building-pwc.webp"
-                            alt="Main Building" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/main-building-pwc.webp" alt="Main Building"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -130,13 +131,42 @@
         </div>
     </div>
 
+
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/sports-section-pwc.webp"
-                            alt="Sports Section" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-history/founder-pwc.webp" alt="Mian Office" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
+                    <h1 class="mb-4">THE FOUNDER'S STATUE</h1>
+                    <p class="mb-4">quote by sculptor Mr. Tissa Gunawardena, he emphasizes that a basic understanding of
+                        iconography is insufficient when creating a suitable memorial for a monumental individual. He
+                        explains how he departed from the prevailing trend among contemporary sculptors, who focused
+                        solely on external appearances, resulting in uninspiring statues. Gunawardena's monument of
+                        Charles Henry De Soysa aims to convey a message of love for humanity across generations. He
+                        describes the deliberate choices he made in the statue's design, such as the humble head tilt,
+                        the bouquet of roses symbolizing sentiment and love, and the traditional lamp signifying
+                        enlightenment. Gunawardena also defends his decision for a golden bronze finish, connecting it
+                        to the land's heritage. Overall, he seeks to create a statue that not only honors De Soysa but
+                        also speaks to the deeper essence of his character and his contribution to society.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/sports-section-pwc.webp" alt="Sports Section"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -208,19 +238,23 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="Budu Madura"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/shrine.jpg" alt="Budu Madura"
                             style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
-                    <h1 class="mb-4">BUDU MADURA</h1>
-                    <p class="mb-4">The Buddha temple at Prince of Wales College is a place of peace and reflection.
-                        It's a serene spot on the campus where students and staff can go to find tranquility and
-                        practice mindfulness. The temple is adorned with beautiful statues and calming decorations,
-                        creating a serene atmosphere that encourages meditation and inner harmony. It's a place where
-                        people from all backgrounds can come together to appreciate the teachings of Buddha and find a
-                        moment of serenity in their busy college lives.</p>
+                    <h1 class="mb-4">THE SHRINE</h1>
+                    <p class="mb-4">The shrine is a remarkable creation deeply rooted in
+                        Buddhist symbolism, Made by Mr. Thissa Gunawardane. It features an octagonal roof supported by eight pillars, symbolizing the
+                        Eight Noble Paths, and a single entrance, emphasizing accessibility to people from all walks of
+                        life. The pillars are adorned with celestial figures holding oil lamps and conches, signifying
+                        auspicious moments and the gathering of devotees. The shrine's floor consists of three tiers,
+                        with intricate carvings depicting the cycle of desire, birth and death, and the journey towards
+                        purity and Nirvana. At its center stands an altar with a blooming lotus and a Dhamma Chakka
+                        symbol, representing the essence of Buddhism and encouraging devotees to offer flowers. Overall,
+                        this shrine is a testament to the Theravada tradition's inner sublimation and carries profound
+                        spiritual significance.</p>
                 </div>
             </div>
         </div>
@@ -328,7 +362,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/main-ground-pwc.webp" alt="main grounds"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/main-ground-pwc.webp" alt="main grounds"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -352,7 +387,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/sports-pavilion-pwc.webp" alt="pavillion"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/sports-pavilion-pwc.webp" alt="pavillion"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -376,8 +412,9 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/volleyball-pwc.webp"
-                            alt="volleyball court" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/volleyball-pwc.webp" alt="volleyball court"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -400,8 +437,9 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/basketball-court-pwc.webp"
-                            alt="basketball court" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/basketball-court-pwc.webp" alt="basketball court"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -425,7 +463,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/swimming-pool-pwc.webp" alt="swiming pool"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/swimming-pool-pwc.webp" alt="swiming pool"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -448,8 +487,9 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/children's-park-pwc.webp"
-                            alt="CHILDRENS' PARK" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/children's-park-pwc.webp" alt="CHILDRENS' PARK"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -547,7 +587,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/commerce-&-art-section.webp"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/commerce-&-art-section.webp"
                             alt="AL ARTS & COMMERCE SECTION" style="object-fit: cover;">
                     </div>
                 </div>
@@ -593,7 +634,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/media-pwc.webp" alt="MEDIA UNIT"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/media-pwc.webp" alt="MEDIA UNIT"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -617,8 +659,9 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/first-aid-pwc.webp"
-                            alt="FIRST AID ROOM" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/locations/first-aid-pwc.webp" alt="FIRST AID ROOM"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">

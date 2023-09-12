@@ -9,25 +9,29 @@
 
     <?php include 'header.php'; ?>
 
-<!-- Primary Meta Tags -->
-<meta name="title" content="About Us │ Prince of Wales' College, Moratuwa" />
-<meta name="description" content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
-<meta name="keywords" content="about prince of wales college, prince of wales college flag, prince of wales college anthem, prince of wales college principal" />
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="About Us │ Prince of Wales' College, Moratuwa" />
+    <meta name="description"
+        content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
+    <meta name="keywords"
+        content="about prince of wales college, prince of wales college flag, prince of wales college anthem, prince of wales college principal" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk/about.php" />
-<meta property="og:title" content="About Us │ Prince of Wales' College, Moratuwa" />
-<meta property="og:description" content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
-<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/about.php" />
+    <meta property="og:title" content="About Us │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:description"
+        content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
+    <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />
 
-<!-- Twitter / WA / TG -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk/about.php" />
-<meta property="twitter:title" content="About Us │ Prince of Wales' College, Moratuwa" />
-<meta property="twitter:description" content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
-<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />
-    
+    <!-- Twitter / WA / TG -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/about.php" />
+    <meta property="twitter:title" content="About Us │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:description"
+        content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
+    <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />
+
 
     <style>
         .about-page-header {
@@ -53,7 +57,7 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">ABOUT Us</h1>
+                    <h1 class="display-3 text-white animated slideInDown">ABOUT US</h1>
                 </div>
             </div>
         </div>
@@ -173,7 +177,8 @@
                 </div>
 
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="content/img/img-about/alumni/kishu-gomes-alumini-pwc.webp"
+                    <img class="border rounded-circle p-2 mx-auto mb-3"
+                        src="content/img/img-about/alumni/kishu-gomes-alumini-pwc.webp"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Kishu Gomes</h5>
                     <p>Businessmen</p>
@@ -191,18 +196,18 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3">OUR</h6>
                     <h1 class="mb-4">VISION</h1>
-                    <p class="mb-4">To Make the School with the Best Students in Sri Lanka by 2025</p>
+                    <p class="mb-4">To Make the School with the Best Students in Every Sector in Sri Lanka by 2025</p>
                     <br>
                     <h6 class="section-title bg-white text-start text-primary pe-3">OUR</h6>
                     <h1 class="mb-4">MISSION</h1>
-                    <p class="mb-4">Our mission is to effect quality teaching and learning environment where Cambrians
-                        would move forth step by step in the competency based pedagogical process which is founded on
-                        national goals and on the theme, “I serve. I value your services, developing their calibre for
-                        the well-being of the community.”</p>
+                    <p class="mb-4">"Facilitate the development of education, as well as co-curricular and
+                        extra-curricular activities, to achieve excellence by fostering the growth of students'
+                        knowledge, skills, and attitudes."</p>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/vission-&-mission-pwc.webp" alt="vision and mission"
+                        <img class="img-fluid position-absolute w-100 h-100"
+                            src="content/img/img-about/vission-&-mission-pwc.webp" alt="vision and mission"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -299,7 +304,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/flag-pwc.webp" alt="flag-pwc" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/flag-pwc.webp"
+                            alt="flag-pwc" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -332,7 +338,8 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100"
-                            src="content/img/img-about/house-system-pwc.webp" alt="house flags" style="object-fit: cover;">
+                            src="content/img/img-about/house-system-pwc.webp" alt="house flags"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -386,7 +393,7 @@
 
             <div class="row g-4">
 
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal">
@@ -400,7 +407,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp" alt="Deputy Principal">
+                            <img class="img-fluid"
+                                src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp"
+                                alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Ranjith Illapperuma</h5>
@@ -411,7 +420,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp" alt="Deputy Principal">
+                            <img class="img-fluid"
+                                src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp"
+                                alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mrs. H. E. Priyanga</h5>
@@ -422,7 +433,9 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/Upul-sir-administration-pwc.webp" alt="Deputy Principal">
+                            <img class="img-fluid"
+                                src="content/img/img-about/administration/Upul-sir-administration-pwc.webp"
+                                alt="Deputy Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Upul Silva</h5>
@@ -430,15 +443,15 @@
                         </div>
                     </div>
                 </div>
-    </div>
-
-
-                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-administration.php"
-                        style="border-radius=25px" data-wow-delay="0.7s">View All</a></center>
-
             </div>
 
+
+            <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-administration.php"
+                    style="border-radius=25px" data-wow-delay="0.7s">View All</a></center>
+
         </div>
+
+    </div>
     </div>
 
     <!-- Administration End -->
@@ -475,7 +488,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/vihanga-dhp23-pwc.webp" alt="Deputy Head Prefect">
+                            <img class="img-fluid" src="content/img/img-about/prefects/vihanga-dhp23-pwc.webp"
+                                alt="Deputy Head Prefect">
                         </div>
 
                         <div class="text-center p-4">
@@ -499,7 +513,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/nelindu-dhp23-pwc.webp" alt="Deputy Head Prefect">
+                            <img class="img-fluid" src="content/img/img-about/prefects/nelindu-dhp23-pwc.webp"
+                                alt="Deputy Head Prefect">
                         </div>
 
                         <div class="text-center p-4">
