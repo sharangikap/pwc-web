@@ -215,7 +215,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/primary-office-location-pwc.webp"
                             alt="Primary office" style="object-fit: cover;">
                     </div>
                 </div>
@@ -290,7 +290,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="auditorium 1"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/old-auditorium-location-pwc.webp" alt="auditorium 1"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -314,7 +314,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="auditorium 2"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/new-auditorium-location-pwc.webp" alt="auditorium 2"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -537,7 +537,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg"
+                        <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/locations/grade-6-to-11-classrooms-pwc.webp"
                             alt="GRADE 6-11 CLASSROOMS" style="object-fit: cover;">
                     </div>
                 </div>
@@ -710,7 +710,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100"
-                            src="content/img/img-about/locations/computer-labs-location-pwc.webp" alt="COMPUTER LABS"
+                            src="content/img/img-about/locations/computer-lab-pwc.webp" alt="COMPUTER LABS"
                             style="object-fit: cover;">
                     </div>
                 </div>
