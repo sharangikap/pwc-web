@@ -11,28 +11,32 @@
     include 'database_connection.php';
     include 'header.php';
     ?>
-    
-<title>Prince of Wales' College, Moratuwa</title>
 
-<!-- Primary Meta Tags -->
-<meta name="title" content="Prince of Wales' College, Moratuwa" />
-<meta name="description" content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
-<meta name="keywords" content="prince of wales college, prince of wales college moratuwa, prince of wales college moratuwa website, prince of wales college moratuwa contact number, prince of wales college moratuwa logo, prince of wales college moratuwa address, prince of wales college moratuwa big match, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
-<meta name="author" content="Cambrians' ICT Society" />
+    <title>Prince of Wales' College, Moratuwa</title>
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk" />
-<meta property="og:title" content="Prince of Wales' College, Moratuwa" />
-<meta property="og:description" content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
-<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Prince of Wales' College, Moratuwa" />
+    <meta name="description"
+        content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
+    <meta name="keywords"
+        content="prince of wales college, prince of wales college moratuwa, prince of wales college moratuwa website, prince of wales college moratuwa contact number, prince of wales college moratuwa logo, prince of wales college moratuwa address, prince of wales college moratuwa big match, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
+    <meta name="author" content="Cambrians' ICT Society" />
 
-<!-- Twitter / WA / TG -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk" />
-<meta property="twitter:title" content="Prince of Wales' College, Moratuwa" />
-<meta property="twitter:description" content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
-<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://princeofwales.edu.lk" />
+    <meta property="og:title" content="Prince of Wales' College, Moratuwa" />
+    <meta property="og:description"
+        content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
+    <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
+
+    <!-- Twitter / WA / TG -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk" />
+    <meta property="twitter:title" content="Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:description"
+        content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
+    <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
 
 </head>
 
@@ -329,12 +333,19 @@ if($statement->rowCount() > 0)
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
                 <h1 class="mb-4">Principal's Message</h1>
-                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                    eos. Clita erat ipsum et lorem et sit.</p>
-                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                    eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-                </p>
                 <p class="mb-4">- Hasitha Kesara Weththimuni</p>
+                <p class="mb-4">It is with great pleasure and deep sense of pride that I address you today as the
+                    Principal of Prince of Wales’ College. In the year 1886, our college started with the generous
+                    donation of Sir Charles Henry De Soyza and till today stands tall and strong as a testimony of our
+                    commitment to academic, co-curricular and extra-curricular activities.<br><br>
+                    It is with great pleasure and pride that we welcome you to our newly designed website on the
+                    occasion of the 147th anniversary of the College. As the Principal of Prince of Wales’ College,
+                    Moratuwa, I am happy to introduce this digital platform where you can know more about our
+                    prestigious college.
+                    <a href="principal-msg.php">Read More...</a>
+
+                </p>
+                
                 <a class="btn btn-primary py-3 px-5 mt-2" href="about-school-administration.php"
                     style="border-radius=25px">View School Administration</a>
             </div>
@@ -359,7 +370,8 @@ if($statement->rowCount() > 0)
                 <div class="row g-3">
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#team-sports">
-                            <img class="img-fluid" src="content/img/img-home/team-sports-home-pwc.webp" alt="team sports">
+                            <img class="img-fluid" src="content/img/img-home/team-sports-home-pwc.webp"
+                                alt="team sports">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Team Sports</h5>
@@ -368,7 +380,8 @@ if($statement->rowCount() > 0)
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#individual-sports">
-                            <img class="img-fluid" src="content/img/img-home/individual-sports-home-pwc.webp" alt="Individual Sports">
+                            <img class="img-fluid" src="content/img/img-home/individual-sports-home-pwc.webp"
+                                alt="Individual Sports">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Individual Sports</h5>
@@ -377,7 +390,8 @@ if($statement->rowCount() > 0)
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#aquatic-sports">
-                            <img class="img-fluid" src="content/img/img-home/water-sports-home-pwc.webp" alt="Aquatic sports">
+                            <img class="img-fluid" src="content/img/img-home/water-sports-home-pwc.webp"
+                                alt="Aquatic sports">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Aquatic Sports</h5>
@@ -389,7 +403,8 @@ if($statement->rowCount() > 0)
             <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
                 <a class="position-relative d-block h-100 overflow-hidden" href="sports.php#combat-sports">
                     <img class="img-fluid position-absolute w-100 h-100"
-                        src="content/img/img-home/combat-sports-home-pwc.webp" alt="combat sports" style="object-fit: cover;">
+                        src="content/img/img-home/combat-sports-home-pwc.webp" alt="combat sports"
+                        style="object-fit: cover;">
                     <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
                         <h5 class="m-0">Combat Sports</h5>
                     </div>
@@ -446,7 +461,8 @@ if($statement->rowCount() > 0)
                 <div class="row g-3">
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#media-clubs">
-                            <img class="img-fluid" src="content/img/img-home/media-clubs-home-pwc.webp" alt="media clubs">
+                            <img class="img-fluid" src="content/img/img-home/media-clubs-home-pwc.webp"
+                                alt="media clubs">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Media Unit</h5>
@@ -455,7 +471,8 @@ if($statement->rowCount() > 0)
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#edu-clubs">
-                            <img class="img-fluid" src="content/img/img-home/educational-clubs-home-pwc.webp" alt="edu clubs">
+                            <img class="img-fluid" src="content/img/img-home/educational-clubs-home-pwc.webp"
+                                alt="edu clubs">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Educational Clubs</h5>
@@ -498,8 +515,8 @@ if($statement->rowCount() > 0)
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/golden-book-pwc.webp" alt="golden book"
-                        style="object-fit: cover;">
+                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-home/golden-book-pwc.webp"
+                        alt="golden book" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -540,7 +557,8 @@ if($statement->rowCount() > 0)
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
                 <h1 class="display-3 text-white animated slideInDown">147 Years and Counting</h1>
-                <h5 class=" text-white animated slideInDown"><br> Explore college history and discover 147 years of rich heritage and academic excellence. <br><br> </h5>
+                <h5 class=" text-white animated slideInDown"><br> Explore college history and discover 147 years of rich
+                    heritage and academic excellence. <br><br> </h5>
                 <center><a class="btn btn-primary py-3 px-4 mt-2 wow zoomIn" href="history.php"
                         style="border-radius=25px" data-wow-delay="0.7s">Explore College History</a></center>
             </div>
