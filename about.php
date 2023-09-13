@@ -550,7 +550,7 @@
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="img-fluid position-absolute w-100 h-100" src="img/about-pwc.jpg" alt="Locations"
+                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/location-new-pwc.webp" alt="Locations"
                         style="object-fit: cover;">
                 </div>
             </div>

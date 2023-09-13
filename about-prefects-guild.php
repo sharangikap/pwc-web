@@ -130,7 +130,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects" alt="Deputy Head Prefect">
+                            <img class="img-fluid" src="content/img/img-about/prefects/isindu-dhp-prefects-pwc.webp" alt="Deputy Head Prefect">
                         </div>
 
                         <div class="text-center p-4">
