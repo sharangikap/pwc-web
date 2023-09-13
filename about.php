@@ -393,14 +393,19 @@
 
             <div class="row g-4">
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Hasitha Kesara Weththimuni</h5>
-                            <small>Principal</small>
+                            <small>Principal<br>SLES-II
+                                B.A.,M.A. (UOK)
+                                P.G.D.E.(UOC), P.G.D.E.A.
+                                P.G.D. in Mass Communication
+                                M.Ed.(reaching), LLB(reaching)
+                            </small>
                         </div>
                     </div>
                 </div>
@@ -413,7 +418,10 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Ranjith Illapperuma</h5>
-                            <small>Deputy Principal</small>
+                            <small>Deputy Principal<br>SLPS-I
+                                B.A., M.Ed., M.A.
+                                P.G.D.E., P.G.D.E.A.
+                            </small>
                         </div>
                     </div>
                 </div>
@@ -426,7 +434,12 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mrs. H. E. Priyanga</h5>
-                            <small>Deputy Principal</small>
+                            <small>Deputy Principal<br>SLPS-I
+                                B.A., B.Ed.
+                                M.Ed. in Education Management, M.A. in Linguistics
+                                P.G.D.E., P.G.D.E.A.
+
+                            </small>
                         </div>
                     </div>
                 </div>
@@ -439,7 +452,9 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Upul Silva</h5>
-                            <small>Deputy Principal</small>
+                            <small>Deputy Principal<br>SLPS-III
+                                N.C.E. Dip. (English)
+                                B.Ed. in Education Management</small>
                         </div>
                     </div>
                 </div>
