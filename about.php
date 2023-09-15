@@ -400,11 +400,8 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Hasitha Kesara Weththimuni</h5>
-                            <small>Principal<br>SLES-II
-                                B.A.,M.A. (UOK)
-                                P.G.D.E.(UOC), P.G.D.E.A.
-                                P.G.D. in Mass Communication
-                                M.Ed.(reaching), LLB(reaching)
+                            <small>Principal<br>SLEAS-II B.A.,M.A. (UOK) P.G.D.E.(UOC), P.G.D.E.A. P.G.D. in Mass
+                                Communication M.Ed.(reaching), LLB(reaching)
                             </small>
                         </div>
                     </div>
@@ -420,7 +417,7 @@
                             <h5 class="mb-0">Mr. Ranjith Illapperuma</h5>
                             <small>Deputy Principal<br>SLPS-I
                                 B.A., M.Ed., M.A.
-                                P.G.D.E., P.G.D.E.A.
+                                P.G.D.E., P.G.D.E.M. (Mgt.)
                             </small>
                         </div>
                     </div>
@@ -434,11 +431,8 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mrs. H. E. Priyanga</h5>
-                            <small>Deputy Principal<br>SLPS-I
-                                B.A., B.Ed.
-                                M.Ed. in Education Management, M.A. in Linguistics
-                                P.G.D.E., P.G.D.E.A.
-
+                            <small>Deputy Principal<br>SLPS-I B.A., B.Ed. M.Ed. in Education Management, M.A. in
+                                Linguistics P.G.D.E., P.G.D.E.M.
                             </small>
                         </div>
                     </div>

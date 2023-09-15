@@ -71,8 +71,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h1 class="mb-4">Sir Charles Hendry De Soyza</h1>
-                    <p class="mb-4">Sir Charles Hendry De Soyza was the founder of Prince of Wales College. He was a
+                    <h1 class="mb-4">Sir Charles Henry De Soyza</h1>
+                    <p class="mb-4">Sir Charles Henry De Soyza was the founder of Prince of Wales College. He was a
                         very important person who started the school a long time ago. He wanted to give young people a
                         good education, so he made the school.
                         <br><br>
