@@ -1,11 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <style>
-        ::selection {
-            background-color: #800000;
-            color: white;
-        }
-    </style>
+
     <title>News │ Prince of Wales' College, Moratuwa</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -123,8 +118,8 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="../index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
-            <img src="../content/img/logo-pwc.png" width="45px" alt="pwc logo">
-            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Arimo', sans-serif;">&nbsp; &nbsp; PRINCE OF WALES'
+            <img src="../content/img/logo-pwc.png" width="40px" alt="pwc logo">
+            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Arimo', sans-serif; font-size: 18px;">&nbsp; &nbsp; PRINCE OF WALES'
                 COLLEGE<br>&nbsp; &nbsp; MORATUWA
             </h6>
         </a>
