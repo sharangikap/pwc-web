@@ -9,6 +9,9 @@
                     <a class="btn btn-link" href="../history.php">History</a>
                     <a class="btn btn-link" href="../about.php">About Us</a>
                     <a class="btn btn-link" href="../contact.php">Contact Us</a>
+                    <br><br>
+                    <a class="btn btn-link" href="../privacy.php">Privacy Policy</a>
+                    <a class="btn btn-link" href="../cookies.php">Cookies Policy</a>
             </div>
                 <div class="col-lg-3 col-md-12">
                     <left><h4 class="text-white mb-3">Contact</h4></left>
