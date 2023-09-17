@@ -241,7 +241,7 @@
                         <source src="content/audio/Sinhala-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
                     <br><br>
                     <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="content/audio/Sinhala-Anthem-PWC.mp3"
-                        download target="_blank" style="border-radius=25px" data-wow-delay="0.7s">Download MP3</a>
+                        download target="_blank" data-wow-delay="0.7s">Download MP3</a>
 
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
@@ -286,7 +286,7 @@
                         <source src="content/audio/English-Anthem-PWC.mp3" type="audio/mpeg"> </audio>
                     <br><br>
                     <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="content/audio/English-Anthem-PWC.mp3"
-                        download target="_blank" style="border-radius=25px" data-wow-delay="0.7s">Download MP3</a>
+                        download target="_blank" data-wow-delay="0.7s">Download MP3</a>
                 </div>
             </div>
         </div>
@@ -456,7 +456,7 @@
 
 
             <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-administration.php"
-                    style="border-radius=25px" data-wow-delay="0.7s">View All</a></center>
+                     data-wow-delay="0.7s">View All</a></center>
 
         </div>
 
@@ -535,7 +535,7 @@
 
 
                 <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-prefects-guild.php"
-                        style="border-radius=25px" data-wow-delay="0.7s">View All</a></center>
+                         data-wow-delay="0.7s">View All</a></center>
 
             </div>
 
@@ -574,7 +574,7 @@
                     Prince of Wales College has a history that goes back a very long time, and its infrastructure was
                     carefully designed to support the education of its students.</p>
                 <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-infrastructure.php"
-                    style="border-radius=25px" data-wow-delay="0.7s">View All</a>
+                     data-wow-delay="0.7s">View All</a>
             </div>
         </div>
     </div>

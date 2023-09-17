@@ -88,6 +88,7 @@
                 /* Font size for larger devices like desktops */
             }
         }
+
     </style>
 
 <!-- Google tag (gtag.js) -->
@@ -98,6 +99,8 @@
   gtag('js', new Date());
 
   gtag('config', 'G-K1KCZVJTWP');
+
+
 </script>
 
 </head>
@@ -117,8 +120,8 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
-            <img src="content/img/logo-pwc.png" width="40px" alt="pwc logo">
-            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Arimo', sans-serif; font-size: 18px;">&nbsp; &nbsp; PRINCE OF WALES'
+            <img src="content/img/logo-pwc.png" width="35px" alt="pwc logo">
+            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Arimo', sans-serif; font-size: 17.5px;">&nbsp; &nbsp; PRINCE OF WALES'
                 COLLEGE<br>&nbsp; &nbsp; MORATUWA
             </h6>
         </a>
@@ -166,6 +169,10 @@
                 <a href="history.php" class="nav-item nav-link <?php if ($page === 'history') echo 'active'; ?> nav-link pulse">History</a>
                 <a href="about.php" class="nav-item nav-link <?php if ($page === 'about') echo 'active'; ?> nav-link pulse">About Us</a>
                 <a href="contact.php" class="nav-item nav-link <?php if ($page === 'contact') echo 'active'; ?> nav-link pulse">Contact</a>
+                
+                <a href="search.php"><i class="bi bi-search nav-item nav-link <?php if ($page === 'search') echo 'active'; ?> nav-link pulse" id="search-icon"></i></a>
+
+
 
     </nav>
     <!-- Navbar End -->
