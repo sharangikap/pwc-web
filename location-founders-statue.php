@@ -23,7 +23,7 @@
     <meta property="og:description"
         content="Discover the Founder's Statue at Prince of Wales College in Moratuwa - a tribute to our institution's legacy. Delve into its history and significance in a tranquil environment." />
     <meta property="og:image"
-        content="https://princeofwales.edu.lk/content/img/img-about/locations/locations-header-pwc.webp" />
+        content="https://princeofwales.edu.lk/content/img/img-history/founder-pwc.webp" />
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -32,12 +32,12 @@
     <meta property="twitter:description"
         content="Discover the Founder's Statue at Prince of Wales College in Moratuwa - a tribute to our institution's legacy. Delve into its history and significance in a tranquil environment." />
     <meta property="twitter:image"
-        content="https://princeofwales.edu.lk/content/img/img-about/locations/locations-header-pwc.webp" />
+        content="https://princeofwales.edu.lk/content/img/img-history/founder-pwc.webp" />
 
 
     <style>
         .statue-page-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-about/locations/locations-header-pwc.webp);
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-history/founder-pwc.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -66,7 +66,7 @@
 
 
 <header>
-    <br><br><br>
+
 
 
     <div class="container">
