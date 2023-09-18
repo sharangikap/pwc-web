@@ -74,13 +74,13 @@
                             // Generate the HTML output for each record
                             echo '<div class="col-md-4 animate-box">
                                     <article class="article-entry">
-                                        <a href="news.php?id=' . $row["id"] . '" class="blog-img">
-                                            <img src="../content/img/img-news/' . $row["photo"] . '" alt="' . $row["photo"] . '"><br><br>
+                                        <a href="news/news.php?id=' . $row["id"] . '" class="blog-img">
+                                            <img src="content/img/img-news/' . $row["photo"] . '" alt="' . $row["photo"] . '"><br><br>
                                             <p class="meta"><span class="day">' . $row["date"] . '</span> │ <span></span>
                                                 <span>' . $row["category"] . '</span></p>
                                         </a>
                                         <div class="desc">
-                                            <h4><a href="news.php?id=' . $row["id"] . '">' . $row["title"] . '</a></h4>
+                                            <h4><a href="news/news.php?id=' . $row["id"] . '">' . $row["title"] . '</a></h4>
                                             <p>' . $row["excerpt"] . '</p>
                                         </div>
                                     </article>
