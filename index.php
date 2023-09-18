@@ -123,7 +123,7 @@ if($statement->rowCount() > 0)
     </div>
 
 </div>
-<center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="news/" style="border-radius=25px"
+<center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="news/" 
         data-wow-delay="0.7s">Read More</a></center>
 </div>
 
@@ -226,7 +226,7 @@ if($statement->rowCount() > 0)
 
     </div>
     <br><br>
-    <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="events/" style="border-radius=25px"
+    <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="events/" 
             data-wow-delay="0.7s">View More</a></center>
 </div>
 
@@ -260,7 +260,7 @@ if($statement->rowCount() > 0)
                     believe this would aid us to bridge the gap between the school and the parents, past pupils,
                     past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
                     evergreen Cambrian spirit high amongst us all!</p>
-                <a class="btn btn-primary py-3 px-5 mt-2" href="about.php" style="border-radius=25px">Know More
+                <a class="btn btn-primary py-3 px-5 mt-2" href="about.php">Know More
                     About Us</a>
             </div>
         </div>
@@ -347,7 +347,7 @@ if($statement->rowCount() > 0)
                 </p>
                 
                 <a class="btn btn-primary py-3 px-5 mt-2" href="about-school-administration.php"
-                    style="border-radius=25px">View School Administration</a>
+                    >View School Administration</a>
             </div>
         </div>
     </div>
@@ -411,7 +411,7 @@ if($statement->rowCount() > 0)
                 </a>
             </div>
             <br><br><br><br>
-            <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="sports.php" style="border-radius=25px"
+            <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="sports.php"
                     data-wow-delay="0.7s">Explore More</a></center>
 
         </div>
@@ -441,7 +441,7 @@ if($statement->rowCount() > 0)
                     Sebastian's College.</p>
 
                 <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="battle-of-the-golds.php"
-                    style="border-radius=25px" data-wow-delay="0.7s">Explore</a>
+                 data-wow-delay="0.7s">Explore</a>
 
             </div>
         </div>
@@ -501,7 +501,7 @@ if($statement->rowCount() > 0)
                 </a>
             </div>
             <br>
-            <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="clubs.php" style="border-radius=25px"
+            <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="clubs.php" 
                     data-wow-delay="0.7s">Explore More</a></center>
 
         </div>
@@ -531,7 +531,7 @@ if($statement->rowCount() > 0)
                 </p>
 
                 <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="the-golden-book.php"
-                    style="border-radius=25px" data-wow-delay="0.7s">Explore</a>
+                     data-wow-delay="0.7s">Explore</a>
 
             </div>
         </div>
@@ -560,7 +560,7 @@ if($statement->rowCount() > 0)
                 <h5 class=" text-white animated slideInDown"><br> Explore college history and discover 147 years of rich
                     heritage and academic excellence. <br><br> </h5>
                 <center><a class="btn btn-primary py-3 px-4 mt-2 wow zoomIn" href="history.php"
-                        style="border-radius=25px" data-wow-delay="0.7s">Explore College History</a></center>
+                         data-wow-delay="0.7s">Explore College History</a></center>
             </div>
         </div>
     </div>

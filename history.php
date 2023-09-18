@@ -190,7 +190,7 @@
 
 
                 <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="history-former-principals.php"
-                        style="border-radius=25px" data-wow-delay="0.7s">View All</a></center>
+                         data-wow-delay="0.7s">View All</a></center>
             </div>
 
         </div>
