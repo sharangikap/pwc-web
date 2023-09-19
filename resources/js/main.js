@@ -110,8 +110,9 @@
 
 // PWA
 
+  
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-worker.js')
+    navigator.serviceWorker.register('https://princeofwales.edu.lk/service-worker.js')
       .then(registration => {
         console.log('Service Worker registered with scope:', registration.scope);
       })
@@ -119,19 +120,4 @@ if ('serviceWorker' in navigator) {
         console.log('Service Worker registration failed:', error);
       });
   }
-  
-
-  // PWA LOADING BAR
-
-  window.addEventListener('load', () => {
-    const loadingBar = document.getElementById('loading-bar');
-  
-    // Set loading bar to fully visible (100% width)
-    loadingBar.style.transform = 'scaleX(1)';
-  
-    // Remove the loading bar once the content is loaded
-    setTimeout(() => {
-      loadingBar.style.transform = 'scaleX(0)';
-    }, 500); // Adjust the delay as needed
-  });
   
