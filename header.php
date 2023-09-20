@@ -34,6 +34,10 @@
     <link href="resources/css/style.css" rel="stylesheet">
 
 
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+
+
 
 
 

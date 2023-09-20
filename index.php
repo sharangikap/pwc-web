@@ -164,7 +164,7 @@ if ($currentDate >= 1 && $currentDate <= 5) {
     echo '<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>';
     echo '<div class="elfsight-app-081f2913-286d-405f-8930-23a70c658c4f"></div>';
 } elseif ($currentDate >= 26 && $currentDate <= 31) {
-    // Display content for the sixth date range (26-30)
+    // Display content for the sixth date range (26-31)
     echo '<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>';
     echo '<div class="elfsight-app-sixth-unique-id"></div>';
 } else {
