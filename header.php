@@ -107,6 +107,33 @@
 
 </script>
 
+
+<!-- firebase -->
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyApsAh6CNgRa6sBUQ5aLzfLWWPBVxVitfo",
+    authDomain: "pwc-web-399609.firebaseapp.com",
+    projectId: "pwc-web-399609",
+    storageBucket: "pwc-web-399609.appspot.com",
+    messagingSenderId: "477458484693",
+    appId: "1:477458484693:web:263bcb3b79fe4e4387815c",
+    measurementId: "G-GRY0L9MN6S"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
 </head>
 
 <body>
