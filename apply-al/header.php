@@ -110,7 +110,8 @@
 </head>
 
 <body>
-<div id="spinner"
+    <!-- Spinner Start -->
+    <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only"></span>
@@ -123,9 +124,8 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="../index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
-            <img src="../content/img/logo-pwc.png" width="45px" alt="pwc logo">
-            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Arimo', sans-serif;">&nbsp; &nbsp;
-                PRINCE OF WALES'
+            <img src="../content/img/logo-pwc.png" width="35px" alt="pwc logo">
+            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Arimo', sans-serif; font-size: 17.5px;">&nbsp; &nbsp; PRINCE OF WALES'
                 COLLEGE<br>&nbsp; &nbsp; MORATUWA
             </h6>
         </a>
@@ -135,12 +135,13 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="../index.php" class="nav-item nav-link nav-link pulse">Home</a>
-                <a href="../news/index.php" class="nav-item nav-link nav-link pulse">News</a>
-                <a href="../events" class="nav-item nav-link nav-link pulse">events</a>
+                <a href="../news/" class="nav-item nav-link nav-link pulse">News</a>
+                <a href="index.php" class="nav-item nav-link nav-link pulse">events</a>
                 <a href="../the-golden-book.php" class="nav-item nav-link nav-link pulse">The golden book</a>
 
                 <div class="nav-item dropdown">
-                    <a href="../sports.php" class="nav-link dropdown-toggle nav-link pulse">Sports</a>
+                    <a href="../sports.php"
+                        class="nav-link dropdown-toggle <?php if ($page === 'sports') echo 'active'; ?> nav-link pulse">Sports</a>
                     <div class="dropdown-menu fade-down m-0">
                         <a class="dropdown-item" href="../sports.php#team-sports"><b>TEAM SPORTS</b></a>
                         <a class="dropdown-item" href="../sports.php#individual-sports"><b>INDIVIDUAL SPORTS</b></a>
@@ -153,7 +154,8 @@
                 </div>
 
                 <div class="nav-item dropdown">
-                    <a href="../clubs.php" class="nav-link dropdown-toggle nav-link pulse">Clubs</a>
+                    <a href="../clubs.php"
+                        class="nav-link dropdown-toggle <?php if ($page === 'clubs') echo 'active'; ?> nav-link pulse">Clubs</a>
                     <div class="dropdown-menu fade-down m-0">
                         <a class="dropdown-item" href="../clubs.php#media-clubs"><b>MEDIA CLUBS</b></a>
                         <a class="dropdown-item" href="../clubs.php#tech-clubs"><b>TECHNOLOGICAL CLUBS</b></a>
@@ -171,6 +173,7 @@
                 <a href="../history.php" class="nav-item nav-link nav-link pulse">History</a>
                 <a href="../about.php" class="nav-item nav-link nav-link pulse">About Us</a>
                 <a href="../contact.php" class="nav-item nav-link nav-link pulse">Contact</a>
+                <a href="../search.php"><i class="bi bi-search nav-item nav-link <?php if ($page === 'search') echo 'active'; ?> nav-link pulse" id="search-icon"></i></a>
 
     </nav>
     <!-- Navbar End -->
