@@ -3,6 +3,38 @@
     "short_name": "Prince of Wales College",
     "description": "The official Website of Prince of Wales' College, Moratuwa",
     "start_url": "/",
+    "shortcuts": [
+    {
+      "name": "🔍 Search",
+      "short_name": "Search",
+      "url": "/search.php"
+    },
+    {
+      "name": "📰 News",
+      "short_name": "News",
+      "url": "/news/"
+    },
+    {
+      "name": "📅 Events",
+      "short_name": "Events",
+      "url": "/events/"
+    },
+    {
+      "name": "📖 Golden Book",
+      "short_name": "Golden Book",
+      "url": "the-golden-book.php"
+    },
+    {
+      "name": "ℹ️ About",
+      "short_name": "About",
+      "url": "/about.php"
+    },
+    {
+      "name": "✉️ Contact",
+      "short_name": "Contact",
+      "url": "/contact.php"
+    }
+  ],
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#800000",
