@@ -1,7 +1,7 @@
 // service-worker.js
 
 // Define a unique cache name
-const cacheName = 'pwa-cache-v1';
+const cacheName = 'pwa-cache-v1.5';
 
 // List of assets to cache
 const assetsToCache = [

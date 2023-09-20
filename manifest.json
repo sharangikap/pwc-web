@@ -1,6 +1,7 @@
 {
     "name": "Prince of Wales' College, Moratuwa",
     "short_name": "Prince of Wales College",
+    "version": "1.5",
     "description": "The official Website of Prince of Wales' College, Moratuwa",
     "start_url": "/",
     "shortcuts": [
