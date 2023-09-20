@@ -70,28 +70,25 @@
         }
 
 
-        .responsive-header {
-            font-size: 1rem;
-            /* Default font size for smaller devices */
+        img {
+        width: 35px;
+    }
+
+    h6 {
+        font-family: 'Arimo', sans-serif;
+        font-size: 17.5px;
+    }
+
+    @media (max-width: 375px) {
+        img {
+            width: 30px; 
         }
 
-        @media (min-width: 576px) {
-
-            /* Apply these styles for devices with a minimum width of 576px (sm - small) */
-            .responsive-header {
-                font-size: 1.25rem;
-                /* Font size for small devices like tablets */
-            }
+        h6 {
+            font-size: 13px; 
         }
+    }
 
-        @media (min-width: 992px) {
-
-            /* Apply these styles for devices with a minimum width of 992px (lg - large) */
-            .responsive-header {
-                font-size: 1.25rem;
-                /* Font size for larger devices like desktops */
-            }
-        }
     </style>
 
     <!-- Google tag (gtag.js) -->
@@ -124,12 +121,12 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="../index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
-            <img src="../content/img/logo-pwc.png" width="35px" alt="pwc logo">
-            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Arimo', sans-serif; font-size: 17.5px;">&nbsp; &nbsp; PRINCE OF WALES'
+            <img src="../content/img/logo-pwc.png" alt="pwc logo">
+            <h6 class="m-0 text-primary responsive-header" style="font-family: 'Arimo', sans-serif;">&nbsp; &nbsp; PRINCE OF WALES'
                 COLLEGE<br>&nbsp; &nbsp; MORATUWA
             </h6>
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">

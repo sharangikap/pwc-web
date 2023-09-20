@@ -66,6 +66,6 @@
     ],
     "scope": "/",
     "orientation": "any",
-    "gcm_sender_id": "477458484693"
+    "prefer_related_applications": true
   }
   

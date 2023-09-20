@@ -121,3 +121,17 @@ if ('serviceWorker' in navigator) {
       });
   }
   
+
+// Check if the browser supports notifications
+if ('Notification' in window) {
+    // Request permission to show notifications
+    Notification.requestPermission()
+      .then(function(permission) {
+        if (permission === 'granted') {
+          console.log('Notification permission granted.');
+        } else if (permission === 'denied') {
+          console.log('Notification permission denied.');
+        }
+      });
+  }
+  
