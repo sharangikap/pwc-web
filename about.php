@@ -396,7 +396,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal">
+                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Hasitha Kesara Weththimuni</h5>
@@ -411,7 +411,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp"
-                                alt="Deputy Principal">
+                                alt="Deputy Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Ranjith Illapperuma</h5>
@@ -427,7 +427,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp"
-                                alt="Deputy Principal">
+                                alt="Deputy Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mrs. H. E. Priyanga</h5>
@@ -442,7 +442,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/Upul-sir-administration-pwc.webp"
-                                alt="Deputy Principal">
+                                alt="Deputy Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Upul Silva</h5>
@@ -486,7 +486,7 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-about/prefects/thinuka-fernando-hp23-pwc.webp"
-                                alt="Head Prefect">
+                                alt="Head Prefect" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Thinuka Fernando</h5>
@@ -498,7 +498,7 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-about/prefects/vihanga-dhp23-pwc.webp"
-                                alt="Deputy Head Prefect">
+                                alt="Deputy Head Prefect" style="width: auto;">
                         </div>
 
                         <div class="text-center p-4">
@@ -511,7 +511,7 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-about/prefects/thimira-damsara-dhp23-pwc.webp"
-                                alt="Deputy Head Prefect">
+                                alt="Deputy Head Prefect" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Thimira Damsara</h5>
@@ -523,7 +523,7 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-about/prefects/nelindu-dhp23-pwc.webp"
-                                alt="Deputy Head Prefect">
+                                alt="Deputy Head Prefect" style="width: auto;">
                         </div>
 
                         <div class="text-center p-4">

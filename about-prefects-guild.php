@@ -75,7 +75,7 @@
                         <div class="team-item bg-light">
                             <div class="overflow-hidden">
                                 <img class="img-fluid"
-                                    src="content/img/img-about/prefects/thinuka-fernando-hp23-pwc.webp" alt="Head Prefect">
+                                    src="content/img/img-about/prefects/thinuka-fernando-hp23-pwc.webp" alt="Head Prefect" style="width: auto;">
                             </div>
                             <div class="text-center p-4">
                                 <h5 class="mb-0">Thinuka Fernando</h5>
@@ -92,7 +92,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/vihanga-dhp23-pwc.webp" alt="Deputy Head Prefect">
+                            <img class="img-fluid" src="content/img/img-about/prefects/vihanga-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
                         </div>
 
                         <div class="text-center p-4">
@@ -105,7 +105,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/tharusha-dhp23-pwc.webp" alt="Deputy Head Prefect">
+                            <img class="img-fluid" src="content/img/img-about/prefects/tharusha-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
                         </div>
 
                         <div class="text-center p-4">
@@ -117,7 +117,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/nelindu-dhp23-pwc.webp" alt="Deputy Head Prefect">
+                            <img class="img-fluid" src="content/img/img-about/prefects/nelindu-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
                         </div>
 
                         <div class="text-center p-4">
@@ -130,7 +130,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/isindu-dhp-prefects-pwc.webp" alt="Deputy Head Prefect">
+                            <img class="img-fluid" src="content/img/img-about/prefects/isindu-dhp-prefects-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
                         </div>
 
                         <div class="text-center p-4">
@@ -145,7 +145,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/hansana-dhp23-pwc.webp" alt="Deputy Head Prefect">
+                            <img class="img-fluid" src="content/img/img-about/prefects/hansana-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Hansana Dulnith</h5>
@@ -158,7 +158,7 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-about/prefects/thimira-damsara-dhp23-pwc.webp"
-                                alt="Deputy Head Prefect">
+                                alt="Deputy Head Prefect" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Thimira Damsara</h5>
@@ -170,7 +170,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/nuran-dhp23-pwc.webp" alt="Deputy Head Prefect">
+                            <img class="img-fluid" src="content/img/img-about/prefects/nuran-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Nuran Gunawardane</h5>
@@ -182,7 +182,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/senitha-dhp23-pwc.webp" alt="Deputy Head Prefect">
+                            <img class="img-fluid" src="content/img/img-about/prefects/senitha-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Senitha Nethmika</h5>

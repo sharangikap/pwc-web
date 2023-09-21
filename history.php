@@ -137,7 +137,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-history/former-principals/kusala-fernando-former-principals-pwc.webp"
-                                alt="Kusala Fernando">
+                                alt="Kusala Fernando" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Kusala Fernando</h5>
@@ -152,7 +152,7 @@
                             <img class="img-fluid"
                                 style="width: 1000px;"
                                 src="content/img/img-history/former-principals/jws-sririwardane-former-principal-pwc.webp"
-                                alt="J. W. S. Siriwardane">
+                                alt="J. W. S. Siriwardane" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. J. W. S. Siriwardane</h5>
@@ -166,7 +166,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-history/former-principals/sampath-weragoda-former-principals-pwc.webp"
-                                alt="Sampath Weragoda">
+                                alt="Sampath Weragoda" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Sampath Weragoda</h5>
@@ -179,7 +179,7 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-history/former-principals/wd-jayasena-former-principals-pwc.webp"
-                                alt="W. D. Jayasena">
+                                alt="W. D. Jayasena" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. W. D. Jayasena</h5>

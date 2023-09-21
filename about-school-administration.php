@@ -48,7 +48,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal">
+                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Hasitha Kesara Weththimuni</h5>
@@ -63,7 +63,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp"
-                                alt="Deputy Principal">
+                                alt="Deputy Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Ranjith Illapperuma</h5>
@@ -79,7 +79,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp"
-                                alt="Deputy Principal">
+                                alt="Deputy Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mrs. H. E. Priyanga</h5>
@@ -94,7 +94,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/Upul-sir-administration-pwc.webp"
-                                alt="Deputy Principal">
+                                alt="Deputy Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Upul Silva</h5>
@@ -109,7 +109,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/sumangala-thero-assit-principal-pwc.webp"
-                                alt="Assistant Principal">
+                                alt="Assistant Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Ven. Mathale Sumangala Thero</h5>
@@ -123,7 +123,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/Bhagya-madam-administration-pwc.webp"
-                                alt="Assistant Principal">
+                                alt="Assistant Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mrs. K. Bhagya Sandamali</h5>
@@ -136,7 +136,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/Primary-madam-administration-pwc.webp"
-                                alt="Primary Section Head">
+                                alt="Primary Section Head" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mrs. Ramya Samarasekara</h5>
@@ -150,7 +150,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/chathura-sir-administration-pwc.webp"
-                                alt="Assistant Principal">
+                                alt="Assistant Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Chathura Mendis</h5>
@@ -163,7 +163,7 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-about/administration/"
-                                alt="Assistant Principal">
+                                alt="Assistant Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mrs. Duminda Samarajeewa</h5>
@@ -176,7 +176,7 @@
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid" src="content/img/img-about/administration/"
-                                alt="Assistant Principal">
+                                alt="Assistant Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Chamara Jeewantha</h5>
@@ -190,7 +190,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/kasun-sir-administration-pwc.webp"
-                                alt="Sports Administrator">
+                                alt="Sports Administrator" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Kasun Dewapriya</h5>
@@ -204,7 +204,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/Pinipa-madam-administration-pwc.webp"
-                                alt="Section Head">
+                                alt="Section Head" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mrs. Pinipa Gunawardana</h5>
@@ -218,7 +218,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/Dewika-madam-administration-pwc.webp"
-                                alt="Section Head">
+                                alt="Section Head" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mrs. Dewika Kulasinghe</h5>
@@ -232,7 +232,7 @@
                         <div class="overflow-hidden">
                             <img class="img-fluid"
                                 src="content/img/img-about/administration/Upeksha-madam-administration-pwc.webp"
-                                alt="Section Head">
+                                alt="Section Head" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mrs. Upeksha De Alwis</h5>

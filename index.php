@@ -209,7 +209,7 @@ if($statement->rowCount() > 0)
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="course-item bg-light">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid" src="content/img/img-events/<?php echo($row["img"]) ?>"
+                        <img class="img-fluid" style="width: auto;" src="content/img/img-events/<?php echo($row["img"]) ?>"
                             alt="<?php echo($row["title"]) ?>">
                     </div>
                     <div class="text-center p-4 pb-0">
@@ -392,7 +392,7 @@ if($statement->rowCount() > 0)
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#team-sports">
                             <img class="img-fluid" src="content/img/img-home/team-sports-home-pwc.webp"
-                                alt="team sports">
+                                alt="team sports" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Team Sports</h5>
@@ -402,7 +402,7 @@ if($statement->rowCount() > 0)
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#individual-sports">
                             <img class="img-fluid" src="content/img/img-home/individual-sports-home-pwc.webp"
-                                alt="Individual Sports">
+                                alt="Individual Sports" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Individual Sports</h5>
@@ -412,7 +412,7 @@ if($statement->rowCount() > 0)
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                         <a class="position-relative d-block overflow-hidden" href="sports.php#aquatic-sports">
                             <img class="img-fluid" src="content/img/img-home/water-sports-home-pwc.webp"
-                                alt="Aquatic sports">
+                                alt="Aquatic sports" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Aquatic Sports</h5>
@@ -483,7 +483,7 @@ if($statement->rowCount() > 0)
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#media-clubs">
                             <img class="img-fluid" src="content/img/img-home/media-clubs-home-pwc.webp"
-                                alt="media clubs">
+                                alt="media clubs" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Media Unit</h5>
@@ -493,7 +493,7 @@ if($statement->rowCount() > 0)
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#edu-clubs">
                             <img class="img-fluid" src="content/img/img-home/educational-clubs-home-pwc.webp"
-                                alt="edu clubs">
+                                alt="edu clubs" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Educational Clubs</h5>
@@ -502,7 +502,7 @@ if($statement->rowCount() > 0)
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                         <a class="position-relative d-block overflow-hidden" href="clubs.php#tech-clubs">
-                            <img class="img-fluid" src="content/img/img-home/tech-clubs-home-pwc.webp" alt="tech clubs">
+                            <img class="img-fluid" src="content/img/img-home/tech-clubs-home-pwc.webp" alt="tech clubs" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
                                 <h5 class="m-0">Technological Clubs</h5>
