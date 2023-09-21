@@ -205,7 +205,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <img src="content/img/img-contact/swimming-pool-pwc.webp" alt="PWC Swimming Pool" width="350px">
+                    <img src="content/img/img-contact/swimming-pool-pwc.webp" alt="PWC Swimming Pool" style="width: 400px;">
                 </div>
             </div>
 
@@ -257,7 +257,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <img src="content/img/img-contact/oba-office.webp" width="350px">
+                    <img src="content/img/img-contact/oba-office.webp" style="width: 350px;">
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
@@ -267,7 +267,7 @@
                         actions”. <br> <br> Get enrolled now, be a part of the legion, which is the backbone of our Alma
                         Mater </p>
                     <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="http://pwcoba.lk/member-registration/"
-                        style="border-radius=25px" data-wow-delay="0.7s">Enroll Now</a>
+                         data-wow-delay="0.7s">Enroll Now</a>
                 </div>
             </div>
 
