@@ -393,10 +393,11 @@
 
             <div class="row g-4">
 
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal" style="width: auto;">
+                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal"
+                                style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Hasitha Kesara Weththimuni</h5>
@@ -415,9 +416,8 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Ranjith Illapperuma</h5>
-                            <small>Deputy Principal<br>SLPS-I
-                                B.A., M.Ed., M.A.
-                                P.G.D.E., P.G.D.E.M. (Mgt.)
+                            <small>Deputy Principal<br>SLPS -1
+                                B.A, M.A, P.G.Dip in Ed, M.Ed, P.G.D.Ed mgt
                             </small>
                         </div>
                     </div>
@@ -456,7 +456,7 @@
 
 
             <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-administration.php"
-                     data-wow-delay="0.7s">View All</a></center>
+                    data-wow-delay="0.7s">View All</a></center>
 
         </div>
 
@@ -535,7 +535,7 @@
 
 
                 <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-prefects-guild.php"
-                         data-wow-delay="0.7s">View All</a></center>
+                        data-wow-delay="0.7s">View All</a></center>
 
             </div>
 
@@ -559,8 +559,8 @@
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-about/location-new-pwc.webp" alt="Locations"
-                        style="object-fit: cover;">
+                    <img class="img-fluid position-absolute w-100 h-100"
+                        src="content/img/img-about/location-new-pwc.webp" alt="Locations" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -574,7 +574,7 @@
                     Prince of Wales College has a history that goes back a very long time, and its infrastructure was
                     carefully designed to support the education of its students.</p>
                 <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-infrastructure.php"
-                     data-wow-delay="0.7s">View All</a>
+                    data-wow-delay="0.7s">View All</a>
             </div>
         </div>
     </div>
