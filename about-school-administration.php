@@ -68,8 +68,8 @@
                         <div class="text-center p-4">
                             <h5 class="mb-0">Mr. Ranjith Illapperuma</h5>
                             <small>Deputy Principal<br>SLPS-I
-                                B.A., M.Ed., M.A.
-                                P.G.D.E., P.G.D.E.M.(Mgt.)
+                                SLPS -1
+                                B.A, M.A, P.G.Dip in Ed, M.Ed, P.G.D.Ed mgt
                             </small>
                         </div>
                     </div>
