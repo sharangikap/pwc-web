@@ -72,7 +72,6 @@
     }
 
     h6 {
-        font-family: 'Arimo', sans-serif;
         font-size: 17.5px;
     }
 
