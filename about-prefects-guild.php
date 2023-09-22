@@ -9,24 +9,29 @@
 
     <?php include 'header.php'; ?>
 
-<!-- Primary Meta Tags -->
-<meta name="title" content="Prefects' Guild │ Prince of Wales' College, Moratuwa" />
-<meta name="description" content="Elevating Leadership: Join the Prince of Wales College Prefects' Guild. Empowerment, Excellence, and Unity in Action. Discover your leadership potential today!" />
-<meta name="keywords" content="prince of wales college prefects, wales prefects guild" />
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Prefects' Guild │ Prince of Wales' College, Moratuwa" />
+    <meta name="description"
+        content="Elevating Leadership: Join the Prince of Wales College Prefects' Guild. Empowerment, Excellence, and Unity in Action. Discover your leadership potential today!" />
+    <meta name="keywords" content="prince of wales college prefects, wales prefects guild" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk/about-prefects-guild.php" />
-<meta property="og:title" content="Prefects' Guild │ Prince of Wales' College, Moratuwa" />
-<meta property="og:description" content="Elevating Leadership: Join the Prince of Wales College Prefects' Guild. Empowerment, Excellence, and Unity in Action. Discover your leadership potential today!" />
-<meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-about/prefects/prefects-guild-header.webp" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/about-prefects-guild.php" />
+    <meta property="og:title" content="Prefects' Guild │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:description"
+        content="Elevating Leadership: Join the Prince of Wales College Prefects' Guild. Empowerment, Excellence, and Unity in Action. Discover your leadership potential today!" />
+    <meta property="og:image"
+        content="https://princeofwales.edu.lk/content/img/img-about/prefects/prefects-guild-header.webp" />
 
-<!-- Twitter / WA / TG -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk/about-prefects-guild.php" />
-<meta property="twitter:title" content="Prefects' Guild │ Prince of Wales' College, Moratuwa" />
-<meta property="twitter:description" content="Elevating Leadership: Join the Prince of Wales College Prefects' Guild. Empowerment, Excellence, and Unity in Action. Discover your leadership potential today!" />
-<meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-about/prefects/prefects-guild-header.webp" />
+    <!-- Twitter / WA / TG -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/about-prefects-guild.php" />
+    <meta property="twitter:title" content="Prefects' Guild │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:description"
+        content="Elevating Leadership: Join the Prince of Wales College Prefects' Guild. Empowerment, Excellence, and Unity in Action. Discover your leadership potential today!" />
+    <meta property="twitter:image"
+        content="https://princeofwales.edu.lk/content/img/img-about/prefects/prefects-guild-header.webp" />
 
 
 
@@ -67,6 +72,19 @@
                 <h6 class="section-title bg-white text-center text-primary px-3">2023</h6>
                 <h1 class="mb-5">TOP BOARD</h1>
             </div>
+            <?php
+$query = "SELECT * FROM about_prefect_topboard WHERE id = 1";
+
+$statement = $connect->prepare($query);
+
+$statement->execute();
+
+if($statement->rowCount() > 0)
+{
+    foreach($statement->fetchAll() as $row)
+    { 
+        ?>
+
 
             <div class="row g-4">
 
@@ -74,122 +92,62 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item bg-light">
                             <div class="overflow-hidden">
-                                <img class="img-fluid"
-                                    src="content/img/img-about/prefects/thinuka-fernando-hp23-pwc.webp" alt="Head Prefect" style="width: auto;">
+                                <img class="img-fluid" src="<?php echo $row["img"]; ?>" alt="Head Prefect"
+                                    style="width: auto;">
                             </div>
                             <div class="text-center p-4">
-                                <h5 class="mb-0">Thinuka Fernando</h5>
-                                <small>Head Prefect</small>
+                                <h5 class="mb-0"><?php echo $row["name"]; ?></h5>
+                                <small><?php echo $row["post"]; ?></small>
                             </div>
                         </div>
                     </div>
             </div>
             </center>
+            <?php 
+					}
+		}	
+        ?>
             <br><br>
+
+
+
 
             <div class="row g-4">
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/vihanga-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
-                        </div>
+<?php
 
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Vihanga Kothalawala</h5>
-                            <small>Deputy Head Prefect</small>
-                        </div>
-                    </div>
-                </div>
+$query = "SELECT * FROM about_prefect_topboard WHERE id <> 1";
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/tharusha-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
-                        </div>
+$statement = $connect->prepare($query);
 
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Tharusha Deshapriya</h5>
-                            <small>Deputy Head Prefect</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/nelindu-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
-                        </div>
+$statement->execute();
 
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Nelindu Nithijaya</h5>
-                            <small>Deputy Head Prefect</small>
-                        </div>
-                    </div>
-                </div>
+if($statement->rowCount() > 0)
+{
+    foreach($statement->fetchAll() as $row)
+    { 
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/isindu-dhp-prefects-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
-                        </div>
-
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Isindu Udaneth</h5>
-                            <small>Deputy Head Prefect</small>
-                        </div>
-                    </div>
-                </div>
-
+?>
 
 
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/hansana-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
+                            <img class="img-fluid" src="<?php echo $row["img"]; ?>" alt="Deputy Head Prefect"
+                                style="width: auto;">
                         </div>
+
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Hansana Dulnith</h5>
-                            <small>Deputy Head Prefect</small>
+                            <h5 class="mb-0"><?php echo $row["name"]; ?></h5>
+                            <small><?php echo $row["post"]; ?></small>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/thimira-damsara-dhp23-pwc.webp"
-                                alt="Deputy Head Prefect" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Thimira Damsara</h5>
-                            <small>Deputy Head Prefect</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/nuran-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Nuran Gunawardane</h5>
-                            <small>Deputy Head Prefect</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/senitha-dhp23-pwc.webp" alt="Deputy Head Prefect" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Senitha Nethmika</h5>
-                            <small>Deputy Head Prefect</small>
-                        </div>
-                    </div>
-                </div>
+                <?php 
+					}
+		}	
+        ?>
 
 
             </div>
@@ -209,871 +167,36 @@
 
             <div class="row g-4">
 
-
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">H.W Thishakya Kumarathunga</h5>
-            <small>2022/23</small>
-        </div>
-    </div>
-</div>
-
-<!-- Repeat the above structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">G.M.Venura Sachintha Aponso</h5>
-            <small>2020/21/22</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Thareen Renuja Dayarathne</h5>
-            <small>2019/20</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">H.W.Dinil Avishka</h5>
-            <small>2018/19</small>
-        </div>
-    </div>
-</div>
-
-<!-- Continue to repeat the structure for each entry -->
-
-
-<!-- Continue to repeat the structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Dinura Sahanaka De Silva</h5>
-            <small>2017/18</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">K.Buwaneka Indunil Rajapakshe</h5>
-            <small>2016/17</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">A.D.Menush Nimeshan Perera</h5>
-            <small>2015/16</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Sharada Ranasinghe</h5>
-            <small>2014/15</small>
-        </div>
-    </div>
-</div>
-
-<!-- Continue to repeat the structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Thilanka Ferdinando</h5>
-            <small>2013/14</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Mahesh Chanaka Silva</h5>
-            <small>2012/13</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Indunil Dananjaya</h5>
-            <small>2011/12</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">N.V.Tharindu Sampath</h5>
-            <small>2010/11</small>
-        </div>
-    </div>
-</div>
-
-<!-- Continue to repeat the structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Chinthaka Samararathne</h5>
-            <small>2009/10</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Tharaka Sampath</h5>
-            <small>2008/09</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Pasindu Sampath</h5>
-            <small>2008/09</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">H.sanjaya D Soysa</h5>
-            <small>2007/08</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Kasun Liyanage</h5>
-            <small>2006/07</small>
-        </div>
-    </div>
-</div>
-
-<!-- Continue to repeat the structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">H. Chanaka D Soysa</h5>
-            <small>2005/06</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">T.D Suranga Fernando</h5>
-            <small>2004/05</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Shiroy Ranga</h5>
-            <small>2003/04</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Shanaka Soysa</h5>
-            <small>2002/03</small>
-        </div>
-    </div>
-</div>
-
-<!-- Continue to repeat the structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">A.G.J.S. Silva</h5>
-            <small>2001/02</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">H.Kurukulasooriya</h5>
-            <small>2000/01</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Ushan Wijewardana</h5>
-            <small>1999/00</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Nalin Wewakumbura</h5>
-            <small>1998/99</small>
-        </div>
-    </div>
-</div>
-
-<!-- Continue to repeat the structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Ushan Wijewardana</h5>
-            <small>1999/00</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Nalin Wewakumbura</h5>
-            <small>1998/99</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Ravindra Manoj</h5>
-            <small>1997/98</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Himal Manerigama</h5>
-            <small>1996/97</small>
-        </div>
-    </div>
-</div>
-
-<!-- Continue to repeat the structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Panduka Wakwella</h5>
-            <small>1995/96</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Nuwan Gomas</h5>
-            <small>1994/95</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Subash Kuruvitage</h5>
-            <small>1993/94</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Kavindra Rajapaksha</h5>
-            <small>1992/93</small>
-        </div>
-    </div>
-</div>
-
-<!-- Continue to repeat the structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Thushara Wijewardena</h5>
-            <small>1991/92</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Chandana Fernando</h5>
-            <small>1990/91</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Kamal Fernando</h5>
-            <small>1989/90</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Chamaru Alwis</h5>
-            <small>1988/89</small>
-        </div>
-    </div>
-</div>
-
-<!-- Continue to repeat the structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Pradeep S.Fernando</h5>
-            <small>1987/88</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Denil Ajantha</h5>
-            <small>1986/87</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Nishan Fernando</h5>
-            <small>1985/86</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Lalith Weerasinghe</h5>
-            <small>1984/85</small>
-        </div>
-    </div>
-</div>
-
-<!-- Continue to repeat the structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Geethaka Warnakula</h5>
-            <small>1983/84</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Rasika Namal</h5>
-            <small>1983/84</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Lalith Weerasinghe</h5>
-            <small>1982/83</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Jagath Mahasen</h5>
-            <small>1982/83</small>
-        </div>
-    </div>
-</div>
-
-<!-- Continue to repeat the structure for each entry -->
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Jagath Mahasen</h5>
-            <small>1982/83</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Sampath De Silva</h5>
-            <small>1981/82</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Nihal Chandrapala</h5>
-            <small>1980/81</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">L.C.Peiris</h5>
-            <small>1979/80</small>
-        </div>
-    </div>
-</div>
-
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Jayasiri Fernando</h5>
-            <small>1978/79</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Wirantha Fernando</h5>
-            <small>1978/79</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">J.Chandra Dewa</h5>
-            <small>1977/78</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Tyrone Pattreiott</h5>
-            <small>1976/77</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">C.Fernando</h5>
-            <small>1976/77</small>
-        </div>
-    </div>
-</div>
-
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Shiran Ferdinando</h5>
-            <small>1975/76</small>
-        </div>
-    </div>
-</div>
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Sanath Ushantha</h5>
-            <small>1974/75</small>
-        </div>
-    </div>
-</div>
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Srimal Mendis</h5>
-            <small>1973/74</small>
-        </div>
-    </div>
-</div>
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Sriyan Samararatna</h5>
-            <small>1972/73</small>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">R. Kurukulasooriya</h5>
-            <small>1970/72</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Srinimal K.Fernando</h5>
-            <small>1969/70</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">M.K.Thusitha Kumara</h5>
-            <small>1968/69</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Chandra Jayarathna</h5>
-            <small>1967/68</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Leslie De Silva</h5>
-            <small>1965/66</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">C.G.J. Fonseka</h5>
-            <small>1964/65</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">L.L. Douglas Silva</h5>
-            <small>1963/64</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Senaka Silva</h5>
-            <small>1961/63</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Nihal De Silva</h5>
-            <small>1959/61</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">D.Wijegunawardena</h5>
-            <small>1958/59</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Lasantha Rodrigo</h5>
-            <small>1957/58</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">G. Saranasena</h5>
-            <small>1956/57</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Stanly De Alwis</h5>
-            <small>1955/56</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Herbert Fonseka</h5>
-            <small>1954/55</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Chitradasa De Silva</h5>
-            <small>1952/53</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Lewellyn Fernando</h5>
-            <small>1951/52</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">H.Gunasekara</h5>
-            <small>1950/51</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">T.A.T. Fernando</h5>
-            <small>1949/50</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Stanly Fonseka</h5>
-            <small>1948/49</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Claude Fonseka</h5>
-            <small>1947/48</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">D.S.Karangoda</h5>
-            <small>1946/47</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">A.P.Dias</h5>
-            <small>1945/46</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Cecil L Peiris</h5>
-            <small>1944/45</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">C.E.M De Soysa</h5>
-            <small>1943/44</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-        <div class="text-center p-4">
-            <h5 class="mb-0">N.S. Wickramasinghe</h5>
-            <small>1942/43</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">O.C.De.Alwis</h5>
-            <small>1941/42</small>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay= "0.1s">
-    <div class= "team-item bg-light">
-
-        <div class="text-center p-4">
-            <h5 class="mb-0">Nevile De Mel</h5>
-            <small>1940/41</small>
-        </div>
-    </div>
-</div>
+<?php
+
+$query = "SELECT * FROM about_past_headprefects ORDER BY id DESC";
+
+$statement = $connect->prepare($query);
+
+$statement->execute();
+
+if($statement->rowCount() > 0)
+{
+    foreach($statement->fetchAll() as $row)
+    { 
+        
+?>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+
+                        <div class="text-center p-4">
+                            <h5 class="mb-0"><?php echo $row["name"]; ?></h5>
+                            <small><?php echo $row["year"]; ?></small>
+                        </div>
+                    </div>
+                </div>
+
+<?php 
+		}
+	}	
+?>
+            
 
             </div>
 

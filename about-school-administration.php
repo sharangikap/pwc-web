@@ -45,202 +45,37 @@
 
             <div class="row g-4">
 
+            <?php
+
+$query = "SELECT * FROM about_school_administration";
+
+$statement = $connect->prepare($query);
+
+$statement->execute();
+
+if($statement->rowCount() > 0)
+{
+    foreach($statement->fetchAll() as $row)
+    { 
+
+?>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal" style="width: auto;">
+                            <img class="img-fluid" src="<?php echo $row["img"]; ?>" alt="<?php echo $row["name"]; ?>" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. Hasitha Kesara Weththimuni</h5>
-                            <small>Principal<br>SLEAS-II B.A.,M.A. (UOK) P.G.D.E.(UOC), P.G.D.E.A. P.G.D. in Mass
-                                Communication M.Ed.(reaching), LLB(reaching)
+                            <h5 class="mb-0"><?php echo $row["name"]; ?></h5>
+                            <small><?php echo $row["post"]; ?>
                             </small>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp"
-                                alt="Deputy Principal" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. Ranjith Illapperuma</h5>
-                            <small>Deputy Principal<br>SLPS-I
-                                SLPS -1
-                                B.A, M.A, P.G.Dip in Ed, M.Ed, P.G.D.Ed mgt
-                            </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp"
-                                alt="Deputy Principal" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mrs. H. E. Priyanga</h5>
-                            <small>Deputy Principal<br>SLPS-I B.A., B.Ed. M.Ed. in Education Management, M.A. in
-                                Linguistics P.G.D.E., P.G.D.E.M.
-                            </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/Upul-sir-administration-pwc.webp"
-                                alt="Deputy Principal" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. Upul Silva</h5>
-                            <small>Deputy Principal<br>SLPS-III
-                                N.C.E. Dip. (English)
-                                B.Ed. in Education Management</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/sumangala-thero-assit-principal-pwc.webp"
-                                alt="Assistant Principal" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Ven. Mathale Sumangala Thero</h5>
-                            <small>Assistant Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/Bhagya-madam-administration-pwc.webp"
-                                alt="Assistant Principal" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mrs. K. Bhagya Sandamali</h5>
-                            <small>Assistant Principal</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/Primary-madam-administration-pwc.webp"
-                                alt="Primary Section Head" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mrs. Ramya Samarasekara</h5>
-                            <small>Assistant Principal (Primary Section Head)</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/chathura-sir-administration-pwc.webp"
-                                alt="Assistant Principal" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. Chathura Mendis</h5>
-                            <small>Assistant Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/duminda-miss-administration-pwc.webp"
-                                alt="Assistant Principal" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mrs. Duminda Samarajeewa</h5>
-                            <small>Assistant Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/"
-                                alt="Assistant Principal" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. Chamara Jeewantha</h5>
-                            <small>Assistant Principal</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/kasun-sir-administration-pwc.webp"
-                                alt="Sports Administrator" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. Kasun Dewapriya</h5>
-                            <small>Sports Administrator</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/Pinipa-madam-administration-pwc.webp"
-                                alt="Section Head" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mrs. Pinipa Gunawardana</h5>
-                            <small>Section Head (AL Science)</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/Dewika-madam-administration-pwc.webp"
-                                alt="Section Head" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mrs. Dewika Kulasinghe</h5>
-                            <small>Section Head (AL Commerce)</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/Upeksha-madam-administration-pwc.webp"
-                                alt="Section Head" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mrs. Upeksha De Alwis</h5>
-                            <small>Section Head (AL Arts)</small>
-                        </div>
-                    </div>
-                </div>
-
+                
+                <?php 
+					}
+		}	
+        ?>
 
 
             </div>

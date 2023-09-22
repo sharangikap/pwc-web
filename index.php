@@ -124,7 +124,7 @@ if($statement->rowCount() > 0)
 
 </div>
 <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="news/" 
-        data-wow-delay="0.7s">Read More</a></center>
+        data-wow-delay="0.1s">Read More</a></center>
 </div>
 
 
@@ -248,7 +248,7 @@ if($statement->rowCount() > 0)
     </div>
     <br><br>
     <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="events/" 
-            data-wow-delay="0.7s">View More</a></center>
+            data-wow-delay="0.1s">View More</a></center>
 </div>
 
 
@@ -367,8 +367,7 @@ if($statement->rowCount() > 0)
 
                 </p>
                 
-                <a class="btn btn-primary py-3 px-5 mt-2" href="about-school-administration.php"
-                    >View School Administration</a>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="about-school-administration.php">View School Administration</a>
             </div>
         </div>
     </div>
@@ -433,7 +432,7 @@ if($statement->rowCount() > 0)
             </div>
             <br><br><br><br>
             <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="sports.php"
-                    data-wow-delay="0.7s">Explore More</a></center>
+                    data-wow-delay="0.1s">Explore More</a></center>
 
         </div>
 
@@ -462,7 +461,7 @@ if($statement->rowCount() > 0)
                     Sebastian's College.</p>
 
                 <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="battle-of-the-golds.php"
-                 data-wow-delay="0.7s">Explore</a>
+                 data-wow-delay="0.1s">Explore</a>
 
             </div>
         </div>
@@ -523,7 +522,7 @@ if($statement->rowCount() > 0)
             </div>
             <br>
             <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="clubs.php" 
-                    data-wow-delay="0.7s">Explore More</a></center>
+                    data-wow-delay="0.1s">Explore More</a></center>
 
         </div>
     </div>
@@ -552,7 +551,7 @@ if($statement->rowCount() > 0)
                 </p>
 
                 <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="the-golden-book.php"
-                     data-wow-delay="0.7s">Explore</a>
+                     data-wow-delay="0.1s">Explore</a>
 
             </div>
         </div>
@@ -581,7 +580,7 @@ if($statement->rowCount() > 0)
                 <h5 class=" text-white animated slideInDown"><br> Explore college history and discover 147 years of rich
                     heritage and academic excellence. <br><br> </h5>
                 <center><a class="btn btn-primary py-3 px-4 mt-2 wow zoomIn" href="history.php"
-                         data-wow-delay="0.7s">Explore College History</a></center>
+                         data-wow-delay="0.1s">Explore College History</a></center>
             </div>
         </div>
     </div>

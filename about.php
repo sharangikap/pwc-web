@@ -393,70 +393,49 @@
 
             <div class="row g-4">
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-home/principal-pwc.webp" alt="Principal"
-                                style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. Hasitha Kesara Weththimuni</h5>
-                            <small>Principal<br>SLEAS-II B.A.,M.A. (UOK) P.G.D.E.(UOC), P.G.D.E.A. P.G.D. in Mass
-                                Communication M.Ed.(reaching), LLB(reaching)
-                            </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/Ranjith-sir-administration-pwc.webp"
-                                alt="Deputy Principal" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. Ranjith Illapperuma</h5>
-                            <small>Deputy Principal<br>SLPS -1
-                                B.A, M.A, P.G.Dip in Ed, M.Ed, P.G.D.Ed mgt
-                            </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/priyanga-madam-administration-pwc.webp"
-                                alt="Deputy Principal" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mrs. H. E. Priyanga</h5>
-                            <small>Deputy Principal<br>SLPS-I B.A., B.Ed. M.Ed. in Education Management, M.A. in
-                                Linguistics P.G.D.E., P.G.D.E.M.
-                            </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-about/administration/Upul-sir-administration-pwc.webp"
-                                alt="Deputy Principal" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. Upul Silva</h5>
-                            <small>Deputy Principal<br>SLPS-III
-                                N.C.E. Dip. (English)
-                                B.Ed. in Education Management</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php 
 
+$query = "SELECT * FROM about_school_administration";
+
+$statement = $connect->prepare($query);
+
+$statement->execute();
+
+$limit = 4;
+$rowCount = 0;
+
+if($statement->rowCount() > 0)
+{
+    foreach ($statement->fetchAll() as $row) {
+
+        $rowCount++;
+    
+        ?>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="<?php echo $row["img"]; ?>" alt="<?php echo $row["name"]; ?>" style="width: auto;">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0"><?php echo $row["name"]; ?></h5>
+                            <small><?php echo $row["post"]; ?>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+
+                <?php 
+                if ($rowCount >= $limit) {
+         
+                    break;
+                }
+					}
+		}	
+        ?>
 
             <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-administration.php"
-                    data-wow-delay="0.7s">View All</a></center>
+                    data-wow-delay="0.1s">View All</a></center>
 
         </div>
 
@@ -482,60 +461,50 @@
 
             <div class="row g-4">
 
+            <?php 
+
+$query = "SELECT * FROM about_prefect_topboard";
+
+$statement = $connect->prepare($query);
+
+$statement->execute();
+
+$limit = 4;
+$rowCount = 0;
+
+if($statement->rowCount() > 0)
+{
+    foreach ($statement->fetchAll() as $row) {
+
+        $rowCount++;
+    
+        ?>
+
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/thinuka-fernando-hp23-pwc.webp"
-                                alt="Head Prefect" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Thinuka Fernando</h5>
-                            <small>Head Prefect</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/vihanga-dhp23-pwc.webp"
-                                alt="Deputy Head Prefect" style="width: auto;">
+                            <img class="img-fluid" src="<?php echo $row["img"]; ?>" alt="Deputy Head Prefect"
+                                style="width: auto;">
                         </div>
 
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Vihanga Kothalawala</h5>
-                            <small>Deputy Head Prefect</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/thimira-damsara-dhp23-pwc.webp"
-                                alt="Deputy Head Prefect" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Thimira Damsara</h5>
-                            <small>Deputy Head Prefect</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/prefects/nelindu-dhp23-pwc.webp"
-                                alt="Deputy Head Prefect" style="width: auto;">
-                        </div>
-
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Nelindu Nithijaya</h5>
-                            <small>Deputy Head Prefect</small>
+                            <h5 class="mb-0"><?php echo $row["name"]; ?></h5>
+                            <small><?php echo $row["post"]; ?></small>
                         </div>
                     </div>
                 </div>
 
-
+                <?php 
+                if ($rowCount >= $limit) {
+         
+                    break;
+                }
+					}
+		}	
+        ?>
+        
                 <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-prefects-guild.php"
-                        data-wow-delay="0.7s">View All</a></center>
+                        data-wow-delay="0.1s">View All</a></center>
 
             </div>
 
@@ -574,7 +543,7 @@
                     Prince of Wales College has a history that goes back a very long time, and its infrastructure was
                     carefully designed to support the education of its students.</p>
                 <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-infrastructure.php"
-                    data-wow-delay="0.7s">View All</a>
+                    data-wow-delay="0.1s">View All</a>
             </div>
         </div>
     </div>

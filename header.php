@@ -38,7 +38,9 @@
     <link rel="manifest" href="manifest.json">
 
 
-
+    <?php
+    include 'database_connection.php';
+    ?>
 
 
     <style>

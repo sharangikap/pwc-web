@@ -132,65 +132,51 @@
 
             <div class="row g-4">
 
+            <?php 
+
+$query = "SELECT * FROM about_past_principals ORDER BY id DESC";
+
+$statement = $connect->prepare($query);
+
+$statement->execute();
+
+$limit = 4;
+$rowCount = 0;
+
+if($statement->rowCount() > 0)
+{
+    foreach ($statement->fetchAll() as $row) {
+
+        $rowCount++;
+    
+        ?>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid"
-                                src="content/img/img-history/former-principals/kusala-fernando-former-principals-pwc.webp"
-                                alt="Kusala Fernando" style="width: auto;">
+                                src="<?php echo $row["img"]; ?>"
+                                alt="<?php echo $row["name"]; ?>" style="width: 1000px;">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. Kusala Fernando</h5>
-                            <small>(2017–2021)</small>
+                            <h5 class="mb-0"><?php echo $row["name"]; ?></h5>
+                            <small><?php echo $row["years"]; ?></small>
                         </div>
                     </div>
                 </div>
+      <?php 
+                if ($rowCount >= $limit) {
+         
+                    break;
+                }
+					}
+		}	
+        ?>
 
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                style="width: 1000px;"
-                                src="content/img/img-history/former-principals/jws-sririwardane-former-principal-pwc.webp"
-                                alt="J. W. S. Siriwardane" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. J. W. S. Siriwardane</h5>
-                            <small>(2013–2016)</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid"
-                                src="content/img/img-history/former-principals/sampath-weragoda-former-principals-pwc.webp"
-                                alt="Sampath Weragoda" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. Sampath Weragoda</h5>
-                            <small>(2012–2013)</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-history/former-principals/wd-jayasena-former-principals-pwc.webp"
-                                alt="W. D. Jayasena" style="width: auto;">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr. W. D. Jayasena</h5>
-                            <small>2011–2012</small>
-                        </div>
-                    </div>
-                </div>
+        
 
 
                 <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="history-former-principals.php"
-                         data-wow-delay="0.7s">View All</a></center>
+                         data-wow-delay="0.1s">View All</a></center>
             </div>
 
         </div>
