@@ -162,7 +162,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="content/img/img-about/administration/"
+                            <img class="img-fluid" src="content/img/img-about/administration/duminda-miss-administration-pwc.webp"
                                 alt="Assistant Principal" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
