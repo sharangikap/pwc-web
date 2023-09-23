@@ -205,7 +205,11 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+<<<<<<< HEAD
                     <img class="img-fluid" src="content/img/img-contact/swimming-pool-pwc.webp" alt="PWC Swimming Pool" style="object-fit: cover;">
+=======
+                    <img src="content/img/img-contact/swimming-pool-pwc.webp" alt="PWC Swimming Pool">
+>>>>>>> 53c86d46a84c838ee938a2aebf58718ff322cf4e
                 </div>
             </div>
 
@@ -257,7 +261,11 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+<<<<<<< HEAD
                     <img class="img-fluid" src="content/img/img-contact/oba-office.webp" style="object-fit: cover;">
+=======
+                    <img src="content/img/img-contact/oba-office.webp">
+>>>>>>> 53c86d46a84c838ee938a2aebf58718ff322cf4e
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
