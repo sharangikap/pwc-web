@@ -205,7 +205,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <img src="content/img/img-contact/swimming-pool-pwc.webp" alt="PWC Swimming Pool" style="width: 400px;">
+                    <img class="img-fluid" src="content/img/img-contact/swimming-pool-pwc.webp" alt="PWC Swimming Pool" style="object-fit: cover;">
                 </div>
             </div>
 
@@ -257,7 +257,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <img src="content/img/img-contact/oba-office.webp" style="width: 350px;">
+                    <img class="img-fluid" src="content/img/img-contact/oba-office.webp" style="object-fit: cover;">
                 </div>
 
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">

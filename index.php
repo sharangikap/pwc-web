@@ -451,8 +451,7 @@ if($statement->rowCount() > 0)
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                <h6 class="section-title bg-white text-start text-primary pe-3">big match - annual sport event of
-                    college</h6>
+                <h6 class="section-title bg-white text-start text-primary pe-3">big match</h6>
                 <h1 class="mb-4">BATTLE OF THE GOLDS</h1>
                 <p class="mb-4">The Prince of Wales'–St. Sebastian's Cricket Encounter (The Battle of the Golds) is
                     an annual cricket match played between Prince of Wales' College and St. Sebastian's College
