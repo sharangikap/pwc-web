@@ -94,7 +94,7 @@ if($statement->rowCount() > 0)
                             <div class="desc">
                                 <h4><a href="news.php?id=<?php echo $row["id"]; ?>"><?php echo $row["title"]; ?></a>
                                 </h4>
-                                <p><?php echo $row["excerpt"]; ?></p>
+                                <p><?php echo $row["excerpt"]; echo "......" ?></p>
                             </div>
                         </article>
                     </div>

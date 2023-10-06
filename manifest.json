@@ -6,34 +6,76 @@
     "start_url": "/",
     "shortcuts": [
     {
-      "name": "🔍 Search",
+      "name": "Search",
       "short_name": "Search",
-      "url": "/search.php"
+      "url": "/search.php",
+      "icons": [
+        {
+          "src": "content/icons/pwa-shortcuts/search.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
-      "name": "📰 News",
+      "name": "News",
       "short_name": "News",
-      "url": "/news/"
+      "url": "/news/",
+      "icons": [
+        {
+          "src": "content/icons/pwa-shortcuts/news.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
-      "name": "📅 Events",
+      "name": "Events",
       "short_name": "Events",
-      "url": "/events/"
+      "url": "/events/",
+      "icons": [
+        {
+          "src": "content/icons/pwa-shortcuts/event.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
-      "name": "📖 Golden Book",
+      "name": "Golden Book",
       "short_name": "Golden Book",
-      "url": "the-golden-book.php"
+      "url": "the-golden-book.php",
+      "icons": [
+        {
+          "src": "content/icons/pwa-shortcuts/golden-book.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
-      "name": "ℹ️ About",
+      "name": "About",
       "short_name": "About",
-      "url": "/about.php"
+      "url": "/about.php",
+      "icons": [
+        {
+          "src": "content/icons/pwa-shortcuts/golden-book.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
-      "name": "✉️ Contact",
+      "name": "Contact",
       "short_name": "Contact",
-      "url": "/contact.php"
+      "url": "/contact.php",
+      "icons": [
+        {
+          "src": "content/icons/pwa-shortcuts/golden-book.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ],
     "display": "standalone",
