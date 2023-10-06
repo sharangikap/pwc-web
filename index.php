@@ -194,7 +194,7 @@ if ($currentDate >= 1 && $currentDate <= 5) {
         <div class="row g-4 justify-content-center">
 
             <?php 
-$query = "SELECT * FROM pwc_db_events ORDER BY id DESC";
+$query = "SELECT * FROM pwc_db_events ORDER BY date DESC";
 $statement = $connect->prepare($query);
 $statement->execute();
 $limit = 3;
