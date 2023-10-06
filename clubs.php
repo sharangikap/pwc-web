@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Clubs & Societies │ Prince of Wales' College, Moratuwa</title>
+    <title>Clubs & Societies</title>
     <?php
     $page = 'clubs';
 ?>
@@ -11,7 +11,7 @@
 
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
+    <meta name="title" content="Clubs & Societies" />
     <meta name="description"
         content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
     <meta name="keywords" content="prince of wales college clubs, prince of wales college societies" />
@@ -19,7 +19,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://princeofwales.edu.lk/clubs.php" />
-    <meta property="og:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:title" content="Clubs & Societies" />
     <meta property="og:description"
         content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
     <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-clubs/club-header.webp" />
@@ -27,7 +27,7 @@
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://princeofwales.edu.lk/clubs.php" />
-    <meta property="twitter:title" content="Clubs & Societies │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:title" content="Clubs & Societies" />
     <meta property="twitter:description"
         content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
     <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-clubs/club-header.webp" />

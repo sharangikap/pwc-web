@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>The Founder's Statue │ Prince of Wales' College, Moratuwa</title>
+    <title>The Founder's Statue</title>
     <?php
     $page = 'about';
 ?>
@@ -10,7 +10,7 @@
     <?php include 'header.php'; ?>
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="The Founder's Statue │ Prince of Wales' College, Moratuwa" />
+    <meta name="title" content="The Founder's Statue" />
     <meta name="description"
         content="Discover the Founder's Statue at Prince of Wales College in Moratuwa - a tribute to our institution's legacy. Delve into its history and significance in a tranquil environment." />
     <meta name="keywords"
@@ -19,7 +19,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://princeofwales.edu.lk/location-founders-statue.php" />
-    <meta property="og:title" content="The Founder's Statue │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:title" content="The Founder's Statue" />
     <meta property="og:description"
         content="Discover the Founder's Statue at Prince of Wales College in Moratuwa - a tribute to our institution's legacy. Delve into its history and significance in a tranquil environment." />
     <meta property="og:image"
@@ -28,7 +28,7 @@
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://princeofwales.edu.lk/location-founders-statue.php" />
-    <meta property="twitter:title" content="The Founder's Statue │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:title" content="The Founder's Statue" />
     <meta property="twitter:description"
         content="Discover the Founder's Statue at Prince of Wales College in Moratuwa - a tribute to our institution's legacy. Delve into its history and significance in a tranquil environment." />
     <meta property="twitter:image"

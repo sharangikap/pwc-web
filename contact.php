@@ -4,27 +4,27 @@
 <head>
 
     <head>
-        <title>Contact │ Prince of Wales' College, Moratuwa</title>
+        <title>Contact</title>
         <?php
     $page = 'contact';
 ?>
 
 <!-- Primary Meta Tags -->
-<meta name="title" content="Contact │ Prince of Wales' College, Moratuwa" />
+<meta name="title" content="Contact" />
 <meta name="description" content="Contact Prince of Wales College for information, admissions, and inquiries. Reach out to us today for a brighter educational future." />
 <meta name="keywords" content="prince of wales college contact, prince of wales college address, prince of wales college swimming pool bookings, prince of wales college email, prince of wales college location" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://princeofwales.edu.lk/contact.php" />
-<meta property="og:title" content="Contact │ Prince of Wales' College, Moratuwa" />
+<meta property="og:title" content="Contact" />
 <meta property="og:description" content="Contact Prince of Wales College for information, admissions, and inquiries. Reach out to us today for a brighter educational future." />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-contact/contact-header-pwc.webp" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://princeofwales.edu.lk/contact.php" />
-<meta property="twitter:title" content="Contact │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:title" content="Contact" />
 <meta property="twitter:description" content="Contact Prince of Wales College for information, admissions, and inquiries. Reach out to us today for a brighter educational future." />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-contact/contact-header-pwc.webp" />
 

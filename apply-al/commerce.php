@@ -16,7 +16,7 @@ and open the template in the editor.
 
     <!-- Primary Meta Tags -->
     <meta name="title"
-        content="Commerce Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+        content="Commerce Stream - Application for Advanced Level Admission Registration" />
     <meta name="description"
         content="Apply for a Commerce Stream education like never before! Our cutting-edge online application process makes it easy to join our Al Commerce section. - Prince of Wales' College, Moratuwa" />
 
@@ -24,7 +24,7 @@ and open the template in the editor.
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/commerce.php" />
     <meta property="og:title"
-        content="Commerce Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+        content="Commerce Stream - Application for Advanced Level Admission Registration" />
     <meta property="og:description"
         content="Apply for a Commerce Stream education like never before! Our cutting-edge online application process makes it easy to join our Al Commerce section. - Prince of Wales' College, Moratuwa" />
     <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
@@ -33,7 +33,7 @@ and open the template in the editor.
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/commerce.php" />
     <meta property="twitter:title"
-        content="Commerce Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+        content="Commerce Stream - Application for Advanced Level Admission Registration" />
     <meta property="twitter:description"
         content="Apply for a Commerce Stream education like never before! Our cutting-edge online application process makes it easy to join our Al Commerce section. - Prince of Wales' College, Moratuwa" />
     <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />

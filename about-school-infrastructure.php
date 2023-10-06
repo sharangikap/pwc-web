@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Locations and Infrastructure │ Prince of Wales' College, Moratuwa</title>
+    <title>Locations and Infrastructure</title>
     <?php
     $page = 'about';
 ?>
@@ -10,7 +10,7 @@
     <?php include 'header.php'; ?>
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Locations and Infrastructure │ Prince of Wales' College, Moratuwa" />
+    <meta name="title" content="Locations and Infrastructure" />
     <meta name="description"
         content="Discover Prince of Wales College location with our precise school map. Navigate easily to this renowned educational institution." />
     <meta name="keywords"
@@ -19,7 +19,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://princeofwales.edu.lk/about-school-infrastructure.php" />
-    <meta property="og:title" content="Locations and Infrastructure │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:title" content="Locations and Infrastructure" />
     <meta property="og:description"
         content="Discover Prince of Wales College location with our precise school map. Navigate easily to this renowned educational institution." />
     <meta property="og:image"
@@ -28,7 +28,7 @@
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://princeofwales.edu.lk/about-school-infrastructure.php" />
-    <meta property="twitter:title" content="Locations and Infrastructure │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:title" content="Locations and Infrastructure" />
     <meta property="twitter:description"
         content="Discover Prince of Wales College location with our precise school map. Navigate easily to this renowned educational institution." />
     <meta property="twitter:image"

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Prefects' Guild │ Prince of Wales' College, Moratuwa</title>
+<title>Prefects' Guild</title>
 
 <head>
     <?php
@@ -10,7 +10,7 @@
     <?php include 'header.php'; ?>
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Prefects' Guild │ Prince of Wales' College, Moratuwa" />
+    <meta name="title" content="Prefects' Guild" />
     <meta name="description"
         content="Elevating Leadership: Join the Prince of Wales College Prefects' Guild. Empowerment, Excellence, and Unity in Action. Discover your leadership potential today!" />
     <meta name="keywords" content="prince of wales college prefects, wales prefects guild" />
@@ -18,7 +18,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://princeofwales.edu.lk/about-prefects-guild.php" />
-    <meta property="og:title" content="Prefects' Guild │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:title" content="Prefects' Guild" />
     <meta property="og:description"
         content="Elevating Leadership: Join the Prince of Wales College Prefects' Guild. Empowerment, Excellence, and Unity in Action. Discover your leadership potential today!" />
     <meta property="og:image"
@@ -27,7 +27,7 @@
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://princeofwales.edu.lk/about-prefects-guild.php" />
-    <meta property="twitter:title" content="Prefects' Guild │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:title" content="Prefects' Guild" />
     <meta property="twitter:description"
         content="Elevating Leadership: Join the Prince of Wales College Prefects' Guild. Empowerment, Excellence, and Unity in Action. Discover your leadership potential today!" />
     <meta property="twitter:image"

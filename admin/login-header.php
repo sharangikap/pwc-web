@@ -14,7 +14,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <meta name="generator" content="">
-        <title>Admin Login │ Prince of Wales' College, Moratuwa</title>
+        <title>Admin Login</title>
         <link rel="canonical" href="">
         <!-- Bootstrap core CSS -->
         <style><?php include 'css/styles.css'; ?></style>
@@ -47,7 +47,7 @@
 
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="index.php"><img src="../logo-pwc.png" alt="pwc logo" width="35px">&nbsp;&nbsp;&nbsp;Admin Dashboard │ Prince of Wales' College, Moratuwa</a>
+            <a class="navbar-brand ps-3" href="index.php"><img src="../logo-pwc.png" alt="pwc logo" width="35px">&nbsp;&nbsp;&nbsp;Admin Dashboard</a>
             
         </nav>
         

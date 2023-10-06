@@ -9,7 +9,7 @@
     ?>
 
         <!-- Primary Meta Tags -->
-        <meta name="title" content="Admission Registration for Advanced Level 2025 │ Prince of Wales' College, Moratuwa" />
+        <meta name="title" content="Admission Registration for Advanced Level 2025" />
     <meta name="description"
         content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
     <meta name="keywords"
@@ -20,7 +20,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://princeofwales.edu.lk/apply-al" />
     <meta property="og:title"
-        content="Admission Registration for Advanced Level 2025 │ Prince of Wales' College, Moratuwa" />
+        content="Admission Registration for Advanced Level 2025" />
     <meta property="og:description"
         content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
     <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
@@ -29,7 +29,7 @@
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al" />
     <meta property="twitter:title"
-        content="Admission Registration for Advanced Level 2025 │ Prince of Wales' College, Moratuwa" />
+        content="Admission Registration for Advanced Level 2025" />
     <meta property="twitter:description"
         content="Explore Prince of Wales College: Your gateway to quality education and a vibrant school community. Discover programs, resources, and more." />
     <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.jpg" />
@@ -57,14 +57,10 @@
     
 
         <center>
-            <a class="btn btn-primary py-3 px-5 mt-2 " href="science.php" style="border-radius=25px"
-            data-wow-delay="0.7s">SCIENCE</a>
-            <a class="btn btn-primary py-3 px-5 mt-2 " href="commerce.php" style="border-radius=25px"
-            data-wow-delay="0.7s">COMMERCE</a>
-            <a class="btn btn-primary py-3 px-5 mt-2 " href="tech.php" style="border-radius=25px"
-            data-wow-delay="0.7s">TECHNOLOGY</a>
-            <a class="btn btn-primary py-3 px-5 mt-2 " href="art.php" style="border-radius=25px"
-            data-wow-delay="0.7s">ARTS</a>
+            <a class="btn btn-primary py-3 px-5 mt-2 " href="science.php" data-wow-delay="0.7s">SCIENCE</a>
+            <a class="btn btn-primary py-3 px-5 mt-2 " href="commerce.php" data-wow-delay="0.7s">COMMERCE</a>
+            <a class="btn btn-primary py-3 px-5 mt-2 " href="tech.php" data-wow-delay="0.7s">TECHNOLOGY</a>
+            <a class="btn btn-primary py-3 px-5 mt-2 " href="art.php" data-wow-delay="0.7s">ARTS</a>
         </center>
 
 </div>

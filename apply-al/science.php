@@ -16,7 +16,7 @@ and open the template in the editor.
 
     <!-- Primary Meta Tags -->
     <meta name="title"
-        content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+        content="Science Stream - Application for Advanced Level Admission Registration" />
     <meta name="description"
         content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
 
@@ -24,7 +24,7 @@ and open the template in the editor.
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
     <meta property="og:title"
-        content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+        content="Science Stream - Application for Advanced Level Admission Registration" />
     <meta property="og:description"
         content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
     <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
@@ -33,7 +33,7 @@ and open the template in the editor.
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
     <meta property="twitter:title"
-        content="Science Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+        content="Science Stream - Application for Advanced Level Admission Registration" />
     <meta property="twitter:description"
         content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
     <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />

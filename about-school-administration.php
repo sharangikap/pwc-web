@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>School Administration │ Prince of Wales' College, Moratuwa</title>
+<title>School Administration</title>
 
 <head>
     <?php
@@ -10,7 +10,7 @@
     <?php include 'header.php'; ?>
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="School Administration │ Prince of Wales' College, Moratuwa" />
+    <meta name="title" content="School Administration" />
     <meta name="description"
         content="Discover the efficient and dedicated administration team at Prince of Wales College. Your partner in academic excellence and student support." />
     <meta name="keywords" content="prince of wales college staff, prince of wales college principal" />
@@ -18,7 +18,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://princeofwales.edu.lk/about-school-administration.php" />
-    <meta property="og:title" content="School Administration │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:title" content="School Administration" />
     <meta property="og:description"
         content="Discover the efficient and dedicated administration team at Prince of Wales College. Your partner in academic excellence and student support." />
     <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />
@@ -26,7 +26,7 @@
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://princeofwales.edu.lk/about-school-administration.php" />
-    <meta property="twitter:title" content="School Administration │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:title" content="School Administration" />
     <meta property="twitter:description"
         content="Discover the efficient and dedicated administration team at Prince of Wales College. Your partner in academic excellence and student support." />
     <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />

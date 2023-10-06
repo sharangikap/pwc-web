@@ -4,27 +4,27 @@
 <head>
 
     <head>
-        <title>Battle of The Golds │ Prince of Wales' College, Moratuwa</title>
+        <title>Battle of The Golds</title>
         <?php
     $page = 'sports';
 ?>
 
 <!-- Primary Meta Tags -->
-<meta name="title" content="Battle of The Golds │ Prince of Wales' College, Moratuwa" />
+<meta name="title" content="Battle of The Golds" />
 <meta name="description" content="Experience the excitement of the Prince of Wales College Big Match (Battle of the Golds) – a legendary sporting showdown that defines tradition and rivalry. Join us for thrilling cricket action and unforgettable moments!" />
 <meta name="keywords" content="prince of wales college big match, prince of wales college vs st. Sebastian college, battle of the golds" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://princeofwales.edu.lk/battle-of-the-golds.php" />
-<meta property="og:title" content="Battle of The Golds │ Prince of Wales' College, Moratuwa" />
+<meta property="og:title" content="Battle of The Golds" />
 <meta property="og:description" content="Experience the excitement of the Prince of Wales College Big Match (Battle of the Golds) – a legendary sporting showdown that defines tradition and rivalry. Join us for thrilling cricket action and unforgettable moments!" />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-sports/battle-of-the-golds-header-pwc.webp" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://princeofwales.edu.lk/battle-of-the-golds.php" />
-<meta property="twitter:title" content="Battle of The Golds │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:title" content="Battle of The Golds" />
 <meta property="twitter:description" content="Experience the excitement of the Prince of Wales College Big Match (Battle of the Golds) – a legendary sporting showdown that defines tradition and rivalry. Join us for thrilling cricket action and unforgettable moments!" />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-sports/battle-of-the-golds-header-pwc.webp" />
 

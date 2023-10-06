@@ -6,7 +6,7 @@
             color: white;
         }
     </style>
-    <title>Admission Registration for Advanced Level 2025 │ Prince of Wales' College, Moratuwa</title>
+    <title>Admission Registration for Advanced Level 2025</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 

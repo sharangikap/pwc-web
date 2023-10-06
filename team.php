@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Website Dev Team │ Prince of Wales' College, Moratuwa</title>
+<title>Website Dev Team</title>
 <?php
     $page = 'about';
 ?>
 
 <!-- Primary Meta Tags -->
-<meta name="title" content="Website Dev Team │ Prince of Wales' College, Moratuwa" />
+<meta name="title" content="Website Dev Team" />
 <meta name="description" content="Discover the talented Website Development Team at Prince of Wales College. Elevate your online presence with our expert web solutions. Your digital success starts here!" />
 <meta name="keywords" content="prince of wales college website developers, prince of wales college website team" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://princeofwales.edu.lk/team.php" />
-<meta property="og:title" content="Website Dev Team │ Prince of Wales' College, Moratuwa" />
+<meta property="og:title" content="Website Dev Team" />
 <meta property="og:description" content="Discover the talented Website Development Team at Prince of Wales College. Elevate your online presence with our expert web solutions. Your digital success starts here!" />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://princeofwales.edu.lk/team.php" />
-<meta property="twitter:title" content="Website Dev Team │ Prince of Wales' College, Moratuwa" />
+<meta property="twitter:title" content="Website Dev Team" />
 <meta property="twitter:description" content="Discover the talented Website Development Team at Prince of Wales College. Elevate your online presence with our expert web solutions. Your digital success starts here!" />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
 

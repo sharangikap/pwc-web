@@ -14,7 +14,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <meta name="generator" content="">
-        <title>Admin │ Prince of Wales' College, Moratuwa</title>
+        <title>Admin</title>
         <link rel="canonical" href="">
         <!-- Bootstrap core CSS -->
         <style><?php include 'css/styles.css'; ?></style>

@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>News │ Prince of Wales' College, Moratuwa</title>
+    <title>News</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 

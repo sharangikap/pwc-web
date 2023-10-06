@@ -16,7 +16,7 @@ and open the template in the editor.
 
     <!-- Primary Meta Tags -->
     <meta name="title"
-        content="Art Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+        content="Art Stream - Application for Advanced Level Admission Registration" />
     <meta name="description"
         content="Unlock your creative potential with our Art Stream Application! Dive into a world of limitless artistic expression and innovation. Apply now to join a vibrant community of artists and explore a diverse range of mediums, techniques, and inspiration. Elevate your artistry to new heights today! - Prince of Wales' College, Moratuwa" />
 
@@ -24,7 +24,7 @@ and open the template in the editor.
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/art.php" />
     <meta property="og:title"
-        content="Art Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+        content="Art Stream - Application for Advanced Level Admission Registration" />
     <meta property="og:description"
         content="Unlock your creative potential with our Art Stream Application! Dive into a world of limitless artistic expression and innovation. Apply now to join a vibrant community of artists and explore a diverse range of mediums, techniques, and inspiration. Elevate your artistry to new heights today! - Prince of Wales' College, Moratuwa" />
     <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
@@ -33,7 +33,7 @@ and open the template in the editor.
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/art.php" />
     <meta property="twitter:title"
-        content="Art Stream - Application for Advanced Level Admission Registration │ Prince of Wales' College, Moratuwa" />
+        content="Art Stream - Application for Advanced Level Admission Registration" />
     <meta property="twitter:description"
         content="Unlock your creative potential with our Art Stream Application! Dive into a world of limitless artistic expression and innovation. Apply now to join a vibrant community of artists and explore a diverse range of mediums, techniques, and inspiration. Elevate your artistry to new heights today! - Prince of Wales' College, Moratuwa" />
     <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />

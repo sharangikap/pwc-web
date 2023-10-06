@@ -8,7 +8,7 @@
     include 'functions.php';
     ?>
 
-    <title>Search │ Prince of Wales' College, Moratuwa</title>
+    <title>Search</title>
     <?php
     $page = 'search';
     ?>

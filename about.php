@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>About Us │ Prince of Wales' College, Moratuwa</title>
+    <title>About Us</title>
     <?php
     $page = 'about';
 ?>
@@ -10,7 +10,7 @@
     <?php include 'header.php'; ?>
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="About Us │ Prince of Wales' College, Moratuwa" />
+    <meta name="title" content="About Us" />
     <meta name="description"
         content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
     <meta name="keywords"
@@ -19,7 +19,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://princeofwales.edu.lk/about.php" />
-    <meta property="og:title" content="About Us │ Prince of Wales' College, Moratuwa" />
+    <meta property="og:title" content="About Us" />
     <meta property="og:description"
         content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
     <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />
@@ -27,7 +27,7 @@
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://princeofwales.edu.lk/about.php" />
-    <meta property="twitter:title" content="About Us │ Prince of Wales' College, Moratuwa" />
+    <meta property="twitter:title" content="About Us" />
     <meta property="twitter:description"
         content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
     <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-about/header-img.webp" />
