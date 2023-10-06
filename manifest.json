@@ -59,7 +59,7 @@
       "url": "/about.php",
       "icons": [
         {
-          "src": "content/icons/pwa-shortcuts/golden-book.png",
+          "src": "content/icons/pwa-shortcuts/about.png",
           "sizes": "192x192",
           "type": "image/png"
         }
@@ -71,7 +71,7 @@
       "url": "/contact.php",
       "icons": [
         {
-          "src": "content/icons/pwa-shortcuts/golden-book.png",
+          "src": "content/icons/pwa-shortcuts/contact.png",
           "sizes": "192x192",
           "type": "image/png"
         }
