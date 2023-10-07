@@ -167,127 +167,127 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="content/img/img-about/dev-places/developed-places (1).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (1).webp" class="d-block w-100"
                         alt="Slide 1">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (2).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (2).webp" class="d-block w-100"
                         alt="Slide 2">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (3).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (3).webp" class="d-block w-100"
                         alt="Slide 3">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (4).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (4).webp" class="d-block w-100"
                         alt="Slide 4">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (5).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (5).webp" class="d-block w-100"
                         alt="Slide 5">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (6).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (6).webp" class="d-block w-100"
                         alt="Slide 6">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (7).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (7).webp" class="d-block w-100"
                         alt="Slide 7">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (8).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (8).webp" class="d-block w-100"
                         alt="Slide 8">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (9).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (9).webp" class="d-block w-100"
                         alt="Slide 9">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (10).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (10).webp" class="d-block w-100"
                         alt="Slide 10">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (11).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (11).webp" class="d-block w-100"
                         alt="Slide 11">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (12).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (12).webp" class="d-block w-100"
                         alt="Slide 12">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (13).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (13).webp" class="d-block w-100"
                         alt="Slide 13">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (14).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (14).webp" class="d-block w-100"
                         alt="Slide 14">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (15).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (15).webp" class="d-block w-100"
                         alt="Slide 15">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (16).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (16).webp" class="d-block w-100"
                         alt="Slide 16">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (17).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (17).webp" class="d-block w-100"
                         alt="Slide 17">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (18).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (18).webp" class="d-block w-100"
                         alt="Slide 18">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (19).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (19).webp" class="d-block w-100"
                         alt="Slide 19">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (20).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (20).webp" class="d-block w-100"
                         alt="Slide 20">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (21).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (21).webp" class="d-block w-100"
                         alt="Slide 21">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (22).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (22).webp" class="d-block w-100"
                         alt="Slide 22">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (23).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (23).webp" class="d-block w-100"
                         alt="Slide 23">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (24).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (24).webp" class="d-block w-100"
                         alt="Slide 24">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="content/img/img-about/dev-places/developed-places (25).jpg" class="d-block w-100"
+                    <img src="content/img/img-about/dev-places/developed-places (25).webp" class="d-block w-100"
                         alt="Slide 25">
                 </div>
             </div>
