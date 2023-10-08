@@ -126,7 +126,7 @@
                             Worked Tirelessly and Dedicatedly.</p>
 
                         <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="battle-of-the-golds.php"
-                            style="border-radius=25px" data-wow-delay="0.7s">Know More About College Big Match</a>
+                             data-wow-delay="0.7s">Know More About College Big Match</a>
 
                     </div>
 

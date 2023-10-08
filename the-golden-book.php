@@ -85,7 +85,7 @@
                         countless Cambrians it has equipped for a brighter future.
                     </p>
                     <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="the-golden-book/education-sector/"
-                        style="border-radius=25px" data-wow-delay="0.7s">View Book</a>
+                         data-wow-delay="0.7s">View Book</a>
 
                 </div>
 
@@ -115,7 +115,7 @@
                         reminding us of the enduring spirit of sportsmanship fostered at Prince of Wales College.
                     </p>
                     <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="the-golden-book/sports-sector/"
-                        style="border-radius=25px" data-wow-delay="0.7s">View Book</a>
+                         data-wow-delay="0.7s">View Book</a>
                 </div>
 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">

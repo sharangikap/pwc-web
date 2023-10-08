@@ -120,7 +120,7 @@
                             team of teachers in charge, including Ven. Sujatha Thero, Mr. Lahiru Fernando, Mr. Shehan
                             Shanuka, Mrs. Tharini Narmada, Ms. Dineshi Fernando, and Ms. Nilmi Jayawardane.
                         </p>
-                        <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="cmbu/" style="border-radius=25px"
+                        <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="cmbu/" 
                             data-wow-delay="0.7s">Explore</a>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
                             activities and events. The Prefects Guild of Prince of Wales College embodies the school's
                             commitment to nurturing responsible and disciplined future leaders.</p>
                         <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-prefects-guild.php"
-                            style="border-radius=25px" data-wow-delay="0.7s">Explore</a>
+                             data-wow-delay="0.7s">Explore</a>
                     </div>
 
 
