@@ -10,7 +10,7 @@
     <?php include 'header.php'; ?>
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="The Shrine" />
+    <meta name="title" content="The Shrine | Prince of Wales' College" />
     <meta name="description"
         content="Explore the historical beauty of the Shrine of Prince of Wales College in Moratuwa. Learn about its rich heritage and significance in a serene setting.." />
     <meta name="keywords"
@@ -19,7 +19,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://princeofwales.edu.lk/location-the-shrine.php" />
-    <meta property="og:title" content="The Shrine" />
+    <meta property="og:title" content="The Shrine | Prince of Wales' College" />
     <meta property="og:description"
         content="Explore the historical beauty of the Shrine of Prince of Wales College in Moratuwa. Learn about its rich heritage and significance in a serene setting." />
     <meta property="og:image"
@@ -28,7 +28,7 @@
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://princeofwales.edu.lk/location-the-shrine.php" />
-    <meta property="twitter:title" content="The Shrine" />
+    <meta property="twitter:title" content="The Shrine | Prince of Wales' College" />
     <meta property="twitter:description"
         content="Explore the historical beauty of the Shrine of Prince of Wales College in Moratuwa. Learn about its rich heritage and significance in a serene setting." />
     <meta property="twitter:image"

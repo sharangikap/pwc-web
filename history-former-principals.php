@@ -10,21 +10,21 @@
 <?php include 'header.php'; ?>
 
 <!-- Primary Meta Tags -->
-<meta name="title" content="Former Principals" />
+<meta name="title" content="Former Principals | Prince of Wales' College" />
 <meta name="description" content="Explore the legacy of Prince of Wales College through its past principals. Discover the leaders who shaped its history and contributed to its educational excellence." />
 <meta name="keywords" content="prince of wales college past principals, prince of wales college moratuwa former principals, prince of wales college moratuwa sri lanka, prince of wales college moratuwa principal" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://princeofwales.edu.lk/history-former-principals.php" />
-<meta property="og:title" content="Former Principals" />
+<meta property="og:title" content="Former Principals | Prince of Wales' College" />
 <meta property="og:description" content="Explore the legacy of Prince of Wales College through its past principals. Discover the leaders who shaped its history and contributed to its educational excellence." />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-history/former-principals/former-principals-header.webp" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://princeofwales.edu.lk/history-former-principals.php" />
-<meta property="twitter:title" content="Former Principals" />
+<meta property="twitter:title" content="Former Principals | Prince of Wales' College" />
 <meta property="twitter:description" content="Explore the legacy of Prince of Wales College through its past principals. Discover the leaders who shaped its history and contributed to its educational excellence." />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-history/former-principals/former-principals-header.webp" />
 
