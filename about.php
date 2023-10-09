@@ -305,6 +305,20 @@ Our tribute to the present Principal and all the committed teachers and staff, t
 It's time to gather around our Alma mater to make her beautiful and glamorous.</p>
     </div>
 
+<script>
+  var myCarousel = document.getElementById('myCarousel');
+
+  var interval = 7000; 
+
+  function startCarousel() {
+    var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: interval
+    });
+  }
+  startCarousel();
+</script>
+
+
 
 
     <br>
