@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+	<loc>https://princeofwales.edu.lk/</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/logo-pwc.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/header-main-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-news/1254165904-achivements-1.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-news/22938104-rugby.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-news/441935520-achivements-3-copy-%282%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-events/1040048686-373662867_632755345656187_5316122287395985578_n.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-events/prefects-day23.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-events/pirith-event-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/about-pwc.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/principal-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/team-sports-home-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/individual-sports-home-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/water-sports-home-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/combat-sports-home-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/big-match-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/media-clubs-home-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/educational-clubs-home-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/tech-clubs-home-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/community-service-clubs-home-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-home/golden-book-pwc.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/index.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-news/1826833991-achivements-copy-%282%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-news/1710761248-achivements-carrom-%282%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-news/1186430182-basketball-09-16-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-news/374442436-principal-announcement-9-11.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-news/252941670-choir-%282%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-news/1529616043-handball.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-news/wm-competitions-2023-pwc.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/events/</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-events/815890952-hockey-big-match.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/the-golden-book.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-goldenbook/golden-book-edu-pwc.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-goldenbook/golden-book-sports-pwc.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/sports.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/cricket-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/volleyball-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/basketball-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/rugby-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/handball-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/hockey-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/athletic-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/swimmimg-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/judo-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/wushu-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/karate-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/wrestling-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/badminton-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/chess-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/carrom-sports-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-sports/shooting-sport-pwc.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/clubs.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/media-clubs-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/ICT-club-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/innovation-club-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/prefects-club-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/debate-clubs-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/scout-clubs-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/st.jhon&apos;s-clubs-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/amadyapa-clubs-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/cadet-troop-club-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/western-band-clubs-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/eastern-cadet-band-clubs-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/Al-commerce-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/AL-Art-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/science-section-academic-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/western-music-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/eastern-music-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/dancing-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/fine-art-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/Drama-clubs-%20pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/readers-club-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/Environmental-club-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/buddhist-society-clubs-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-clubs/catholic-clubs-pwc.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/about.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%281%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%282%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%283%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%284%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%285%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%286%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%287%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%288%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%289%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2810%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2811%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2812%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2813%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2814%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2815%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2816%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2817%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2818%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2819%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2820%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2821%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2822%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2823%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2824%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/dev-places/developed-places%20%2825%29.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/alumni/Kusal-mendis-alumni-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/alumni/about-Lahiru-Thirimanne-pwc.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/alumni/about-Shehan-Jayasooriya-pwc.jpeg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/alumni/about-Jagath-Chamila-pwc.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/alumni/about-Kumara-Thirimadura-pwc.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/alumni/kishu-gomes-alumini-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/vission-&amp;-mission-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/sinhala-anthem-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/english-anthem-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/flag-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/house-system-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/Ranjith-sir-administration-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/priyanga-madam-administration-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/Upul-sir-administration-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/prefects/thinuka-fernando-hp23-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/prefects/vihanga-dhp23-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/prefects/tharusha-dhp23-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/prefects/nelindu-dhp23-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/location-new-pwc.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/contact.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-contact/swimming-pool-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-contact/oba-office.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/search.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/news.php?id=9</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/news.php?id=10</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/news.php?id=7</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/events/event.php?id=3</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/events/event.php?id=4</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/events/event.php?id=2</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/principal-msg.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/about-school-administration.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/sumangala-thero-assit-principal-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/Bhagya-madam-administration-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/Primary-madam-administration-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/chathura-sir-administration-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/duminda-miss-administration-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/kasun-sir-administration-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/Pinipa-madam-administration-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/Dewika-madam-administration-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/administration/Upeksha-madam-administration-pwc.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/battle-of-the-golds.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/privacy.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/cookies.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/team.php</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/dev-team-pwc.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/cmbu/</loc>
+	<lastmod>2023-10-09T06:03:52+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/logo%20red.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/instagram%20logo.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/facebook%20logo.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/youtube%20logo.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/mail.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/call.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/home%20bg.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/about.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/announcing.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/technical.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/graphics.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/dubbing.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/news.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/photography.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/videography.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/21comp.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/20comp.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/19day-cmbu.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/comp-18-cmbu.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/day17-cmbu.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/portfolio-fourth.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/16comp.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/15day.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/icon-location.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/icon-phone.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/cmbu/images/icon-email.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/index.php</loc>
+	<lastmod>2023-10-09T06:03:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/news.php?id=8</loc>
+	<lastmod>2023-10-09T06:03:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/news.php?id=6</loc>
+	<lastmod>2023-10-09T06:03:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/news.php?id=5</loc>
+	<lastmod>2023-10-09T06:03:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/news.php?id=4</loc>
+	<lastmod>2023-10-09T06:03:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/news.php?id=2</loc>
+	<lastmod>2023-10-09T06:03:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/news.php?id=3</loc>
+	<lastmod>2023-10-09T06:03:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/news/news.php?id=1</loc>
+	<lastmod>2023-10-09T06:03:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/events/index.php</loc>
+	<lastmod>2023-10-09T06:03:56+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/events/event.php?id=1</loc>
+	<lastmod>2023-10-09T06:03:56+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/the-golden-book/education-sector/</loc>
+	<lastmod>2023-10-09T06:03:56+01:00</lastmod>
+	<priority>0.6</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/the-golden-book/pics/close.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/the-golden-book/sports-sector/</loc>
+	<lastmod>2023-10-09T06:03:56+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/about-prefects-guild.php</loc>
+	<lastmod>2023-10-09T06:03:57+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/prefects/isindu-dhp-prefects-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/prefects/hansana-dhp23-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/prefects/thimira-damsara-dhp23-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/prefects/nuran-dhp23-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/prefects/senitha-dhp23-pwc.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/about-school-infrastructure.php</loc>
+	<lastmod>2023-10-09T06:03:58+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/main-building-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-history/founder-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/shrine.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/College-Office-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/sports-section-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/oba-office.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/primary-office-location-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/mainhall-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/old-auditorium-location-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/new-auditorium-location-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/hostel-location-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/main-ground-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/sports-pavilion-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/volleyball-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/basketball-court-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/swimming-pool-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/children&apos;s-park-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/primary-section-locations-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/grade-6-to-11-classrooms-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/science-section-academic-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/commerce-&amp;-art-section.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/Text-Book-Store-pwc.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/media-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/first-aid-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/Helping-room-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/computer-lab-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/library-locations-pwc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/locations/Prefect-Room-pwc.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/content/exiting-plan-pwc.pdf</loc>
+	<lastmod>2023-10-09T06:04:08+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/location-founders-statue.php</loc>
+	<lastmod>2023-10-09T06:04:08+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/statue.webp</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://princeofwales.edu.lk/location-the-shrine.php</loc>
+	<lastmod>2023-10-09T06:04:08+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://princeofwales.edu.lk/content/img/img-about/shrine.webp</image:loc>
+	</image:image>
+</url>
+</urlset>

@@ -138,8 +138,8 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.php" class="nav-item nav-link <?php if ($page === 'home') echo 'active'; ?> nav-link pulse">Home</a>
                 <a href="news/" class="nav-item nav-link nav-link pulse">News</a>
-                <a href="events/" class="nav-item nav-link nav-link pulse">events</a>
-                <a href="the-golden-book.php" class="nav-item nav-link <?php if ($page === 'golden-book') echo 'active'; ?> nav-link pulse">The golden book</a>
+                <a href="events/" class="nav-item nav-link nav-link pulse">Events</a>
+                <a href="the-golden-book.php" class="nav-item nav-link <?php if ($page === 'golden-book') echo 'active'; ?> nav-link pulse">The Golden Book</a>
 
                 <div class="nav-item dropdown">
                     <a href="sports.php"

@@ -122,8 +122,8 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="../index.php" class="nav-item nav-link nav-link pulse">Home</a>
                 <a href="../news/" class="nav-item nav-link nav-link pulse">News</a>
-                <a href="index.php" class="nav-item nav-link active nav-link pulse">events</a>
-                <a href="../the-golden-book.php" class="nav-item nav-link nav-link pulse">The golden book</a>
+                <a href="index.php" class="nav-item nav-link active nav-link pulse">Events</a>
+                <a href="../the-golden-book.php" class="nav-item nav-link nav-link pulse">The Golden Book</a>
 
                 <div class="nav-item dropdown">
                     <a href="../sports.php"
