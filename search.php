@@ -62,7 +62,7 @@
                     $sql = "SELECT * FROM pwc_db_news
                             WHERE title LIKE :keyword
                             OR excerpt LIKE :keyword
-                            OR category LIKE :keyword";
+                            OR category LIKE :keyword ORDER BY date DESC";
 
                     $stmt = $connect->prepare($sql);
                     $stmt->bindValue(':keyword', '%' . $keyword . '%', PDO::PARAM_STR);
@@ -121,7 +121,7 @@
                             OR about LIKE :keyword
                             OR date LIKE :keyword
                             OR location LIKE :keyword
-                            OR organizer_name LIKE :keyword";
+                            OR organizer_name LIKE :keyword ORDER BY date DESC";
 
                     $stmt = $connect->prepare($sql);
                     $stmt->bindValue(':keyword', '%' . $keyword . '%', PDO::PARAM_STR);
