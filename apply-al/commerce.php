@@ -42,16 +42,16 @@ and open the template in the editor.
 
     <title>Commerce Stream - Application for Advanced Level Admission Registration</title>
 
-    <!-- Bootstrap core CSS -->
+ <!-- Bootstrap core CSS -->
 
-    <link href="css/bootstrap.css" rel="stylesheet">
+ <link href="css/bootstrap.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-
     <?php 
     include '../database_connection.php';
     include 'header.php';
     ?>
+
 
     <script type="text/javascript">
         $(function () {
@@ -64,6 +64,7 @@ and open the template in the editor.
                 } else {
                     $("#schoolname").attr("disabled", "disabled");
                     $("#schooldistrict").attr("disabled", "disabled");
+
                 }
             });
         });
@@ -73,16 +74,15 @@ and open the template in the editor.
 </head>
 
 <body>
-    <div class="container">
 
-        <form class="form-horizontal" method="POST" action="com_insert.php">
+    <div class="container">
+        <form class="form-horizontal" method="POST" action="commerce_insert.php">
             <h5 class="text-center"></h5>
             <h4 class="text-center"> Application for 2025 Advanced Level Admission Registration </h4>
             <h4 class="text-center"> Commerce Stream </h4>
             <div class="form-group"></div>
             <div class="form-group"></div>
             <div class="form-group"></div>
-
             <div class="form-group">
                 <div class="alert alert-danger">
                     <p> Subjects are in Sinhala and English Medium </p>
@@ -90,31 +90,30 @@ and open the template in the editor.
                         medium.</p>
                 </div>
             </div>
-            <hr>
             <!--Subject Selection-->
             <div class="form-group">
                 <label for="subject_selection" class="col-sm-2 col-form-label"> Subjects wish to apply </label>
-                <div class="col-sm-4">
-                    <select id="subject" name="scommerce" style="min-height:30px;">
-                        <option value="None"> Sinhala Medium Subjects</option>
-                        <option value="BS(S)">Accounting / Economics / Business Studies </option>
-                        <option value="Stat(S)"> Accounting / Economics / Business Statistics </option>
-                        <option value="ICT(S)"> Accounting / Economics / ICT </option>
+                <div class="col-sm-5">
+                <select id="subject" name="scommerce" style="min-height:30px;">
+                        <option value="Accounting/Econ/BS">Accounting / Economics / Business Studies </option>
+                        <option value="Accounting/Econ/Stats"> Accounting / Economics / Business Statistics </option>
+                        <option value="Accounting/Econ/ICT"> Accounting / Economics / ICT </option>
                     </select>
                 </div>
-                <div class="col-sm-2">&nbsp; </div>
 
-
-                <div class="col-sm-4">
-                    <select id="subject" name="ecommerce" style="min-height:30px;">
-                        <option value="None"> English Medium Subjects </option>
-                        <option value="BS(E)">Accounting / Economics / Business Studies</option>
-                        <option value="ICT(E)">Accounting / Economics / ICT</option>
-                    </select>
+                <div class="col-sm-5">
+                    <label for="almedium" class="col-sm-2 col-form-label"> Medium </label>
+                    <div class="col-sm-5">
+                        <select id="almedium" name="almedium" style="min-height:30px;">
+                            <option value="Sinhala"> Sinhala </option>
+                            <option value="English"> English </option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <hr>
             <div class="form-group"></div>
+
 
             <div class="form-group">
                 <label for="yesno" class="col-sm-3 col-form-label">Are you a student of Prince of Wales' College</label>
@@ -128,18 +127,40 @@ and open the template in the editor.
                         <input name="school" id="chkNo" type="radio" value="No"> No
                     </label>
                 </div>
+
+                <label for="olclass" class="col-sm-2 col-form-label">O/L Class</label>
+                <div class="col-sm-2">
+                    <select id="olclass" name="olclass" style="min-height:30px;">
+                        <option value="+">+</option>
+                        <option value="11-A"> 11-A </option>
+                        <option value="11-B"> 11-B </option>
+                        <option value="11-C"> 11-C </option>
+                        <option value="11-D"> 11-D </option>
+                        <option value="11-E"> 11-E </option>
+                        <option value="11-F"> 11-F </option>
+                        <option value="11-G"> 11-G </option>
+                        <option value="11-H"> 11-H </option>
+
+
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="form-group">
                 <label for="school" class="col-sm-3 col-form-label">School or Private Candiate at GCE OL</label>
                 <div class="col-sm-2">
                     <select id="sp" name="school_private" style="min-height:30px;">
                         <option value="school"> School Candidate </option>
                         <option value="private"> Private Candidate </option>
+
+
                     </select>
                 </div>
             </div>
-
-            <div class="form-group"></div>
             <div class="form-group">
-                <label for="lumbini" class="col-sm-3 col-form-label">If you are not a student of Prince of Wales' College</label>
+                <label for="princeofwales" class="col-sm-3 col-form-label">If you are not a student of Prince of Wales'
+                    College</label>
                 <div class="col-sm-4">
                     <input type="text" class="form-control" id="schoolname"
                         placeholder="Name of the School studied GCE OL" name="schoolname" disabled='disabled'>
@@ -161,6 +182,15 @@ and open the template in the editor.
                         style='text-transform:uppercase' required>
                 </div>
             </div>
+            <!--Fullnamesinhala-->
+            <div class="form-group">
+                <label for="fullnamesinhala" class="col-sm-2 col-form-label">Full Name in Sinhala</label>
+                <div class="col-sm-9">
+
+                    <input type="text" class="form-control"
+                        placeholder="දිසානායක මුදියන්සේලාගේ දුශාන් අකලංක දිසානායක" name="fnamesinhala" required>
+                </div>
+            </div>
             <!--Name with Initials-->
             <div class="form-group">
                 <label for="iname" class="col-sm-2 col-form-label">Name with Initials</label>
@@ -169,7 +199,7 @@ and open the template in the editor.
                         style='text-transform:uppercase' required>
                 </div>
             </div>
-            
+
             <!--Date of birth-->
             <div class="form-group">
                 <label for="birthday" class="col-sm-2">Birthday</label>
@@ -179,7 +209,7 @@ and open the template in the editor.
             </div>
             <!--NIC-->
             <div class="form-group">
-                <label for="nic" class="col-sm-2 col-form-label ">National Idenetity Card No.</label>
+                <label for="nic" class="col-sm-2 col-form-label ">National Idenetity Card No. (if any)</label>
                 <div class="col-sm-2">
                     <input type="tel" class="form-control" id="nic" name="nic" maxlength="12">
                 </div>
@@ -206,24 +236,24 @@ and open the template in the editor.
 
             <!--Guardien's Name-->
             <div class="form-group">
-                <label for="gname" class="col-sm-2 col-form-label">Father/Mother/Guardien's Name</label>
+                <label for="gname" class="col-sm-2 col-form-label">Father/Mother/Guardian's Name</label>
                 <div class="col-sm-5">
                     <input type="text" class="form-control" name="gname" required>
                 </div>
             </div>
             <!--Contact Number-->
             <div class="form-group">
-                <label for="contact" class="col-sm-2 col-form-label ">Contact No.</label>
+                <label for="contact" class=" col-sm-2 col-form-label ">Contact No.</label>
                 <div class="col-sm-2">
                     <input type="text" class="form-control" id="residential" placeholder="Residential No."
                         name="residential" pattern="[0-9]+">
                 </div>
-                <div class="col-sm-1"> &nbsp;</div>
+                <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">
                     <input type="text" class="form-control" id="mobile1" placeholder="Mobile 1" name="mobile1"
                         pattern="[0-9]+">
                 </div>
-                <div class="col-sm-1"> &nbsp;</div>
+                <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">
                     <input type="textr" class="form-control" id="mobile" placeholder="Mobile 2" name="mobile2"
                         pattern="[0-9]+">
@@ -283,15 +313,15 @@ and open the template in the editor.
 
             </div>
 
-            <!--Medium-->
+            <!--olMedium-->
             <div class="form-group">
-                <label for="gender" class="col-sm-2">Medium</label>
+                <label for="olmedium" class="col-sm-2">Medium</label>
                 <div class="col-sm-9">
                     <label class="radio-inline control-label">
-                        <input checked="checked" name="medium" type="radio" value="Sinhala"> Sinhala
+                        <input checked="checked" name="olmedium" type="radio" value="Sinhala"> Sinhala
                     </label>
                     <label class="radio-inline control-label">
-                        <input name="medium" type="radio" value="English"> English
+                        <input name="olmedium" type="radio" value="English"> English
                     </label>
 
                 </div>
@@ -461,14 +491,13 @@ and open the template in the editor.
                                 </select>
                             </td>
                             <td>
-                                <select id="result8" name="optional2">
+                                <select id="result7" name="optional2">
                                     <option value="+"> + </option>
                                     <option value="A"> A </option>
                                     <option value="B"> B </option>
                                     <option value="C"> C </option>
                                     <option value="S"> S </option>
                                     <option value="W"> W </option>
-
                                 </select>
                             </td>
 
@@ -509,10 +538,10 @@ and open the template in the editor.
             </div>
 
 
-
             <div class="form-group">
 
                 <div class="form-check col-sm-12">
+
                     <input class="form-check-input" type="checkbox" id="gridCheck" checked>
 
                     <label class="form-check-label " for="gridCheck">
@@ -522,39 +551,52 @@ and open the template in the editor.
             </div>
             <div class="col-sm-12">
                 <div class="form-group">
-
                     <div class="alert alert-danger">
                         <p style="color:red;">Please CHECK the information you provided are correct BEFORE click on
-                            SUBMIT button.
-                            <br><b> A reference number will be provided after successful submission.</b></p>
+                            SUBMIT button. <br><b> A reference number will be provided after successful submission.</b>
+                        </p>
                     </div>
 
-                    <p><b> * Before click on Submit button, you can click on the Cancel button and fill application from
+                    <p><b>Before click on Submit button, you can click on the Cancel button and fill application from
                             the beginning.</b></p>
-                    <p><b>* Otherwise Reset the same application and fill again before click on the submit button.</b>
+                    <p><b>* Otherwise Reset the same application and fill again before click on the submit button </b>
                     </p>
                 </div>
+            </div>
 
+            <div class="form-group">
                 <div class="col-sm-12">
-                    <button type="reset" name="reset" value="Clear" class="btn btn-primary btn-sm py-3 px-4">Reset</button>
+                    <button type="reset" name="reset" value="Clear"
+                        class="btn btn-primary btn-sm py-3 px-4">Reset</button>
                     <button type="submit" name="submit" class="btn btn-success btn-sm py-3 px-4">Submit</button>
-                    <button type="cancel" name="cancel" onclick="window.location.replace('../OL.html')" value="Cancel"
-                        class="btn btn-primary btn-sm py-3 px-4" /> Cancel </button>
                 </div>
 
             </div>
-
         </form>
     </div>
-        
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<?php 
+    <script>
+        // Get references to the radio buttons and the select element
+        const chkYes = document.getElementById("chkYes");
+        const chkNo = document.getElementById("chkNo");
+        const olclass = document.getElementById("olclass");
+
+        // Add an event listener to the radio buttons to enable/disable the select element
+        chkYes.addEventListener("change", function () {
+            olclass.disabled = false; // Enable the select element when "Yes" is selected
+        });
+
+        chkNo.addEventListener("change", function () {
+            olclass.disabled = true; // Disable the select element when "No" is selected
+        });
+    </script>
+
+    <?php 
     include 'footer.php';
 ?>
-
 </body>
 
 </html>

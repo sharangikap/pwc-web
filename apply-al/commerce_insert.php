@@ -2,24 +2,25 @@
 
 if(isset($_POST['submit'])){
  
-  $db = mysqli_connect('localhost','','','')
- or die('Error connecting to MySQL server.');
+    include 'db_con.php';
+ 
 
 $scommerce = $_POST['scommerce'];
-$ecommerce = $_POST['ecommerce'];
+$almedium = $_POST['almedium'];
 $school = $_POST['school'];
+$olclass = isset($_POST['olclass']) ? $_POST['olclass'] : "NULL";
 $school_private = $_POST['school_private'];
-$schoolname = $_POST['schoolname'];
-$schooldistrict = $_POST['$schooldistrict'];
+$schoolname = isset($_POST['schoolname']) ? $_POST['schoolname'] : "NULL";
+$schooldistrict = isset($_POST['schooldistrict']) ? $_POST['schooldistrict'] : "NULL";
 $fname = strtoupper($_POST['fname']); 
+$fnamesinhala = strtoupper($_POST['fnamesinhala']); 
 $iname = strtoupper($_POST['iname']);
-$gender = $_POST['gender'];
 $birthday = $_POST['birthday'];
 $nic = $_POST['nic'];
-$address1 = strtoupper($_POST['address1']);
-$address2 = strtoupper($_POST['address2']);
+$address1 =strtoupper($_POST['address1']);
+$address2 =strtoupper($_POST['address2']);
 $city = strtoupper($_POST['city']);
-$gname = strtoupper($_POST['gname']);
+$gname =strtoupper( $_POST['gname']);
 $residential=$_POST['residential'];
 $mobile1 = $_POST['mobile1'];
 $mobile2 = $_POST['mobile2'];
@@ -27,7 +28,7 @@ $email = $_POST['email'];
 $distance = $_POST['distance'];
 $transport = $_POST['transport'];
 $indexno = $_POST ['indexno'];
-$medium = $_POST['medium'];
+$olmedium = $_POST['olmedium'];
 $religion = $_POST['religion'];
 $sinhala = $_POST['sinhala'];
 $english = $_POST['english'];
@@ -42,51 +43,104 @@ $op3 = $_POST['op3'];
 $optional3 = $_POST['optional3'];
 $referenceno= rand();
 
-$sql = "INSERT INTO S_Detail(Reference_no,Stream,Subject,Subject2,Lumbini_Other,School_Private_Candidate,School,S_District,Name,Name_with_Initials,Gender,Birthday,NIC,Address1,Address2,City,Guardian_Name,ResidentialNo,Mobile1,Mobile2,E_mail,Distance,Transport,IndexNo,Medium,Religion,Sinhala,English,Science,Mathematics,History,Optional1,Result1,Optional2,Result2,Optional3,Result3) 
-VALUES ('$referenceno','Commerce','$scommerce','$ecommerce','$school','$school_private','$schoolname','$schooldistrict','$fname','$iname','$gender','$birthday','$nic','$address1','$address2','$city','$gname','$residential','$mobile1','$mobile2','$email','$distance','$transport','$indexno','$medium','$religion','$sinhala','$english','$science','$maths','$history','$op1','$optional1','$op2','$optional2','$op3','$optional3')";
+$sql = "INSERT INTO pwc_db_al25
+(Reference_no,Stream,Subject,almedium,pwc_Other,olclass,School_Private_Candidate,School,S_District,Name,NameSinhala,Name_with_Initials,Birthday,NIC,Address1,Address2,City,Guardian_Name,ResidentialNo,Mobile1,Mobile2,E_mail,Distance,Transport,IndexNo,olMedium,Religion,Sinhala,English,Science,Mathematics,History,Optional1,Result1,Optional2,Result2,Optional3,Result3) 
+VALUES
+('$referenceno','Commerce','$scommerce','$almedium','$school', '$olclass', '$school_private','$schoolname','$schooldistrict','$fname','$fnamesinhala','$iname','$birthday','$nic','$address1','$address2','$city','$gname','$residential','$mobile1','$mobile2','$email','$distance','$transport','$indexno','$olmedium','$religion','$sinhala','$english','$science','$maths','$history','$op1','$optional1','$op2','$optional2','$op3','$optional3')";
 
 
 if(mysqli_query($db, $sql)){
-    echo "<br> <br> <br>";
-    echo "<p align=center>Thank You! Your Records added successfully.</p>";
-   
-    echo "<p align=center>Your <b> reference number </b> for the submission is &nbsp; . <font color='red'>. $referenceno.</font></p>"."<br>"."<br>"; 
-    echo " <p align=center>Keep this reference number for future use.</p>"."<br>"."<br>"."<br>";
+
+    echo '<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">';
+    echo '    <div class="container text-center">';
+    echo '        <div class="row justify-content-center">';
+    echo '            <div class="col-lg-6">';
+    echo '                <i class="bi bi-check-circle display-1 text-primary"></i>';
+    echo '                <h1 class="mb-4">Thank You!</h1>';
+    echo '                <p class="mb-4">Your Records Added Successfully.</p>';
+    echo '                <p class="mb-4">Your Referrence number for the submission is <b>'. $referenceno .'</b></p>';
+    echo '                <p class="mb-4">Keep this Reference Number for future use.</p>';  
+    echo '<button type="submit" name="finish" value="finish" class="btn btn-primary btn-sm py-3 px-4" onclick="window.location.replace(\'index.php\')"> OK </button>';
+    echo '            </div>';
+    echo '        </div>';
+    echo '    </div>';
+    echo '</div>';
+
 }
  else{
-       echo "<br> <br> <br>";
-    echo "ERROR: Could not able to Submit. Please try again.  " . mysqli_error($db);
+    echo '<br> <br> <br>';
+    echo '<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">';
+    echo '    <div class="container text-center">';
+    echo '        <div class="row justify-content-center">';
+    echo '            <div class="col-lg-6">';
+    echo '                <i class="bi bi-exclamation-triangle display-1 text-primary"></i>';
+    echo '                <h1 class="mb-4">ERROR :(</h1>';
+    echo '                <p class="mb-4">Could not able to submit.</p>';
+    echo '                <p class="mb-4">Please try again.' . mysqli_error($db);
+    echo '                <p class="mb-4">Keep this Reference Number for future use.</p>';  
+    echo '<button type="submit" name="finish" value="finish" class="btn btn-primary btn-sm py-3 px-4" onclick="window.location.replace(\'index.php\')"> OK </button>';
+    echo '            </div>';
+    echo '        </div>';
+    echo '    </div>';
+    echo '</div>';
 }
      mysqli_close($db);
 
 
 } ?>
 <html>
-    <head>
-          <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/bootstrap-theme.css" rel="stylesheet">
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-        <link href="css/font-awesome.css" rel="stylesheet">
-        <link href="css/carousel.css" rel="stylesheet">
-        <title> Success Submission</title>
-        
-        <style>
-   .center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-</style>
-    </head>
-    
-    <body>
-<div class="form-group"></div>
-     <div class="center">
-    <button type="submit" name = "finish" value="finish" class="btn btn-primary btn-sm" onclick="window.location.replace('index.php')"> OK </button>
-    </div>
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <title>Success Submission</title>
+    <!-- Favicon -->
+    <link href="../content/icons/logo-70x70-pwc.png" rel="icon">
+    <link rel="icon" href="../content/icons/logo-70x70-pwc.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="../content/icons/logo-apple-touch-icon-pwc.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../content/icons/logo-android-chrome-icon-pwc.png">
+    <meta name="msapplication-TileImage" content="../content/icons/logo-70x70-pwc.png">
+    <meta name="msapplication-TileColor" content="#800000">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../resources/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../resources/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link href="../resources/css/style.css" rel="stylesheet">
+
+
+    <style>
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+
+
+
 </body>
+
 </html>
