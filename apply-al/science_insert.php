@@ -139,7 +139,11 @@ if(mysqli_query($db, $sql)){
 
 <body>
 
+<form method="POST" action="generate_pdf.php">
+        <!-- Your input fields for data insertion here -->
 
+        <button type="submit" name="generate_pdf">Generate PDF</button>
+    </form>
 
 </body>
 
