@@ -1,3 +1,7 @@
+<?php
+    $page = 'search';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,9 +13,6 @@
     ?>
 
     <title>Search</title>
-    <?php
-    $page = 'search';
-    ?>
 
     <style>
         /* Style for the curved search box */
