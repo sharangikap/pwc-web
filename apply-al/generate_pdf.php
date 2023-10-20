@@ -10,7 +10,11 @@ $sql = "SELECT * FROM pwc_db_al25 WHERE Reference_no = $ref";
 $result = mysqli_query($db, $sql);
 
 $pdf = new FPDF();
-$pdf->AddPage('P','A4');
+$pdf->AddPage('P','Legal');
+$pdf->SetMargins(10, 20, 10);
+
+$pdf->AddFont('helvetica', '', 'helvetica.php');
+
 
 
 while ($row = mysqli_fetch_assoc($result)) {
@@ -19,7 +23,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     $Subject = $row['Subject'];
     $almedium = $row['almedium'];
     $pwc_Other = $row['pwc_Other'];
-    $olclass = $row['olclass'];
+    $SchoolIndexNo = $row['SchoolIndexNo'];
     $School_Private_Candidate = $row['School_Private_Candidate'];
     $School = $row['School'];
     $S_District = $row['S_District'];
@@ -53,64 +57,77 @@ while ($row = mysqli_fetch_assoc($result)) {
     $Optional3 = $row['Optional3'];
     $Result3 = $row['Result3'];
 
-$pdf->AddFont('helvetica', '', 'helvetica.php');
-$pdf->SetFont('helvetica', '', 11);
 
+$pdf->SetFont('Arial', 'B', 16); 
+$pdf->Cell(0, 10, "Application for 2025 Advanced Level Admission Registration", 0, 1, 'C'); 
+$pdf->Cell(0, 10, "Prince of Wales' College, Moratuwa", 0, 1, 'C'); 
+$pdf->Cell(0, 10, "$stream Stream", 0, 1, 'C'); 
+$pdf->SetLineWidth(0.2); 
+$pdf->Line(10, $pdf->GetY(), 200, $pdf->GetY());  
+$pdf->Ln();
 
-$pdf->SetFont('Arial', 'B', 16); // Set the font to bold
-$pdf->Cell(0, 10, 'Application for 2025 Advanced Level Admission Registration', 0, 1, 'C'); // Centered title
-$pdf->Cell(0, 10, 'Science Stream', 0, 1, 'C'); // Centered title
-
-
-$pdf->SetFont('Arial', '', 11); // Reset the font style to normal
-$pdf->Cell(0, 10, 'Are you a student of Prince of Wales\' College:', 0, 1);
-$pdf->Cell(0, 10, 'Index Number: O/L Class:', 0, 1);
-$pdf->Cell(0, 10, '', 0, 1);
-
-$pdf->Cell(0, 10, 'If you are not a student of Prince of Wales\' College:', 0, 1, 'I');
-$pdf->Cell(0, 10, 'Name of the School studied GCE O/L: District:', 0, 1);
-$pdf->Cell(0, 10, '', 0, 1);
-
-// Full Name
-$pdf->Cell(0, 10, "Full Name: $Name", 0, 1);
-
-// Full Name in Sinhala
-$pdf->Cell(0, 10, 'Full Name in Sinhala:', 0, 1);
-
-// Name with Initials
-$pdf->Cell(0, 10, 'Name with Initials:', 0, 1);
-
-// Birthday
-$pdf->Cell(0, 10, 'Birthday:', 0, 1);
-
-// National Identity Card No. (if any)
-$pdf->Cell(0, 10, 'National Identity Card No. (if any):', 0, 1);
-
-// Personal Address
-$pdf->Cell(0, 10, 'Personal Address:', 0, 1);
-$pdf->Cell(0, 10, 'Distance to the Prince of Wales\' College from your place (in Km):', 0, 1);
-$pdf->Cell(0, 10, 'Mode of Transport:', 0, 1);
-$pdf->Cell(0, 10, 'Email address (if any):', 0, 1);
-$pdf->Cell(0, 10, 'Father/Mother/Guardian\'s Name:', 0, 1);
-$pdf->Cell(0, 10, 'Contact No.:', 0, 1);
-
+$pdf->SetFont('Arial', '', 11); 
 // Subjects wish to apply
-$pdf->Cell(0, 10, 'Subjects wish to apply: ', 0, 1);
+$pdf->Cell(0, 10, "1. Subjects wish to apply: $Subject | Medium: $almedium", 0, 1);
+$pdf->Cell(0, 10, "2. Are you a student of Prince of Wales' College: $pwc_Other", 0, 1);
 
-// Medium
-$pdf->Cell(0, 10, 'Medium:', 0, 1);
-
-$pdf->Cell(0, 10, 'GCE Ordinary Level Examination', 0, 1, 'C');
-// Index Number
-$pdf->Cell(0, 10, 'Examination Index Number: Medium:', 0, 1);
-$pdf->Cell(0, 10, 'Religion: + Sinhala: + English: +', 0, 1);
-$pdf->Cell(0, 10, 'Science: + Maths: + History: +', 0, 1);
-$pdf->Cell(0, 10, '1st Bucket: + 2nd Bucket: + 3rd Bucket: +', 0, 1);
+if ($pwc_Other == "Yes") {
+    $pdf->Cell(0, 10, "3. School Index Number: $SchoolIndexNo ", 0, 1);
+} else {
+    $pdf->Cell(0, 10, "3. Name of the School studied GCE O/L: $School | District: $S_District", 0, 1);
 }
 
 
 
+$pdf->Ln();
+
+$pdf->SetFont('Arial', '', 11); 
+// Full Name
+$pdf->Cell(0, 10, "4. Full Name: $Name", 0, 1);
+
+// Name with Initials
+$pdf->Cell(0, 10, "5. Name with Initials: $Name_with_Initials", 0, 1);
+
+// Birthday 
+$pdf->Cell(0, 10, "6. Birthday: $Birthday | National Identity Card No. (if any): $NIC", 0, 1);
+
+
+// Personal Address
+$pdf->Cell(0, 10, "7. Personal Address: $Address1, $Address2, $City", 0, 1);
+$pdf->Cell(0, 10, "8. Distance to the Prince of Wales' College from your place (in Km): $Distance | Mode of Transport: $Transport", 0, 1);
+$pdf->Cell(0, 10, "9. Email address (if any): $E_mail", 0, 1);
+$pdf->Cell(0, 10, "10. Father/Mother/Guardian's Name: $Guardian_Name", 0, 1);
+$pdf->Cell(0, 10, "11. Contact No.: $ResidentialNo, $Mobile1, $Mobile2", 0, 1);
+
+
+$pdf->Ln();
+$pdf->Cell(0, 10, 'GCE Ordinary Level Examination', 0, 1, 'C');
+
+// Index Number
+$pdf->Cell(0, 10, "12. Examination Index Number: $IndexNo | Medium: $olMedium", 0, 1);
+$pdf->Cell(0, 10, "     1. Religion: $Religion 2. Sinhala: $Sinhala 3. English: $English", 0, 1);
+$pdf->Cell(0, 10, "     4. Science: $Science 5. Maths: $Mathematics 6. History: $History", 0, 1);
+$pdf->Cell(0, 10, "     7. $Optional1: $Result1 8. $Optional2: $Result2 9. $Optional3: $Result3", 0, 1);
+}
+
+$pdf->Ln();
+
+$pdf->Cell(0, 10, "13. I hereby certified that the above mentioned information is true and accurate", 0, 1);
+$pdf->Cell(0, 10, ".............................", 0, 1);
+$pdf->Cell(0, 10, "Signature", 0, 1);
+
+$pdf->Cell(0, 10, 'Staff Only', 0, 1, 'C');
+$pdf->Cell(0, 10, "....................................................................................................................................................................................", 0, 1);
+$pdf->Cell(0, 10, "....................................................................................................................................................................................", 0, 1);
+$pdf->Cell(0, 10, "....................................................................................................................................................................................", 0, 1);
+
+
+
+$pdf->SetFont('helvetica', '', 8);
+// Add content to the footer
+$pdf->Cell(0, 10, "Referance No: $refno | https://princeofwales.edu.lk", 0, 0, 'C');
+
 // Output the PDF
-$pdf->Output("$refno.pdf", 'D');
+$pdf->Output("$refno - Application for AL Admission Registration Prince of Wales' College.pdf", 'D');
 
 ?>

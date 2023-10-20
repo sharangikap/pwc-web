@@ -68,6 +68,14 @@ and open the template in the editor.
                 }
             });
         });
+
+        $(document).ready(function() {
+            $('#schoolname').on('input', function(e) {
+                var value = $(this).val();
+                var newValue = value.replace(/['"]/g, ''); 
+                $(this).val(newValue);
+            });
+        });
     </script>
 
 
@@ -81,8 +89,6 @@ and open the template in the editor.
             <h4 class="text-center"> Application for 2025 Advanced Level Admission Registration </h4>
             <h4 class="text-center"> Commerce Stream </h4>
             <div class="form-group"></div>
-            <div class="form-group"></div>
-            <div class="form-group"></div>
             <div class="form-group">
                 <div class="alert alert-danger">
                     <p> Subjects are in Sinhala and English Medium </p>
@@ -95,9 +101,9 @@ and open the template in the editor.
                 <label for="subject_selection" class="col-sm-2 col-form-label"> Subjects wish to apply </label>
                 <div class="col-sm-5">
                 <select id="subject" name="scommerce" style="min-height:30px;">
-                        <option value="Accounting/Econ/BS">Accounting / Economics / Business Studies </option>
-                        <option value="Accounting/Econ/Stats"> Accounting / Economics / Business Statistics </option>
-                        <option value="Accounting/Econ/ICT"> Accounting / Economics / ICT </option>
+                        <option value="Accounting / Economics / Business Studies">Accounting / Economics / Business Studies </option>
+                        <option value="Accounting / Economics / Business Statistics"> Accounting / Economics / Business Statistics </option>
+                        <option value="Accounting / Economics / ICT"> Accounting / Economics / ICT </option>
                     </select>
                 </div>
 
@@ -128,21 +134,12 @@ and open the template in the editor.
                     </label>
                 </div>
 
-                <label for="olclass" class="col-sm-2 col-form-label">O/L Class</label>
+                <div class="col-sm-2 col-form-label">
+                    <label for="nic">School Index Number</label>
+                </div>
                 <div class="col-sm-2">
-                    <select id="olclass" name="olclass" style="min-height:30px;">
-                        <option value="+">+</option>
-                        <option value="11-A"> 11-A </option>
-                        <option value="11-B"> 11-B </option>
-                        <option value="11-C"> 11-C </option>
-                        <option value="11-D"> 11-D </option>
-                        <option value="11-E"> 11-E </option>
-                        <option value="11-F"> 11-F </option>
-                        <option value="11-G"> 11-G </option>
-                        <option value="11-H"> 11-H </option>
-
-
-                    </select>
+                    <input type="text" class="form-control" id="SchoolIndexNo" name="SchoolIndexno" pattern="[0-9]+"
+                        placeholder="School Index No" required>
                 </div>
 
             </div>
@@ -582,15 +579,15 @@ and open the template in the editor.
         // Get references to the radio buttons and the select element
         const chkYes = document.getElementById("chkYes");
         const chkNo = document.getElementById("chkNo");
-        const olclass = document.getElementById("olclass");
+        const SchoolIndexNo = document.getElementById("SchoolIndexNo");
 
         // Add an event listener to the radio buttons to enable/disable the select element
         chkYes.addEventListener("change", function () {
-            olclass.disabled = false; // Enable the select element when "Yes" is selected
+            SchoolIndexNo.disabled = false; // Enable the select element when "Yes" is selected
         });
 
         chkNo.addEventListener("change", function () {
-            olclass.disabled = true; // Disable the select element when "No" is selected
+            SchoolIndexNo.disabled = true; // Disable the select element when "No" is selected
         });
     </script>
 

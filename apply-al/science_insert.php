@@ -59,7 +59,7 @@ if(isset($_POST['submit'])){
 $sscience = $_POST['sscience'];
 $almedium = $_POST['almedium'];
 $school = $_POST['school'];
-$olclass = isset($_POST['olclass']) ? $_POST['olclass'] : "NULL";
+$SchoolIndexNo = isset($_POST['SchoolIndexNo']) ? $_POST['SchoolIndexNo'] : "NULL";
 $school_private = $_POST['school_private'];
 $schoolname = isset($_POST['schoolname']) ? $_POST['schoolname'] : "NULL";
 $schooldistrict = isset($_POST['schooldistrict']) ? $_POST['schooldistrict'] : "NULL";
@@ -95,9 +95,9 @@ $optional3 = $_POST['optional3'];
 $referenceno= rand();
 
 $sql = "INSERT INTO pwc_db_al25
-(Reference_no,Stream,Subject,almedium,pwc_Other,olclass,School_Private_Candidate,School,S_District,Name,NameSinhala,Name_with_Initials,Birthday,NIC,Address1,Address2,City,Guardian_Name,ResidentialNo,Mobile1,Mobile2,E_mail,Distance,Transport,IndexNo,olMedium,Religion,Sinhala,English,Science,Mathematics,History,Optional1,Result1,Optional2,Result2,Optional3,Result3) 
+(Reference_no,Stream,Subject,almedium,pwc_Other,SchoolIndexNo,School_Private_Candidate,School,S_District,Name,NameSinhala,Name_with_Initials,Birthday,NIC,Address1,Address2,City,Guardian_Name,ResidentialNo,Mobile1,Mobile2,E_mail,Distance,Transport,IndexNo,olMedium,Religion,Sinhala,English,Science,Mathematics,History,Optional1,Result1,Optional2,Result2,Optional3,Result3) 
 VALUES
-('$referenceno','Science','$sscience','$almedium','$school', '$olclass', '$school_private','$schoolname','$schooldistrict','$fname','$fnamesinhala','$iname','$birthday','$nic','$address1','$address2','$city','$gname','$residential','$mobile1','$mobile2','$email','$distance','$transport','$indexno','$olmedium','$religion','$sinhala','$english','$science','$maths','$history','$op1','$optional1','$op2','$optional2','$op3','$optional3')";
+('$referenceno','Science','$sscience','$almedium','$school', '$SchoolIndexNo', '$school_private','$schoolname','$schooldistrict','$fname','$fnamesinhala','$iname','$birthday','$nic','$address1','$address2','$city','$gname','$residential','$mobile1','$mobile2','$email','$distance','$transport','$indexno','$olmedium','$religion','$sinhala','$english','$science','$maths','$history','$op1','$optional1','$op2','$optional2','$op3','$optional3')";
 
 if(mysqli_query($db, $sql)){
 

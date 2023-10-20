@@ -1,93 +1,3 @@
-<?php
-
-if(isset($_POST['submit'])){
- 
-    include 'db_con.php';
- 
-
-$scommerce = $_POST['scommerce'];
-$almedium = $_POST['almedium'];
-$school = $_POST['school'];
-$olclass = isset($_POST['olclass']) ? $_POST['olclass'] : "NULL";
-$school_private = $_POST['school_private'];
-$schoolname = isset($_POST['schoolname']) ? $_POST['schoolname'] : "NULL";
-$schooldistrict = isset($_POST['schooldistrict']) ? $_POST['schooldistrict'] : "NULL";
-$fname = strtoupper($_POST['fname']); 
-$fnamesinhala = strtoupper($_POST['fnamesinhala']); 
-$iname = strtoupper($_POST['iname']);
-$birthday = $_POST['birthday'];
-$nic = $_POST['nic'];
-$address1 =strtoupper($_POST['address1']);
-$address2 =strtoupper($_POST['address2']);
-$city = strtoupper($_POST['city']);
-$gname =strtoupper( $_POST['gname']);
-$residential=$_POST['residential'];
-$mobile1 = $_POST['mobile1'];
-$mobile2 = $_POST['mobile2'];
-$email = $_POST['email'];
-$distance = $_POST['distance'];
-$transport = $_POST['transport'];
-$indexno = $_POST ['indexno'];
-$olmedium = $_POST['olmedium'];
-$religion = $_POST['religion'];
-$sinhala = $_POST['sinhala'];
-$english = $_POST['english'];
-$science = $_POST['science'];
-$maths = $_POST['maths'];
-$history = $_POST['history'];
-$op1 = $_POST['op1'];
-$optional1 = $_POST['optional1'];
-$op2 = $_POST['op2'];
-$optional2 = $_POST['optional2'];
-$op3 = $_POST['op3'];
-$optional3 = $_POST['optional3'];
-$referenceno= rand();
-
-$sql = "INSERT INTO pwc_db_al25
-(Reference_no,Stream,Subject,almedium,pwc_Other,olclass,School_Private_Candidate,School,S_District,Name,NameSinhala,Name_with_Initials,Birthday,NIC,Address1,Address2,City,Guardian_Name,ResidentialNo,Mobile1,Mobile2,E_mail,Distance,Transport,IndexNo,olMedium,Religion,Sinhala,English,Science,Mathematics,History,Optional1,Result1,Optional2,Result2,Optional3,Result3) 
-VALUES
-('$referenceno','Commerce','$scommerce','$almedium','$school', '$olclass', '$school_private','$schoolname','$schooldistrict','$fname','$fnamesinhala','$iname','$birthday','$nic','$address1','$address2','$city','$gname','$residential','$mobile1','$mobile2','$email','$distance','$transport','$indexno','$olmedium','$religion','$sinhala','$english','$science','$maths','$history','$op1','$optional1','$op2','$optional2','$op3','$optional3')";
-
-
-if(mysqli_query($db, $sql)){
-
-    echo '<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">';
-    echo '    <div class="container text-center">';
-    echo '        <div class="row justify-content-center">';
-    echo '            <div class="col-lg-6">';
-    echo '                <i class="bi bi-check-circle display-1 text-primary"></i>';
-    echo '                <h1 class="mb-4">Thank You!</h1>';
-    echo '                <p class="mb-4">Your Records Added Successfully.</p>';
-    echo '                <p class="mb-4">Your Referrence number for the submission is <b>'. $referenceno .'</b></p>';
-    echo '                <p class="mb-4">Keep this Reference Number for future use.</p>';  
-    echo '<button type="submit" name="finish" value="finish" class="btn btn-primary btn-sm py-3 px-4" onclick="window.location.replace(\'index.php\')"> OK </button>';
-    echo '            </div>';
-    echo '        </div>';
-    echo '    </div>';
-    echo '</div>';
-
-}
- else{
-    echo '<br> <br> <br>';
-    echo '<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">';
-    echo '    <div class="container text-center">';
-    echo '        <div class="row justify-content-center">';
-    echo '            <div class="col-lg-6">';
-    echo '                <i class="bi bi-exclamation-triangle display-1 text-primary"></i>';
-    echo '                <h1 class="mb-4">ERROR :(</h1>';
-    echo '                <p class="mb-4">Could not able to submit.</p>';
-    echo '                <p class="mb-4">Please try again.' . mysqli_error($db);
-    echo '                <p class="mb-4">Keep this Reference Number for future use.</p>';  
-    echo '<button type="submit" name="finish" value="finish" class="btn btn-primary btn-sm py-3 px-4" onclick="window.location.replace(\'index.php\')"> OK </button>';
-    echo '            </div>';
-    echo '        </div>';
-    echo '    </div>';
-    echo '</div>';
-}
-     mysqli_close($db);
-
-
-} ?>
 <html>
 
 <head>
@@ -139,8 +49,95 @@ if(mysqli_query($db, $sql)){
 
 <body>
 
+<?php
 
+if(isset($_POST['submit'])){
+ 
+    include 'db_con.php';
+ 
+
+$scommerce = $_POST['scommerce'];
+$almedium = $_POST['almedium'];
+$school = $_POST['school'];
+$SchoolIndexNo = isset($_POST['SchoolIndexNo']) ? $_POST['SchoolIndexNo'] : "NULL";
+$school_private = $_POST['school_private'];
+$schoolname = isset($_POST['schoolname']) ? $_POST['schoolname'] : "NULL";
+$schooldistrict = isset($_POST['schooldistrict']) ? $_POST['schooldistrict'] : "NULL";
+$fname = strtoupper($_POST['fname']); 
+$fnamesinhala = strtoupper($_POST['fnamesinhala']); 
+$iname = strtoupper($_POST['iname']);
+$birthday = $_POST['birthday'];
+$nic = $_POST['nic'];
+$address1 =strtoupper($_POST['address1']);
+$address2 =strtoupper($_POST['address2']);
+$city = strtoupper($_POST['city']);
+$gname =strtoupper( $_POST['gname']);
+$residential=$_POST['residential'];
+$mobile1 = $_POST['mobile1'];
+$mobile2 = $_POST['mobile2'];
+$email = $_POST['email'];
+$distance = $_POST['distance'];
+$transport = $_POST['transport'];
+$indexno = $_POST ['indexno'];
+$olmedium = $_POST['olmedium'];
+$religion = $_POST['religion'];
+$sinhala = $_POST['sinhala'];
+$english = $_POST['english'];
+$science = $_POST['science'];
+$maths = $_POST['maths'];
+$history = $_POST['history'];
+$op1 = $_POST['op1'];
+$optional1 = $_POST['optional1'];
+$op2 = $_POST['op2'];
+$optional2 = $_POST['optional2'];
+$op3 = $_POST['op3'];
+$optional3 = $_POST['optional3'];
+$referenceno= rand();
+
+$sql = "INSERT INTO pwc_db_al25
+(Reference_no,Stream,Subject,almedium,pwc_Other,SchoolIndexNo,School_Private_Candidate,School,S_District,Name,NameSinhala,Name_with_Initials,Birthday,NIC,Address1,Address2,City,Guardian_Name,ResidentialNo,Mobile1,Mobile2,E_mail,Distance,Transport,IndexNo,olMedium,Religion,Sinhala,English,Science,Mathematics,History,Optional1,Result1,Optional2,Result2,Optional3,Result3) 
+VALUES
+('$referenceno','Commerce','$scommerce','$almedium','$school', '$SchoolIndexNo', '$school_private','$schoolname','$schooldistrict','$fname','$fnamesinhala','$iname','$birthday','$nic','$address1','$address2','$city','$gname','$residential','$mobile1','$mobile2','$email','$distance','$transport','$indexno','$olmedium','$religion','$sinhala','$english','$science','$maths','$history','$op1','$optional1','$op2','$optional2','$op3','$optional3')";
+
+if(mysqli_query($db, $sql)){
+
+    echo '<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">';
+    echo '    <div class="container text-center">';
+    echo '        <div class="row justify-content-center">';
+    echo '            <div class="col-lg-6">';
+    echo '                <i class="bi bi-check-circle display-1 text-primary"></i>';
+    echo '                <h1 class="mb-4">Thank You!</h1>';
+    echo '                <p class="mb-4">Your Records Added Successfully.</p>';
+    echo '                <p class="mb-4">Your Referrence number for the submission is <b>'. $referenceno .'</b></p>';
+    echo '                <p class="mb-4">Keep this Reference Number for future use.</p>';  
+    echo '<a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="generate_pdf.php?ref='. $referenceno . '">Download Your Submissions</a>';
+    echo '            </div>';
+    echo '        </div>';
+    echo '    </div>';
+    echo '</div>';
+
+}
+ else{
+    echo '<br> <br> <br>';
+    echo '<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">';
+    echo '    <div class="container text-center">';
+    echo '        <div class="row justify-content-center">';
+    echo '            <div class="col-lg-6">';
+    echo '                <i class="bi bi-exclamation-triangle display-1 text-primary"></i>';
+    echo '                <h1 class="mb-4">ERROR :(</h1>';
+    echo '                <p class="mb-4">Could not able to submit.</p>';
+    echo '                <p class="mb-4">Please try again.' . mysqli_error($db);
+    echo '                <p class="mb-4">Keep this Reference Number for future use.</p>';  
+    echo '<button type="submit" name="finish" value="finish" class="btn btn-primary btn-sm py-3 px-4" onclick="window.location.replace(\'index.php\')"> OK </button>';
+    echo '            </div>';
+    echo '        </div>';
+    echo '    </div>';
+    echo '</div>';
+}
+     mysqli_close($db);
+
+
+} ?>
 
 </body>
-
 </html>

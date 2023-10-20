@@ -18,7 +18,7 @@ and open the template in the editor.
     <meta name="title"
         content="Art Stream - Application for Advanced Level Admission Registration" />
     <meta name="description"
-        content="Unlock your creative potential with our Art Stream Application! Dive into a world of limitless artistic expression and innovation. Apply now to join a vibrant community of artists and explore a diverse range of mediums, techniques, and inspiration. Elevate your artistry to new heights today! - Prince of Wales' College, Moratuwa" />
+        content="" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -26,7 +26,7 @@ and open the template in the editor.
     <meta property="og:title"
         content="Art Stream - Application for Advanced Level Admission Registration" />
     <meta property="og:description"
-        content="Unlock your creative potential with our Art Stream Application! Dive into a world of limitless artistic expression and innovation. Apply now to join a vibrant community of artists and explore a diverse range of mediums, techniques, and inspiration. Elevate your artistry to new heights today! - Prince of Wales' College, Moratuwa" />
+        content="" />
     <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
 
     <!-- Twitter / WA / TG -->
@@ -35,23 +35,23 @@ and open the template in the editor.
     <meta property="twitter:title"
         content="Art Stream - Application for Advanced Level Admission Registration" />
     <meta property="twitter:description"
-        content="Unlock your creative potential with our Art Stream Application! Dive into a world of limitless artistic expression and innovation. Apply now to join a vibrant community of artists and explore a diverse range of mediums, techniques, and inspiration. Elevate your artistry to new heights today! - Prince of Wales' College, Moratuwa" />
+        content="" />
     <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
 
 
 
     <title>Art Stream - Application for Advanced Level Admission Registration</title>
 
-    <!-- Bootstrap core CSS -->
+ <!-- Bootstrap core CSS -->
 
-    <link href="css/bootstrap.css" rel="stylesheet">
+ <link href="css/bootstrap.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-
     <?php 
     include '../database_connection.php';
     include 'header.php';
     ?>
+
 
     <script type="text/javascript">
         $(function () {
@@ -64,7 +64,16 @@ and open the template in the editor.
                 } else {
                     $("#schoolname").attr("disabled", "disabled");
                     $("#schooldistrict").attr("disabled", "disabled");
+
                 }
+            });
+        });
+
+        $(document).ready(function() {
+            $('#schoolname').on('input', function(e) {
+                var value = $(this).val();
+                var newValue = value.replace(/['"]/g, ''); 
+                $(this).val(newValue);
             });
         });
     </script>
@@ -73,38 +82,29 @@ and open the template in the editor.
 </head>
 
 <body>
+
     <div class="container">
-
-
-
         <form class="form-horizontal" method="POST" action="art_insert.php">
             <h5 class="text-center"></h5>
             <h4 class="text-center"> Application for 2025 Advanced Level Admission Registration </h4>
             <h4 class="text-center"> Art Stream </h4>
             <div class="form-group"></div>
-            <div class="form-group"></div>
-            <div class="form-group"></div>
-
             <div class="form-group">
                 <div class="alert alert-danger">
-                    <p>Subjects are in Sinhala Medium </p>
-                    <p>Please Select <b>One Subject</b> from <b>each category.</b> (All three
-                        subjects)</p>
+                    <p> Subjects are in <b>Sinhala</b> Medium </p>
+                    <p> Select <b>one Subject</b> from each Category</p>
                 </div>
             </div>
-            <hr>
             <!--Subject Selection-->
+            <div class="form-group">
             <div class="form-group">
                 <label for="subject_selection" class="col-sm-2 col-form-label"> Subjects wish to apply </label>
                 <div class="col-sm-3">
                     <select id="subject" name="sart1" style="min-height:30px;">
                         <option value="None"> Category 1</option>
-                        <option value="Sinhala">Sinhala </option>
-                        <option value="Dancing"> Dancing(Indigenous) </option>
-                        <option value="Art"> Art </option>
-                        <option value="Music"> Music (Oriental) </option>
+                        <option value="Buddhist Civilization (BC)"> Buddhist Civilization (BC) </option>
                         <option value="Econ"> Economics </option>
-                        <option value="Politics">Political Science</option>
+                        <option value="Logic"> Logic </option>
 
                     </select> </div>
                 <div class="col-sm-1">&nbsp;</div>
@@ -112,11 +112,9 @@ and open the template in the editor.
                 <div class="col-sm-3">
                     <select id="subject" name="sart2" style="min-height:30px;">
                         <option value="None"> Category 2</option>
-                        <option value="History">History </option>
-                        <option value="Japanese"> Japanese Language</option>
                         <option value="ICT"> ICT </option>
-                        <option value="Stat"> Business Statistics </option>
-                        <option value="Drama"> Drama and Theatre </option>
+                        <option value="Media & Communication Studies"> Media & Communication Studies </option>
+                        <option value="Geography"> Geography </option>
                     </select>
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
@@ -124,16 +122,19 @@ and open the template in the editor.
                 <div class="col-sm-2">
                     <select id="subject" name="sart3" style="min-height:30px;">
                         <option value="None"> Category 3</option>
-                        <option value="Media">Communication and Media Studies</option>
-                        <option value="Geography"> Geography </option>
-                        <option value="BC">Buddhist Civilization</option>
-
+                        <option value="Political Science"> Political Science </option>
+                        <option value="Sinhala"> Sinhala </option>
+                        <option value="Art"> Art </option>
+                        <option value="Eastern Music"> Eastern Music </option>
+                        <option value="Dancing"> Dancing </option>
                     </select>
                 </div>
-
             </div>
             <hr>
-            <div class="form-group"></div>
+    </DIV>
+
+
+
 
             <div class="form-group">
                 <label for="yesno" class="col-sm-3 col-form-label">Are you a student of Prince of Wales' College</label>
@@ -147,20 +148,30 @@ and open the template in the editor.
                         <input name="school" id="chkNo" type="radio" value="No"> No
                     </label>
                 </div>
+
+                <div class="col-sm-2 col-form-label">
+                    <label for="nic">School Index Number</label>
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="SchoolIndexNo" name="SchoolIndexno" pattern="[0-9]+"
+                        placeholder="School Index No" required>
+                </div>
+
+            </div>
+
+            <div class="form-group">
                 <label for="school" class="col-sm-3 col-form-label">School or Private Candiate at GCE OL</label>
                 <div class="col-sm-2">
                     <select id="sp" name="school_private" style="min-height:30px;">
                         <option value="school"> School Candidate </option>
                         <option value="private"> Private Candidate </option>
 
+
                     </select>
                 </div>
             </div>
-
-
-            <div class="form-group"></div>
             <div class="form-group">
-                <label for="lumbini" class="col-sm-3 col-form-label">If you are not a student of Prince of Wales'
+                <label for="princeofwales" class="col-sm-3 col-form-label">If you are not a student of Prince of Wales'
                     College</label>
                 <div class="col-sm-4">
                     <input type="text" class="form-control" id="schoolname"
@@ -183,6 +194,15 @@ and open the template in the editor.
                         style='text-transform:uppercase' required>
                 </div>
             </div>
+            <!--Fullnamesinhala-->
+            <div class="form-group">
+                <label for="fullnamesinhala" class="col-sm-2 col-form-label">Full Name in Sinhala</label>
+                <div class="col-sm-9">
+
+                    <input type="text" class="form-control"
+                        placeholder="දිසානායක මුදියන්සේලාගේ දුශාන් අකලංක දිසානායක" name="fnamesinhala" required>
+                </div>
+            </div>
             <!--Name with Initials-->
             <div class="form-group">
                 <label for="iname" class="col-sm-2 col-form-label">Name with Initials</label>
@@ -191,6 +211,7 @@ and open the template in the editor.
                         style='text-transform:uppercase' required>
                 </div>
             </div>
+
             <!--Date of birth-->
             <div class="form-group">
                 <label for="birthday" class="col-sm-2">Birthday</label>
@@ -200,7 +221,7 @@ and open the template in the editor.
             </div>
             <!--NIC-->
             <div class="form-group">
-                <label for="nic" class="col-sm-2 col-form-label ">National Idenetity Card No.</label>
+                <label for="nic" class="col-sm-2 col-form-label ">National Idenetity Card No. (if any)</label>
                 <div class="col-sm-2">
                     <input type="tel" class="form-control" id="nic" name="nic" maxlength="12">
                 </div>
@@ -227,14 +248,14 @@ and open the template in the editor.
 
             <!--Guardien's Name-->
             <div class="form-group">
-                <label for="gname" class="col-sm-2 col-form-label">Father/Mother/Guardien's Name</label>
+                <label for="gname" class="col-sm-2 col-form-label">Father/Mother/Guardian's Name</label>
                 <div class="col-sm-5">
                     <input type="text" class="form-control" name="gname" required>
                 </div>
             </div>
             <!--Contact Number-->
             <div class="form-group">
-                <label for="contact" class="col-sm-2 col-form-label ">Contact No.</label>
+                <label for="contact" class=" col-sm-2 col-form-label ">Contact No.</label>
                 <div class="col-sm-2">
                     <input type="text" class="form-control" id="residential" placeholder="Residential No."
                         name="residential" pattern="[0-9]+">
@@ -245,7 +266,6 @@ and open the template in the editor.
                         pattern="[0-9]+">
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
-
                 <div class="col-sm-2">
                     <input type="textr" class="form-control" id="mobile" placeholder="Mobile 2" name="mobile2"
                         pattern="[0-9]+">
@@ -289,7 +309,7 @@ and open the template in the editor.
             <div class="form-group col-12">
 
 
-                <h4 class="text-center"> GCE Ordinary Level</h4>
+                <h4 class="text-center"> GCE Ordinary Level </h4>
             </div>
             <!--Index Number-->
             <div class="form-group">
@@ -305,15 +325,15 @@ and open the template in the editor.
 
             </div>
 
-            <!--Medium-->
+            <!--olMedium-->
             <div class="form-group">
-                <label for="gender" class="col-sm-2">Medium</label>
+                <label for="olmedium" class="col-sm-2">Medium</label>
                 <div class="col-sm-9">
                     <label class="radio-inline control-label">
-                        <input checked="checked" name="medium" type="radio" value="Sinhala"> Sinhala
+                        <input checked="checked" name="olmedium" type="radio" value="Sinhala"> Sinhala
                     </label>
                     <label class="radio-inline control-label">
-                        <input name="medium" type="radio" value="English"> English
+                        <input name="olmedium" type="radio" value="English"> English
                     </label>
 
                 </div>
@@ -483,14 +503,13 @@ and open the template in the editor.
                                 </select>
                             </td>
                             <td>
-                                <select id="result8" name="optional2">
+                                <select id="result7" name="optional2">
                                     <option value="+"> + </option>
                                     <option value="A"> A </option>
                                     <option value="B"> B </option>
                                     <option value="C"> C </option>
                                     <option value="S"> S </option>
                                     <option value="W"> W </option>
-
                                 </select>
                             </td>
 
@@ -531,10 +550,10 @@ and open the template in the editor.
             </div>
 
 
-
             <div class="form-group">
 
                 <div class="form-check col-sm-12">
+
                     <input class="form-check-input" type="checkbox" id="gridCheck" checked>
 
                     <label class="form-check-label " for="gridCheck">
@@ -542,40 +561,54 @@ and open the template in the editor.
                         I hereby certified that the above mentioned information is true and accurate</label>
                 </div>
             </div>
-            <div class="form-group">
-                <div class="col-sm-12">
-
+            <div class="col-sm-12">
+                <div class="form-group">
                     <div class="alert alert-danger">
                         <p style="color:red;">Please CHECK the information you provided are correct BEFORE click on
                             SUBMIT button. <br><b> A reference number will be provided after successful submission.</b>
                         </p>
                     </div>
 
-                    <p> <b>* Before click on Submit button, you can click on the Cancel button and fill application from
+                    <p><b>Before click on Submit button, you can click on the Cancel button and fill application from
                             the beginning.</b></p>
                     <p><b>* Otherwise Reset the same application and fill again before click on the submit button </b>
                     </p>
                 </div>
             </div>
+
+            <div class="form-group">
                 <div class="col-sm-12">
                     <button type="reset" name="reset" value="Clear"
                         class="btn btn-primary btn-sm py-3 px-4">Reset</button>
                     <button type="submit" name="submit" class="btn btn-success btn-sm py-3 px-4">Submit</button>
-                    <button type="cancel" name="cancel" onclick="window.location.replace('../OL.html')" value="Cancel"
-                        class="btn btn-primary btn-sm py-3 px-4" /> Cancel </button>
                 </div>
-            </div>
 
+            </div>
         </form>
     </div>
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-        <?php 
+    <script>
+        // Get references to the radio buttons and the select element
+        const chkYes = document.getElementById("chkYes");
+        const chkNo = document.getElementById("chkNo");
+        const SchoolIndexNo = document.getElementById("SchoolIndexNo");
+
+        // Add an event listener to the radio buttons to enable/disable the select element
+        chkYes.addEventListener("change", function () {
+            SchoolIndexNo.disabled = false; // Enable the select element when "Yes" is selected
+        });
+
+        chkNo.addEventListener("change", function () {
+            SchoolIndexNo.disabled = true; // Disable the select element when "No" is selected
+        });
+    </script>
+
+    <?php 
     include 'footer.php';
 ?>
-
 </body>
 
 </html>
