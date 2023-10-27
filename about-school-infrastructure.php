@@ -65,6 +65,13 @@
     </div>
     <!-- Header End -->
 
+    <style>
+        iframe {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+
     <div class="container-xxl py-1">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <p class="mb-4">This plan helped make the school's infrastructure, <br>
@@ -74,7 +81,7 @@
                 <br><br>
                 <a class="btn btn-link" href="content/exiting-plan-pwc.pdf" target="_blank">View School Plan</a>
             </p>
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12F6QPJOGMzvcL7avHgG08PbG0jXOX-Y&ehbc=2E312F&noprof=1" width="1100" height="480"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12F6QPJOGMzvcL7avHgG08PbG0jXOX-Y&ehbc=2E312F&noprof=1" frameborder="0"></iframe>
         </div>
         
     </div>
