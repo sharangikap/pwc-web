@@ -74,7 +74,9 @@
                 <br><br>
                 <a class="btn btn-link" href="content/exiting-plan-pwc.pdf" target="_blank">View School Plan</a>
             </p>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12F6QPJOGMzvcL7avHgG08PbG0jXOX-Y&ehbc=2E312F&noprof=1" width="1100" height="480"></iframe>
         </div>
+        
     </div>
 
 

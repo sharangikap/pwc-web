@@ -719,9 +719,11 @@ if($statement->rowCount() > 0)
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 class="section-title bg-white text-center text-primary px-3">Locations and</h6>
             <h1 class="mb-5">INFRASTRUCTURE</h1>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12F6QPJOGMzvcL7avHgG08PbG0jXOX-Y&ehbc=2E312F&noprof=1" width="1100" height="480"></iframe>
         </div>
+        
     </div>
-
+<br>
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
