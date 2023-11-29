@@ -1,3 +1,8 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
 <!DOCTYPE html>
 <html>
 
@@ -11,41 +16,39 @@
 
     <!-- Primary Meta Tags -->
     <meta name="title"
-        content="Science Stream - Application for Advanced Level Admission Registration" />
+        content="Commerce Stream - Application for Advanced Level Admission Registration" />
     <meta name="description"
-        content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
+        content="Apply for a Commerce Stream education like never before! Our cutting-edge online application process makes it easy to join our Al Commerce section. - Prince of Wales' College, Moratuwa" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/commerce.php" />
     <meta property="og:title"
-        content="Science Stream - Application for Advanced Level Admission Registration" />
+        content="Commerce Stream - Application for Advanced Level Admission Registration" />
     <meta property="og:description"
-        content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
+        content="Apply for a Commerce Stream education like never before! Our cutting-edge online application process makes it easy to join our Al Commerce section. - Prince of Wales' College, Moratuwa" />
     <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/commerce.php" />
     <meta property="twitter:title"
-        content="Science Stream - Application for Advanced Level Admission Registration" />
+        content="Commerce Stream - Application for Advanced Level Admission Registration" />
     <meta property="twitter:description"
-        content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
+        content="Apply for a Commerce Stream education like never before! Our cutting-edge online application process makes it easy to join our Al Commerce section. - Prince of Wales' College, Moratuwa" />
     <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
 
 
 
+    <title>Commerce Stream - Application for Advanced Level Admission Registration</title>
 
+ <!-- Bootstrap core CSS -->
 
-    <title>Science Stream - Application for Advanced Level Admission Registration</title>
-
-    <!-- Bootstrap core CSS -->
-
-    <link href="css/bootstrap.css" rel="stylesheet">
+ <link href="css/bootstrap.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <?php 
-    include '../database_connection.php';
+    include '../../database_connection.php';
     include 'header.php';
     ?>
 
@@ -81,22 +84,26 @@
 <body>
 
     <div class="container">
-        <form class="form-horizontal" method="POST" action="science_insert.php">
+        <form class="form-horizontal" method="POST" action="commerce_insert.php">
             <h5 class="text-center"></h5>
             <h4 class="text-center"> Application for 2025 Advanced Level Admission Registration </h4>
-            <h4 class="text-center"> Science Stream </h4>
+            <h4 class="text-center"> Commerce Stream </h4>
             <div class="form-group"></div>
-    
+            <div class="form-group">
+                <div class="alert alert-danger">
+                    <p> Subjects are in Sinhala and English Medium </p>
+                    <p> <b>Accounting </b>and <b>Economics</b> are <b>compulsory</b> for both
+                        medium.</p>
+                </div>
+            </div>
             <!--Subject Selection-->
             <div class="form-group">
                 <label for="subject_selection" class="col-sm-2 col-form-label"> Subjects wish to apply </label>
                 <div class="col-sm-5">
-                    <select id="subject" name="sscience" style="min-height:30px;">
-
-                        <option value="Combined Mathematics / ICT / Physics"> Combined Mathematics / ICT / Physics </option>
-                        <option value="Combined Mathematics / Chemistry / Physics"> Combined Mathematics / Chemistry / Physics </option>
-                        <option value="Biology / Chemistry / Physics"> Biology / Chemistry / Physics </option>
-                    
+                <select id="subject" name="scommerce" style="min-height:30px;">
+                        <option value="Accounting / Economics / Business Studies">Accounting / Economics / Business Studies </option>
+                        <option value="Accounting / Economics / Business Statistics"> Accounting / Economics / Business Statistics </option>
+                        <option value="Accounting / Economics / ICT"> Accounting / Economics / ICT </option>
                     </select>
                 </div>
 
@@ -127,8 +134,6 @@
                     </label>
                 </div>
 
-      
-
                 <div class="col-sm-2 col-form-label">
                     <label for="nic">School Index Number</label>
                 </div>
@@ -138,7 +143,6 @@
                 </div>
 
             </div>
-            
 
             <div class="form-group">
                 <label for="school" class="col-sm-3 col-form-label">School or Private Candiate at GCE OL</label>
@@ -151,9 +155,6 @@
                     </select>
                 </div>
             </div>
-
-
-
             <div class="form-group">
                 <label for="princeofwales" class="col-sm-3 col-form-label">If you are not a student of Prince of Wales'
                     College</label>
@@ -582,19 +583,17 @@
 
         // Add an event listener to the radio buttons to enable/disable the select element
         chkYes.addEventListener("change", function () {
-            SchoolIndexNolass.disabled = false; // Enable the select element when "Yes" is selected
+            SchoolIndexNo.disabled = false; // Enable the select element when "Yes" is selected
         });
 
         chkNo.addEventListener("change", function () {
             SchoolIndexNo.disabled = true; // Disable the select element when "No" is selected
         });
-
     </script>
 
     <?php 
     include 'footer.php';
 ?>
-
 </body>
 
 </html>

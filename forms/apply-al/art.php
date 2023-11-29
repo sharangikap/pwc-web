@@ -16,31 +16,31 @@ and open the template in the editor.
 
     <!-- Primary Meta Tags -->
     <meta name="title"
-        content="Commerce Stream - Application for Advanced Level Admission Registration" />
+        content="Art Stream - Application for Advanced Level Admission Registration" />
     <meta name="description"
-        content="Apply for a Commerce Stream education like never before! Our cutting-edge online application process makes it easy to join our Al Commerce section. - Prince of Wales' College, Moratuwa" />
+        content="" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/commerce.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/art.php" />
     <meta property="og:title"
-        content="Commerce Stream - Application for Advanced Level Admission Registration" />
+        content="Art Stream - Application for Advanced Level Admission Registration" />
     <meta property="og:description"
-        content="Apply for a Commerce Stream education like never before! Our cutting-edge online application process makes it easy to join our Al Commerce section. - Prince of Wales' College, Moratuwa" />
+        content="" />
     <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/commerce.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/art.php" />
     <meta property="twitter:title"
-        content="Commerce Stream - Application for Advanced Level Admission Registration" />
+        content="Art Stream - Application for Advanced Level Admission Registration" />
     <meta property="twitter:description"
-        content="Apply for a Commerce Stream education like never before! Our cutting-edge online application process makes it easy to join our Al Commerce section. - Prince of Wales' College, Moratuwa" />
+        content="" />
     <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
 
 
 
-    <title>Commerce Stream - Application for Advanced Level Admission Registration</title>
+    <title>Art Stream - Application for Advanced Level Admission Registration</title>
 
  <!-- Bootstrap core CSS -->
 
@@ -48,7 +48,7 @@ and open the template in the editor.
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <?php 
-    include '../database_connection.php';
+    include '../../database_connection.php';
     include 'header.php';
     ?>
 
@@ -84,41 +84,56 @@ and open the template in the editor.
 <body>
 
     <div class="container">
-        <form class="form-horizontal" method="POST" action="commerce_insert.php">
+        <form class="form-horizontal" method="POST" action="art_insert.php">
             <h5 class="text-center"></h5>
             <h4 class="text-center"> Application for 2025 Advanced Level Admission Registration </h4>
-            <h4 class="text-center"> Commerce Stream </h4>
+            <h4 class="text-center"> Art Stream </h4>
             <div class="form-group"></div>
             <div class="form-group">
                 <div class="alert alert-danger">
-                    <p> Subjects are in Sinhala and English Medium </p>
-                    <p> <b>Accounting </b>and <b>Economics</b> are <b>compulsory</b> for both
-                        medium.</p>
+                    <p> Subjects are in <b>Sinhala</b> Medium </p>
+                    <p> Select <b>one Subject</b> from each Category</p>
                 </div>
             </div>
             <!--Subject Selection-->
             <div class="form-group">
+            <div class="form-group">
                 <label for="subject_selection" class="col-sm-2 col-form-label"> Subjects wish to apply </label>
-                <div class="col-sm-5">
-                <select id="subject" name="scommerce" style="min-height:30px;">
-                        <option value="Accounting / Economics / Business Studies">Accounting / Economics / Business Studies </option>
-                        <option value="Accounting / Economics / Business Statistics"> Accounting / Economics / Business Statistics </option>
-                        <option value="Accounting / Economics / ICT"> Accounting / Economics / ICT </option>
+                <div class="col-sm-3">
+                    <select id="subject" name="sart1" style="min-height:30px;">
+                        <option value="None"> Category 1</option>
+                        <option value="Buddhist Civilization (BC)"> Buddhist Civilization (BC) </option>
+                        <option value="Econ"> Economics </option>
+                        <option value="Logic"> Logic </option>
+
+                    </select> </div>
+                <div class="col-sm-1">&nbsp;</div>
+
+                <div class="col-sm-3">
+                    <select id="subject" name="sart2" style="min-height:30px;">
+                        <option value="None"> Category 2</option>
+                        <option value="ICT"> ICT </option>
+                        <option value="Media & Communication Studies"> Media & Communication Studies </option>
+                        <option value="Geography"> Geography </option>
                     </select>
                 </div>
+                <div class="col-sm-1">&nbsp;</div>
 
-                <div class="col-sm-5">
-                    <label for="almedium" class="col-sm-2 col-form-label"> Medium </label>
-                    <div class="col-sm-5">
-                        <select id="almedium" name="almedium" style="min-height:30px;">
-                            <option value="Sinhala"> Sinhala </option>
-                            <option value="English"> English </option>
-                        </select>
-                    </div>
+                <div class="col-sm-2">
+                    <select id="subject" name="sart3" style="min-height:30px;">
+                        <option value="None"> Category 3</option>
+                        <option value="Political Science"> Political Science </option>
+                        <option value="Sinhala"> Sinhala </option>
+                        <option value="Art"> Art </option>
+                        <option value="Eastern Music"> Eastern Music </option>
+                        <option value="Dancing"> Dancing </option>
+                    </select>
                 </div>
             </div>
             <hr>
-            <div class="form-group"></div>
+    </DIV>
+
+
 
 
             <div class="form-group">

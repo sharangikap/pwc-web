@@ -4,7 +4,7 @@
 <head>
 
     <?php 
-    include '../database_connection.php';
+    include '../../database_connection.php';
     include 'header.php';
     ?>
 

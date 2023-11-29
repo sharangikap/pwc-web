@@ -1,8 +1,3 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-
 <!DOCTYPE html>
 <html>
 
@@ -16,39 +11,41 @@ and open the template in the editor.
 
     <!-- Primary Meta Tags -->
     <meta name="title"
-        content="Art Stream - Application for Advanced Level Admission Registration" />
+        content="Science Stream - Application for Advanced Level Admission Registration" />
     <meta name="description"
-        content="" />
+        content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/art.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
     <meta property="og:title"
-        content="Art Stream - Application for Advanced Level Admission Registration" />
+        content="Science Stream - Application for Advanced Level Admission Registration" />
     <meta property="og:description"
-        content="" />
+        content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
     <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/art.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
     <meta property="twitter:title"
-        content="Art Stream - Application for Advanced Level Admission Registration" />
+        content="Science Stream - Application for Advanced Level Admission Registration" />
     <meta property="twitter:description"
-        content="" />
+        content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
     <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
 
 
 
-    <title>Art Stream - Application for Advanced Level Admission Registration</title>
 
- <!-- Bootstrap core CSS -->
 
- <link href="css/bootstrap.css" rel="stylesheet">
+    <title>Science Stream - Application for Advanced Level Admission Registration</title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="css/bootstrap.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <?php 
-    include '../database_connection.php';
+    include '../../database_connection.php';
     include 'header.php';
     ?>
 
@@ -84,56 +81,37 @@ and open the template in the editor.
 <body>
 
     <div class="container">
-        <form class="form-horizontal" method="POST" action="art_insert.php">
+        <form class="form-horizontal" method="POST" action="science_insert.php">
             <h5 class="text-center"></h5>
             <h4 class="text-center"> Application for 2025 Advanced Level Admission Registration </h4>
-            <h4 class="text-center"> Art Stream </h4>
+            <h4 class="text-center"> Science Stream </h4>
             <div class="form-group"></div>
-            <div class="form-group">
-                <div class="alert alert-danger">
-                    <p> Subjects are in <b>Sinhala</b> Medium </p>
-                    <p> Select <b>one Subject</b> from each Category</p>
-                </div>
-            </div>
+    
             <!--Subject Selection-->
             <div class="form-group">
-            <div class="form-group">
                 <label for="subject_selection" class="col-sm-2 col-form-label"> Subjects wish to apply </label>
-                <div class="col-sm-3">
-                    <select id="subject" name="sart1" style="min-height:30px;">
-                        <option value="None"> Category 1</option>
-                        <option value="Buddhist Civilization (BC)"> Buddhist Civilization (BC) </option>
-                        <option value="Econ"> Economics </option>
-                        <option value="Logic"> Logic </option>
+                <div class="col-sm-5">
+                    <select id="subject" name="sscience" style="min-height:30px;">
 
-                    </select> </div>
-                <div class="col-sm-1">&nbsp;</div>
-
-                <div class="col-sm-3">
-                    <select id="subject" name="sart2" style="min-height:30px;">
-                        <option value="None"> Category 2</option>
-                        <option value="ICT"> ICT </option>
-                        <option value="Media & Communication Studies"> Media & Communication Studies </option>
-                        <option value="Geography"> Geography </option>
+                        <option value="Combined Mathematics / ICT / Physics"> Combined Mathematics / ICT / Physics </option>
+                        <option value="Combined Mathematics / Chemistry / Physics"> Combined Mathematics / Chemistry / Physics </option>
+                        <option value="Biology / Chemistry / Physics"> Biology / Chemistry / Physics </option>
+                    
                     </select>
                 </div>
-                <div class="col-sm-1">&nbsp;</div>
 
-                <div class="col-sm-2">
-                    <select id="subject" name="sart3" style="min-height:30px;">
-                        <option value="None"> Category 3</option>
-                        <option value="Political Science"> Political Science </option>
-                        <option value="Sinhala"> Sinhala </option>
-                        <option value="Art"> Art </option>
-                        <option value="Eastern Music"> Eastern Music </option>
-                        <option value="Dancing"> Dancing </option>
-                    </select>
+                <div class="col-sm-5">
+                    <label for="almedium" class="col-sm-2 col-form-label"> Medium </label>
+                    <div class="col-sm-5">
+                        <select id="almedium" name="almedium" style="min-height:30px;">
+                            <option value="Sinhala"> Sinhala </option>
+                            <option value="English"> English </option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <hr>
-    </DIV>
-
-
+            <div class="form-group"></div>
 
 
             <div class="form-group">
@@ -149,6 +127,8 @@ and open the template in the editor.
                     </label>
                 </div>
 
+      
+
                 <div class="col-sm-2 col-form-label">
                     <label for="nic">School Index Number</label>
                 </div>
@@ -158,6 +138,7 @@ and open the template in the editor.
                 </div>
 
             </div>
+            
 
             <div class="form-group">
                 <label for="school" class="col-sm-3 col-form-label">School or Private Candiate at GCE OL</label>
@@ -170,6 +151,9 @@ and open the template in the editor.
                     </select>
                 </div>
             </div>
+
+
+
             <div class="form-group">
                 <label for="princeofwales" class="col-sm-3 col-form-label">If you are not a student of Prince of Wales'
                     College</label>
@@ -598,17 +582,19 @@ and open the template in the editor.
 
         // Add an event listener to the radio buttons to enable/disable the select element
         chkYes.addEventListener("change", function () {
-            SchoolIndexNo.disabled = false; // Enable the select element when "Yes" is selected
+            SchoolIndexNolass.disabled = false; // Enable the select element when "Yes" is selected
         });
 
         chkNo.addEventListener("change", function () {
             SchoolIndexNo.disabled = true; // Disable the select element when "No" is selected
         });
+
     </script>
 
     <?php 
     include 'footer.php';
 ?>
+
 </body>
 
 </html>

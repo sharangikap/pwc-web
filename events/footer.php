@@ -3,17 +3,19 @@
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-            <div class="col-lg-9 col-md-6">
+            <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Quick Links</h4>
                     <a class="btn btn-link" href="../the-golden-book.php">The Golden Book</a>
                     <a class="btn btn-link" href="../history.php">History</a>
                     <a class="btn btn-link" href="../about.php">About Us</a>
                     <a class="btn btn-link" href="../contact.php">Contact Us</a>
-                    <br><br>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Legal</h4>
                     <a class="btn btn-link" href="../privacy.php">Privacy Policy</a>
                     <a class="btn btn-link" href="../cookies.php">Cookies Policy</a>
-            </div>
-                <div class="col-lg-3 col-md-12">
+                </div>
+                <div class="col-lg-3 col-md-6">
                     <left><h4 class="text-white mb-3">Contact</h4></left>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Galle Road, Moratuwa, CM7 2AA, 10456</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+94 112 645 628</p>
