@@ -47,13 +47,30 @@
 <body>
 
 <?php
-
-if(isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
     include '../resources/db_con.php';
 
+    $day = isset($_POST['day']) ? $_POST['day'] : "";
+    $month = isset($_POST['month']) ? $_POST['month'] : "";
+    $year = isset($_POST['year']) ? $_POST['year'] : "";
+
+    $grade = isset($_POST['grade']) ? $_POST['grade'] : "";
+    $class = isset($_POST['class']) ? $_POST['class'] : "";
+
+    $grade_class = ""; 
+
+    if ($grade && $class) {
+        $grade_class = $grade . $class;
+    }
+
+    $birthday = ""; 
+
+    if ($day && $month && $year) {
+        $birthday = sprintf("%04d-%02d-%02d", $year, $month, $day);
+    }
+
     $IndexNo = $_POST['IndexNo'];
-    $fname = strtoupper($_POST['fname']); 
-    $birthday = $_POST['birthday'];
+    $fname = strtoupper($_POST['fname']);
     $address1 = strtoupper($_POST['address1']);
     $address2 = strtoupper($_POST['address2']);
     $city = strtoupper($_POST['city']);
@@ -71,13 +88,13 @@ if(isset($_POST['submit'])){
     $brother_count = $_POST['brother-count'];
 
     $sql = "INSERT INTO student_information 
-            (IndexNo, fname, birthday, address1, address2, city, mobile, whatsapp, 
+            (IndexNo, fname, grade_class, birthday, address1, address2, city, mobile, whatsapp, 
             father_name, father_occupation, father_employer, 
             mother_name, mother_occupation, mother_employer, 
             guardian_name, guardian_occupation, guardian_employer, 
             brother_count) 
             VALUES 
-            ('$IndexNo', '$fname', '$birthday', '$address1', '$address2', '$city', '$mobile', '$whatsapp', 
+            ('$IndexNo', '$fname', '$grade_class', '$birthday', '$address1', '$address2', '$city', '$mobile', '$whatsapp', 
             '$father_name', '$father_occupation', '$father_employer', 
             '$mother_name', '$mother_occupation', '$mother_employer', 
             '$guardian_name', '$guardian_occupation', '$guardian_employer', 

@@ -68,8 +68,8 @@
                     <label for="IndexNo">School Index Number</label>
                 </div>
                 <div class="col-sm-2">
-                    <input type="text" class="form-control" id="IndexNo" name="IndexNo"
-                        placeholder="School Index No" required>
+                    <input type="text" class="form-control" id="IndexNo" name="IndexNo" placeholder="School Index No"
+                        required>
                 </div>
 
             </div>
@@ -85,21 +85,74 @@
                 </div>
             </div>
 
-            <!--Date of birth-->
-            <div class="form-group">
-                <label for="birthday" class="col-sm-2">Birthday</label>
-                <div class="col-sm-9">
-                    <input type="date" id="birthday" name="birthday" required>
-                </div>
-            </div>
+<!-- Date of birth -->
+<div class="form-group">
+    <!-- Day Selector -->
+    <label for="dob-date" class="col-sm-2 col-form-label">Date of Birth</label>
+    <div class="col-sm-2">
+        <select id="day" name="day" class="form-control" required>
+            <option value="">Day</option>
+            <?php for ($i = 1; $i <= 31; $i++) { ?>
+                <option value="<?= $i ?>"><?= $i ?></option>
+            <?php } ?>
+        </select>
+    </div>
+
+    <!-- Month Selector -->
+    <div class="col-sm-2">
+        <select id="dob-month" name="month" class="form-control" required>
+            <option value="">Month</option>
+            <?php 
+                $monthNames = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+                foreach ($monthNames as $index => $monthName) { 
+            ?>
+                <option value="<?= $index + 1 ?>"><?= $monthName ?></option>
+            <?php } ?>
+        </select>
+    </div>
+
+    <!-- Year Selector -->
+    <div class="col-sm-2">
+        <select id="dob-year" name="year" class="form-control" required>
+            <option value="">Year</option>
+            <?php for ($i = 2000; $i <= 2023; $i++) { ?>
+                <option value="<?= $i ?>"><?= $i ?></option>
+            <?php } ?>
+        </select>
+    </div>
+</div>
+
+
 
 
             <!--class-->
             <div class="form-group">
-                <label for="class" class="col-sm-2 col-form-label">Grade and Class</label>
-                <div class="col-sm-5">
-                    <input type="text" class="form-control" name="class" placeholder="10-A" required>
+                <label for="grade" class="col-sm-2 col-form-label">Grade</label>
+                <div class="col-sm-2">
+                    <select id="grade" name="grade" style="min-height:30px;">
+                        <option value="+">+</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+
+                    <select id="class" name="class" style="min-height:30px;">
+                            <option value="+">+</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                            <option value="D">D</option>
+                            <option value="E">E</option>
+                            <option value="F">F</option>
+                            <option value="G">G</option>
+                            <option value="H">H</option>
+                        </select>
                 </div>
+
+               
             </div>
 
             <!--Address-->
@@ -127,112 +180,115 @@
             <div class="form-group">
                 <label for="contact" class=" col-sm-2 col-form-label ">Contact No.</label>
                 <div class="col-sm-2">
-                <input type="tel" class="form-control" id="mobile" placeholder="Mobile No." name="mobile" pattern="[0-9()+-\s]*" required>
+                    <input type="tel" class="form-control" id="mobile" placeholder="Mobile No." name="mobile"
+                        pattern="[0-9()+-\s]*" required>
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">
-                <input type="tel" class="form-control" id="whatsapp" placeholder="WhatsApp No." name="whatsapp" pattern="[0-9()+-\s]*" required>
+                    <input type="tel" class="form-control" id="whatsapp" placeholder="WhatsApp No." name="whatsapp"
+                        pattern="[0-9()+-\s]*" required>
 
                 </div>
             </div>
 
             <br>
 
- <!--father's Name-->
-<div class="form-group">
-    <label for="father-name" class="col-sm-2 col-form-label">Father's Name</label>
-    <div class="col-sm-5">
-        <input type="text" class="form-control" name="father-name" id="father-name">
-    </div>
-</div>
-<div class="form-group">
-    <label for="father-occupation" class="col-sm-2 col-form-label">Father's Occupation</label>
-    <div class="col-sm-3">
-        <input type="text" class="form-control" name="father-occupation" id="father-occupation">
-    </div>
-</div>
-<div class="form-group">
-    <label for="father-employer" class="col-sm-2 col-form-label">Father's Employer</label>
-    <div class="col-sm-3">
-        <input type="text" class="form-control" name="father-employer" id="father-employer">
-    </div>
-</div>
-<br>
-<!--Mother's Name-->
-<div class="form-group">
-    <label for="mother-name" class="col-sm-2 col-form-label">Mother's Name</label>
-    <div class="col-sm-5">
-        <input type="text" class="form-control" name="mother-name" id="mother-name">
-    </div>
-</div>
-<div class="form-group">
-    <label for="mother-occupation" class="col-sm-2 col-form-label">Mother's Occupation</label>
-    <div class="col-sm-3">
-        <input type="text" class="form-control" name="mother-occupation" id="mother-occupation">
-    </div>
-</div>
-<div class="form-group">
-    <label for="mother-employer" class="col-sm-2 col-form-label">Mother's Employer</label>
-    <div class="col-sm-3">
-        <input type="text" class="form-control" name="mother-employer" id="mother-employer">
-    </div>
-</div>
-<br>
-<!--Guardian's Name-->
-<div class="form-group">
-    <label for="guardian-name" class="col-sm-2 col-form-label">Guardian's Name</label>
-    <div class="col-sm-5">
-        <input type="text" class="form-control" name="guardian-name" id="guardian-name">
-    </div>
-</div>
-<div class="form-group">
-    <label for="guardian-occupation" class="col-sm-2 col-form-label">Guardian's Occupation</label>
-    <div class="col-sm-3">
-        <input type="text" class="form-control" name="guardian-occupation" id="guardian-occupation">
-    </div>
-</div>
-<div class="form-group">
-    <label for="guardian-employer" class="col-sm-2 col-form-label">Guardian's Employer</label>
-    <div class="col-sm-3">
-        <input type="text" class="form-control" name="guardian-employer" id="guardian-employer">
-    </div>
-</div>
+            <!--father's Name-->
+            <div class="form-group">
+                <label for="father-name" class="col-sm-2 col-form-label">Father's Name</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" name="father-name" id="father-name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="father-occupation" class="col-sm-2 col-form-label">Father's Occupation</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" name="father-occupation" id="father-occupation">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="father-employer" class="col-sm-2 col-form-label">Father's Employer</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" name="father-employer" id="father-employer">
+                </div>
+            </div>
+            <br>
+            <!--Mother's Name-->
+            <div class="form-group">
+                <label for="mother-name" class="col-sm-2 col-form-label">Mother's Name</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" name="mother-name" id="mother-name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mother-occupation" class="col-sm-2 col-form-label">Mother's Occupation</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" name="mother-occupation" id="mother-occupation">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mother-employer" class="col-sm-2 col-form-label">Mother's Employer</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" name="mother-employer" id="mother-employer">
+                </div>
+            </div>
+            <br>
+            <!--Guardian's Name-->
+            <div class="form-group">
+                <label for="guardian-name" class="col-sm-2 col-form-label">Guardian's Name</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" name="guardian-name" id="guardian-name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="guardian-occupation" class="col-sm-2 col-form-label">Guardian's Occupation</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" name="guardian-occupation" id="guardian-occupation">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="guardian-employer" class="col-sm-2 col-form-label">Guardian's Employer</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" name="guardian-employer" id="guardian-employer">
+                </div>
+            </div>
 
-<script>
-    function toggleGuardianFields() {
-        const fatherName = document.getElementById('father-name').value;
-        const motherName = document.getElementById('mother-name').value;
-        const guardianNameField = document.getElementById('guardian-name');
-        const guardianOccupationField = document.getElementById('guardian-occupation');
-        const guardianEmployerField = document.getElementById('guardian-employer');
+            <script>
+                function toggleGuardianFields() {
+                    const fatherName = document.getElementById('father-name').value;
+                    const motherName = document.getElementById('mother-name').value;
+                    const guardianNameField = document.getElementById('guardian-name');
+                    const guardianOccupationField = document.getElementById('guardian-occupation');
+                    const guardianEmployerField = document.getElementById('guardian-employer');
 
-        if (fatherName || motherName) {
-            // If either father or mother fields have input, disable guardian fields
-            guardianNameField.disabled = true;
-            guardianOccupationField.disabled = true;
-            guardianEmployerField.disabled = true;
-        } else {
-            // If neither father nor mother fields have input, enable guardian fields
-            guardianNameField.disabled = false;
-            guardianOccupationField.disabled = false;
-            guardianEmployerField.disabled = false;
-        }
-    }
+                    if (fatherName || motherName) {
+                        // If either father or mother fields have input, disable guardian fields
+                        guardianNameField.disabled = true;
+                        guardianOccupationField.disabled = true;
+                        guardianEmployerField.disabled = true;
+                    } else {
+                        // If neither father nor mother fields have input, enable guardian fields
+                        guardianNameField.disabled = false;
+                        guardianOccupationField.disabled = false;
+                        guardianEmployerField.disabled = false;
+                    }
+                }
 
-    // Attach the function to the input events of father and mother fields
-    document.getElementById('father-name').addEventListener('input', toggleGuardianFields);
-    document.getElementById('mother-name').addEventListener('input', toggleGuardianFields);
+                // Attach the function to the input events of father and mother fields
+                document.getElementById('father-name').addEventListener('input', toggleGuardianFields);
+                document.getElementById('mother-name').addEventListener('input', toggleGuardianFields);
 
-    // Call the function initially to set the initial state
-    toggleGuardianFields();
-</script>
+                // Call the function initially to set the initial state
+                toggleGuardianFields();
+            </script>
 
 
 
             <br>
 
             <div class="form-group">
-                <label for="brother-count" class="col-sm-2 col-form-label">Number of Brother(s) Studying in School</label>
+                <label for="brother-count" class="col-sm-2 col-form-label">Number of Brother(s) Studying in
+                    School</label>
                 <div class="col-sm-2">
                     <input type="number" class="form-control" name="brother-count" required>
                 </div>
