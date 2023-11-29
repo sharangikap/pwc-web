@@ -85,42 +85,42 @@
                 </div>
             </div>
 
-<!-- Date of birth -->
-<div class="form-group">
-    <!-- Day Selector -->
-    <label for="dob-date" class="col-sm-2 col-form-label">Date of Birth</label>
-    <div class="col-sm-2">
-        <select id="day" name="day" class="form-control" required>
-            <option value="">Day</option>
-            <?php for ($i = 1; $i <= 31; $i++) { ?>
-                <option value="<?= $i ?>"><?= $i ?></option>
-            <?php } ?>
-        </select>
-    </div>
+            <!-- Date of birth -->
+            <div class="form-group">
+                <!-- Day Selector -->
+                <label for="dob-date" class="col-sm-2 col-form-label">Date of Birth</label>
+                <div class="col-sm-2">
+                    <select id="day" name="day" class="form-control" required>
+                        <option value="">Day</option>
+                        <?php for ($i = 1; $i <= 31; $i++) { ?>
+                        <option value="<?= $i ?>"><?= $i ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
 
-    <!-- Month Selector -->
-    <div class="col-sm-2">
-        <select id="dob-month" name="month" class="form-control" required>
-            <option value="">Month</option>
-            <?php 
+                <!-- Month Selector -->
+                <div class="col-sm-2">
+                    <select id="dob-month" name="month" class="form-control" required>
+                        <option value="">Month</option>
+                        <?php 
                 $monthNames = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
                 foreach ($monthNames as $index => $monthName) { 
             ?>
-                <option value="<?= $index + 1 ?>"><?= $monthName ?></option>
-            <?php } ?>
-        </select>
-    </div>
+                        <option value="<?= $index + 1 ?>"><?= $monthName ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
 
-    <!-- Year Selector -->
-    <div class="col-sm-2">
-        <select id="dob-year" name="year" class="form-control" required>
-            <option value="">Year</option>
-            <?php for ($i = 2000; $i <= 2023; $i++) { ?>
-                <option value="<?= $i ?>"><?= $i ?></option>
-            <?php } ?>
-        </select>
-    </div>
-</div>
+                <!-- Year Selector -->
+                <div class="col-sm-2">
+                    <select id="dob-year" name="year" class="form-control" required>
+                        <option value="">Year</option>
+                        <?php for ($i = 2000; $i <= 2023; $i++) { ?>
+                        <option value="<?= $i ?>"><?= $i ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+            </div>
 
 
 
@@ -140,19 +140,19 @@
                     </select>
 
                     <select id="class" name="class" style="min-height:30px;">
-                            <option value="+">+</option>
-                            <option value="A">A</option>
-                            <option value="B">B</option>
-                            <option value="C">C</option>
-                            <option value="D">D</option>
-                            <option value="E">E</option>
-                            <option value="F">F</option>
-                            <option value="G">G</option>
-                            <option value="H">H</option>
-                        </select>
+                        <option value="+">+</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                        <option value="G">G</option>
+                        <option value="H">H</option>
+                    </select>
                 </div>
 
-               
+
             </div>
 
             <!--Address-->
@@ -173,6 +173,38 @@
                 <div class="col-sm-4">
                     <input type="text" class="form-control" name="city" placeholder="City" required>
                 </div>
+            </div>
+
+
+
+
+            <div class="form-group">
+                <label for="religion" class="col-sm-2 col-form-label ">Religion</label>
+                <div class="col-sm-4">
+                    <select id="religion" name="religion" style="min-height:30px;">
+                        <option value="+">+</option>
+                        <option value="Buddhism">Buddhism</option>
+                        <option value="Christianity">Christianity</option>
+                        <option value="R. Catholic">R. Catholic</option>
+                        <option value="8">Islam</option>
+                        <option value="7">Hinduism</option>
+                        <option value="11">Other</option>
+
+                    </select>
+                </div>
+
+            </div>
+
+
+                        <!-- Email-->
+
+                        <div class="form-group">
+                <label for="email" class="col-sm-2 col-form-label ">Email Address</label>
+                <div class="col-sm-4">
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email"
+                        name="email">
+                </div>
+
             </div>
 
 
@@ -314,13 +346,13 @@
                 <div class="form-group">
                     <div class="alert alert-danger">
                         <p style="color:red;">Please CHECK the information you provided are correct BEFORE click on
-                            SUBMIT button. <br><b> A reference number will be provided after successful submission.</b>
+                            SUBMIT button.
                         </p>
                     </div>
 
-                    <p><b>Before click on Submit button, you can click on the Cancel button and fill application from
+                    <p><b>Before click on Submit button, you can click on the Reset button and fill application from
                             the beginning.</b></p>
-                    <p><b>* Otherwise Reset the same application and fill again before click on the submit button </b>
+                    <p>
                     </p>
                 </div>
             </div>

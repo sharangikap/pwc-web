@@ -74,6 +74,8 @@ if (isset($_POST['submit'])) {
     $address1 = strtoupper($_POST['address1']);
     $address2 = strtoupper($_POST['address2']);
     $city = strtoupper($_POST['city']);
+    $email = $_POST['email'];
+    $religion = $_POST['religion'];
     $mobile = $_POST['mobile'];
     $whatsapp = $_POST['whatsapp'];
     $father_name = $_POST['father-name'];
@@ -88,17 +90,18 @@ if (isset($_POST['submit'])) {
     $brother_count = $_POST['brother-count'];
 
     $sql = "INSERT INTO student_information 
-            (IndexNo, fname, grade_class, birthday, address1, address2, city, mobile, whatsapp, 
-            father_name, father_occupation, father_employer, 
-            mother_name, mother_occupation, mother_employer, 
-            guardian_name, guardian_occupation, guardian_employer, 
-            brother_count) 
-            VALUES 
-            ('$IndexNo', '$fname', '$grade_class', '$birthday', '$address1', '$address2', '$city', '$mobile', '$whatsapp', 
-            '$father_name', '$father_occupation', '$father_employer', 
-            '$mother_name', '$mother_occupation', '$mother_employer', 
-            '$guardian_name', '$guardian_occupation', '$guardian_employer', 
-            '$brother_count')";
+    (IndexNo, fname, grade_class, birthday, address1, address2, city, mobile, whatsapp, email, religion,
+    father_name, father_occupation, father_employer, 
+    mother_name, mother_occupation, mother_employer, 
+    guardian_name, guardian_occupation, guardian_employer, 
+    brother_count) 
+    VALUES 
+    ('$IndexNo', '$fname', '$grade_class', '$birthday', '$address1', '$address2', '$city', '$mobile', '$whatsapp', '$email', '$religion',
+    '$father_name', '$father_occupation', '$father_employer', 
+    '$mother_name', '$mother_occupation', '$mother_employer', 
+    '$guardian_name', '$guardian_occupation', '$guardian_employer', 
+    '$brother_count')";
+
 
     if(mysqli_query($db, $sql)){
         echo '<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">';
