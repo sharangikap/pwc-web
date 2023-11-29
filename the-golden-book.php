@@ -16,14 +16,14 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk/the-golden-book.php" />
+<meta property="og:url" content="https://princeofwales.edu.lk/golden-book" />
 <meta property="og:title" content="The Golden Book | Prince of Wales' College" />
 <meta property="og:description" content="The Golden Book of Prince of Wales College: Honoring the remarkable legacy of Cambrian excellence in education and sports, inspiring generations to pursue greatness." />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-goldenbook/the-golden-book-cover-pwc.webp" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk/the-golden-book.php" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/golden-book" />
 <meta property="twitter:title" content="The Golden Book | Prince of Wales' College" />
 <meta property="twitter:description" content="The Golden Book of Prince of Wales College: Honoring the remarkable legacy of Cambrian excellence in education and sports, inspiring generations to pursue greatness." />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-goldenbook/the-golden-book-cover-pwc.webp" />

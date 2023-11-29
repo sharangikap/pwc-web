@@ -19,50 +19,50 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://princeofwales.edu.lk/the-golden-book.php</loc>
+        <loc>https://princeofwales.edu.lk/golden-book</loc>
         <lastmod>2023-08-11</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://princeofwales.edu.lk/sports.php</loc>
+        <loc>https://princeofwales.edu.lk/sports</loc>
+        <lastmod>2023-11-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://princeofwales.edu.lk/clubs</loc>
         <lastmod>2023-08-11</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://princeofwales.edu.lk/clubs.php</loc>
-        <lastmod>2023-08-11</lastmod>
+        <loc>https://princeofwales.edu.lk/history</loc>
+        <lastmod>2023-11-29</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://princeofwales.edu.lk/history.php</loc>
-        <lastmod>2023-08-11</lastmod>
+        <loc>https://princeofwales.edu.lk/about</loc>
+        <lastmod>2023-11-29</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://princeofwales.edu.lk/about.php</loc>
-        <lastmod>2023-08-11</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://princeofwales.edu.lk/contact.php</loc>
-        <lastmod>2023-08-11</lastmod>
+        <loc>https://princeofwales.edu.lk/contact</loc>
+        <lastmod>2023-11-29</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
         <url>
-        <loc>https://princeofwales.edu.lk/battle-of-the-golds.php</loc>
-        <lastmod>2023-08-25</lastmod>
+        <loc>https://princeofwales.edu.lk/battle-of-the-golds</loc>
+        <lastmod>2023-11-29</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://princeofwales.edu.lk/team.php</loc>
-        <lastmod>2023-08-11</lastmod>
+        <loc>https://princeofwales.edu.lk/team</loc>
+        <lastmod>2023-11-29</lastmod>
         <changefreq>never</changefreq>
         <priority>0.6</priority>
     </url>

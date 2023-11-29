@@ -16,14 +16,14 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk/contact.php" />
+<meta property="og:url" content="https://princeofwales.edu.lk/contact" />
 <meta property="og:title" content="Contact | Prince of Wales' College" />
 <meta property="og:description" content="Contact Prince of Wales College for information, admissions, and inquiries. Reach out to us today for a brighter educational future." />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-contact/contact-header-pwc.webp" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk/contact.php" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/contact" />
 <meta property="twitter:title" content="Contact | Prince of Wales' College" />
 <meta property="twitter:description" content="Contact Prince of Wales College for information, admissions, and inquiries. Reach out to us today for a brighter educational future." />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-contact/contact-header-pwc.webp" />

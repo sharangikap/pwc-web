@@ -1,1 +1,38 @@
-ErrorDocument 404 http://princeofwales.edu.lk/404.php
+RewriteEngine On
+
+RewriteRule ^article/(\d+)$ news.php?id=$1 [NC]
+
+RewriteRule ^golden-book$ the-golden-book.php [NC,L]
+RewriteRule ^sports$ sports.php [NC,L]
+RewriteRule ^clubs$ clubs.php [NC,L]
+
+RewriteRule ^history$ history.php [NC,L]
+RewriteRule ^history/former-principals$ history-former-principals.php [NC,L]
+
+RewriteRule ^about$ about.php [NC,L]
+RewriteRule ^about/prefects-guild$ about-prefects-guild.php [NC,L]
+RewriteRule ^about/school-administration$ about-school-administration.php [NC,L]
+
+RewriteRule ^about/school-infrastructure$ about-school-infrastructure.php [NC,L]
+RewriteRule ^about/school-infrastructure/founders-statue$ location-founders-statue.php [NC,L]
+RewriteRule ^about/school-infrastructure/the-shrine$ location-the-shrine.php [NC,L]
+
+
+RewriteRule ^contact$ contact.php [NC,L]
+RewriteRule ^search$ search.php [NC,L]
+
+RewriteRule ^team$ team.php [NC,L]
+
+RewriteRule ^privacy$ privacy.php [NC,L]
+RewriteRule ^cookies$ cookies.php [NC,L]
+RewriteRule ^404$ 404.php [NC,L]
+
+RewriteRule ^battle-of-the-golds$ battle-of-the-golds.php [NC,L]
+RewriteRule ^principal-message$ principal-msg.php [NC,L]
+
+RewriteRule ^admin-access$ admin_login.php [NC,L]
+
+ErrorDocument 404 http://princeofwales.edu.lk/404
+
+Options -Indexes
+

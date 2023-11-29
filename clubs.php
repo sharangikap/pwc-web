@@ -18,7 +18,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/clubs.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/clubs" />
     <meta property="og:title" content="Clubs & Societies | Prince of Wales' College" />
     <meta property="og:description"
         content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
@@ -26,7 +26,7 @@
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/clubs.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/clubs" />
     <meta property="twitter:title" content="Clubs & Societies | Prince of Wales' College" />
     <meta property="twitter:description"
         content="Prince of Wales College offers diverse clubs and societies fostering student engagement, from arts to sports, creating a vibrant school community for personal growth and shared interests." />
@@ -74,16 +74,16 @@
 
             <center>
                 <div class="col-lg-9 col-md-6">
-                    <a class="btn btn-link" href="clubs.php#media-clubs">Media Clubs</a>
-                    <a class="btn btn-link" href="clubs.php#tech-clubs">Technological Clubs</a>
-                    <a class="btn btn-link" href="clubs.php#resprentative-clubs">Respresentative Clubs</a>
-                    <a class="btn btn-link" href="clubs.php#service-clubs">Community Service Clubs</a>
-                    <a class="btn btn-link" href="clubs.php#cadeting">Cadeting</a>
-                    <a class="btn btn-link" href="clubs.php#edu-clubs">Educational Clubs</a>
-                    <a class="btn btn-link" href="clubs.php#lang-clubs">Language Clubs</a>
-                    <a class="btn btn-link" href="clubs.php#aesthetic-clubs">Aesthetic Clubs</a>
-                    <a class="btn btn-link" href="clubs.php#hobby-clubs">Hobby Clubs</a>
-                    <a class="btn btn-link" href="clubs.php#religious-clubs">Religious Clubs</a>
+                    <a class="btn btn-link" href="clubs#media-clubs">Media Clubs</a>
+                    <a class="btn btn-link" href="clubs#tech-clubs">Technological Clubs</a>
+                    <a class="btn btn-link" href="clubs#resprentative-clubs">Respresentative Clubs</a>
+                    <a class="btn btn-link" href="clubs#service-clubs">Community Service Clubs</a>
+                    <a class="btn btn-link" href="clubs#cadeting">Cadeting</a>
+                    <a class="btn btn-link" href="clubs#edu-clubs">Educational Clubs</a>
+                    <a class="btn btn-link" href="clubs#lang-clubs">Language Clubs</a>
+                    <a class="btn btn-link" href="clubs#aesthetic-clubs">Aesthetic Clubs</a>
+                    <a class="btn btn-link" href="clubs#hobby-clubs">Hobby Clubs</a>
+                    <a class="btn btn-link" href="clubs#religious-clubs">Religious Clubs</a>
                 </div>
             </center>
         </div>
@@ -225,7 +225,7 @@
                             responsible for ensuring a harmonious school environment and assisting in various school
                             activities and events. The Prefects Guild of Prince of Wales College embodies the school's
                             commitment to nurturing responsible and disciplined future leaders.</p>
-                        <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-prefects-guild.php"
+                        <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about/prefects-guild"
                              data-wow-delay="0.7s">Explore</a>
                     </div>
 

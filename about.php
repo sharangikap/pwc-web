@@ -18,7 +18,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/about.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/about" />
     <meta property="og:title" content="About Us | Prince of Wales' College" />
     <meta property="og:description"
         content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
@@ -26,7 +26,7 @@
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/about.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/about" />
     <meta property="twitter:title" content="About Us | Prince of Wales' College" />
     <meta property="twitter:description"
         content="Discover Prince of Wales College: A historic institution of higher learning fostering academic excellence and personal growth. Join us in shaping the future!" />
@@ -632,7 +632,7 @@ if($statement->rowCount() > 0)
 		}	
         ?>
 
-                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-administration.php"
+                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about/school-administration"
                         data-wow-delay="0.1s">View All</a></center>
 
             </div>
@@ -701,7 +701,7 @@ if($statement->rowCount() > 0)
 		}	
         ?>
 
-                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-prefects-guild.php"
+                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about/prefects-guild"
                         data-wow-delay="0.1s">View All</a></center>
 
             </div>
@@ -749,7 +749,7 @@ if($statement->rowCount() > 0)
                     infrastructure, which means all the buildings and things the school needed to work properly. So, the
                     Prince of Wales College has a history that goes back a very long time, and its infrastructure was
                     carefully designed to support the education of its students.</p>
-                <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about-school-infrastructure.php"
+                <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="about/school-infrastructure"
                     data-wow-delay="0.1s">View All</a>
             </div>
         </div>

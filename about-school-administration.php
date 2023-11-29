@@ -17,7 +17,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/about-school-administration.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/about/school-administration" />
     <meta property="og:title" content="School Administration | Prince of Wales' College" />
     <meta property="og:description"
         content="Discover the efficient and dedicated administration team at Prince of Wales College. Your partner in academic excellence and student support." />
@@ -25,7 +25,7 @@
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/about-school-administration.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/about/school-administration" />
     <meta property="twitter:title" content="School Administration | Prince of Wales' College" />
     <meta property="twitter:description"
         content="Discover the efficient and dedicated administration team at Prince of Wales College. Your partner in academic excellence and student support." />
@@ -62,7 +62,7 @@ if($statement->rowCount() > 0)
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="<?php echo $row["img"]; ?>" alt="<?php echo $row["name"]; ?>" style="width: auto;">
+                            <img class="img-fluid" src="/<?php echo $row["img"]; ?>" alt="<?php echo $row["name"]; ?>" style="width: auto;">
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0"><?php echo $row["name"]; ?></h5>

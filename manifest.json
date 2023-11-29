@@ -8,7 +8,7 @@
     {
       "name": "Search",
       "short_name": "Search",
-      "url": "/search.php",
+      "url": "/search",
       "icons": [
         {
           "src": "content/icons/pwa-shortcuts/search.png",
@@ -44,7 +44,7 @@
     {
       "name": "Golden Book",
       "short_name": "Golden Book",
-      "url": "the-golden-book.php",
+      "url": "golden-book",
       "icons": [
         {
           "src": "content/icons/pwa-shortcuts/golden-book.png",
@@ -56,7 +56,7 @@
     {
       "name": "About",
       "short_name": "About",
-      "url": "/about.php",
+      "url": "/about",
       "icons": [
         {
           "src": "content/icons/pwa-shortcuts/about.png",
@@ -68,7 +68,7 @@
     {
       "name": "Contact",
       "short_name": "Contact",
-      "url": "/contact.php",
+      "url": "/contact",
       "icons": [
         {
           "src": "content/icons/pwa-shortcuts/contact.png",

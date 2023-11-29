@@ -281,7 +281,7 @@ if($statement->rowCount() > 0)
                     believe this would aid us to bridge the gap between the school and the parents, past pupils,
                     past teachers etc. We warmly welcome all of you to be a part of this and there-by keep the
                     evergreen Cambrian spirit high amongst us all!</p>
-                <a class="btn btn-primary py-3 px-5 mt-2" href="about.php">Know More
+                <a class="btn btn-primary py-3 px-5 mt-2" href="about">Know More
                     About Us</a>
             </div>
         </div>
@@ -363,11 +363,11 @@ if($statement->rowCount() > 0)
                     occasion of the 147th anniversary of the College. As the Principal of Prince of Wales’ College,
                     Moratuwa, I am happy to introduce this digital platform where you can know more about our
                     prestigious college.
-                    <a href="principal-msg.php">Read More...</a>
+                    <a href="principal-message">Read More...</a>
 
                 </p>
                 
-                <a class="btn btn-primary py-3 px-5 mt-2" href="about-school-administration.php">View School Administration</a>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="about/school-administration">View School Administration</a>
             </div>
         </div>
     </div>
@@ -389,7 +389,7 @@ if($statement->rowCount() > 0)
             <div class="col-lg-7 col-md-6">
                 <div class="row g-3">
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                        <a class="position-relative d-block overflow-hidden" href="sports.php#team-sports">
+                        <a class="position-relative d-block overflow-hidden" href="sports#team-sports">
                             <img class="img-fluid" src="content/img/img-home/team-sports-home-pwc.webp"
                                 alt="team sports" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
@@ -399,7 +399,7 @@ if($statement->rowCount() > 0)
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                        <a class="position-relative d-block overflow-hidden" href="sports.php#individual-sports">
+                        <a class="position-relative d-block overflow-hidden" href="sports#individual-sports">
                             <img class="img-fluid" src="content/img/img-home/individual-sports-home-pwc.webp"
                                 alt="Individual Sports" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
@@ -409,7 +409,7 @@ if($statement->rowCount() > 0)
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                        <a class="position-relative d-block overflow-hidden" href="sports.php#aquatic-sports">
+                        <a class="position-relative d-block overflow-hidden" href="sports#aquatic-sports">
                             <img class="img-fluid" src="content/img/img-home/water-sports-home-pwc.webp"
                                 alt="Aquatic sports" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
@@ -421,7 +421,7 @@ if($statement->rowCount() > 0)
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                <a class="position-relative d-block h-100 overflow-hidden" href="sports.php#combat-sports">
+                <a class="position-relative d-block h-100 overflow-hidden" href="sports#combat-sports">
                     <img class="img-fluid position-absolute w-100 h-100"
                         src="content/img/img-home/combat-sports-home-pwc.webp" alt="combat sports"
                         style="object-fit: cover;">
@@ -431,7 +431,7 @@ if($statement->rowCount() > 0)
                 </a>
             </div>
             <br><br><br><br>
-            <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="sports.php"
+            <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="sports"
                     data-wow-delay="0.1s">Explore More</a></center>
 
         </div>
@@ -459,7 +459,7 @@ if($statement->rowCount() > 0)
                     flags i.e. Purple, Gold and Maroon of Prince of Wales' College and Green, White & Gold of St.
                     Sebastian's College.</p>
 
-                <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="battle-of-the-golds.php"
+                <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="battle-of-the-golds"
                  data-wow-delay="0.1s">Explore</a>
 
             </div>
@@ -479,7 +479,7 @@ if($statement->rowCount() > 0)
             <div class="col-lg-7 col-md-6">
                 <div class="row g-3">
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                        <a class="position-relative d-block overflow-hidden" href="clubs.php#media-clubs">
+                        <a class="position-relative d-block overflow-hidden" href="clubs#media-clubs">
                             <img class="img-fluid" src="content/img/img-home/media-clubs-home-pwc.webp"
                                 alt="media clubs" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
@@ -489,7 +489,7 @@ if($statement->rowCount() > 0)
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                        <a class="position-relative d-block overflow-hidden" href="clubs.php#edu-clubs">
+                        <a class="position-relative d-block overflow-hidden" href="clubs#edu-clubs">
                             <img class="img-fluid" src="content/img/img-home/educational-clubs-home-pwc.webp"
                                 alt="edu clubs" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
@@ -499,7 +499,7 @@ if($statement->rowCount() > 0)
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                        <a class="position-relative d-block overflow-hidden" href="clubs.php#tech-clubs">
+                        <a class="position-relative d-block overflow-hidden" href="clubs#tech-clubs">
                             <img class="img-fluid" src="content/img/img-home/tech-clubs-home-pwc.webp" alt="tech clubs" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                 style="margin: 1px;">
@@ -510,7 +510,7 @@ if($statement->rowCount() > 0)
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                <a class="position-relative d-block h-100 overflow-hidden" href="clubs.php#service-clubs">
+                <a class="position-relative d-block h-100 overflow-hidden" href="clubs#service-clubs">
                     <img class="img-fluid position-absolute w-100 h-100"
                         src="content/img/img-home/community-service-clubs-home-pwc.webp" alt="commiunity service clubs"
                         style="object-fit: cover;">
@@ -520,7 +520,7 @@ if($statement->rowCount() > 0)
                 </a>
             </div>
             <br>
-            <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="clubs.php" 
+            <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="clubs" 
                     data-wow-delay="0.1s">Explore More</a></center>
 
         </div>
@@ -549,7 +549,7 @@ if($statement->rowCount() > 0)
                     a great tradition of developing bright minds and growing talent in sports.
                 </p>
 
-                <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="the-golden-book.php"
+                <a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="golden-book"
                      data-wow-delay="0.1s">Explore</a>
 
             </div>
@@ -578,7 +578,7 @@ if($statement->rowCount() > 0)
                 <h1 class="display-3 text-white animated slideInDown">147 Years and Counting</h1>
                 <h5 class=" text-white animated slideInDown"><br> Explore college history and discover 147 years of rich
                     heritage and academic excellence. <br><br> </h5>
-                <center><a class="btn btn-primary py-3 px-4 mt-2 wow zoomIn" href="history.php"
+                <center><a class="btn btn-primary py-3 px-4 mt-2 wow zoomIn" href="history"
                          data-wow-delay="0.1s">Explore College History</a></center>
             </div>
         </div>

@@ -18,7 +18,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/location-founders-statue.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/school-infrastructure/founders-statue" />
     <meta property="og:title" content="The Founder's Statue | Prince of Wales' College" />
     <meta property="og:description"
         content="Discover the Founder's Statue at Prince of Wales College in Moratuwa - a tribute to our institution's legacy. Delve into its history and significance in a tranquil environment." />
@@ -27,7 +27,7 @@
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/location-founders-statue.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/school-infrastructure/founders-statue" />
     <meta property="twitter:title" content="The Founder's Statue | Prince of Wales' College" />
     <meta property="twitter:description"
         content="Discover the Founder's Statue at Prince of Wales College in Moratuwa - a tribute to our institution's legacy. Delve into its history and significance in a tranquil environment." />
@@ -37,7 +37,7 @@
 
     <style>
         .statue-page-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-history/founder-pwc.webp);
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(/content/img/img-history/founder-pwc.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -104,7 +104,7 @@
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="position-relative ">
-                    <img class="img-fluid w-100 h-100" src="content/img/img-about/statue.webp" alt="principal-pwc"
+                    <img class="img-fluid w-100 h-100" src="/content/img/img-about/statue.webp" alt="principal-pwc"
                         style="object-fit: cover; border-radius: 8px;">
                 </div>
             </div>

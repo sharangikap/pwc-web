@@ -14,14 +14,14 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk/history.php" />
+<meta property="og:url" content="https://princeofwales.edu.lk/history" />
 <meta property="og:title" content="History | Prince of Wales' College" />
 <meta property="og:description" content="Explore the rich history of Prince of Wales College, a prestigious educational institution with a legacy of excellence. Discover its origins, notable alumni, and contributions to education." />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-history/history-img-header.webp" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk/history.php" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/history" />
 <meta property="twitter:title" content="History | Prince of Wales' College" />
 <meta property="twitter:description" content="Explore the rich history of Prince of Wales College, a prestigious educational institution with a legacy of excellence. Discover its origins, notable alumni, and contributions to education." />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-history/history-img-header.webp" />
@@ -175,7 +175,7 @@ if($statement->rowCount() > 0)
         
 
 
-                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="history-former-principals.php"
+                <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="history/former-principals"
                          data-wow-delay="0.1s">View All</a></center>
             </div>
 

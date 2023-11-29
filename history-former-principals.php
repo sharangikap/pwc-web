@@ -16,14 +16,14 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk/history-former-principals.php" />
+<meta property="og:url" content="https://princeofwales.edu.lk/history/former-principals" />
 <meta property="og:title" content="Former Principals | Prince of Wales' College" />
 <meta property="og:description" content="Explore the legacy of Prince of Wales College through its past principals. Discover the leaders who shaped its history and contributed to its educational excellence." />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-history/former-principals/former-principals-header.webp" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk/history-former-principals.php" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/history/former-principals" />
 <meta property="twitter:title" content="Former Principals | Prince of Wales' College" />
 <meta property="twitter:description" content="Explore the legacy of Prince of Wales College through its past principals. Discover the leaders who shaped its history and contributed to its educational excellence." />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-history/former-principals/former-principals-header.webp" />
@@ -31,7 +31,7 @@
 
     <style>
         .former-principals-page-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-history/former-principals/former-principals-header.webp);
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(/content/img/img-history/former-principals/former-principals-header.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -83,7 +83,7 @@ if($statement->rowCount() > 0)
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
                             <img class="img-fluid"
-                                src="<?php echo $row["img"]; ?>"
+                                src="/<?php echo $row["img"]; ?>"
                                 alt="<?php echo $row["name"]; ?>" style="width: 1000px;">
                         </div>
                         <div class="text-center p-4">

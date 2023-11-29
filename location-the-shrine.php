@@ -18,7 +18,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/location-the-shrine.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/school-infrastructure/the-shrine" />
     <meta property="og:title" content="The Shrine | Prince of Wales' College" />
     <meta property="og:description"
         content="Explore the historical beauty of the Shrine of Prince of Wales College in Moratuwa. Learn about its rich heritage and significance in a serene setting." />
@@ -27,7 +27,7 @@
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/location-the-shrine.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/school-infrastructure/the-shrine" />
     <meta property="twitter:title" content="The Shrine | Prince of Wales' College" />
     <meta property="twitter:description"
         content="Explore the historical beauty of the Shrine of Prince of Wales College in Moratuwa. Learn about its rich heritage and significance in a serene setting." />
@@ -37,7 +37,7 @@
 
     <style>
         .shrine-page-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-about/shrine.webp);
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(/content/img/img-about/shrine.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -109,7 +109,7 @@
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="position-relative ">
-                    <img class="img-fluid w-100 h-100" src="content/img/img-about/shrine.webp" alt="principal-pwc"
+                    <img class="img-fluid w-100 h-100" src="/content/img/img-about/shrine.webp" alt="principal-pwc"
                         style="object-fit: cover; border-radius: 8px;">
                 </div>
             </div>

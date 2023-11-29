@@ -14,7 +14,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/principal-msg.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/principal-message" />
     <meta property="og:title" content="Principal's Message | Prince of Wales' College" />
     <meta property="og:description" content="Discover the inspiring words of Principal at Prince of Wales College. Explore our commitment to academic excellence, co-curricular activities, and our rich history on this page. Join us on a journey of reflection, celebration, and anticipation for the future at Prince of Wales' College, Moratuwa." />
     <meta property="og:image"
@@ -22,7 +22,7 @@
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/principal-msg.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/principal-message" />
     <meta property="twitter:title" content="Principal's Message | Prince of Wales' College" />
     <meta property="twitter:description" content="Discover the inspiring words of Principal at Prince of Wales College. Explore our commitment to academic excellence, co-curricular activities, and our rich history on this page. Join us on a journey of reflection, celebration, and anticipation for the future at Prince of Wales' College, Moratuwa." />
     <meta property="twitter:image"

@@ -17,7 +17,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/about-prefects-guild.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/about/prefects-guild" />
     <meta property="og:title" content="Prefects' Guild | Prince of Wales' College" />
     <meta property="og:description"
         content="Elevating Leadership: Join the Prince of Wales College Prefects' Guild. Empowerment, Excellence, and Unity in Action. Discover your leadership potential today!" />
@@ -26,7 +26,7 @@
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/about-prefects-guild.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/about/prefects-guild" />
     <meta property="twitter:title" content="Prefects' Guild | Prince of Wales' College" />
     <meta property="twitter:description"
         content="Elevating Leadership: Join the Prince of Wales College Prefects' Guild. Empowerment, Excellence, and Unity in Action. Discover your leadership potential today!" />
@@ -37,7 +37,7 @@
 
     <style>
         .prefects-guild-header {
-            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(content/img/img-about/prefects/prefects-guild-header.webp);
+            background: linear-gradient(rgba(56, 24, 24, 0.7), rgba(56, 24, 24, 0.7)), url(/content/img/img-about/prefects/prefects-guild-header.webp);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -92,7 +92,7 @@ if($statement->rowCount() > 0)
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item bg-light">
                             <div class="overflow-hidden">
-                                <img class="img-fluid" src="<?php echo $row["img"]; ?>" alt="Head Prefect"
+                                <img class="img-fluid" src="/<?php echo $row["img"]; ?>" alt="Head Prefect"
                                     style="width: auto;">
                             </div>
                             <div class="text-center p-4">
@@ -133,7 +133,7 @@ if($statement->rowCount() > 0)
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="<?php echo $row["img"]; ?>" alt="Deputy Head Prefect"
+                            <img class="img-fluid" src="/<?php echo $row["img"]; ?>" alt="Deputy Head Prefect"
                                 style="width: auto;">
                         </div>
 

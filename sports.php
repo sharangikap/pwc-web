@@ -16,7 +16,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/sports.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/sports" />
     <meta property="og:title" content="Sports | Prince of Wales' College" />
     <meta property="og:description"
         content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
@@ -25,7 +25,7 @@
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/sports.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/sports" />
     <meta property="twitter:title" content="Sports | Prince of Wales' College" />
     <meta property="twitter:description"
         content="Inheriting An Illustrious and Proud History, Prince of Wales' College Has Earned Name and Immortality at The National and International Level Due to Tireless Service in The Field of Sports." />
@@ -79,13 +79,13 @@
 
             <center>
                 <div class="col-lg-9 col-md-6">
-                    <a class="btn btn-link" href="sports.php#team-sports">Team Sports</a>
-                    <a class="btn btn-link" href="sports.php#individual-sports">Individual Sports</a>
-                    <a class="btn btn-link" href="sports.php#aquatic-sports">Aquatic Sports</a>
-                    <a class="btn btn-link" href="sports.php#combat-sports">Combat Sports</a>
-                    <a class="btn btn-link" href="sports.php#racquet-sports">Racquet Sports</a>
-                    <a class="btn btn-link" href="sports.php#mind-sports">Mind Sports</a>
-                    <a class="btn btn-link" href="sports.php#target-sports">Target Sports</a>
+                    <a class="btn btn-link" href="sports#team-sports">Team Sports</a>
+                    <a class="btn btn-link" href="sports#individual-sports">Individual Sports</a>
+                    <a class="btn btn-link" href="sports#aquatic-sports">Aquatic Sports</a>
+                    <a class="btn btn-link" href="sports#combat-sports">Combat Sports</a>
+                    <a class="btn btn-link" href="sports#racquet-sports">Racquet Sports</a>
+                    <a class="btn btn-link" href="sports#mind-sports">Mind Sports</a>
+                    <a class="btn btn-link" href="sports#target-sports">Target Sports</a>
             </center>
         </div>
     </div>
