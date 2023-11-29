@@ -5,6 +5,9 @@
   <?php include '../database_connection.php'; ?>
 
 <?php
+
+
+
 $id = $_GET['id'];
 $query = "SELECT * FROM pwc_db_news WHERE id='$id'";
 $statement = $connect->prepare($query);
@@ -29,14 +32,14 @@ foreach ($rows as $row) {
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>" />
+<meta property="og:url" content="https://princeofwales.edu.lk/news/article/<?php echo $row["id"]; ?>" />
 <meta property="og:title" content="<?php echo $row["title"]; ?>" />
 <meta property="og:description" content="<?php echo $row["excerpt"]; ?>" />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-news/<?php echo htmlspecialchars($row["photo"], ENT_QUOTES, 'UTF-8'); ?>" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk/news/news.php?id=<?php echo $row["id"]; ?>" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/news/article/<?php echo $row["id"]; ?>" />
 <meta property="twitter:title" content="<?php echo $row["title"]; ?>" />
 <meta property="twitter:description" content="<?php echo $row["excerpt"]; ?>" />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-news/<?php echo htmlspecialchars($row["photo"], ENT_QUOTES, 'UTF-8'); ?>" />
@@ -60,7 +63,7 @@ foreach ($rows as $row) {
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="position-relative ">
-            <img class="img-fluid w-100 h-100" src="../content/img/img-news/<?php echo $row["photo"]; ?>" alt="<?php echo $row["photo"]; ?>"
+            <img class="img-fluid w-100 h-100" src="../../content/img/img-news/<?php echo $row["photo"]; ?>" alt="<?php echo $row["photo"]; ?>"
               style="object-fit: cover; border-radius: 8px;">
           </div>
         </div>

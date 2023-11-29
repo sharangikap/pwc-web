@@ -85,14 +85,14 @@ if($statement->rowCount() > 0)
 
                     <div class="col-md-4 animate-box">
                         <article class="article-entry">
-                            <a href="news.php?id=<?php echo $row["id"]; ?>" class="blog-img">
+                            <a href="article/<?php echo $row["id"]; ?>" class="blog-img">
                                 <img src="../content/img/img-news/<?php echo $row["photo"]; ?>"
                                     alt="<?php echo $row["photo"]; ?>"><br><br>
                                 <p class="meta"><span class="day"><?php echo $row["date"]; ?></span> │ <span></span>
                                     <span><?php echo $row["category"]; ?></span></p>
                             </a>
                             <div class="desc">
-                                <h4><a href="news.php?id=<?php echo $row["id"]; ?>"><?php echo $row["title"]; ?></a>
+                                <h4><a href="article/<?php echo $row["id"]; ?>"><?php echo $row["title"]; ?></a>
                                 </h4>
                                 <p><?php echo $row["excerpt"]; echo "......" ?></p>
                             </div>
