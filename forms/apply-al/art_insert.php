@@ -53,7 +53,7 @@
 
 if(isset($_POST['submit'])){
  
-    include 'db_con.php';
+    include '../resources/db_con.php';
 
 $sart1 = $_POST['sart1'];
 $sart2 = $_POST['sart2'];

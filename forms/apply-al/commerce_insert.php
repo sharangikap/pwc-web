@@ -53,7 +53,7 @@
 
 if(isset($_POST['submit'])){
  
-    include 'db_con.php';
+    include '../resources/db_con.php';
  
 
 $scommerce = $_POST['scommerce'];
