@@ -20,21 +20,32 @@ if (count($_POST) > 0) {
             organizer_name = :organizer_name, 
             organizer_phone = :organizer_phone, 
             about = :about, 
-            other_details = :other_details 
-        WHERE id = :id";
+            other_details = :other_details, 
+            slug = :slug";
 
-    $stmt = $connect->prepare($sql);
-    $params = array(
-        ':title' => $_POST['title'],
-        ':date' => $_POST['date'],
-		':time' => $_POST['time'],
-		':location' => $_POST['location'],
-        ':organizer_name' => $_POST['organizer_name'],
-        ':organizer_phone' => $_POST['organizer_phone'],
-		':about' => $_POST['about'],
-		':other_details' => $_POST['other_details'],
-        ':id' => $_GET['id']
-    );
+$params = array(
+    ':title' => $_POST['title'],
+    ':date' => $_POST['date'],
+    ':time' => $_POST['time'],
+    ':location' => $_POST['location'],
+    ':organizer_name' => $_POST['organizer_name'],
+    ':organizer_phone' => $_POST['organizer_phone'],
+    ':about' => $_POST['about'],
+    ':other_details' => $_POST['other_details'],
+    ':slug' => $_POST['slug'],
+    ':id' => $_GET['id']
+);
+
+if (!empty($_POST['img'])) {
+    $sql .= ", img = :img";
+    $params[':img'] = $_POST['img'];
+}
+
+$sql .= " WHERE id = :id";
+
+$stmt = $connect->prepare($sql);
+$stmt->execute($params);
+
 
     try {
         $stmt->execute($params);
@@ -62,7 +73,7 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
 	</ol>
 	<div class="card mb-4">
 		<div class="card-header">
-			 Edit Event
+			Edit Event
 		</div>
 		<div class="card-body">
 			<form action="" method="POST" enctype="multipart/form-data">
@@ -71,63 +82,82 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">Name</label>
-							<input type="text" name="title" id="title" class="form-control" value="<?php echo $row['title']; ?>"/>
+							<input type="text" name="title" id="title" class="form-control"
+								value="<?php echo $row['title']; ?>" />
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">Date</label>
-							<input type="date" name="date" id="date" class="form-control" value="<?php echo $row['date']; ?>"/>
+							<input type="date" name="date" id="date" class="form-control"
+								value="<?php echo $row['date']; ?>" />
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">Time</label>
-							<input type="time" name="time" id="time" class="form-control" value="<?php echo $row['time']; ?>"/>
+							<input type="time" name="time" id="time" class="form-control"
+								value="<?php echo $row['time']; ?>" />
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">Location</label>
-							<input type="text" name="location" id="location" class="form-control" value="<?php echo $row['location']; ?>"/>
+							<input type="text" name="location" id="location" class="form-control"
+								value="<?php echo $row['location']; ?>" />
 						</div>
 					</div>
 
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">Organizer's Name</label>
-							<input type="text" name="organizer_name" id="organizer-name" class="form-control" value="<?php echo $row['organizer_name']; ?>"/>
+							<input type="text" name="organizer_name" id="organizer-name" class="form-control"
+								value="<?php echo $row['organizer_name']; ?>" />
 						</div>
 					</div>
 
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">Organizer's Contact No.</label>
-							<input type="number" name="organizer_phone" id="organizer_phone" class="form-control" value="<?php echo $row['organizer_phone']; ?>"/>
+							<input type="number" name="organizer_phone" id="organizer_phone" class="form-control"
+								value="<?php echo $row['organizer_phone']; ?>" />
 						</div>
 					</div>
 
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">About</label>
-							<input type="text" name="about" id="about" class="form-control" value="<?php echo $row['about']; ?>"/>
+							<input type="text" name="about" id="about" class="form-control"
+								value="<?php echo $row['about']; ?>" />
 						</div>
 					</div>
 
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">Agenda / Other Details</label>
-							<input type="text" name="other_details" id="other_details" class="form-control" value="<?php echo $row['other_details']; ?>"/>
+							<input type="text" name="other_details" id="other_details" class="form-control"
+								value="<?php echo $row['other_details']; ?>" />
 						</div>
 					</div>
 
-
 					<div class="col-md-6">
 						<div class="mb-3">
-							<label class="form-label">Featured Image</label>
-							<input type="file" class="form-control" name="photo" placeholder="Featured Image"
-								id="img">
+							<label class="form-label">Slug</label>
+							<input type="text" name="slug" id="slug" class="form-control"
+								value="<?php echo $row['slug']; ?>"
+								oninput="this.value = this.value.replace(/\s+/g, '-').toLowerCase()" />
 						</div>
+
+					</div>
+
+
+					<div class="mb-3">
+						<label class="form-label">Featured Image</label>
+						<input type="file" name="image" id="featured_img" class="form-control"
+							accept=".jpg, .jpeg, .png, .webp" />
+						<?php if (!empty($row['img'])): ?>
+						<p>Current Image: <?php echo $row['img']; ?></p>
+						<?php endif; ?>
 					</div>
 
 				</div>

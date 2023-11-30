@@ -88,6 +88,14 @@ include 'admin-header.php';
         					<input type="text" name="other_details" id="other_details" class="form-control" />
         				</div>
         			</div>
+
+					<div class="col-md-6">
+						<div class="mb-3">
+							<label class="form-label">Slug</label>
+							<input type="text" name="slug" id="slug" class="form-control"
+								oninput="this.value = this.value.replace(/\s+/g, '-').toLowerCase()" />
+						</div>
+					</div>
 					
         		
 					<div class="col-md-6">
@@ -120,6 +128,7 @@ if(isset($_POST["add_event"]))
 		$formdata['organizer_phone'] = trim($_POST["organizer_phone"]); 
 		$formdata['about'] = trim($_POST["about"]);
 		$formdata['other_details'] = trim($_POST["other_details"]);
+		$formdata['slug'] = trim($_POST["slug"]);
 
 
 		$data = array(
@@ -131,6 +140,7 @@ if(isset($_POST["add_event"]))
 			':organizer_phone'		=>	$formdata['organizer_phone'],
 			':about'		=>	$formdata['about'],
 			':other_details'		=>	$formdata['other_details'],
+			':slug'		=>	$formdata['slug'],
 
 		);
 
@@ -144,8 +154,8 @@ if(isset($_POST["add_event"]))
 		$image = $final_file;
 		$query = "
 		INSERT INTO pwc_db_events 
-		(title, date, time, location, organizer_name, organizer_phone, about, other_details, img) 
-		VALUES (:title, :date, :time, :location, :organizer_name, :organizer_phone, :about, :other_details, '".$image."')
+		(title, date, time, location, organizer_name, organizer_phone, about, other_details, slug, img) 
+		VALUES (:title, :date, :time, :location, :organizer_name, :organizer_phone, :about, :other_details, :slug, '".$image."')
 		";
 
 	}

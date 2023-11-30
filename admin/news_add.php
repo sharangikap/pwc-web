@@ -25,57 +25,65 @@ include 'admin-header.php';
 
 	<ol class="breadcrumb mt-4 mb-4 bg-light p-2 border">
 		<li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-        <li class="breadcrumb-item"><a href="news.php">News</a></li>
-        <li class="breadcrumb-item active">Write New News</li>
-    </ol>
+		<li class="breadcrumb-item"><a href="news.php">News</a></li>
+		<li class="breadcrumb-item active">Write New News</li>
+	</ol>
 
 
 
-    <div class="card mb-4">
-    	<div class="card-header">
-    		 Write New Article
-        </div>
-        <div class="card-body">
-		<form action="" method="POST" enctype="multipart/form-data">
+	<div class="card mb-4">
+		<div class="card-header">
+			Write New Article
+		</div>
+		<div class="card-body">
+			<form action="" method="POST" enctype="multipart/form-data">
 
-        		<div class="row">
-        			<div class="col-md-6">
-        				<div class="mb-3">
-        					<label class="form-label">Title</label>
-        					<input type="text" name="title" id="title" class="form-control" />
-        				</div>
-        			</div>
+				<div class="row">
 					<div class="col-md-6">
-        				<div class="mb-3">
-        					<label class="form-label">Description</label>
-        					<input type="text" name="content" id="content" class="form-control"/>
-        				</div>
-        			</div>
-        			<div class="col-md-6">
 						<div class="mb-3">
-        					<label class="form-label">Category</label>
-        					<input type="text" name="category" id="category" class="form-control" />
-        				</div>
-        			</div>
-        		</div>
-        		
+							<label class="form-label">Title</label>
+							<input type="text" name="title" id="title" class="form-control" />
+						</div>
+					</div>
 					<div class="col-md-6">
-        				<div class="mb-3">
-        					<label class="form-label">Featured Image</label>
-        					<input type="file" class="form-control" name="photo" placeholder="Featured Image" id="photo">
-        				</div>
-        			</div>
+						<div class="mb-3">
+							<label class="form-label">Description</label>
+							<input type="text" name="content" id="content" class="form-control" />
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="mb-3">
+							<label class="form-label">Category</label>
+							<input type="text" name="category" id="category" class="form-control" />
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="mb-3">
+							<label class="form-label">Slug</label>
+							<input type="text" name="slug" id="slug" class="form-control"
+								oninput="this.value = this.value.replace(/\s+/g, '-').toLowerCase()" />
+						</div>
+					</div>
 
-        		</div>
-        		<div class="mt-4 mb-3 text-center">
-        			<input type="submit" name="add_news" class="btn btn-success" value="Publish" />
-        		</div>
-        	</form>
-        </div>
-    </div>
-	
-	
-	<?php
+				</div>
+
+				<div class="col-md-6">
+					<div class="mb-3">
+						<label class="form-label">Featured Image</label>
+						<input type="file" class="form-control" name="photo" placeholder="Featured Image" id="photo">
+					</div>
+				</div>
+
+		</div>
+		<div class="mt-4 mb-3 text-center">
+			<input type="submit" name="add_news" class="btn btn-success" value="Publish" />
+		</div>
+		</form>
+	</div>
+</div>
+
+
+<?php
 
 if(isset($_POST["add_news"]))
 {
@@ -87,11 +95,14 @@ if(isset($_POST["add_news"]))
 
 		$formdata['category'] = trim($_POST["category"]); 
 
+		$formdata['slug'] = trim($_POST["slug"]); 
+
 
 		$data = array(
 			':title'		=>	$formdata['title'],
 			':content'		=>	$formdata['content'],
 			':category'		=>	$formdata['category'],
+			':slug'			=>	$formdata['slug'],
 		);
 
 	$file = $_FILES['photo']['name'];
@@ -104,8 +115,8 @@ if(isset($_POST["add_news"]))
 		$image = $final_file;
 		$query = "
 		INSERT INTO pwc_db_news 
-		(title, content, category, photo, date, excerpt) 
-		VALUES (:title, :content, :category, '".$image."', CURDATE(), :content)
+		(title, content, category, slug, photo, date, excerpt) 
+		VALUES (:title, :content, :category, :slug, '".$image."', CURDATE(), :content)
 		";
 
 	}
@@ -121,6 +132,6 @@ if(isset($_POST["add_news"]))
 ?>
 
 
-	<?php
+<?php
 include 'admin-footer.php';
 ?>

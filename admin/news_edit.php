@@ -12,15 +12,25 @@ include 'admin-header.php';
 
 if (count($_POST) > 0) {
   
-    $sql = "UPDATE pwc_db_news SET title = :title, content = :content, category = :category, photo = :photo WHERE id = :id";
-    $stmt = $connect->prepare($sql);
-    $params = array(
-        ':title' => $_POST['title'],
-        ':content' => $_POST['content'],
-        ':category' => $_POST['category'],
-        ':photo' => $_POST['photo'],
-        ':id' => $_GET['id']
-    );
+	$sql = "UPDATE pwc_db_news SET title = :title, content = :content, category = :category, slug = :slug";
+	$params = array(
+		':title' => $_POST['title'],
+		':content' => $_POST['content'],
+		':category' => $_POST['category'],
+		':slug' => $_POST['slug'],
+		':id' => $_GET['id']
+	);
+	
+	if (!empty($_POST['photo'])) {
+		$sql .= ", photo = :photo";
+		$params[':photo'] = $_POST['photo'];
+	}
+	
+	$sql .= " WHERE id = :id";
+	
+	$stmt = $connect->prepare($sql);
+	$stmt->execute($params);
+	
 
     try {
         $stmt->execute($params);
@@ -59,30 +69,45 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">Title</label>
-							<input type="text" name="title" id="Product_name" class="form-control" value="<?php echo $row['title']; ?>"/>
+							<input type="text" name="title" id="Product_name" class="form-control"
+								value="<?php echo $row['title']; ?>" />
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">Description</label>
-							<input type="text" name="content" id="content" class="form-control"  value="<?php echo $row['content']; ?>"/>
+							<input type="text" name="content" id="content" class="form-control"
+								value="<?php echo $row['content']; ?>" />
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">Category</label>
-							<input type="text" name="category" id="category" class="form-control"  value="<?php echo $row['category']; ?>" />
+							<input type="text" name="category" id="category" class="form-control"
+								value="<?php echo $row['category']; ?>" />
 						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="mb-3">
+							<label class="form-label">Slug</label>
+							<input type="text" name="slug" id="slug" class="form-control"
+								value="<?php echo $row['slug']; ?>"
+								oninput="this.value = this.value.replace(/\s+/g, '-').toLowerCase()" />
+						</div>
+
 					</div>
 				</div>
 
 				<div class="col-md-6">
-					<div class="mb-3">
-						<label class="form-label">Featured Image</label>
-						<input type="file" name="image" id="featured_img" class="form-control"
-							accept=".jpg, .jpeg, .png, .webp" multiple  value="<?php echo $row['photo']; ?>"/>
-					</div>
-				</div>
+    <div class="mb-3">
+        <label class="form-label">Featured Image</label>
+        <input type="file" name="image" id="featured_img" class="form-control" accept=".jpg, .jpeg, .png, .webp" />
+        <?php if (!empty($row['photo'])): ?>
+            <p>Current Image: <?php echo $row['photo']; ?></p>
+        <?php endif; ?>
+    </div>
+</div>
+
 
 		</div>
 		<div class="mt-4 mb-3 text-center">
