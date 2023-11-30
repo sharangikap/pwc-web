@@ -145,7 +145,7 @@ if(mysqli_query($db, $sql)){
   echo '                <p class="mb-4">Your Records Added Successfully.</p>';
   echo '                <p class="mb-4">Your Referrence number for the submission is <b>'. $referenceno .'</b></p>';
   echo '                <p class="mb-4">Keep this Reference Number for future use.</p>';  
-  echo '<a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="generate_pdf.php?ref='. $referenceno . '">Download Your Submissions</a>';
+ echo '<a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="generate_pdf.php?ref=' . $referenceno . '" download>Download Your Submissions</a>';
   echo '            </div>';
   echo '        </div>';
   echo '    </div>';
