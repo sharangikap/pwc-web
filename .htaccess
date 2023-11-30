@@ -41,7 +41,7 @@ RewriteRule ^forms/apply-al/tech$ forms/apply-al/tech.php [NC,L]
 RewriteRule ^forms/apply-al/art$ forms/apply-al/art.php [NC,L]
 
 
-#ErrorDocument 404 http://princeofwales.edu.lk/404
+ErrorDocument 404 http://princeofwales.edu.lk/404
 
 Options -Indexes
 
