@@ -243,7 +243,7 @@ and open the template in the editor.
                 <label for="contact" class=" col-sm-2 col-form-label ">Contact No.</label>
                 <div class="col-sm-2">
                     <input type="tel" class="form-control" id="residential" placeholder="Residential No."
-                        name="residential" pattern="[0-9()+-\s]*">
+                        name="residential" pattern="[0-9]*">
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">

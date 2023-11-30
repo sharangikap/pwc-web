@@ -212,23 +212,6 @@
             <div class="form-group">
                 <label for="contact" class=" col-sm-2 col-form-label ">Contact No.</label>
                 <div class="col-sm-2">
-                    <input type="tel" class="form-control" id="residential" placeholder="Residential No."
-                        name="residential" pattern="[0-9()+-\s]*">
-                </div>
-                <div class="col-sm-1">&nbsp;</div>
-                <div class="col-sm-2">
-                    <input type="tel" class="form-control" id="mobile1" placeholder="Mobile 1" name="mobile1"
-                        >
-                </div>
-                <div class="col-sm-1">&nbsp;</div>
-                <div class="col-sm-2">
-                    <input type="tel" class="form-control" id="mobile" placeholder="Mobile 2" name="mobile2"
-                        >
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="contact" class=" col-sm-2 col-form-label ">Contact No.</label>
-                <div class="col-sm-2">
                     <input type="tel" class="form-control" id="mobile" placeholder="Mobile No." name="mobile"
                         pattern="[0-9()+-\s]*" required>
                 </div>
