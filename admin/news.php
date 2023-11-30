@@ -75,7 +75,7 @@ include 'admin-header.php';
 						<td><?php echo($row["category"]) ?></td>
 
 						<td>
-							<a href="../news/news.php?id=<?php echo $row["id"]; ?>" target="_blank" class="btn btn-success btn-sm">View</a>
+							<a href="../news/<?php echo $row["slug"]; ?>" target="_blank" class="btn btn-success btn-sm">View</a>
 							<a href="news_edit.php?id=<?php echo $row["id"]; ?>" class="btn btn-sm btn-primary">Edit</a>
 							<a href="news_delete.php?id=<?php echo $row["id"]; ?>" class="btn btn-sm btn-danger">Delete</a>
 						</td>
