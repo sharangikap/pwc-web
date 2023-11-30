@@ -38,6 +38,9 @@
     <link rel="manifest" href="https://princeofwales.edu.lk/manifest.json">
 
 
+        <script src="snowstorm/snowstorm.js"></script>
+
+
     <?php
     include 'database_connection.php';
     ?>
