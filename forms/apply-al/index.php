@@ -57,10 +57,10 @@
     
 
         <center>
-            <a class="btn btn-primary py-3 px-5 mt-2 " href="science.php" data-wow-delay="0.7s">SCIENCE</a>
-            <a class="btn btn-primary py-3 px-5 mt-2 " href="commerce.php" data-wow-delay="0.7s">COMMERCE</a>
-            <a class="btn btn-primary py-3 px-5 mt-2 " href="tech.php" data-wow-delay="0.7s">TECHNOLOGY</a>
-            <a class="btn btn-primary py-3 px-5 mt-2 " href="art.php" data-wow-delay="0.7s">ARTS</a>
+            <a class="btn btn-primary py-3 px-5 mt-2 " href="science" data-wow-delay="0.7s">SCIENCE</a>
+            <a class="btn btn-primary py-3 px-5 mt-2 " href="commerce" data-wow-delay="0.7s">COMMERCE</a>
+            <a class="btn btn-primary py-3 px-5 mt-2 " href="tech" data-wow-delay="0.7s">TECHNOLOGY</a>
+            <a class="btn btn-primary py-3 px-5 mt-2 " href="art" data-wow-delay="0.7s">ARTS</a>
         </center>
 
 </div>

@@ -1,7 +1,7 @@
 <?php
 require('fpdf/fpdf.php');
 
-include('db_con.php');
+include('../resources/db_con.php');
 
 $ref = isset($_GET['ref']) ? $_GET['ref'] : null;
 

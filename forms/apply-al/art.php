@@ -153,7 +153,7 @@ and open the template in the editor.
                     <label for="nic">School Index Number</label>
                 </div>
                 <div class="col-sm-2">
-                    <input type="text" class="form-control" id="SchoolIndexNo" name="SchoolIndexno" pattern="[0-9]+"
+                    <input type="text" class="form-control" id="SchoolIndexNo" name="SchoolIndexno" 
                         placeholder="School Index No" required>
                 </div>
 
@@ -253,24 +253,25 @@ and open the template in the editor.
                     <input type="text" class="form-control" name="gname" required>
                 </div>
             </div>
-            <!--Contact Number-->
+                       <!--Contact Number-->
             <div class="form-group">
                 <label for="contact" class=" col-sm-2 col-form-label ">Contact No.</label>
                 <div class="col-sm-2">
-                    <input type="text" class="form-control" id="residential" placeholder="Residential No."
-                        name="residential" pattern="[0-9]+">
+                    <input type="tel" class="form-control" id="residential" placeholder="Residential No."
+                        name="residential" pattern="[0-9()+-\s]*">
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">
-                    <input type="text" class="form-control" id="mobile1" placeholder="Mobile 1" name="mobile1"
-                        pattern="[0-9]+">
+                    <input type="tel" class="form-control" id="mobile1" placeholder="Mobile 1" name="mobile1"
+                        >
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">
-                    <input type="textr" class="form-control" id="mobile" placeholder="Mobile 2" name="mobile2"
-                        pattern="[0-9]+">
+                    <input type="tel" class="form-control" id="mobile" placeholder="Mobile 2" name="mobile2"
+                        >
                 </div>
             </div>
+            
 
             <!-- Email-->
 
@@ -289,7 +290,7 @@ and open the template in the editor.
                     <label for="nic">Distance to the Prince of Wales' College from your place (in Km)</label>
                 </div>
                 <div class="col-sm-3">
-                    <input type="text" class="form-control" id="distance" name="distance" pattern="[0-9]+"
+                    <input type="text" class="form-control" id="distance" name="distance" 
                         placeholder="Enter numeric values only" required>
                 </div>
 
@@ -318,7 +319,7 @@ and open the template in the editor.
                     <label for="nic">Examination Index Number</label>
                 </div>
                 <div class="col-xs-6 col-sm-3">
-                    <input type="text" class="form-control" id="indexno" name="indexno" pattern="[0-9]+"
+                    <input type="text" class="form-control" id="indexno" name="indexno" 
                         placeholder="Examination Index No" required>
                 </div>
 
@@ -457,18 +458,6 @@ and open the template in the editor.
                                     </option>
                                     <option value="Geography"> Geography</option>
                                     <option value="Civic"> Civic Education </option>
-                                    <option value="Second Language (Sinhala)"> Seond Language (Sinhala) </option>
-                                    <option value="Second Language (Tamil)"> Second Language (Tamil) </option>
-                                    <option value="Japanese"> Japanese </option>
-                                    <option value="French"> French </option>
-                                    <option value="German"> German </option>
-                                    <option value="Chinese"> Chinese </option>
-                                    <option value="Russian"> Russian </option>
-                                    <option value="Hindi"> Hindi </option>
-                                    <option value="Pali"> Pali </option>
-                                    <option value="Sanskrit"> Sanskrit</option>
-                                    <option value="Arabic"> Arabic </option>
-
                                 </select>
                             </td>
                             <td>
@@ -491,15 +480,11 @@ and open the template in the editor.
                             <td> <select id="op2" name="op2">
                                     <option value="Music (Oriental)"> Music (Oriental) </option>
                                     <option value="Music (Western)"> Muisc (Westren)</option>
-                                    <option value="Music (Carnatic)"> Music (Carnatic) </option>
+                                    <option value="Drama & Theater"> Drama & Theatre</option>
                                     <option value="Art"> Art </option>
                                     <option value="Dancing"> Dancing </option>
+                                    <option value="Sinhala Literature"> Sinhala Literature </option>
                                     <option value="English Literature"> English Literature </option>
-                                    <option value="English Literature"> Sinhala Literature </option>
-                                    <option value="Tamil Literature"> Tamil Literature </option>
-                                    <option value="Arabic Literature"> Arabic Literature </option>
-                                    <option value="Drama & Theater"> Drama & Theatre</option>
-
                                 </select>
                             </td>
                             <td>
@@ -519,17 +504,9 @@ and open the template in the editor.
                             <td> <select id="op3" name="op3">
                                     <option value="ICT"> Information & Communication Technology </option>
                                     <option value="Agriculture"> Agriculture & Food Technology</option>
-                                    <option value="Home Economics"> Home Economics </option>
                                     <option value="Health"> Health & Physical Education </option>
-                                    <option value="Media"> Communication & Media Studies </option>
-                                    <option value="Design & Construction"> Design & Construction Technology </option>
-                                    <option value="Design & Mechanical"> Design & Mechanical Technology </option>
                                     <option value=" Design, Electrical & Electronic Technology"> Design, Electrical &
                                         Electronic Technology </option>
-                                    <option value="Electronic Writing & Shorthand"> Electronic Writing & Shorthand
-                                    </option>
-
-                                    <option value="Arts & Crafts"> Arts & Crafts </option>
                                 </select>
                             </td>
                             <td>

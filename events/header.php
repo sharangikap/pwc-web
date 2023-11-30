@@ -92,17 +92,6 @@
 
   gtag('config', 'G-K1KCZVJTWP');
 </script>
-<?php
-$currentDate = date('Y-m-d');
-
-$startDate = '2023-11-30';
-$endDate = '2023-12-31';
-
-if ($currentDate >= $startDate && $currentDate <= $endDate) {
- 
-    echo '<script src="https://princeofwales.edu.lk/snowstorm/snowstorm.js"></script>';
-}
-?>
 
 </head>
 

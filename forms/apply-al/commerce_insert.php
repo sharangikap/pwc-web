@@ -6,11 +6,11 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <title>Success Submission</title>
     <!-- Favicon -->
-    <link href="../content/icons/logo-70x70-pwc.png" rel="icon">
-    <link rel="icon" href="../content/icons/logo-70x70-pwc.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="../content/icons/logo-apple-touch-icon-pwc.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../content/icons/logo-android-chrome-icon-pwc.png">
-    <meta name="msapplication-TileImage" content="../content/icons/logo-70x70-pwc.png">
+    <link href="/content/icons/logo-70x70-pwc.png" rel="icon">
+    <link rel="icon" href="/content/icons/logo-70x70-pwc.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/content/icons/logo-apple-touch-icon-pwc.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/content/icons/logo-android-chrome-icon-pwc.png">
+    <meta name="msapplication-TileImage" content="/content/icons/logo-70x70-pwc.png">
     <meta name="msapplication-TileColor" content="#800000">
 
     <!-- Google Fonts -->
@@ -25,14 +25,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="../resources/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="../resources/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/resources/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/resources/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link href="../resources/css/style.css" rel="stylesheet">
+    <link href="/resources/css/style.css" rel="stylesheet">
 
 
     <style>
@@ -100,6 +100,40 @@ VALUES
 ('$referenceno','Commerce','$scommerce','$almedium','$school', '$SchoolIndexNo', '$school_private','$schoolname','$schooldistrict','$fname','$fnamesinhala','$iname','$birthday','$nic','$address1','$address2','$city','$gname','$residential','$mobile1','$mobile2','$email','$distance','$transport','$indexno','$olmedium','$religion','$sinhala','$english','$science','$maths','$history','$op1','$optional1','$op2','$optional2','$op3','$optional3')";
 
 if(mysqli_query($db, $sql)){
+
+
+    
+    echo '<div class="confetti-container"></div>';
+    
+    echo '<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>';
+    
+    echo '
+    <script>
+      var end = Date.now() + (1 * 1000);
+      var colors = [\'#800080\', \'#ffd700\', \'#800000\'];
+    
+      (function frame() {
+        confetti({
+          particleCount: 3,
+          angle: 60,
+          spread: 55,
+          origin: { x: 0 },
+          colors: colors
+        });
+        confetti({
+          particleCount: 3,
+          angle: 120,
+          spread: 55,
+          origin: { x: 1 },
+          colors: colors
+        });
+    
+        if (Date.now() < end) {
+          requestAnimationFrame(frame);
+        }
+      }());
+    </script>';
+
 
     echo '<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">';
     echo '    <div class="container text-center">';

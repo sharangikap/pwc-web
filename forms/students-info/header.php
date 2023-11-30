@@ -102,15 +102,7 @@
 
         gtag('config', 'G-K1KCZVJTWP');
     </script>
-<?php
-$currentMonthDay = date('m-d');
-$startDate = '11-30';
-$endDate = '12-31';
 
-if ($currentMonthDay >= $startDate && $currentMonthDay <= $endDate) {
-    echo '<script src="https://princeofwales.edu.lk/snowstorm/snowstorm.js"></script>';
-}
-?>
 
 
 </head>
