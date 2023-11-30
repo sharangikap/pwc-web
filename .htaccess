@@ -37,5 +37,5 @@ RewriteRule ^forms/students-info/$ forms/students-info/form.php [NC,L]
 
 #ErrorDocument 404 http://princeofwales.edu.lk/404
 
-Options +Indexes
+Options -Indexes
 

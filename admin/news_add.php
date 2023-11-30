@@ -18,6 +18,9 @@ include 'admin-header.php';
 
 ?>
 
+<script src="https://cdn.ckeditor.com/ckeditor5/40.1.0/classic/ckeditor.js"></script>
+
+
 
 <div class="container-fluid py-4" style="min-height: 700px;">
 	<h1>Write New Article</h1>
@@ -48,62 +51,72 @@ include 'admin-header.php';
 					<div class="col-md-6">
 						<div class="mb-3">
 							<label class="form-label">Description</label>
-							<input type="text" name="content" id="content" class="form-control" />
+							<div id="content"></div>
+
+							<input type="hidden" name="editorContent" id="editorContent" value="">
+            <script>
+                ClassicEditor
+                    .create(document.querySelector('#content'))
+                    .then(editor => {
+                        editor.model.document.on('change:data', () => {
+                            document.querySelector('#editorContent').value = editor.getData();
+                        });
+                    })
+                    .catch(error => {
+                        console.error(error);
+                    });
+            </script>
 						</div>
+						<div class="col-md-6">
+							<div class="mb-3">
+								<label class="form-label">Category</label>
+								<input type="text" name="category" id="category" class="form-control" />
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="mb-3">
+								<label class="form-label">Slug</label>
+								<input type="text" name="slug" id="slug" class="form-control"
+									oninput="this.value = this.value.replace(/\s+/g, '-').toLowerCase()" />
+							</div>
+						</div>
+
 					</div>
+
 					<div class="col-md-6">
 						<div class="mb-3">
-							<label class="form-label">Category</label>
-							<input type="text" name="category" id="category" class="form-control" />
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="mb-3">
-							<label class="form-label">Slug</label>
-							<input type="text" name="slug" id="slug" class="form-control"
-								oninput="this.value = this.value.replace(/\s+/g, '-').toLowerCase()" />
+							<label class="form-label">Featured Image</label>
+							<input type="file" class="form-control" name="photo" placeholder="Featured Image"
+								id="photo">
 						</div>
 					</div>
 
 				</div>
-
-				<div class="col-md-6">
-					<div class="mb-3">
-						<label class="form-label">Featured Image</label>
-						<input type="file" class="form-control" name="photo" placeholder="Featured Image" id="photo">
-					</div>
+				<div class="mt-4 mb-3 text-center">
+					<input type="submit" name="add_news" class="btn btn-success" value="Publish" />
 				</div>
-
+			</form>
 		</div>
-		<div class="mt-4 mb-3 text-center">
-			<input type="submit" name="add_news" class="btn btn-success" value="Publish" />
-		</div>
-		</form>
 	</div>
-</div>
 
 
-<?php
+	<?php
 
 if(isset($_POST["add_news"]))
 {
-	$formdata = array();
+    $formdata = array();
 
-		$formdata['title'] = trim($_POST["title"]);
+    $formdata['title'] = trim($_POST["title"]);
+    $formdata['content'] = isset($_POST["editorContent"]) ? trim($_POST["editorContent"]) : '';
+    $formdata['category'] = trim($_POST["category"]); 
+    $formdata['slug'] = trim($_POST["slug"]); 
 
-		$formdata['content'] = trim($_POST["content"]);
-
-		$formdata['category'] = trim($_POST["category"]); 
-
-		$formdata['slug'] = trim($_POST["slug"]); 
-
-
-		$data = array(
-			':title'		=>	$formdata['title'],
-			':content'		=>	$formdata['content'],
-			':category'		=>	$formdata['category'],
-			':slug'			=>	$formdata['slug'],
-		);
+    $data = array(
+        ':title'    => $formdata['title'],
+        ':content'  => $formdata['content'],
+        ':category' => $formdata['category'],
+        ':slug'     => $formdata['slug'],
+    );
 
 	$file = $_FILES['photo']['name'];
 	$file_loc = $_FILES['photo']['tmp_name'];
@@ -132,6 +145,6 @@ if(isset($_POST["add_news"]))
 ?>
 
 
-<?php
+	<?php
 include 'admin-footer.php';
 ?>
