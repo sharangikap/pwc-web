@@ -115,7 +115,7 @@ if (empty($upcomingEvents)) {
         echo '<h4 class="mb-4">' . $row["title"] . '</h4>';
         echo '</div>';
         echo '<div class="w-100 d-flex justify-content-center bottom-0 start-0 mb-4">';
-        echo '<a href="details/' . $row["id"] . '" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30 30 30px;">Read More</a>';
+        echo '<a href="/events/' . $row["slug"] . '" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30 30 30px;">Read More</a>';
         echo '</div>';
         echo '<div class="d-flex border-top">';
         echo '<small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>' . $row["organizer_name"] . '</small>';
@@ -143,7 +143,7 @@ foreach ($pastEvents as $row) {
     echo '<h4 class="mb-4">' . $row["title"] . '</h4>';
     echo '</div>';
     echo '<div class="w-100 d-flex justify-content-center bottom-0 start-0 mb-4">';
-    echo '<a href="details/' . $row["id"] . '" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30 30 30px;">Read More</a>';
+    echo '<a href="/events/' . $row["slug"] . '" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30 30 30px;">Read More</a>';
     echo '</div>';
     echo '<div class="d-flex border-top">';
     echo '<small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>' . $row["organizer_name"] . '</small>';

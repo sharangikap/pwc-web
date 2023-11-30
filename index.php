@@ -97,14 +97,14 @@ if($statement->rowCount() > 0)
 
             <div class="col-md-4 animate-box">
                 <article class="article-entry">
-                    <a href="news/article/<?php echo $row["id"]; ?>" class="blog-img">
+                    <a href="news/<?php echo $row["slug"]; ?>" class="blog-img">
                         <img src="content/img/img-news/<?php echo $row["photo"]; ?>"
                             alt="<?php echo $row["photo"]; ?>"><br><br>
                         <p class="meta"><span class="day"><?php echo $row["date"]; ?></span> │ <span></span>
                             <span><?php echo $row["category"]; ?></span></p>
                     </a>
                     <div class="desc">
-                        <h4><a href="news/article/<?php echo $row["id"]; ?>"><?php echo $row["title"]; ?></a></h4>
+                        <h4><a href="news/<?php echo $row["slug"]; ?>"><?php echo $row["title"]; ?></a></h4>
                         <p><?php echo $row["excerpt"]; echo "......" ?></p>
                     </div>
                 </article>
@@ -216,7 +216,7 @@ if($statement->rowCount() > 0)
                         <h4 class="mb-4"><?php echo($row["title"]) ?></h4>
                     </div>
                     <div class="w-100 d-flex justify-content-center bottom-0 start-0 mb-4">
-                        <a href="events/details/<?php echo $row["id"]; ?>"
+                        <a href="events/<?php echo $row["slug"]; ?>"
                             class="flex-shrink-0 btn btn-sm btn-primary px-3"
                             style="border-radius: 30px 30 30 30px;">Read More</a>
                     </div>

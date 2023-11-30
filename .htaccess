@@ -1,7 +1,7 @@
 RewriteEngine On
 
-RewriteRule ^news/article/([0-9]+)$ /news/news.php?id=$1 [L]
-RewriteRule ^events/details/([0-9]+)$ /events/event.php?id=$1 [L]
+RewriteRule ^news/([a-zA-Z0-9_-]+)$ news/news.php?slug=$1 [L]
+RewriteRule ^events/([a-zA-Z0-9_-]+)$ events/event.php?slug=$1 [L]
 
 RewriteRule ^golden-book$ the-golden-book.php [NC,L]
 RewriteRule ^sports$ sports.php [NC,L]

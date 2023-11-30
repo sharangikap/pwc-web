@@ -8,8 +8,8 @@
 
 
 
-$id = $_GET['id'];
-$query = "SELECT * FROM pwc_db_news WHERE id='$id'";
+$slug = $_GET['slug'];
+$query = "SELECT * FROM pwc_db_news WHERE slug='$slug'";
 $statement = $connect->prepare($query);
 $statement->execute();
 $rows = $statement->fetchAll();
@@ -32,14 +32,14 @@ foreach ($rows as $row) {
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://princeofwales.edu.lk/news/article/<?php echo $row["id"]; ?>" />
+<meta property="og:url" content="https://princeofwales.edu.lk/news/<?php echo $row["slug"]; ?>" />
 <meta property="og:title" content="<?php echo $row["title"]; ?>" />
 <meta property="og:description" content="<?php echo $row["excerpt"]; ?>" />
 <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-news/<?php echo htmlspecialchars($row["photo"], ENT_QUOTES, 'UTF-8'); ?>" />
 
 <!-- Twitter / WA / TG -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://princeofwales.edu.lk/news/article/<?php echo $row["id"]; ?>" />
+<meta property="twitter:url" content="https://princeofwales.edu.lk/news/<?php echo $row["slug"]; ?>" />
 <meta property="twitter:title" content="<?php echo $row["title"]; ?>" />
 <meta property="twitter:description" content="<?php echo $row["excerpt"]; ?>" />
 <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-news/<?php echo htmlspecialchars($row["photo"], ENT_QUOTES, 'UTF-8'); ?>" />
