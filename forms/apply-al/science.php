@@ -17,21 +17,21 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
+    <meta property="og:url" content="https://princeofwales.edu.lk/apply-al/science" />
     <meta property="og:title"
         content="Science Stream - Application for Advanced Level Admission Registration" />
     <meta property="og:description"
         content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
-    <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
+    <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-home/about-pwc.jpg" />
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/science.php" />
+    <meta property="twitter:url" content="https://princeofwales.edu.lk/apply-al/science" />
     <meta property="twitter:title"
         content="Science Stream - Application for Advanced Level Admission Registration" />
     <meta property="twitter:description"
         content="Unlock your potential in the world of science! Join our science section to delve into the fascinating realms of biology, chemistry, physics, and more. Explore limitless opportunities for discovery and innovation. Apply now to shape your future in the sciences! - Prince of Wales' College, Moratuwa" />
-    <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
+    <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-home/about-pwc.jpg" />
 
 
 
@@ -246,12 +246,11 @@
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">
-                    <input type="tel" class="form-control" id="mobile1" placeholder="Mobile 1" name="mobile1" pattern="[0-9]*>
+                    <input type="tel" class="form-control" id="mobile1" placeholder="Mobile 1" name="mobile1" pattern="[0-9]*">
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">
-                    <input type="tel" class="form-control" id="mobile" placeholder="Mobile 2" name="mobile2"
-                        >
+                    <input type="tel" class="form-control" id="mobile" placeholder="Mobile 2" name="mobile2" pattern="[0-9]*">
                 </div>
             </div>
             

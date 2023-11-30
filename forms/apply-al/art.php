@@ -27,7 +27,7 @@ and open the template in the editor.
         content="Art Stream - Application for Advanced Level Admission Registration" />
     <meta property="og:description"
         content="" />
-    <meta property="og:image" content="https://princeofwales.edu.lk/content/img/" />
+    <meta property="og:image" content="https://princeofwales.edu.lk/content/img/img-home/about-pwc.jpg" />
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -36,7 +36,7 @@ and open the template in the editor.
         content="Art Stream - Application for Advanced Level Admission Registration" />
     <meta property="twitter:description"
         content="" />
-    <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/" />
+    <meta property="twitter:image" content="https://princeofwales.edu.lk/content/img/img-home/about-pwc.jpg" />
 
 
 
@@ -254,7 +254,7 @@ and open the template in the editor.
                 </div>
             </div>
                        <!--Contact Number-->
-            <div class="form-group">
+                       <div class="form-group">
                 <label for="contact" class=" col-sm-2 col-form-label ">Contact No.</label>
                 <div class="col-sm-2">
                     <input type="tel" class="form-control" id="residential" placeholder="Residential No."
@@ -262,13 +262,11 @@ and open the template in the editor.
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">
-                    <input type="tel" class="form-control" id="mobile1" placeholder="Mobile 1" name="mobile1"
-                        >
+                    <input type="tel" class="form-control" id="mobile1" placeholder="Mobile 1" name="mobile1" pattern="[0-9]*">
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">
-                    <input type="tel" class="form-control" id="mobile" placeholder="Mobile 2" name="mobile2"
-                        >
+                    <input type="tel" class="form-control" id="mobile" placeholder="Mobile 2" name="mobile2" pattern="[0-9]*">
                 </div>
             </div>
             
