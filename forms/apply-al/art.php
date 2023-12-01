@@ -119,8 +119,8 @@ and open the template in the editor.
 
                         <option value="Sinhala"> Sinhala </option>
                         <option value="Media & Communication Studies"> Media & Communication Studies </option>
-                        <option value="ICT-Sinhala Medium"> ICT-Sinhala Medium </option>
-                        <option value="ICT-English Medium"> ICT-English Medium </option>
+                        <option value="ICT (Sinhala Medium)"> ICT (Sinhala Medium) </option>
+                        <option value="ICT (English Medium)"> ICT (English Medium) </option>
                         <option value="Geography"> Geography </option>
                     </select>
                 </div>
