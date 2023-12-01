@@ -102,18 +102,25 @@ and open the template in the editor.
                 <div class="col-sm-3">
                     <select id="subject" name="sart1" style="min-height:30px;">
                         <option value="None"> Category 1</option>
-                        <option value="Buddhist Civilization (BC)"> Buddhist Civilization (BC) </option>
-                        <option value="Econ"> Economics </option>
-                        <option value="Logic"> Logic </option>
 
+                        <option value="Dancing-Indigenous">Dancing-Indigenous</option>
+                        <option value="Art">Art</option>
+                        <option value="Music Oriental">Music Oriental</option>
+                        <option value="Music Western">Music Western</option>
+                        <option value="Drama & Theatre">Drama & Theatre</option>
+                        <option value="Japanese Language">Japanese Language</option>
+                        <option value="Political Science">Political Science</option>
                     </select> </div>
                 <div class="col-sm-1">&nbsp;</div>
 
                 <div class="col-sm-3">
                     <select id="subject" name="sart2" style="min-height:30px;">
                         <option value="None"> Category 2</option>
-                        <option value="ICT"> ICT </option>
+
+                        <option value="Sinhala"> Sinhala </option>
                         <option value="Media & Communication Studies"> Media & Communication Studies </option>
+                        <option value="ICT-Sinhala Medium"> ICT-Sinhala Medium </option>
+                        <option value="ICT-English Medium"> ICT-English Medium </option>
                         <option value="Geography"> Geography </option>
                     </select>
                 </div>
@@ -122,11 +129,9 @@ and open the template in the editor.
                 <div class="col-sm-2">
                     <select id="subject" name="sart3" style="min-height:30px;">
                         <option value="None"> Category 3</option>
-                        <option value="Political Science"> Political Science </option>
-                        <option value="Sinhala"> Sinhala </option>
-                        <option value="Art"> Art </option>
-                        <option value="Eastern Music"> Eastern Music </option>
-                        <option value="Dancing"> Dancing </option>
+                        <option value="Economics"> Economics </option>
+                        <option value="Logic and Scientific Method"> Logic and Scientific Method </option>
+                        <option value="Buddhist Civilization"> Buddhist Civilization </option>
                     </select>
                 </div>
             </div>
@@ -192,15 +197,6 @@ and open the template in the editor.
                     <input type="text" class="form-control"
                         placeholder="Disanayake Mudiyanselage Dushan Akalanka Disanayake" name="fname"
                         style='text-transform:uppercase' required>
-                </div>
-            </div>
-            <!--Fullnamesinhala-->
-            <div class="form-group">
-                <label for="fullnamesinhala" class="col-sm-2 col-form-label">Full Name in Sinhala</label>
-                <div class="col-sm-9">
-
-                    <input type="text" class="form-control"
-                        placeholder="දිසානායක මුදියන්සේලාගේ දුශාන් අකලංක දිසානායක" name="fnamesinhala" required>
                 </div>
             </div>
             <!--Name with Initials-->

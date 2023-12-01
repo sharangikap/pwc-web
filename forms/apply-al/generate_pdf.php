@@ -27,7 +27,6 @@ while ($row = mysqli_fetch_assoc($result)) {
     $School = $row['School'];
     $S_District = $row['S_District'];
     $Name = $row['Name'];
-    $NameSinhala = $row['NameSinhala'];
     $Name_with_Initials = $row['Name_with_Initials'];
     $Birthday = $row['Birthday'];
     $NIC = $row['NIC'];

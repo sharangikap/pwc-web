@@ -57,7 +57,7 @@ include 'admin-header.php';
 
 					<?php 
 
-		$query = "SELECT * FROM pwc_db_news";
+$query = "SELECT * FROM pwc_db_news ORDER BY date DESC";
 
 		$statement = $connect->prepare($query);
 

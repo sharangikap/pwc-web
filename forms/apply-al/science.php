@@ -178,15 +178,6 @@
                         style='text-transform:uppercase' required>
                 </div>
             </div>
-            <!--Fullnamesinhala-->
-            <div class="form-group">
-                <label for="fullnamesinhala" class="col-sm-2 col-form-label">Full Name in Sinhala</label>
-                <div class="col-sm-9">
-
-                    <input type="text" class="form-control"
-                        placeholder="දිසානායක මුදියන්සේලාගේ දුශාන් අකලංක දිසානායක" name="fnamesinhala" required>
-                </div>
-            </div>
             <!--Name with Initials-->
             <div class="form-group">
                 <label for="iname" class="col-sm-2 col-form-label">Name with Initials</label>
