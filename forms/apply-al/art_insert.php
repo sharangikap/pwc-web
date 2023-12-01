@@ -65,7 +65,6 @@ $school_private = $_POST['school_private'];
 $schoolname = isset($_POST['schoolname']) ? $_POST['schoolname'] : "NULL";
 $schooldistrict = isset($_POST['schooldistrict']) ? $_POST['schooldistrict'] : "NULL";
 $fname = strtoupper($_POST['fname']); 
-$fnamesinhala = strtoupper($_POST['fnamesinhala']); 
 $iname = strtoupper($_POST['iname']);
 $birthday = $_POST['birthday'];
 $nic = $_POST['nic'];

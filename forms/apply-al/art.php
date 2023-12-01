@@ -254,15 +254,15 @@ and open the template in the editor.
                 <label for="contact" class=" col-sm-2 col-form-label ">Contact No.</label>
                 <div class="col-sm-2">
                     <input type="tel" class="form-control" id="residential" placeholder="Residential No."
-                        name="residential" pattern="[0-9]*">
+                        name="residential" pattern="[0-9()+-\s]*">
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">
-                    <input type="tel" class="form-control" id="mobile1" placeholder="Mobile 1" name="mobile1" pattern="[0-9]*">
+                    <input type="tel" class="form-control" id="mobile1" placeholder="Mobile 1" name="mobile1" pattern="[0-9()+-\s]*">
                 </div>
                 <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-2">
-                    <input type="tel" class="form-control" id="mobile" placeholder="Mobile 2" name="mobile2" pattern="[0-9]*">
+                    <input type="tel" class="form-control" id="mobile" placeholder="Mobile 2" name="mobile2" pattern="[0-9()+-\s]*">
                 </div>
             </div>
             
@@ -284,7 +284,7 @@ and open the template in the editor.
                     <label for="nic">Distance to the Prince of Wales' College from your place (in Km)</label>
                 </div>
                 <div class="col-sm-3">
-                    <input type="text" class="form-control" id="distance" name="distance" 
+                    <input type="number" class="form-control" id="distance" name="distance" 
                         placeholder="Enter numeric values only" required>
                 </div>
 
