@@ -91,9 +91,7 @@ and open the template in the editor.
             <div class="form-group"></div>
             <div class="form-group">
                 <div class="alert alert-danger">
-                    <p> Subjects are in Sinhala and English Medium </p>
-                    <p> <b>Accounting </b>and <b>Economics</b> are <b>compulsory</b> for both
-                        medium.</p>
+                    <p> ICT in Sinhala and English Medium </p>
                 </div>
             </div>
             <!--Subject Selection-->
@@ -521,9 +519,9 @@ and open the template in the editor.
                         </p>
                     </div>
 
-                    <p><b>Before click on Submit button, you can click on the Cancel button and fill application from
+                    <p><b>Before click on Submit button, you can click on the Reset button and fill application from
                             the beginning.</b></p>
-                    <p><b>* Otherwise Reset the same application and fill again before click on the submit button </b>
+                    <p>
                     </p>
                 </div>
             </div>

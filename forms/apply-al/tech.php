@@ -515,9 +515,9 @@ and open the template in the editor.
                         </p>
                     </div>
 
-                    <p><b>Before click on Submit button, you can click on the Cancel button and fill application from
+                    <p><b>Before click on Submit button, you can click on the Reset button and fill application from
                             the beginning.</b></p>
-                    <p><b>* Otherwise Reset the same application and fill again before click on the submit button </b>
+                    <p>
                     </p>
                 </div>
             </div>

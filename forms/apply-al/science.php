@@ -85,7 +85,11 @@
             <h5 class="text-center"></h5>
             <h4 class="text-center"> Application for 2025 Advanced Level Admission Registration </h4>
             <h4 class="text-center"> Science Stream </h4>
-            <div class="form-group"></div>
+            <div class="form-group">
+                <div class="alert alert-danger">
+                    <p> Biology <b>not in English Medium</b> </p>
+                </div>
+            </div>
     
             <!--Subject Selection-->
             <div class="form-group">
@@ -93,7 +97,8 @@
                 <div class="col-sm-5">
                     <select id="subject" name="sscience" style="min-height:30px;">
 
-                        <option value="Combined Mathematics / ICT / Physics"> Combined Mathematics / ICT / Physics </option>
+                        <option value="Combined Mathematics / ICT (Sinhala) / Physics"> Combined Mathematics / ICT (Sinhala) / Physics </option>
+                        <option value="Combined Mathematics / ICT (English) / Physics"> Combined Mathematics / ICT (English) / Physics </option>
                         <option value="Combined Mathematics / Chemistry / Physics"> Combined Mathematics / Chemistry / Physics </option>
                         <option value="Biology / Chemistry / Physics"> Biology / Chemistry / Physics </option>
                     
@@ -519,9 +524,9 @@
                         </p>
                     </div>
 
-                    <p><b>Before click on Submit button, you can click on the Cancel button and fill application from
+                    <p><b>Before click on Submit button, you can click on the Reset button and fill application from
                             the beginning.</b></p>
-                    <p><b>* Otherwise Reset the same application and fill again before click on the submit button </b>
+                    <p>
                     </p>
                 </div>
             </div>
