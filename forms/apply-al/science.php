@@ -87,7 +87,8 @@
             <h4 class="text-center"> Science Stream </h4>
             <div class="form-group">
                 <div class="alert alert-danger">
-                    <p> Biology <b>not in English Medium</b> </p>
+                    <p> Subjects are in Sinhala and English medium. </p>
+                    <p> Students in Sinhala Medium can select <b>ICT subject</b> in English Medium</p>
                 </div>
             </div>
     
@@ -96,11 +97,10 @@
                 <label for="subject_selection" class="col-sm-2 col-form-label"> Subjects wish to apply </label>
                 <div class="col-sm-5">
                     <select id="subject" name="sscience" style="min-height:30px;">
-
-                        <option value="Combined Mathematics / ICT (Sinhala) / Physics"> Combined Mathematics / ICT (Sinhala) / Physics </option>
-                        <option value="Combined Mathematics / ICT (English) / Physics"> Combined Mathematics / ICT (English) / Physics </option>
-                        <option value="Combined Mathematics / Chemistry / Physics"> Combined Mathematics / Chemistry / Physics </option>
-                        <option value="Biology / Chemistry / Physics"> Biology / Chemistry / Physics </option>
+                        <option value="Biology / Physics / Chemistry"> Biology / Physics / Chemistry</option>
+                        <option value="Combined Mathematics / Physics / ICT (Sinhala Medium)"> Combined Mathematics / Physics / ICT (Sinhala Medium)</option>
+                        <option value="Combined Mathematics / Physics / ICT (English Medium)"> Combined Mathematics / Physics / ICT (English Medium)</option>
+                        <option value="Combined Mathematics / Physics / Chemistry"> Combined Mathematics / Physics / Chemistry </option>
                     
                     </select>
                 </div>

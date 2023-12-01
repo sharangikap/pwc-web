@@ -91,7 +91,8 @@ and open the template in the editor.
             <div class="form-group"></div>
             <div class="form-group">
                 <div class="alert alert-danger">
-                    <p> ICT in Sinhala and English Medium </p>
+                    <p> Subjects are in Sinhala Medium only. </p>
+                    <p>ICT subject can be applied in Sinhala or English medium</p>
                 </div>
             </div>
             <!--Subject Selection-->
@@ -101,7 +102,8 @@ and open the template in the editor.
                 <select id="subject" name="scommerce" style="min-height:30px;">
                         <option value="Accounting / Economics / Business Studies">Accounting / Economics / Business Studies </option>
                         <option value="Accounting / Economics / Business Statistics"> Accounting / Economics / Business Statistics </option>
-                        <option value="Accounting / Economics / ICT"> Accounting / Economics / ICT </option>
+                        <option value="Accounting / Economics / ICT (Sinhala Medium)"> Accounting / Economics / ICT (Sinhala Medium)</option>
+                        <option value="Accounting / Economics / ICT (English Medium)"> Accounting / Economics / ICT (English Medium)</option>
                     </select>
                 </div>
 
@@ -110,7 +112,6 @@ and open the template in the editor.
                     <div class="col-sm-5">
                         <select id="almedium" name="almedium" style="min-height:30px;">
                             <option value="Sinhala"> Sinhala </option>
-                            <option value="English"> English </option>
                         </select>
                     </div>
                 </div>

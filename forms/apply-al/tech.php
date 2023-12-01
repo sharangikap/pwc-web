@@ -91,7 +91,7 @@ and open the template in the editor.
             <div class="form-group"></div>
             <div class="form-group">
                 <div class="alert alert-danger">
-                    <p> AAll Subjects are in Sinhala Medium</p>
+                    <p> All Subjects are in Sinhala Medium</p>
                 </div>
             </div>
             <!--Subject Selection-->
@@ -99,7 +99,8 @@ and open the template in the editor.
                 <label for="subject_selection" class="col-sm-2 col-form-label"> Subjects wish to apply </label>
                 <div class="col-sm-5">
                 <select id="subject" name="stech" style="min-height:30px;">
-                        <option value="SFT / ET / ICT">SFT / ET / ICT </option>
+                        <option value="SFT / ET / ICT (Sinhala Medium)">SFT / ET / ICT (Sinhala Medium)</option>
+                        <option value="SFT / ET / ICT (English Medium)">SFT / ET / ICT (English Medium)</option>
                     </select>
                 </div>
 
